@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T14:21:20+00:00",
+  "generated_at": "2026-10-01T14:30:08+00:00",
   "company": "Microsoft",
   "ticker": "MSFT",
   "formal": {
@@ -10,7 +10,7 @@
       "status": "not_announced",
       "message": "Microsoft IR 尚未公布 FY27 Q1 日期",
       "source": "https://www.microsoft.com/en-us/investor/default",
-      "checked_at": "2026-10-01T14:21:30+00:00"
+      "checked_at": "2026-10-01T14:30:09+00:00"
     },
     "history": [
       {
@@ -43,7 +43,8 @@
     },
     "preview": {
       "mode": "verified_snapshot",
-      "model": null,
+      "model": "DeepSeek-V4-Flash",
+      "warning": "Paratera failed: JSONDecodeError",
       "data": {
         "title": "Microsoft FY26 Q2 · Preview",
         "verdict": "历史流程演示：重点观察 Azure 增速、AI 资本开支与云业务利润率",
@@ -61,7 +62,8 @@
     },
     "aftercheck": {
       "mode": "verified_snapshot",
-      "model": null,
+      "model": "DeepSeek-V4-Flash",
+      "warning": "Paratera failed: JSONDecodeError",
       "data": {
         "title": "Microsoft FY26 Q2 · Aftercheck",
         "verdict": "公司称 Revenue、Operating Income 和 EPS 均超过预期，整体偏正面",
