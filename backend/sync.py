@@ -100,6 +100,28 @@ def strip_fence(text: str) -> str:
     return re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip())
 
 
+def parse_json_object(text: str) -> dict:
+    """Accept strict JSON, fenced JSON, or a JSON object after brief model prose."""
+    cleaned = strip_fence(text)
+    try:
+        value = json.loads(cleaned)
+    except json.JSONDecodeError as original_error:
+        decoder = json.JSONDecoder()
+        for index, character in enumerate(cleaned):
+            if character != "{":
+                continue
+            try:
+                value, _ = decoder.raw_decode(cleaned[index:])
+                break
+            except json.JSONDecodeError:
+                continue
+        else:
+            raise original_error
+    if not isinstance(value, dict):
+        raise ValueError("model response must contain a JSON object")
+    return value
+
+
 def validate_research(value: dict) -> None:
     required = {"title", "verdict", "summary", "points", "risks"}
     if not required.issubset(value):
@@ -134,7 +156,7 @@ def generate(kind: str) -> dict:
     try:
         with urllib.request.urlopen(request, timeout=120) as response:
             raw = json.loads(response.read().decode("utf-8"))
-        value = json.loads(strip_fence(raw["choices"][0]["message"]["content"]))
+        value = parse_json_object(raw["choices"][0]["message"]["content"])
         validate_research(value)
         return {"mode": "paratera", "model": model, "data": value}
     except Exception as exc:

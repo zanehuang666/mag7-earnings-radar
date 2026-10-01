@@ -1,8 +1,12 @@
 import json
+import sys
 import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from backend.sync import parse_json_object
 
 
 class ContractTest(unittest.TestCase):
@@ -26,6 +30,10 @@ class ContractTest(unittest.TestCase):
         required = {"title", "verdict", "summary", "points", "risks"}
         for kind in ("preview", "aftercheck"):
             self.assertTrue(required.issubset(self.data["demo"][kind]["data"]))
+
+    def test_model_json_can_follow_brief_prose(self):
+        parsed = parse_json_object('以下是结果：\n```json\n{"title":"ok"}\n```')
+        self.assertEqual(parsed, {"title": "ok"})
 
 
 if __name__ == "__main__":
