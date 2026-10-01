@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T15:06:45+00:00",
+  "generated_at": "2026-10-01T18:54:27+00:00",
   "company": "Microsoft",
   "ticker": "MSFT",
   "formal": {
@@ -10,7 +10,7 @@
       "status": "not_announced",
       "message": "Microsoft IR 尚未公布 FY27 Q1 日期",
       "source": "https://www.microsoft.com/en-us/investor/default",
-      "checked_at": "2026-10-01T15:06:45+00:00"
+      "checked_at": "2026-10-01T18:54:28+00:00"
     },
     "history": [
       {
