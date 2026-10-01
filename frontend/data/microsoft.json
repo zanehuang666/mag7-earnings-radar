@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-01T14:21:20+00:00",
+  "company": "Microsoft",
+  "ticker": "MSFT",
+  "formal": {
+    "next_event": {
+      "period": "FY27 Q1",
+      "date": null,
+      "status": "not_announced",
+      "message": "Microsoft IR 尚未公布 FY27 Q1 日期",
+      "source": "https://www.microsoft.com/en-us/investor/default",
+      "checked_at": "2026-10-01T14:21:30+00:00"
+    },
+    "history": [
+      {
+        "period": "FY26 Q1",
+        "date": "2025-10-29",
+        "status": "reported"
+      },
+      {
+        "period": "FY26 Q2",
+        "date": "2026-01-28",
+        "status": "reported"
+      },
+      {
+        "period": "FY26 Q3",
+        "date": "2026-04-29",
+        "status": "reported"
+      },
+      {
+        "period": "FY26 Q4",
+        "date": "2026-07-29",
+        "status": "reported"
+      }
+    ]
+  },
+  "demo": {
+    "event": {
+      "period": "FY26 Q2",
+      "date": "2026-01-28",
+      "status": "reported"
+    },
+    "preview": {
+      "mode": "verified_snapshot",
+      "model": null,
+      "data": {
+        "title": "Microsoft FY26 Q2 · Preview",
+        "verdict": "历史流程演示：重点观察 Azure 增速、AI 资本开支与云业务利润率",
+        "summary": "这是历史验证快照，不代表当前完整市场一致预期。正式流程必须严格使用事件发生前已存在的资料。",
+        "points": [
+          "Azure 增速是判断 AI 需求兑现程度的核心。",
+          "AI 基础设施资本开支上升，需要同步观察收入增长和毛利率。",
+          "Microsoft 365 Copilot 席位及 ARPU 反映商业化进度。"
+        ],
+        "risks": [
+          "未使用付费一致预期数据库，不能代表完整华尔街共识。",
+          "历史回放必须避免使用财报发布后才出现的信息。"
+        ]
+      }
+    },
+    "aftercheck": {
+      "mode": "verified_snapshot",
+      "model": null,
+      "data": {
+        "title": "Microsoft FY26 Q2 · Aftercheck",
+        "verdict": "公司称 Revenue、Operating Income 和 EPS 均超过预期，整体偏正面",
+        "summary": "收入 813 亿美元，同比增长 17%；Microsoft Cloud 收入 515 亿美元，同比增长 26%；Azure 及其他云服务增长 39%。",
+        "points": [
+          "Revenue 为 813 亿美元，同比增长 17%。",
+          "Operating Income 为 383 亿美元，同比增长 21%。",
+          "GAAP diluted EPS 为 5.16 美元，non-GAAP EPS 为 4.14 美元。",
+          "Azure 及其他云服务增长 39%，略高于公司预期。"
+        ],
+        "risks": [
+          "AI 基础设施投资继续压低云业务毛利率。",
+          "GAAP 与 non-GAAP EPS 口径必须同时标注。"
+        ]
+      }
+    }
+  },
+  "sources": [
+    {
+      "label": "Microsoft Investor Relations",
+      "url": "https://www.microsoft.com/en-us/investor/default"
+    },
+    {
+      "label": "Microsoft IR archive",
+      "url": "https://news.microsoft.com/source/tag/investor-relations/"
+    },
+    {
+      "label": "FY26 Q2 official results",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q2/press-release-webcast"
+    },
+    {
+      "label": "FY26 Q2 earnings call",
+      "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q2"
+    }
+  ],
+  "disclaimer": "Research demo only. Not investment advice."
+}

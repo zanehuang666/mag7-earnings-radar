@@ -1,0 +1,52 @@
+name: Sync earnings and deploy Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 2 * * 1-5"
+    - cron: "43 18 * * 1-5"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  sync-test-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh calendar and research
+        env:
+          PARATERA_API_KEY: ${{ secrets.PARATERA_API_KEY }}
+          PARATERA_BASE_URL: ${{ vars.PARATERA_BASE_URL }}
+          PARATERA_MODEL: ${{ vars.PARATERA_MODEL }}
+        run: python backend/sync.py
+      - name: Run contract tests
+        run: python -m unittest discover -s tests -v
+      - name: Commit refreshed public data
+        run: |
+          git config user.name "mag7-calendar-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add frontend/data/
+          git diff --cached --quiet || git commit -m "data: refresh earnings snapshot"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: frontend
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
