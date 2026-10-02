@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-02T04:28:15+00:00",
+  "generated_at": "2026-10-02T04:50:54+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -61,6 +61,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -105,6 +106,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -149,6 +151,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -193,6 +196,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -237,6 +241,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -281,6 +286,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -325,6 +331,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -369,6 +376,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -413,6 +421,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -457,6 +466,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -501,6 +511,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -545,6 +556,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -589,6 +601,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -633,6 +646,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -677,6 +691,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -721,6 +736,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -765,6 +781,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -809,6 +826,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -853,6 +871,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -897,6 +916,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -941,6 +961,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -985,6 +1006,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1029,6 +1051,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1073,6 +1096,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1117,6 +1141,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1161,6 +1186,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1205,6 +1231,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1249,6 +1276,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1293,6 +1321,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1337,6 +1366,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1381,6 +1411,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1425,6 +1456,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1469,6 +1501,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1513,6 +1546,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1557,6 +1591,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1601,6 +1636,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1645,6 +1681,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1689,6 +1726,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1733,6 +1771,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1777,6 +1816,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1821,6 +1861,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1865,6 +1906,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1909,6 +1951,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1953,6 +1996,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -1997,6 +2041,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2041,6 +2086,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2085,6 +2131,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2129,6 +2176,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2173,6 +2221,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2217,6 +2266,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2261,6 +2311,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2305,6 +2356,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2349,6 +2401,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2393,6 +2446,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2437,6 +2491,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2481,6 +2536,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2525,6 +2581,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2569,6 +2626,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2613,6 +2671,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2657,6 +2716,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2701,6 +2761,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2745,6 +2806,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2789,6 +2851,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2833,6 +2896,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2877,6 +2941,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2921,6 +2986,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -2965,6 +3031,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3009,6 +3076,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3053,6 +3121,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3097,6 +3166,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3141,6 +3211,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3185,6 +3256,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3229,6 +3301,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3273,6 +3346,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3317,6 +3391,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3361,6 +3436,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3405,6 +3481,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3453,6 +3530,7 @@
             "analyst_count": "11",
             "session": "time-not-supplied"
           },
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3501,6 +3579,7 @@
             "analyst_count": "8",
             "session": "time-not-supplied"
           },
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3549,6 +3628,7 @@
             "analyst_count": "12",
             "session": "time-not-supplied"
           },
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3597,6 +3677,7 @@
             "analyst_count": "13",
             "session": "time-not-supplied"
           },
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3645,6 +3726,7 @@
             "analyst_count": "12",
             "session": "time-not-supplied"
           },
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3693,6 +3775,7 @@
             "analyst_count": "14",
             "session": "time-not-supplied"
           },
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3740,6 +3823,1078 @@
             "eps": "$2.47",
             "analyst_count": "13",
             "session": "time-not-supplied"
+          },
+          "date_range": {},
+          "preview": {
+            "verdict": "NVIDIA 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "数据中心需求",
+              "新品供给",
+              "毛利率路径"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "数据中心需求",
+              "新品供给",
+              "毛利率路径"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "meta-2027-01-27",
+          "ticker": "META",
+          "company": "Meta",
+          "date": "2027-01-27",
+          "fiscal_period": "Projected quarter +2",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Meta IR",
+            "url": "https://investor.atmeta.com/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 91
+          },
+          "date_range": {
+            "from": "2027-01-20",
+            "to": "2027-02-03"
+          },
+          "preview": {
+            "verdict": "Meta 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "广告效率",
+              "用户参与度",
+              "AI 基础设施投入"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "广告效率",
+              "用户参与度",
+              "AI 基础设施投入"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "msft-2027-01-27",
+          "ticker": "MSFT",
+          "company": "Microsoft",
+          "date": "2027-01-27",
+          "fiscal_period": "Projected quarter +2",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Microsoft IR",
+            "url": "https://www.microsoft.com/en-us/Investor/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 91
+          },
+          "date_range": {
+            "from": "2027-01-20",
+            "to": "2027-02-03"
+          },
+          "preview": {
+            "verdict": "Microsoft 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "tsla-2027-01-27",
+          "ticker": "TSLA",
+          "company": "Tesla",
+          "date": "2027-01-27",
+          "fiscal_period": "Projected quarter +2",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Tesla IR",
+            "url": "https://ir.tesla.com/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 92
+          },
+          "date_range": {
+            "from": "2027-01-20",
+            "to": "2027-02-03"
+          },
+          "preview": {
+            "verdict": "Tesla 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "汽车毛利率",
+              "交付与需求",
+              "储能和自动驾驶"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "汽车毛利率",
+              "交付与需求",
+              "储能和自动驾驶"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "aapl-2027-01-28",
+          "ticker": "AAPL",
+          "company": "Apple",
+          "date": "2027-01-28",
+          "fiscal_period": "Projected quarter +2",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Apple IR",
+            "url": "https://investor.apple.com/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 91
+          },
+          "date_range": {
+            "from": "2027-01-21",
+            "to": "2027-02-04"
+          },
+          "preview": {
+            "verdict": "Apple 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "iPhone 产品周期",
+              "服务收入",
+              "大中华区需求"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "iPhone 产品周期",
+              "服务收入",
+              "大中华区需求"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "googl-2027-02-03",
+          "ticker": "GOOGL",
+          "company": "Alphabet",
+          "date": "2027-02-03",
+          "fiscal_period": "Projected quarter +2",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Alphabet IR",
+            "url": "https://abc.xyz/investor/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 94
+          },
+          "date_range": {
+            "from": "2027-01-27",
+            "to": "2027-02-10"
+          },
+          "preview": {
+            "verdict": "Alphabet 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "amzn-2027-02-04",
+          "ticker": "AMZN",
+          "company": "Amazon",
+          "date": "2027-02-04",
+          "fiscal_period": "Projected quarter +2",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Amazon IR",
+            "url": "https://ir.aboutamazon.com/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 91
+          },
+          "date_range": {
+            "from": "2027-01-28",
+            "to": "2027-02-11"
+          },
+          "preview": {
+            "verdict": "Amazon 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "AWS 增速",
+              "零售利润率",
+              "资本开支"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "AWS 增速",
+              "零售利润率",
+              "资本开支"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "nvda-2027-02-24",
+          "ticker": "NVDA",
+          "company": "NVIDIA",
+          "date": "2027-02-24",
+          "fiscal_period": "Projected quarter +2",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "NVIDIA IR",
+            "url": "https://investor.nvidia.com/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 91
+          },
+          "date_range": {
+            "from": "2027-02-17",
+            "to": "2027-03-03"
+          },
+          "preview": {
+            "verdict": "NVIDIA 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "数据中心需求",
+              "新品供给",
+              "毛利率路径"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "数据中心需求",
+              "新品供给",
+              "毛利率路径"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "tsla-2027-04-21",
+          "ticker": "TSLA",
+          "company": "Tesla",
+          "date": "2027-04-21",
+          "fiscal_period": "Projected quarter +3",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Tesla IR",
+            "url": "https://ir.tesla.com/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 92
+          },
+          "date_range": {
+            "from": "2027-04-14",
+            "to": "2027-04-28"
+          },
+          "preview": {
+            "verdict": "Tesla 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "汽车毛利率",
+              "交付与需求",
+              "储能和自动驾驶"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "汽车毛利率",
+              "交付与需求",
+              "储能和自动驾驶"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "amzn-2027-04-28",
+          "ticker": "AMZN",
+          "company": "Amazon",
+          "date": "2027-04-28",
+          "fiscal_period": "Projected quarter +3",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Amazon IR",
+            "url": "https://ir.aboutamazon.com/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 91
+          },
+          "date_range": {
+            "from": "2027-04-21",
+            "to": "2027-05-05"
+          },
+          "preview": {
+            "verdict": "Amazon 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "AWS 增速",
+              "零售利润率",
+              "资本开支"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "AWS 增速",
+              "零售利润率",
+              "资本开支"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "googl-2027-04-28",
+          "ticker": "GOOGL",
+          "company": "Alphabet",
+          "date": "2027-04-28",
+          "fiscal_period": "Projected quarter +3",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Alphabet IR",
+            "url": "https://abc.xyz/investor/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 94
+          },
+          "date_range": {
+            "from": "2027-04-21",
+            "to": "2027-05-05"
+          },
+          "preview": {
+            "verdict": "Alphabet 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "meta-2027-04-28",
+          "ticker": "META",
+          "company": "Meta",
+          "date": "2027-04-28",
+          "fiscal_period": "Projected quarter +3",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Meta IR",
+            "url": "https://investor.atmeta.com/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 91
+          },
+          "date_range": {
+            "from": "2027-04-21",
+            "to": "2027-05-05"
+          },
+          "preview": {
+            "verdict": "Meta 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "广告效率",
+              "用户参与度",
+              "AI 基础设施投入"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "广告效率",
+              "用户参与度",
+              "AI 基础设施投入"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "msft-2027-04-28",
+          "ticker": "MSFT",
+          "company": "Microsoft",
+          "date": "2027-04-28",
+          "fiscal_period": "Projected quarter +3",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Microsoft IR",
+            "url": "https://www.microsoft.com/en-us/Investor/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 91
+          },
+          "date_range": {
+            "from": "2027-04-21",
+            "to": "2027-05-05"
+          },
+          "preview": {
+            "verdict": "Microsoft 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "aapl-2027-04-29",
+          "ticker": "AAPL",
+          "company": "Apple",
+          "date": "2027-04-29",
+          "fiscal_period": "Projected quarter +3",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Apple IR",
+            "url": "https://investor.apple.com/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 91
+          },
+          "date_range": {
+            "from": "2027-04-22",
+            "to": "2027-05-06"
+          },
+          "preview": {
+            "verdict": "Apple 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "iPhone 产品周期",
+              "服务收入",
+              "大中华区需求"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "iPhone 产品周期",
+              "服务收入",
+              "大中华区需求"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "nvda-2027-05-19",
+          "ticker": "NVDA",
+          "company": "NVIDIA",
+          "date": "2027-05-19",
+          "fiscal_period": "Projected quarter +3",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "NVIDIA IR",
+            "url": "https://investor.nvidia.com/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 91
+          },
+          "date_range": {
+            "from": "2027-05-12",
+            "to": "2027-05-26"
+          },
+          "preview": {
+            "verdict": "NVIDIA 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "数据中心需求",
+              "新品供给",
+              "毛利率路径"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "数据中心需求",
+              "新品供给",
+              "毛利率路径"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "googl-2027-07-21",
+          "ticker": "GOOGL",
+          "company": "Alphabet",
+          "date": "2027-07-21",
+          "fiscal_period": "Projected quarter +4",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Alphabet IR",
+            "url": "https://abc.xyz/investor/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 94
+          },
+          "date_range": {
+            "from": "2027-07-14",
+            "to": "2027-07-28"
+          },
+          "preview": {
+            "verdict": "Alphabet 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "tsla-2027-07-21",
+          "ticker": "TSLA",
+          "company": "Tesla",
+          "date": "2027-07-21",
+          "fiscal_period": "Projected quarter +4",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Tesla IR",
+            "url": "https://ir.tesla.com/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 92
+          },
+          "date_range": {
+            "from": "2027-07-14",
+            "to": "2027-07-28"
+          },
+          "preview": {
+            "verdict": "Tesla 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "汽车毛利率",
+              "交付与需求",
+              "储能和自动驾驶"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "汽车毛利率",
+              "交付与需求",
+              "储能和自动驾驶"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "meta-2027-07-28",
+          "ticker": "META",
+          "company": "Meta",
+          "date": "2027-07-28",
+          "fiscal_period": "Projected quarter +4",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Meta IR",
+            "url": "https://investor.atmeta.com/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 91
+          },
+          "date_range": {
+            "from": "2027-07-21",
+            "to": "2027-08-04"
+          },
+          "preview": {
+            "verdict": "Meta 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "广告效率",
+              "用户参与度",
+              "AI 基础设施投入"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "广告效率",
+              "用户参与度",
+              "AI 基础设施投入"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "msft-2027-07-28",
+          "ticker": "MSFT",
+          "company": "Microsoft",
+          "date": "2027-07-28",
+          "fiscal_period": "Projected quarter +4",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Microsoft IR",
+            "url": "https://www.microsoft.com/en-us/Investor/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 91
+          },
+          "date_range": {
+            "from": "2027-07-21",
+            "to": "2027-08-04"
+          },
+          "preview": {
+            "verdict": "Microsoft 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "aapl-2027-07-29",
+          "ticker": "AAPL",
+          "company": "Apple",
+          "date": "2027-07-29",
+          "fiscal_period": "Projected quarter +4",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Apple IR",
+            "url": "https://investor.apple.com/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 91
+          },
+          "date_range": {
+            "from": "2027-07-22",
+            "to": "2027-08-05"
+          },
+          "preview": {
+            "verdict": "Apple 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "iPhone 产品周期",
+              "服务收入",
+              "大中华区需求"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "iPhone 产品周期",
+              "服务收入",
+              "大中华区需求"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "amzn-2027-07-29",
+          "ticker": "AMZN",
+          "company": "Amazon",
+          "date": "2027-07-29",
+          "fiscal_period": "Projected quarter +4",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Amazon IR",
+            "url": "https://ir.aboutamazon.com/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 91
+          },
+          "date_range": {
+            "from": "2027-07-22",
+            "to": "2027-08-05"
+          },
+          "preview": {
+            "verdict": "Amazon 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "AWS 增速",
+              "零售利润率",
+              "资本开支"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "AWS 增速",
+              "零售利润率",
+              "资本开支"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "nvda-2027-08-25",
+          "ticker": "NVDA",
+          "company": "NVIDIA",
+          "date": "2027-08-25",
+          "fiscal_period": "Projected quarter +4",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "NVIDIA IR",
+            "url": "https://investor.nvidia.com/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 91
+          },
+          "date_range": {
+            "from": "2027-08-18",
+            "to": "2027-09-01"
           },
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
@@ -3793,6 +4948,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3837,6 +4993,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3881,6 +5038,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3925,6 +5083,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -3969,6 +5128,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4013,6 +5173,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4057,6 +5218,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4101,6 +5263,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4145,6 +5308,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4189,6 +5353,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4233,6 +5398,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4277,6 +5443,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4321,6 +5488,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4365,6 +5533,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4409,6 +5578,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4453,6 +5623,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4497,6 +5668,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4541,6 +5713,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4585,6 +5758,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4629,6 +5803,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4673,6 +5848,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4717,6 +5893,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4761,6 +5938,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4805,6 +5983,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4849,6 +6028,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4893,6 +6073,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4937,6 +6118,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -4981,6 +6163,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5025,6 +6208,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5069,6 +6253,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5113,6 +6298,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5157,6 +6343,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5201,6 +6388,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5245,6 +6433,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5289,6 +6478,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5333,6 +6523,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5377,6 +6568,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5421,6 +6613,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5465,6 +6658,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5509,6 +6703,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5553,6 +6748,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5597,6 +6793,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5641,6 +6838,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5685,6 +6883,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5729,6 +6928,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5773,6 +6973,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5817,6 +7018,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5861,6 +7063,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5905,6 +7108,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5949,6 +7153,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -5993,6 +7198,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6037,6 +7243,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6081,6 +7288,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6125,6 +7333,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6169,6 +7378,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6213,6 +7423,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6257,6 +7468,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6301,6 +7513,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6345,6 +7558,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6389,6 +7603,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6433,6 +7648,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6477,6 +7693,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6521,6 +7738,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6565,6 +7783,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6609,6 +7828,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6653,6 +7873,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6697,6 +7918,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6741,6 +7963,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6785,6 +8008,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6829,6 +8053,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6873,6 +8098,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6917,6 +8143,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Tesla 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -6961,6 +8188,7 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Meta 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -7005,6 +8233,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -7049,6 +8278,7 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Apple 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -7093,6 +8323,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -7137,6 +8368,7 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {},
+          "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -7169,7 +8401,9 @@
   },
   "sync": {
     "reported_count": 77,
+    "projected_count": 21,
     "estimated_count": 7,
+    "confirmed_count": 0,
     "source": "Nasdaq public earnings endpoints",
     "errors": [],
     "forward_days": 120

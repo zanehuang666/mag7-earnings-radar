@@ -59,9 +59,12 @@ class Mag7CalendarTest(unittest.TestCase):
     def test_formal_calendar_does_not_fake_dates(self):
         events = self.data["calendar"]["formal"]["events"]
         for event in events:
-            self.assertIn(event["status"], {"reported", "estimated"})
+            self.assertIn(event["status"], {"reported", "projected", "estimated", "confirmed"})
             if event["status"] == "estimated":
                 self.assertEqual(event["date_confidence"], "estimated")
+            if event["status"] == "projected":
+                self.assertEqual(event["date_confidence"], "projected")
+                self.assertTrue({"from", "to"}.issubset(event["date_range"]))
 
     def test_history_is_complete_from_2024(self):
         reported = [event for event in self.data["calendar"]["formal"]["events"] if event["status"] == "reported"]
@@ -77,9 +80,18 @@ class Mag7CalendarTest(unittest.TestCase):
         estimated = [event for event in self.data["calendar"]["formal"]["events"] if event["status"] == "estimated"]
         self.assertEqual({event["ticker"] for event in estimated}, {"AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA"})
 
+    def test_four_future_periods_per_company(self):
+        future = [event for event in self.data["calendar"]["formal"]["events"] if event["status"] != "reported"]
+        counts = {}
+        for event in future:
+            counts[event["ticker"]] = counts.get(event["ticker"], 0) + 1
+        self.assertEqual(set(counts.values()), {4})
+        self.assertEqual(len(future), 28)
+        self.assertEqual(sum(event["status"] == "projected" for event in future), 21)
+
     def test_calendar_ui_has_required_controls(self):
         html = (ROOT / "frontend" / "calendar.html").read_text(encoding="utf-8")
-        for required in ("正式追踪", "历史验证", "推进模拟时间", "Preview", "Analysis", "showDate", "2024 起点", "下一次预计"):
+        for required in ("正式追踪", "历史验证", "推进模拟时间", "Preview", "Analysis", "showDate", "selectCompany", "setSimOffset", "2024 起点", "下一次预计"):
             self.assertIn(required, html)
 
     def test_default_page_opens_calendar(self):

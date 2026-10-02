@@ -12,6 +12,7 @@ from __future__ import annotations
 import concurrent.futures
 import json
 import os
+import statistics
 import time
 import urllib.error
 import urllib.request
@@ -46,6 +47,10 @@ HISTORICAL_SEED = {
     "META": ["2024-02-01", "2024-04-24", "2024-07-31", "2024-10-30", "2025-01-29", "2025-04-30", "2025-07-30"],
     "TSLA": ["2024-01-24", "2024-04-23", "2024-07-23", "2024-10-23", "2025-01-29", "2025-04-22", "2025-07-23"],
 }
+
+# Add an item only after an IR announcement is verified. A confirmed row replaces
+# an estimate/projection for the same company and nearby quarter.
+CONFIRMED_EVENTS: list[dict] = []
 
 
 def fetch_json(url: str, attempts: int = 3) -> dict:
@@ -100,16 +105,18 @@ def research_blocks(ticker: str, status: str, surprise: dict | None = None) -> t
 
 
 def make_event(ticker: str, event_date: str, status: str, period: str, source_url: str,
-               source_label: str, surprise: dict | None = None, forecast: dict | None = None) -> dict:
+               source_label: str, surprise: dict | None = None, forecast: dict | None = None,
+               date_range: dict | None = None) -> dict:
     name, ir_url, _ = COMPANIES[ticker]
     preview, analysis = research_blocks(ticker, status, surprise)
     return {
         "id": f"{ticker.lower()}-{event_date}", "ticker": ticker, "company": name,
         "date": event_date, "fiscal_period": period, "status": status,
-        "date_confidence": "reported" if status == "reported" else "estimated",
+        "date_confidence": status,
         "source": {"label": source_label, "url": source_url},
         "ir_source": {"label": f"{name} IR", "url": ir_url},
-        "forecast": forecast or {}, "preview": preview, "aftercheck": analysis,
+        "forecast": forecast or {}, "date_range": date_range or {},
+        "preview": preview, "aftercheck": analysis,
     }
 
 
@@ -157,13 +164,56 @@ def upcoming(days: int = 120) -> tuple[list[dict], list[str]]:
     return events, errors
 
 
+def weekday_near(value: date) -> date:
+    if value.weekday() == 5:
+        return value - timedelta(days=1)
+    if value.weekday() == 6:
+        return value + timedelta(days=1)
+    return value
+
+
+def add_cadence_projections(by_id: dict[str, dict], periods_per_company: int = 4) -> None:
+    today = date.today()
+    for ticker in COMPANIES:
+        company_events = sorted((event for event in by_id.values() if event["ticker"] == ticker), key=lambda event: event["date"])
+        reported_dates = [date.fromisoformat(event["date"]) for event in company_events if event["status"] == "reported"]
+        future_events = [event for event in company_events if event["status"] in {"estimated", "confirmed"} and date.fromisoformat(event["date"]) >= today]
+        gaps = [(right - left).days for left, right in zip(reported_dates[-9:-1], reported_dates[-8:])]
+        cadence = max(84, min(100, round(statistics.median(gaps or [91]))))
+        missing = periods_per_company - len(future_events)
+        seasonal_sources = reported_dates[-missing:] if missing else []
+        anchor = max((date.fromisoformat(event["date"]) for event in future_events), default=reported_dates[-1])
+        for index in range(missing):
+            if index < len(seasonal_sources):
+                anchor = weekday_near(seasonal_sources[index] + timedelta(days=364))
+                method = "same_quarter_plus_52_weeks"
+            else:
+                anchor = weekday_near(anchor + timedelta(days=cadence))
+                method = "median_quarter_gap"
+            while anchor < today:
+                anchor = weekday_near(anchor + timedelta(days=364))
+            event_date = anchor.isoformat()
+            low = (anchor - timedelta(days=7)).isoformat()
+            high = (anchor + timedelta(days=7)).isoformat()
+            event = make_event(
+                ticker, event_date, "projected", f"Projected quarter +{len(future_events) + index + 1}",
+                "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+                "Historical cadence projection",
+                forecast={"method": method, "cadence_days_fallback": cadence},
+                date_range={"from": low, "to": high},
+            )
+            by_id[event["id"]] = event
+
+
 def build() -> dict:
     by_id: dict[str, dict] = {}
     if OUTPUT.exists():
         try:
             previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
             for event in previous.get("calendar", {}).get("formal", {}).get("events", []):
-                if event.get("status") == "reported" or event.get("date", "") >= date.today().isoformat():
+                if event.get("status") == "reported" or (
+                    event.get("status") in {"estimated", "confirmed"} and event.get("date", "") >= date.today().isoformat()
+                ):
                     by_id[event["id"]] = event
         except (OSError, json.JSONDecodeError, KeyError):
             pass
@@ -180,9 +230,22 @@ def build() -> dict:
     for event in future:
         by_id[event["id"]] = event
 
+    for item in CONFIRMED_EVENTS:
+        event = make_event(item["ticker"], item["date"], "confirmed", item["period"],
+                           item["source_url"], "Company IR confirmation")
+        for key, candidate in list(by_id.items()):
+            if candidate["ticker"] == item["ticker"] and candidate["status"] in {"estimated", "projected"}:
+                if abs((date.fromisoformat(candidate["date"]) - date.fromisoformat(item["date"])).days) <= 30:
+                    by_id.pop(key)
+        by_id[event["id"]] = event
+
+    add_cadence_projections(by_id)
+
     events = sorted(by_id.values(), key=lambda item: (item["date"], item["ticker"]))
     reported = [event for event in events if event["status"] == "reported" and event["date"] >= "2024-01-01"]
     estimated = [event for event in events if event["status"] == "estimated"]
+    confirmed = [event for event in events if event["status"] == "confirmed"]
+    projected = [event for event in events if event["status"] == "projected"]
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     return {
         "schema_version": 3, "generated_at": now,
@@ -191,7 +254,7 @@ def build() -> dict:
             "formal": {
                 "label": "正式日历", "as_of": date.today().isoformat(),
                 "message": "历史日期来自 Nasdaq 日历并由最近四季接口自动校准；未来日期明确标记为预计，最终以公司 IR 为准。",
-                "events": reported + estimated,
+                "events": sorted(reported + projected + estimated + confirmed, key=lambda item: (item["date"], item["ticker"])),
             },
             "replay": {
                 "label": "历史验证", "as_of": "2024-10-22", "month": "2024-10",
@@ -200,7 +263,8 @@ def build() -> dict:
             },
         },
         "sync": {
-            "reported_count": len(reported), "estimated_count": len(estimated),
+            "reported_count": len(reported), "projected_count": len(projected),
+            "estimated_count": len(estimated), "confirmed_count": len(confirmed),
             "source": "Nasdaq public earnings endpoints", "errors": recent_errors + future_errors,
             "forward_days": int(os.getenv("MAG7_FORWARD_DAYS", "120")),
         },
@@ -212,4 +276,8 @@ if __name__ == "__main__":
     output = build()
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"wrote {OUTPUT}: {output['sync']['reported_count']} reported, {output['sync']['estimated_count']} estimated, {len(output['sync']['errors'])} errors")
+    print(
+        f"wrote {OUTPUT}: {output['sync']['reported_count']} reported, "
+        f"{output['sync']['projected_count']} projected, {output['sync']['estimated_count']} estimated, "
+        f"{output['sync']['confirmed_count']} confirmed, {len(output['sync']['errors'])} errors"
+    )
