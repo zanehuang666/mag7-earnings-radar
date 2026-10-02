@@ -36,5 +36,38 @@ class ContractTest(unittest.TestCase):
         self.assertEqual(parsed, {"title": "ok"})
 
 
+class Mag7CalendarTest(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.data = json.loads((ROOT / "frontend" / "data" / "mag7.json").read_text(encoding="utf-8"))
+        cls.events = cls.data["calendar"]["replay"]["events"]
+
+    def test_all_mag7_tickers_are_present(self):
+        expected = {"AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA"}
+        self.assertEqual({event["ticker"] for event in self.events}, expected)
+
+    def test_every_replay_event_is_auditable(self):
+        for event in self.events:
+            self.assertRegex(event["date"], r"^\d{4}-\d{2}-\d{2}$")
+            self.assertTrue(event["source"]["url"].startswith("https://"))
+            for kind in ("preview", "aftercheck"):
+                research = event[kind]
+                self.assertTrue({"verdict", "summary", "points", "risks"}.issubset(research))
+                self.assertGreaterEqual(len(research["points"]), 3)
+                self.assertGreaterEqual(len(research["risks"]), 2)
+
+    def test_formal_calendar_does_not_fake_dates(self):
+        self.assertEqual(self.data["calendar"]["formal"]["events"], [])
+
+    def test_calendar_ui_has_required_controls(self):
+        html = (ROOT / "frontend" / "calendar.html").read_text(encoding="utf-8")
+        for required in ("正式追踪", "历史验证", "推进模拟时间", "Preview", "Aftercheck"):
+            self.assertIn(required, html)
+
+    def test_default_page_opens_calendar(self):
+        html = (ROOT / "frontend" / "index.html").read_text(encoding="utf-8")
+        self.assertIn('content="0;url=calendar.html"', html)
+
+
 if __name__ == "__main__":
     unittest.main()
