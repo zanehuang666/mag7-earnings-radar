@@ -1,0 +1,167 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-10-02T00:00:00+08:00",
+  "calendar": {
+    "formal": {
+      "label": "正式追踪",
+      "as_of": "2026-10-02",
+      "message": "下一轮日期尚待各公司 IR 确认；未确认日期不写入日历。",
+      "events": []
+    },
+    "replay": {
+      "label": "历史验证",
+      "as_of": "2024-10-22",
+      "month": "2024-10",
+      "message": "模拟时间停在 2024-10-22，仅使用当时可获得的信息展示 Preview；点击推进时间可验证 Aftercheck。",
+      "events": [
+        {
+          "id": "tsla-2024-q3",
+          "ticker": "TSLA",
+          "company": "Tesla",
+          "date": "2024-10-23",
+          "fiscal_period": "2024 Q3",
+          "status": "reported",
+          "source": {"label": "Tesla IR", "url": "https://ir.tesla.com/"},
+          "preview": {
+            "verdict": "市场核心在汽车毛利率能否企稳，而非只看交付量。",
+            "summary": "价格促销、融资优惠和产品组合压低盈利质量；储能增长与成本下降可能形成缓冲。",
+            "points": ["汽车业务毛利率及剔除监管积分后的变化", "低价车型与下一代平台时间表", "储能部署、FSD 商业化和资本开支"],
+            "risks": ["交付量增长不等于利润改善", "管理层远期承诺的不确定性较高"]
+          },
+          "aftercheck": {
+            "verdict": "偏超预期：利润率改善和成本控制成为主要正面因素。",
+            "summary": "市场解读从交付压力转向单位成本下降和盈利修复，但增长持续性仍需后续季度验证。",
+            "points": ["汽车毛利率表现好于悲观预期", "单位生产成本改善", "管理层对后续销量增长给出积极指引"],
+            "risks": ["需求仍依赖融资和促销政策", "自动驾驶业务估值对兑现节奏敏感"]
+          }
+        },
+        {
+          "id": "googl-2024-q3",
+          "ticker": "GOOGL",
+          "company": "Alphabet",
+          "date": "2024-10-29",
+          "fiscal_period": "2024 Q3",
+          "status": "reported",
+          "source": {"label": "Alphabet IR", "url": "https://abc.xyz/investor/"},
+          "preview": {
+            "verdict": "搜索韧性与 Google Cloud 利润扩张是两条主线。",
+            "summary": "投资者需要判断生成式 AI 是提高搜索变现效率，还是带来更高推理成本与竞争压力。",
+            "points": ["搜索广告增速与零售、金融广告需求", "Cloud 收入增速和经营利润率", "AI 基础设施资本开支及折旧压力"],
+            "risks": ["反垄断诉讼带来结构性不确定性", "AI 投入短期可能压低自由现金流"]
+          },
+          "aftercheck": {
+            "verdict": "偏超预期：Cloud 增长和利润率改善强化 AI 投资回报叙事。",
+            "summary": "搜索业务保持稳定，云业务成为主要增量，市场更愿意接受资本开支上升。",
+            "points": ["搜索广告保持稳健增长", "Google Cloud 增速和盈利能力改善", "AI 产品开始带动云端需求"],
+            "risks": ["资本开支仍处高位", "监管裁决可能影响默认搜索分发"]
+          }
+        },
+        {
+          "id": "msft-2025-q1",
+          "ticker": "MSFT",
+          "company": "Microsoft",
+          "date": "2024-10-30",
+          "fiscal_period": "FY2025 Q1",
+          "status": "reported",
+          "source": {"label": "Microsoft IR", "url": "https://www.microsoft.com/en-us/Investor/"},
+          "preview": {
+            "verdict": "Azure 增速、AI 供给约束和资本开支转化效率最关键。",
+            "summary": "Copilot 商业化仍处早期，短期判断应优先看 Azure AI 需求、剩余履约义务和云毛利率。",
+            "points": ["Azure 固定汇率增速", "AI 数据中心供给是否限制收入", "资本开支、折旧与 Cloud 毛利率"],
+            "risks": ["供给扩张和需求兑现存在时间差", "高投入可能先影响利润率"]
+          },
+          "aftercheck": {
+            "verdict": "结果偏正面，但资本开支和后续云指引限制估值扩张。",
+            "summary": "Azure 与云业务需求保持强劲；市场讨论焦点转向巨额 AI 投资何时充分转化为收入。",
+            "points": ["Azure 需求保持强劲", "AI 服务贡献继续提升", "订单和合同余额提供中期能见度"],
+            "risks": ["资本开支增速高于收入增速", "云业务指引对短期市场反应更重要"]
+          }
+        },
+        {
+          "id": "meta-2024-q3",
+          "ticker": "META",
+          "company": "Meta",
+          "date": "2024-10-30",
+          "fiscal_period": "2024 Q3",
+          "status": "reported",
+          "source": {"label": "Meta IR", "url": "https://investor.atmeta.com/"},
+          "preview": {
+            "verdict": "广告效率改善可支撑增长，但 AI 与 Reality Labs 投入是估值约束。",
+            "summary": "重点观察推荐系统带来的参与度和广告转化提升，能否覆盖持续增加的基础设施投入。",
+            "points": ["广告展示量与单价", "Reels 变现和 AI 推荐效率", "2025 年资本开支与费用方向"],
+            "risks": ["Reality Labs 持续亏损", "监管与隐私政策影响广告定向"]
+          },
+          "aftercheck": {
+            "verdict": "经营结果稳健，但更高资本开支预期使市场评价趋于谨慎。",
+            "summary": "广告主业继续受益于 AI 推荐和转化工具，负面因素集中在未来基础设施费用上升。",
+            "points": ["广告业务保持较强增长", "AI 推荐提升用户参与度", "经营纪律仍优于元宇宙扩张早期"],
+            "risks": ["下一年资本开支显著增加", "Reality Labs 亏损预计继续扩大"]
+          }
+        },
+        {
+          "id": "aapl-2024-q4",
+          "ticker": "AAPL",
+          "company": "Apple",
+          "date": "2024-10-31",
+          "fiscal_period": "FY2024 Q4",
+          "status": "reported",
+          "source": {"label": "Apple IR", "url": "https://investor.apple.com/"},
+          "preview": {
+            "verdict": "iPhone 周期、服务收入和中国区需求决定质量。",
+            "summary": "Apple Intelligence 的近期收入贡献有限，更应关注换机意愿、产品组合和服务利润率。",
+            "points": ["iPhone 收入和高端机型组合", "服务收入增速与毛利率", "大中华区收入趋势"],
+            "risks": ["AI 功能推出节奏可能推迟换机", "中国市场竞争和汇率压力"]
+          },
+          "aftercheck": {
+            "verdict": "整体接近预期：服务业务稳健，硬件和区域表现分化。",
+            "summary": "核心生态韧性仍在，但市场需要更多证据确认 AI 功能能够驱动持续换机周期。",
+            "points": ["服务业务继续提供稳定增长", "iPhone 新品周期表现总体稳健", "庞大活跃设备基础支持长期变现"],
+            "risks": ["中国区恢复仍有不确定性", "AI 功能区域与语言上线节奏不一"]
+          }
+        },
+        {
+          "id": "amzn-2024-q3",
+          "ticker": "AMZN",
+          "company": "Amazon",
+          "date": "2024-10-31",
+          "fiscal_period": "2024 Q3",
+          "status": "reported",
+          "source": {"label": "Amazon IR", "url": "https://ir.aboutamazon.com/"},
+          "preview": {
+            "verdict": "AWS 再加速与北美零售利润率是盈利弹性的核心。",
+            "summary": "生成式 AI 推动云需求，但资本开支同步上升；零售配送效率决定集团利润改善能否持续。",
+            "points": ["AWS 收入增速和订单趋势", "北美零售经营利润率", "广告收入与 AI 基础设施资本开支"],
+            "risks": ["AI 资本开支回报周期较长", "消费环境可能影响可选品类需求"]
+          },
+          "aftercheck": {
+            "verdict": "偏超预期：AWS 与零售利润共同支撑盈利上行。",
+            "summary": "市场不仅看到云业务需求改善，也看到区域化配送网络带来的成本效率提升。",
+            "points": ["AWS 保持较快增长", "北美零售利润率改善", "广告业务继续提供高利润增长"],
+            "risks": ["资本开支随生成式 AI 需求上升", "云业务竞争和电力供给制约扩张"]
+          }
+        },
+        {
+          "id": "nvda-2025-q3",
+          "ticker": "NVDA",
+          "company": "NVIDIA",
+          "date": "2024-11-20",
+          "fiscal_period": "FY2025 Q3",
+          "status": "reported",
+          "source": {"label": "NVIDIA IR", "url": "https://investor.nvidia.com/"},
+          "preview": {
+            "verdict": "Blackwell 爬坡、供给能力和毛利率路径比单季收入更重要。",
+            "summary": "高预期环境下，仅仅超预期并不足够；市场关注新产品切换是否顺畅以及客户回报能否支持持续投入。",
+            "points": ["数据中心收入和未来指引", "Blackwell 出货节奏与供给约束", "产品切换对毛利率的影响"],
+            "risks": ["高估值放大轻微指引差异", "客户集中和出口限制影响需求结构"]
+          },
+          "aftercheck": {
+            "verdict": "基本面继续超预期，但高基数和毛利率压力使正面反应更克制。",
+            "summary": "AI 计算需求保持强劲，Blackwell 进入量产阶段；讨论重点从需求真实性转向交付速度和盈利质量。",
+            "points": ["数据中心需求继续强劲", "Blackwell 产品进入收入贡献阶段", "下一代平台订单能见度较高"],
+            "risks": ["新品爬坡短期影响毛利率", "出口规则和大客户自研芯片构成中期风险"]
+          }
+        }
+      ]
+    }
+  }
+}

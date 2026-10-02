@@ -12,6 +12,14 @@
 - GitHub Actions 定时同步
 - GitHub Pages 自动发布
 
+探索版另提供 `frontend/calendar.html`：
+
+- Mag 7 可点击月历
+- 正式追踪 / 历史验证双模式
+- Preview / Aftercheck 研究卡片
+- 模拟时间推进按钮，用于验证完整财报流程
+- 默认 `index.html` 会进入该日历页
+
 ## 目录
 
 ```text
