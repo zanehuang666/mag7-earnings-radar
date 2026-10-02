@@ -104,6 +104,23 @@ class Mag7CalendarTest(unittest.TestCase):
         for event in candidates["events"]:
             self.assertTrue({"ticker", "company", "date", "fiscal_period"}.issubset(event))
 
+    def test_mu_search_fallback_has_history_and_four_projections(self):
+        candidates = json.loads((ROOT / "frontend" / "data" / "us_earnings_candidates.json").read_text(encoding="utf-8"))
+        profile = candidates["profiles"]["MU"]
+        reported = [event for event in profile["events"] if event["status"] == "reported"]
+        projected = [event for event in profile["events"] if event["status"] == "projected"]
+        self.assertEqual(profile["company"], "Micron Technology")
+        self.assertGreaterEqual(len(reported), 4)
+        self.assertEqual(len(projected), 4)
+        self.assertTrue(all({"from", "to"}.issubset(event["date_range"]) for event in projected))
+
+    def test_market_snapshot_is_usable(self):
+        market = json.loads((ROOT / "frontend" / "data" / "market_qqq.json").read_text(encoding="utf-8"))
+        self.assertEqual(market["symbol"], "QQQ")
+        self.assertGreater(len(market["points"]), 500)
+        self.assertGreaterEqual(market["points"][0]["date"], "2024-01-01")
+        self.assertTrue(all({"date", "close"}.issubset(point) for point in market["points"]))
+
 
 if __name__ == "__main__":
     unittest.main()

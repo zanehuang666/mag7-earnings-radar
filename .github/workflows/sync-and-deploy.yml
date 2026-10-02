@@ -30,6 +30,8 @@ jobs:
           python-version: "3.12"
       - name: Refresh deterministic earnings calendar
         run: python backend/sync_mag7_calendar.py
+      - name: Refresh keyless QQQ market snapshot
+        run: python backend/sync_market_data.py
       - name: Run contract tests
         run: python -m unittest discover -s tests -v
       - name: Commit refreshed public data

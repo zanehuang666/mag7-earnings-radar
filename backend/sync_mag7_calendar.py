@@ -38,6 +38,14 @@ COMPANIES = {
     "TSLA": ("Tesla", "https://ir.tesla.com/", ["汽车毛利率", "交付与需求", "储能和自动驾驶"]),
 }
 
+# Small, explicitly supported extension set.  These are not promoted to the
+# fixed Mag 7 universe; they only make the search useful when Nasdaq has not
+# yet published a symbol's next date in its forward calendar.
+EXTRA_COMPANIES = {
+    "MU": ("Micron Technology", "https://investors.micron.com/", ["DRAM / NAND 定价", "HBM 需求与供给", "毛利率与资本开支"]),
+}
+ALL_COMPANIES = {**COMPANIES, **EXTRA_COMPANIES}
+
 # Individually verified against Nasdaq daily earnings-calendar rows on 2026-10-02.
 HISTORICAL_SEED = {
     "MSFT": ["2024-01-30", "2024-04-25", "2024-07-30", "2024-10-30", "2025-01-29", "2025-04-30", "2025-07-30"],
@@ -72,7 +80,7 @@ def normalize_us_date(value: str) -> str:
 
 
 def research_blocks(ticker: str, status: str, surprise: dict | None = None) -> tuple[dict, dict]:
-    name, _, focus = COMPANIES[ticker]
+    name, _, focus = ALL_COMPANIES[ticker]
     preview = {
         "verdict": f"{name} 财报前检查清单（简版）",
         "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
@@ -108,7 +116,7 @@ def research_blocks(ticker: str, status: str, surprise: dict | None = None) -> t
 def make_event(ticker: str, event_date: str, status: str, period: str, source_url: str,
                source_label: str, surprise: dict | None = None, forecast: dict | None = None,
                date_range: dict | None = None) -> dict:
-    name, ir_url, _ = COMPANIES[ticker]
+    name, ir_url, _ = ALL_COMPANIES[ticker]
     preview, analysis = research_blocks(ticker, status, surprise)
     return {
         "id": f"{ticker.lower()}-{event_date}", "ticker": ticker, "company": name,
@@ -183,9 +191,10 @@ def weekday_near(value: date) -> date:
     return value
 
 
-def add_cadence_projections(by_id: dict[str, dict], periods_per_company: int = 4) -> None:
+def add_cadence_projections(by_id: dict[str, dict], periods_per_company: int = 4,
+                            tickers=None) -> None:
     today = date.today()
-    for ticker in COMPANIES:
+    for ticker in tickers or COMPANIES:
         company_events = sorted((event for event in by_id.values() if event["ticker"] == ticker), key=lambda event: event["date"])
         reported_dates = [date.fromisoformat(event["date"]) for event in company_events if event["status"] == "reported"]
         future_events = [event for event in company_events if event["status"] in {"estimated", "confirmed"} and date.fromisoformat(event["date"]) >= today]
@@ -214,6 +223,33 @@ def add_cadence_projections(by_id: dict[str, dict], periods_per_company: int = 4
                 date_range={"from": low, "to": high},
             )
             by_id[event["id"]] = event
+
+
+def build_extra_profiles() -> tuple[dict[str, dict], list[str]]:
+    """Build auditable history + projections for a small search fallback set."""
+    profiles, errors = {}, []
+    for ticker, (company, ir_url, _) in EXTRA_COMPANIES.items():
+        by_id: dict[str, dict] = {}
+        url = f"{NASDAQ}/company/{ticker}/earnings-surprise"
+        try:
+            payload = fetch_json(url)
+            rows = payload["data"]["earningsSurpriseTable"]["rows"] or []
+            for row in rows:
+                event_date = normalize_us_date(row["dateReported"])
+                event = make_event(ticker, event_date, "reported", row.get("fiscalQtrEnd") or "Reported quarter",
+                                   url, "Nasdaq earnings surprise", surprise=row)
+                by_id[event["id"]] = event
+            if not by_id:
+                raise RuntimeError("no reported rows")
+            add_cadence_projections(by_id, tickers=[ticker])
+            profiles[ticker] = {
+                "ticker": ticker, "company": company, "ir_url": ir_url,
+                "method": "Nasdaq reported history + deterministic cadence projection",
+                "events": sorted(by_id.values(), key=lambda item: item["date"]),
+            }
+        except Exception as exc:
+            errors.append(f"{ticker} profile: {type(exc).__name__}")
+    return profiles, errors
 
 
 def build() -> tuple[dict, dict]:
@@ -251,6 +287,7 @@ def build() -> tuple[dict, dict]:
         by_id[event["id"]] = event
 
     add_cadence_projections(by_id)
+    extra_profiles, profile_errors = build_extra_profiles()
 
     events = sorted(by_id.values(), key=lambda item: (item["date"], item["ticker"]))
     reported = [event for event in events if event["status"] == "reported" and event["date"] >= "2024-01-01"]
@@ -276,14 +313,16 @@ def build() -> tuple[dict, dict]:
         "sync": {
             "reported_count": len(reported), "projected_count": len(projected),
             "estimated_count": len(estimated), "confirmed_count": len(confirmed),
-            "source": "Nasdaq public earnings endpoints", "errors": recent_errors + future_errors,
+            "source": "Nasdaq public earnings endpoints", "errors": recent_errors + future_errors + profile_errors,
             "forward_days": int(os.getenv("MAG7_FORWARD_DAYS", "120")),
         },
         "disclaimer": "Calendar research demo only. Estimated dates may change. Not investment advice.",
     }
     candidate_index = {
         "generated_at": now, "forward_days": int(os.getenv("MAG7_FORWARD_DAYS", "120")),
-        "source": "Nasdaq public earnings calendar", "events": sorted(candidates, key=lambda item: (item["date"], item["ticker"])),
+        "source": "Nasdaq public earnings calendar plus supported historical profiles",
+        "events": sorted(candidates, key=lambda item: (item["date"], item["ticker"])),
+        "profiles": extra_profiles,
     }
     return calendar, candidate_index
 
