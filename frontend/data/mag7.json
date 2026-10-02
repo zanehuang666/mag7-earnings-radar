@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-02T05:19:12+00:00",
+  "generated_at": "2026-10-02T13:51:57+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -3624,8 +3624,8 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {
-            "eps": "$2.01",
-            "analyst_count": "12",
+            "eps": "$2.02",
+            "analyst_count": "13",
             "session": "time-not-supplied"
           },
           "date_range": {},
