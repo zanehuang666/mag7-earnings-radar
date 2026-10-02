@@ -91,12 +91,18 @@ class Mag7CalendarTest(unittest.TestCase):
 
     def test_calendar_ui_has_required_controls(self):
         html = (ROOT / "frontend" / "calendar.html").read_text(encoding="utf-8")
-        for required in ("正式追踪", "历史验证", "推进模拟时间", "Preview", "Analysis", "showDate", "selectCompany", "setSimOffset", "2024 起点", "下一次预计"):
+        for required in ("正式追踪", "历史验证", "推进模拟时间", "Preview", "Analysis", "showDate", "selectCompany", "setSimOffset", "2024 起点", "下一次预计", "stockForm", "removeStock", "companyClose", "eventBack", "eventClose", "未发布"):
             self.assertIn(required, html)
 
     def test_default_page_opens_calendar(self):
         html = (ROOT / "frontend" / "index.html").read_text(encoding="utf-8")
         self.assertIn('content="0;url=calendar.html"', html)
+
+    def test_search_candidate_index(self):
+        candidates = json.loads((ROOT / "frontend" / "data" / "us_earnings_candidates.json").read_text(encoding="utf-8"))
+        self.assertGreater(len(candidates["events"]), 1000)
+        for event in candidates["events"]:
+            self.assertTrue({"ticker", "company", "date", "fiscal_period"}.issubset(event))
 
 
 if __name__ == "__main__":

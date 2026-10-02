@@ -21,6 +21,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "frontend" / "data" / "mag7.json"
+CANDIDATES_OUTPUT = ROOT / "frontend" / "data" / "us_earnings_candidates.json"
 NASDAQ = "https://api.nasdaq.com/api"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; Mag7-Earnings-Radar/1.0; research demo)",
@@ -142,26 +143,36 @@ def scan_day(day: date) -> tuple[str, list[dict], str | None]:
     try:
         payload = fetch_json(url, attempts=2)
         rows = (payload.get("data") or {}).get("rows") or []
-        return key, [row for row in rows if row.get("symbol") in COMPANIES], None
+        return key, rows, None
     except Exception as exc:
         return key, [], type(exc).__name__
 
 
-def upcoming(days: int = 120) -> tuple[list[dict], list[str]]:
+def upcoming(days: int = 120) -> tuple[list[dict], list[str], list[dict]]:
     start = date.today()
     dates = [start + timedelta(days=i) for i in range(days + 1) if (start + timedelta(days=i)).weekday() < 5]
-    events, errors = [], []
+    events, errors, candidates = [], [], []
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
         for key, rows, error in executor.map(scan_day, dates):
             if error:
                 errors.append(f"{key}: {error}")
             for row in rows:
-                ticker = row["symbol"]
+                ticker = (row.get("symbol") or "").upper().strip()
+                if not ticker:
+                    continue
+                candidates.append({
+                    "ticker": ticker, "company": (row.get("name") or ticker).strip(), "date": key,
+                    "fiscal_period": row.get("fiscalQuarterEnding") or "Upcoming quarter",
+                    "eps": row.get("epsForecast"), "analyst_count": row.get("noOfEsts"),
+                    "session": row.get("time"),
+                })
+                if ticker not in COMPANIES:
+                    continue
                 forecast = {"eps": row.get("epsForecast"), "analyst_count": row.get("noOfEsts"), "session": row.get("time")}
                 events.append(make_event(ticker, key, "estimated", row.get("fiscalQuarterEnding") or "Upcoming quarter",
                                          f"{NASDAQ}/calendar/earnings?date={key}", "Nasdaq earnings calendar",
                                          forecast=forecast))
-    return events, errors
+    return events, errors, candidates
 
 
 def weekday_near(value: date) -> date:
@@ -205,7 +216,7 @@ def add_cadence_projections(by_id: dict[str, dict], periods_per_company: int = 4
             by_id[event["id"]] = event
 
 
-def build() -> dict:
+def build() -> tuple[dict, dict]:
     by_id: dict[str, dict] = {}
     if OUTPUT.exists():
         try:
@@ -226,7 +237,7 @@ def build() -> dict:
     recent, recent_errors = latest_reported()
     for event in recent:
         by_id[event["id"]] = event
-    future, future_errors = upcoming(int(os.getenv("MAG7_FORWARD_DAYS", "120")))
+    future, future_errors, candidates = upcoming(int(os.getenv("MAG7_FORWARD_DAYS", "120")))
     for event in future:
         by_id[event["id"]] = event
 
@@ -247,7 +258,7 @@ def build() -> dict:
     confirmed = [event for event in events if event["status"] == "confirmed"]
     projected = [event for event in events if event["status"] == "projected"]
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
-    return {
+    calendar = {
         "schema_version": 3, "generated_at": now,
         "companies": [{"ticker": ticker, "company": values[0], "ir_url": values[1]} for ticker, values in COMPANIES.items()],
         "calendar": {
@@ -270,14 +281,21 @@ def build() -> dict:
         },
         "disclaimer": "Calendar research demo only. Estimated dates may change. Not investment advice.",
     }
+    candidate_index = {
+        "generated_at": now, "forward_days": int(os.getenv("MAG7_FORWARD_DAYS", "120")),
+        "source": "Nasdaq public earnings calendar", "events": sorted(candidates, key=lambda item: (item["date"], item["ticker"])),
+    }
+    return calendar, candidate_index
 
 
 if __name__ == "__main__":
-    output = build()
+    output, candidates = build()
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    CANDIDATES_OUTPUT.write_text(json.dumps(candidates, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     print(
         f"wrote {OUTPUT}: {output['sync']['reported_count']} reported, "
         f"{output['sync']['projected_count']} projected, {output['sync']['estimated_count']} estimated, "
-        f"{output['sync']['confirmed_count']} confirmed, {len(output['sync']['errors'])} errors"
+        f"{output['sync']['confirmed_count']} confirmed, {len(candidates['events'])} US candidates, "
+        f"{len(output['sync']['errors'])} errors"
     )
