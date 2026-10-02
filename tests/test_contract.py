@@ -57,11 +57,29 @@ class Mag7CalendarTest(unittest.TestCase):
                 self.assertGreaterEqual(len(research["risks"]), 2)
 
     def test_formal_calendar_does_not_fake_dates(self):
-        self.assertEqual(self.data["calendar"]["formal"]["events"], [])
+        events = self.data["calendar"]["formal"]["events"]
+        for event in events:
+            self.assertIn(event["status"], {"reported", "estimated"})
+            if event["status"] == "estimated":
+                self.assertEqual(event["date_confidence"], "estimated")
+
+    def test_history_is_complete_from_2024(self):
+        reported = [event for event in self.data["calendar"]["formal"]["events"] if event["status"] == "reported"]
+        counts = {}
+        for event in reported:
+            self.assertGreaterEqual(event["date"], "2024-01-01")
+            counts[event["ticker"]] = counts.get(event["ticker"], 0) + 1
+        self.assertEqual(len(reported), 77)
+        self.assertEqual(set(counts.values()), {11})
+        self.assertEqual(len({event["id"] for event in reported}), len(reported))
+
+    def test_forward_calendar_covers_every_company(self):
+        estimated = [event for event in self.data["calendar"]["formal"]["events"] if event["status"] == "estimated"]
+        self.assertEqual({event["ticker"] for event in estimated}, {"AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA"})
 
     def test_calendar_ui_has_required_controls(self):
         html = (ROOT / "frontend" / "calendar.html").read_text(encoding="utf-8")
-        for required in ("正式追踪", "历史验证", "推进模拟时间", "Preview", "Aftercheck"):
+        for required in ("正式追踪", "历史验证", "推进模拟时间", "Preview", "Analysis", "showDate", "2024 起点", "下一次预计"):
             self.assertIn(required, html)
 
     def test_default_page_opens_calendar(self):

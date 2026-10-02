@@ -5,8 +5,8 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "17 2 * * 1-5"
-    - cron: "43 18 * * 1-5"
+    - cron: "37 1 * * 1-5"
+    - cron: "37 13 * * 1-5"
 
 permissions:
   contents: write
@@ -33,7 +33,9 @@ jobs:
           PARATERA_API_KEY: ${{ secrets.PARATERA_API_KEY }}
           PARATERA_BASE_URL: ${{ vars.PARATERA_BASE_URL }}
           PARATERA_MODEL: ${{ vars.PARATERA_MODEL }}
-        run: python backend/sync.py
+        run: |
+          python backend/sync_mag7_calendar.py
+          python backend/sync.py
       - name: Run contract tests
         run: python -m unittest discover -s tests -v
       - name: Commit refreshed public data
