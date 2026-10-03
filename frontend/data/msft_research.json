@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-03T08:14:34+00:00",
+  "generated_at": "2026-10-03T08:18:08+00:00",
   "ticker": "MSFT",
   "company": "Microsoft",
   "strategy": "deterministic evidence + optional low-token LLM narrative",
@@ -247,7 +247,8 @@
       },
       "generation": {
         "mode": "paratera",
-        "model": "DeepSeek-V4-Flash"
+        "model": "DeepSeek-V4-Flash",
+        "cached": true
       }
     },
     {
@@ -498,8 +499,9 @@
         ]
       },
       "generation": {
-        "mode": "verified_snapshot",
-        "warning": "JSONDecodeError"
+        "mode": "paratera",
+        "model": "DeepSeek-V4-Flash",
+        "cached": false
       }
     },
     {
@@ -673,7 +675,8 @@
       "analysis": null,
       "generation": {
         "mode": "paratera",
-        "model": "DeepSeek-V4-Flash"
+        "model": "DeepSeek-V4-Flash",
+        "cached": true
       }
     }
   ],
@@ -725,11 +728,10 @@
     }
   },
   "generation": {
-    "paratera_calls": 2,
-    "call_limit": 3,
-    "errors": [
-      "FY26 Q4: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-    ]
+    "paratera_calls": 1,
+    "call_limit": 1,
+    "selected_event_id": "msft-2026-07-29",
+    "errors": []
   },
   "disclaimer": "Research demo only. Estimated dates and consensus may change. Not investment advice."
 }
