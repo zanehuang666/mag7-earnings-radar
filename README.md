@@ -20,9 +20,9 @@
 - `2026-07-29 · FY26 Q4`：最近已发布样本；
 - `2026-11-04 · FY27 Q1`：未来预计样本（Nasdaq estimated，Microsoft IR 尚未确认）。
 
-每份 Preview 都保留发布前信息截止时间、公司指引/市场共识、核心观察点、风险和逐项来源；已发布样本的 Analysis 另列预期、实际、差值和判断。数字与引用由确定性数据层锁定，模型只接收四段已核验短草稿并压缩 verdict/summary 文案，不能改数字或来源；输出若引入草稿中不存在的数字会被拒绝。未来事件在结果发布前不生成 Analysis，避免把预测写成事实。
+每份 Preview 都保留发布前信息截止时间、公司指引/市场共识、核心观察点、风险和逐项来源；已发布样本的 Analysis 另列预期、实际、差值、管理层指引变化及 MSFT 相对 QQQ 表现。数字、长摘要与引用由确定性数据层锁定，模型只接收两段已核验结论句并压缩 verdict，不能改数字或来源；输出若引入草稿中不存在的数字会被拒绝。未来事件在结果发布前不生成 Analysis，避免把预测写成事实。
 
-为节省 token，`backend/sync_msft_research.py` 默认不调用模型；只有距离事件一天（T-1）或手动运行工作流并勾选 `refresh_research` 时才调用 Paratera，且每个事件最多一次、全批最多三次、单次最多 1,800 output tokens。该编辑任务关闭模型思考模式并请求 JSON 输出；为兼容部分推理模型把唯一文本放在 `reasoning_content` 的情况，正文为空时会读取该字段，但仍执行同样的严格 JSON/字段校验。调试时可把 `research_call_limit` 设为 1，也可用 `research_event_id` 只重试单期。已经通过校验的模型文案会被保留，单次失败不会覆盖它；完全没有可用模型文案时则回退到可审计的已核验快照。
+为节省 token，`backend/sync_msft_research.py` 默认不调用模型；只有距离事件一天（T-1）或手动运行工作流并勾选 `refresh_research` 时才调用 Paratera，且每个事件最多一次、全批最多三次、单次最多 1,100 output tokens。该编辑任务关闭模型思考模式并请求 JSON 输出；为兼容部分推理模型把唯一文本放在 `reasoning_content` 的情况，正文为空时会读取该字段，但仍执行同样的严格 JSON/字段校验。调试时可把 `research_call_limit` 设为 1，也可用 `research_event_id` 只重试单期。已经通过校验的模型结论会被保留，单次失败不会覆盖它；完全没有可用模型文案时则回退到可审计的已核验快照。
 
 探索版另提供 `frontend/calendar.html`：
 

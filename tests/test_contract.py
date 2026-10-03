@@ -180,7 +180,8 @@ class MicrosoftResearchTest(unittest.TestCase):
     def test_low_token_guardrail_and_ui_hooks(self):
         self.assertLessEqual(self.data["generation"]["paratera_calls"], 3)
         html = (ROOT / "frontend" / "calendar.html").read_text(encoding="utf-8")
-        for required in ("msft_research.json", "metricBody", "sourceList", "information_cutoff"):
+        for required in ("msft_research.json", "metricBody", "sourceList", "information_cutoff",
+                         "summaryBullets", "guidanceWrap", "reactionWrap", "chartVerdict"):
             self.assertIn(required, html)
         workflow = (ROOT / ".github" / "workflows" / "sync-and-deploy.yml").read_text(encoding="utf-8")
         self.assertIn("refresh_research", workflow)
@@ -196,6 +197,37 @@ class MicrosoftResearchTest(unittest.TestCase):
         }
         with self.assertRaisesRegex(ValueError, "introduced numbers"):
             apply_narrative(event, value)
+
+    def test_expanded_preview_structure(self):
+        for event in self.data["events"]:
+            preview = event["preview"]
+            self.assertGreaterEqual(len(preview["summary"]), 170)
+            self.assertEqual(len(preview["summary_points"]), 3)
+            self.assertGreaterEqual(len(preview["market_focus"]), 3)
+            self.assertGreaterEqual(len(preview["risks"]), 3)
+            self.assertTrue(all({"title", "text"}.issubset(item) for item in preview["observations"]))
+            self.assertTrue(all(metric["tone"] in {"positive", "negative", "mixed", "neutral"}
+                                for metric in preview["metrics"]))
+
+    def test_analysis_guidance_and_market_reaction(self):
+        market = json.loads((ROOT / "frontend" / "data" / "market_qqq.json").read_text(encoding="utf-8"))
+        for event_id in ("msft-2026-01-28", "msft-2026-07-29"):
+            event = self.events[event_id]
+            analysis = event["analysis"]
+            self.assertEqual(len(analysis["guidance_changes"]), 3)
+            self.assertEqual(analysis["result_tone"], "positive")
+            reported = {item["horizon"]: item for item in analysis["market_reaction"]["metrics"]}
+            self.assertEqual(set(reported), {"次一交易日", "5 个交易日"})
+            for offset, horizon in ((1, "次一交易日"), (5, "5 个交易日")):
+                returns = {}
+                for ticker in ("MSFT", "QQQ"):
+                    points = market["series"][ticker]["points"]
+                    index = next(i for i, point in enumerate(points) if point["date"] == event["date"])
+                    returns[ticker] = (points[index + offset]["close"] / points[index]["close"] - 1) * 100
+                relative = returns["MSFT"] - returns["QQQ"]
+                self.assertEqual(reported[horizon]["msft"], f"{returns['MSFT']:+.2f}%")
+                self.assertEqual(reported[horizon]["qqq"], f"{returns['QQQ']:+.2f}%")
+                self.assertEqual(reported[horizon]["relative"], f"{relative:+.2f} pct")
 
 
 if __name__ == "__main__":
