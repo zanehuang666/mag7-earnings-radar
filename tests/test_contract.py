@@ -92,7 +92,16 @@ class Mag7CalendarTest(unittest.TestCase):
 
     def test_calendar_ui_has_required_controls(self):
         html = (ROOT / "frontend" / "calendar.html").read_text(encoding="utf-8")
-        for required in ("正式追踪", "历史验证", "推进模拟时间", "Preview", "Analysis", "showDate", "selectCompany", "setSimOffset", "2024 起点", "下一次预计", "stockForm", "removeStock", "companyClose", "eventBack", "eventClose", "未发布"):
+        for required in ("正式追踪", "历史验证", "运行完整时间模拟", "Preview", "Analysis", "showDate", "selectCompany", "setSimOffset", "2024 起点", "下一次预计", "stockForm", "removeStock", "companyClose", "eventBack", "eventClose", "未发布"):
+            self.assertIn(required, html)
+
+    def test_replay_has_two_auditable_system_snapshots(self):
+        replay = self.data["calendar"]["replay"]
+        self.assertEqual(replay["as_of"], "2026-01-27")
+        self.assertEqual(replay["month"], "2026-01")
+        html = (ROOT / "frontend" / "calendar.html").read_text(encoding="utf-8")
+        for required in ("snapshotBefore", "snapshotAfter", "SNAPSHOT A · T-1",
+                         "SNAPSHOT B · T+1", "runSnapshotDemo", "2026-01-29"):
             self.assertIn(required, html)
 
     def test_default_page_opens_calendar(self):
@@ -150,6 +159,25 @@ class Mag7CalendarTest(unittest.TestCase):
             self.assertGreater(len(series["points"]), 500)
             self.assertGreaterEqual(series["points"][0]["date"], "2024-01-01")
             self.assertTrue(all({"date", "close"}.issubset(point) for point in series["points"]))
+
+    def test_released_macro_events_are_auditable(self):
+        macro = json.loads((ROOT / "frontend" / "data" / "macro_events.json").read_text(encoding="utf-8"))
+        self.assertEqual(macro["consensus_policy"], "unavailable_not_inferred")
+        self.assertEqual(set(macro["supported"]), {"FOMC", "CPI", "NFP", "PCE"})
+        self.assertGreaterEqual(len(macro["events"]), 12)
+        self.assertEqual({event["code"] for event in macro["events"]}, {"FOMC", "CPI", "NFP", "PCE"})
+        for event in macro["events"]:
+            self.assertIsNotNone(event["actual"])
+            self.assertIsNone(event["forecast"])
+            self.assertIn("不是市场预期差", event["comparison_basis"])
+            self.assertTrue(event["source"]["url"].startswith("https://"))
+            self.assertTrue(event["official_source"]["url"].startswith("https://"))
+        html = (ROOT / "frontend" / "calendar.html").read_text(encoding="utf-8")
+        for required in ("macro_events.json", "selectMacro", "macroPanel", "市场一致预期",
+                         "不会把前值冒充预期"):
+            self.assertIn(required, html)
+        workflow = (ROOT / ".github" / "workflows" / "sync-and-deploy.yml").read_text(encoding="utf-8")
+        self.assertIn("sync_macro_events.py", workflow)
 
 
 class MicrosoftResearchTest(unittest.TestCase):

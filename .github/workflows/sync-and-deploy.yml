@@ -51,6 +51,8 @@ jobs:
         run: python backend/sync_mag7_calendar.py
       - name: Refresh keyless QQQ market snapshot
         run: python backend/sync_market_data.py
+      - name: Refresh released US macro events
+        run: python backend/sync_macro_events.py
       - name: Refresh Microsoft source-grounded research when due
         env:
           PARATERA_API_KEY: ${{ secrets.PARATERA_API_KEY }}

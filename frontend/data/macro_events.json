@@ -1,0 +1,610 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T14:23:19+00:00",
+  "events": [
+    {
+      "id": "macro-nfp-2026-04-03",
+      "type": "macro",
+      "code": "NFP",
+      "name": "美国非农就业",
+      "category": "labor",
+      "date": "2026-04-03",
+      "scheduled_at": "2026-04-03T12:30:00.000Z",
+      "period": "March 2026",
+      "actual": 214.0,
+      "actual_display": "214K",
+      "previous": -156.0,
+      "previous_display": "-156K",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "thousands, monthly change",
+      "headline": "就业增长较前值增强",
+      "commentary": "劳动力需求改善支持经济软着陆，但也可能降低短期降息必要性并推高利率预期。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "bls",
+        "url": "https://www.bls.gov/ces/"
+      }
+    },
+    {
+      "id": "macro-cpi-2026-04-10",
+      "type": "macro",
+      "code": "CPI",
+      "name": "美国 CPI",
+      "category": "inflation",
+      "date": "2026-04-10",
+      "scheduled_at": "2026-04-10T12:30:00.000Z",
+      "period": "March 2026",
+      "actual": 3.3,
+      "actual_display": "3.3%",
+      "previous": 2.4,
+      "previous_display": "2.4%",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "% y/y, all items",
+      "headline": "通胀较前值升温",
+      "commentary": "通胀黏性上升可能推迟宽松预期、推高长端收益率，并对高估值科技股形成折现率压力。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "bls",
+        "url": "https://www.bls.gov/cpi/"
+      }
+    },
+    {
+      "id": "macro-fomc-2026-04-29",
+      "type": "macro",
+      "code": "FOMC",
+      "name": "美联储利率决议",
+      "category": "policy",
+      "date": "2026-04-29",
+      "scheduled_at": "2026-04-29T18:00:00.000Z",
+      "period": "April 28-29, 2026 meeting",
+      "actual": 3.625,
+      "actual_display": "3.625%",
+      "previous": 3.625,
+      "previous_display": "3.625%",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "%, target range midpoint",
+      "headline": "政策利率维持不变",
+      "commentary": "利率水平未变，市场影响更多取决于声明措辞、点阵图和主席对后续路径的表述。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "fed",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      },
+      "target_range": "3.5%–3.75%"
+    },
+    {
+      "id": "macro-nfp-2026-05-08",
+      "type": "macro",
+      "code": "NFP",
+      "name": "美国非农就业",
+      "category": "labor",
+      "date": "2026-05-08",
+      "scheduled_at": "2026-05-08T12:30:00.000Z",
+      "period": "April 2026",
+      "actual": 148.0,
+      "actual_display": "148K",
+      "previous": 214.0,
+      "previous_display": "214K",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "thousands, monthly change",
+      "headline": "就业增长较前值放缓",
+      "commentary": "就业降温有利于通胀再平衡和宽松预期，但若降幅过大也会增加盈利与衰退担忧。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "bls",
+        "url": "https://www.bls.gov/ces/"
+      }
+    },
+    {
+      "id": "macro-cpi-2026-05-12",
+      "type": "macro",
+      "code": "CPI",
+      "name": "美国 CPI",
+      "category": "inflation",
+      "date": "2026-05-12",
+      "scheduled_at": "2026-05-12T12:30:00.000Z",
+      "period": "April 2026",
+      "actual": 3.8,
+      "actual_display": "3.8%",
+      "previous": 3.3,
+      "previous_display": "3.3%",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "% y/y, all items",
+      "headline": "通胀较前值升温",
+      "commentary": "通胀黏性上升可能推迟宽松预期、推高长端收益率，并对高估值科技股形成折现率压力。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "bls",
+        "url": "https://www.bls.gov/cpi/"
+      }
+    },
+    {
+      "id": "macro-nfp-2026-06-05",
+      "type": "macro",
+      "code": "NFP",
+      "name": "美国非农就业",
+      "category": "labor",
+      "date": "2026-06-05",
+      "scheduled_at": "2026-06-05T12:30:00.000Z",
+      "period": "May 2026",
+      "actual": 63.0,
+      "actual_display": "63K",
+      "previous": 148.0,
+      "previous_display": "148K",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "thousands, monthly change",
+      "headline": "就业增长较前值放缓",
+      "commentary": "就业降温有利于通胀再平衡和宽松预期，但若降幅过大也会增加盈利与衰退担忧。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "bls",
+        "url": "https://www.bls.gov/ces/"
+      }
+    },
+    {
+      "id": "macro-cpi-2026-06-10",
+      "type": "macro",
+      "code": "CPI",
+      "name": "美国 CPI",
+      "category": "inflation",
+      "date": "2026-06-10",
+      "scheduled_at": "2026-06-10T12:30:00.000Z",
+      "period": "May 2026",
+      "actual": 4.2,
+      "actual_display": "4.2%",
+      "previous": 3.8,
+      "previous_display": "3.8%",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "% y/y, all items",
+      "headline": "通胀较前值升温",
+      "commentary": "通胀黏性上升可能推迟宽松预期、推高长端收益率，并对高估值科技股形成折现率压力。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "bls",
+        "url": "https://www.bls.gov/cpi/"
+      }
+    },
+    {
+      "id": "macro-fomc-2026-06-17",
+      "type": "macro",
+      "code": "FOMC",
+      "name": "美联储利率决议",
+      "category": "policy",
+      "date": "2026-06-17",
+      "scheduled_at": "2026-06-17T18:00:00.000Z",
+      "period": "June 16-17, 2026 meeting",
+      "actual": 3.625,
+      "actual_display": "3.625%",
+      "previous": 3.625,
+      "previous_display": "3.625%",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "%, target range midpoint",
+      "headline": "政策利率维持不变",
+      "commentary": "利率水平未变，市场影响更多取决于声明措辞、点阵图和主席对后续路径的表述。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "fed",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      },
+      "target_range": "3.5%–3.75%"
+    },
+    {
+      "id": "macro-pce-2026-06-25",
+      "type": "macro",
+      "code": "PCE",
+      "name": "美国 PCE 通胀",
+      "category": "inflation",
+      "date": "2026-06-25",
+      "scheduled_at": "2026-06-25T12:30:00.000Z",
+      "period": "May 2026",
+      "actual": 3.8,
+      "actual_display": "3.8%",
+      "previous": 3.6,
+      "previous_display": "3.6%",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "% y/y, PCE price index",
+      "headline": "通胀较前值升温",
+      "commentary": "通胀黏性上升可能推迟宽松预期、推高长端收益率，并对高估值科技股形成折现率压力。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "bea",
+        "url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
+      }
+    },
+    {
+      "id": "macro-nfp-2026-07-02",
+      "type": "macro",
+      "code": "NFP",
+      "name": "美国非农就业",
+      "category": "labor",
+      "date": "2026-07-02",
+      "scheduled_at": "2026-07-02T12:30:00.000Z",
+      "period": "June 2026",
+      "actual": 20.0,
+      "actual_display": "20K",
+      "previous": 63.0,
+      "previous_display": "63K",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "thousands, monthly change",
+      "headline": "就业增长较前值放缓",
+      "commentary": "就业降温有利于通胀再平衡和宽松预期，但若降幅过大也会增加盈利与衰退担忧。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "bls",
+        "url": "https://www.bls.gov/ces/"
+      }
+    },
+    {
+      "id": "macro-cpi-2026-07-14",
+      "type": "macro",
+      "code": "CPI",
+      "name": "美国 CPI",
+      "category": "inflation",
+      "date": "2026-07-14",
+      "scheduled_at": "2026-07-14T12:30:00.000Z",
+      "period": "June 2026",
+      "actual": 3.5,
+      "actual_display": "3.5%",
+      "previous": 4.2,
+      "previous_display": "4.2%",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "% y/y, all items",
+      "headline": "通胀较前值降温",
+      "commentary": "通胀回落通常改善降息预期和实际利率环境，但仍需结合核心分项与服务通胀判断持续性。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "bls",
+        "url": "https://www.bls.gov/cpi/"
+      }
+    },
+    {
+      "id": "macro-fomc-2026-07-29",
+      "type": "macro",
+      "code": "FOMC",
+      "name": "美联储利率决议",
+      "category": "policy",
+      "date": "2026-07-29",
+      "scheduled_at": "2026-07-29T18:00:00.000Z",
+      "period": "July 28-29, 2026 meeting",
+      "actual": 3.625,
+      "actual_display": "3.625%",
+      "previous": 3.625,
+      "previous_display": "3.625%",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "%, target range midpoint",
+      "headline": "政策利率维持不变",
+      "commentary": "利率水平未变，市场影响更多取决于声明措辞、点阵图和主席对后续路径的表述。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "fed",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      },
+      "target_range": "3.5%–3.75%"
+    },
+    {
+      "id": "macro-pce-2026-07-30",
+      "type": "macro",
+      "code": "PCE",
+      "name": "美国 PCE 通胀",
+      "category": "inflation",
+      "date": "2026-07-30",
+      "scheduled_at": "2026-07-30T12:30:00.000Z",
+      "period": "June 2026",
+      "actual": 3.5,
+      "actual_display": "3.5%",
+      "previous": 3.8,
+      "previous_display": "3.8%",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "% y/y, PCE price index",
+      "headline": "通胀较前值降温",
+      "commentary": "通胀回落通常改善降息预期和实际利率环境，但仍需结合核心分项与服务通胀判断持续性。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "bea",
+        "url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
+      }
+    },
+    {
+      "id": "macro-nfp-2026-08-07",
+      "type": "macro",
+      "code": "NFP",
+      "name": "美国非农就业",
+      "category": "labor",
+      "date": "2026-08-07",
+      "scheduled_at": "2026-08-07T12:30:00.000Z",
+      "period": "July 2026",
+      "actual": -23.0,
+      "actual_display": "-23K",
+      "previous": 20.0,
+      "previous_display": "20K",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "thousands, monthly change",
+      "headline": "就业增长较前值放缓",
+      "commentary": "就业降温有利于通胀再平衡和宽松预期，但若降幅过大也会增加盈利与衰退担忧。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "bls",
+        "url": "https://www.bls.gov/ces/"
+      }
+    },
+    {
+      "id": "macro-cpi-2026-08-12",
+      "type": "macro",
+      "code": "CPI",
+      "name": "美国 CPI",
+      "category": "inflation",
+      "date": "2026-08-12",
+      "scheduled_at": "2026-08-12T12:30:00.000Z",
+      "period": "July 2026",
+      "actual": 3.4,
+      "actual_display": "3.4%",
+      "previous": 3.5,
+      "previous_display": "3.5%",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "% y/y, all items",
+      "headline": "通胀较前值降温",
+      "commentary": "通胀回落通常改善降息预期和实际利率环境，但仍需结合核心分项与服务通胀判断持续性。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "bls",
+        "url": "https://www.bls.gov/cpi/"
+      }
+    },
+    {
+      "id": "macro-pce-2026-08-26",
+      "type": "macro",
+      "code": "PCE",
+      "name": "美国 PCE 通胀",
+      "category": "inflation",
+      "date": "2026-08-26",
+      "scheduled_at": "2026-08-26T12:30:00.000Z",
+      "period": "July 2026",
+      "actual": 3.4,
+      "actual_display": "3.4%",
+      "previous": 3.5,
+      "previous_display": "3.5%",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "% y/y, PCE price index",
+      "headline": "通胀较前值降温",
+      "commentary": "通胀回落通常改善降息预期和实际利率环境，但仍需结合核心分项与服务通胀判断持续性。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "bea",
+        "url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
+      }
+    },
+    {
+      "id": "macro-nfp-2026-09-04",
+      "type": "macro",
+      "code": "NFP",
+      "name": "美国非农就业",
+      "category": "labor",
+      "date": "2026-09-04",
+      "scheduled_at": "2026-09-04T12:30:00.000Z",
+      "period": "August 2026",
+      "actual": 162.0,
+      "actual_display": "162K",
+      "previous": 21.0,
+      "previous_display": "21K",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "thousands, monthly change",
+      "headline": "就业增长较前值增强",
+      "commentary": "劳动力需求改善支持经济软着陆，但也可能降低短期降息必要性并推高利率预期。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "bls",
+        "url": "https://www.bls.gov/ces/"
+      }
+    },
+    {
+      "id": "macro-cpi-2026-09-11",
+      "type": "macro",
+      "code": "CPI",
+      "name": "美国 CPI",
+      "category": "inflation",
+      "date": "2026-09-11",
+      "scheduled_at": "2026-09-11T12:30:00.000Z",
+      "period": "August 2026",
+      "actual": 3.4,
+      "actual_display": "3.4%",
+      "previous": 3.4,
+      "previous_display": "3.4%",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "% y/y, all items",
+      "headline": "通胀与前值持平",
+      "commentary": "方向没有进一步改善或恶化，市场更可能交易核心分项、修订值和后续政策表态。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "bls",
+        "url": "https://www.bls.gov/cpi/"
+      }
+    },
+    {
+      "id": "macro-fomc-2026-09-16",
+      "type": "macro",
+      "code": "FOMC",
+      "name": "美联储利率决议",
+      "category": "policy",
+      "date": "2026-09-16",
+      "scheduled_at": "2026-09-16T18:00:00.000Z",
+      "period": "September 15-16, 2026 meeting",
+      "actual": 3.875,
+      "actual_display": "3.875%",
+      "previous": 3.625,
+      "previous_display": "3.625%",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "%, target range midpoint",
+      "headline": "政策利率上调",
+      "commentary": "相较前次会议更紧缩，通常抬升无风险利率并压制高估值成长股的折现价值。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "fed",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      },
+      "target_range": "3.75%–4%"
+    },
+    {
+      "id": "macro-pce-2026-09-30",
+      "type": "macro",
+      "code": "PCE",
+      "name": "美国 PCE 通胀",
+      "category": "inflation",
+      "date": "2026-09-30",
+      "scheduled_at": "2026-09-30T12:30:00.000Z",
+      "period": "August 2026",
+      "actual": 3.4,
+      "actual_display": "3.4%",
+      "previous": 3.4,
+      "previous_display": "3.4%",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "% y/y, PCE price index",
+      "headline": "通胀与前值持平",
+      "commentary": "方向没有进一步改善或恶化，市场更可能交易核心分项、修订值和后续政策表态。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "bea",
+        "url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
+      }
+    },
+    {
+      "id": "macro-nfp-2026-10-02",
+      "type": "macro",
+      "code": "NFP",
+      "name": "美国非农就业",
+      "category": "labor",
+      "date": "2026-10-02",
+      "scheduled_at": "2026-10-02T12:30:00.000Z",
+      "period": "September 2026",
+      "actual": 29.0,
+      "actual_display": "29K",
+      "previous": 133.0,
+      "previous_display": "133K",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "thousands, monthly change",
+      "headline": "就业增长较前值放缓",
+      "commentary": "就业降温有利于通胀再平衡和宽松预期，但若降幅过大也会增加盈利与衰退担忧。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "bls",
+        "url": "https://www.bls.gov/ces/"
+      }
+    }
+  ],
+  "supported": [
+    "FOMC",
+    "CPI",
+    "NFP",
+    "PCE"
+  ],
+  "consensus_policy": "unavailable_not_inferred",
+  "source": "xoomar.com",
+  "source_updated_at": "2026-10-02T18:33:31.440Z",
+  "attribution": "Credit XOOMAR with a link to the dataset page on xoomar.com when you republish this data",
+  "upstream_attribution": "Release dates and figures: Bureau of Labor Statistics, Bureau of Economic Analysis, Census Bureau, Federal Reserve Board, FRED (Federal Reserve Bank of St. Louis) and U.S. Treasury. This product uses the FRED® API but is not endorsed or certified by the Federal Reserve Bank of St. Louis.",
+  "disclaimer": "Released events only. Previous is not consensus. Not investment advice."
+}

@@ -384,8 +384,8 @@ def build() -> tuple[dict, dict]:
                 "events": sorted(reported + projected + estimated + confirmed, key=lambda item: (item["date"], item["ticker"])),
             },
             "replay": {
-                "label": "历史验证", "as_of": "2024-10-22", "month": "2024-10",
-                "message": "模拟时间停在 2024-10-22；所有历史事件同时保留当时的简版 Preview 与财报后的 Analysis。",
+                "label": "历史验证", "as_of": "2026-01-27", "month": "2026-01",
+                "message": "模拟系统时间初始冻结在 Microsoft FY26 Q2 财报前一天；运行完整模拟后推进到 2026-01-29，并保留前后两个快照。",
                 "events": reported,
             },
         },
