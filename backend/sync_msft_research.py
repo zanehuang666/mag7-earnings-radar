@@ -208,7 +208,7 @@ def call_paratera(event: dict) -> dict:
     payload = {"model": model, "messages": [
         {"role": "system", "content": "你是谨慎的美股财报研究编辑。事实、口径和时间边界优先。"},
         {"role": "user", "content": prompt},
-    ], "temperature": 0.1, "max_tokens": 700, "stream": False,
+    ], "temperature": 0.1, "max_tokens": 1100, "stream": False,
         # Paratera's official API documents this top-level switch.  Disabling
         # reasoning prevents a short editing task from spending the output
         # budget on reasoning_content and returning an empty answer string.
@@ -247,22 +247,30 @@ def build(force: bool = False) -> dict:
     events = copy.deepcopy(EVENTS)
     configured = all(os.getenv(name, "").strip() for name in ("PARATERA_API_KEY", "PARATERA_BASE_URL", "PARATERA_MODEL"))
     should_call = configured and (force or due_tomorrow())
+    try:
+        call_limit = max(0, min(3, int(os.getenv("MSFT_RESEARCH_CALL_LIMIT", "3"))))
+    except ValueError:
+        call_limit = 3
     errors, calls = [], 0
     if should_call:
-        for event in events:
+        for index, event in enumerate(events):
+            if index >= call_limit:
+                event["generation"] = {"mode": "verified_snapshot", "warning": "call_limit"}
+                continue
             try:
                 apply_narrative(event, call_paratera(event))
                 event["generation"] = {"mode": "paratera", "model": os.environ["PARATERA_MODEL"]}
                 calls += 1
             except Exception as exc:
                 event["generation"] = {"mode": "verified_snapshot", "warning": type(exc).__name__}
-                errors.append(f"{event['period']}: {type(exc).__name__}")
+                detail = " ".join(str(exc).split())[:160]
+                errors.append(f"{event['period']}: {type(exc).__name__}: {detail}")
     else:
         for event in events:
             event["generation"] = {"mode": "verified_snapshot", "model": None}
     return {"schema_version": 2, "generated_at": now_iso(), "ticker": "MSFT", "company": "Microsoft",
             "strategy": "deterministic evidence + optional low-token LLM narrative", "events": events,
-            "sources": SOURCES, "generation": {"paratera_calls": calls, "errors": errors},
+            "sources": SOURCES, "generation": {"paratera_calls": calls, "call_limit": call_limit, "errors": errors},
             "disclaimer": "Research demo only. Estimated dates and consensus may change. Not investment advice."}
 
 

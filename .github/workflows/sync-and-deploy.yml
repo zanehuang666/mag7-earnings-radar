@@ -8,6 +8,11 @@ on:
         required: false
         default: false
         type: boolean
+      research_call_limit:
+        description: "Maximum Paratera calls for this run (1 for debugging, 3 for full refresh)"
+        required: false
+        default: "3"
+        type: string
   push:
     branches: [main]
   schedule:
@@ -44,6 +49,7 @@ jobs:
           PARATERA_BASE_URL: ${{ secrets.PARATERA_BASE_URL }}
           PARATERA_MODEL: ${{ secrets.PARATERA_MODEL }}
           MSFT_RESEARCH_FORCE: ${{ inputs.refresh_research || 'false' }}
+          MSFT_RESEARCH_CALL_LIMIT: ${{ inputs.research_call_limit || '3' }}
         run: python backend/sync_msft_research.py
       - name: Run contract tests
         run: python -m unittest discover -s tests -v
