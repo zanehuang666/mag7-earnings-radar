@@ -200,7 +200,7 @@ def call_paratera(event: dict) -> dict:
         "analysis_drivers": [item["text"] for item in event["analysis"]["drivers"]] if event["analysis"] else None,
     }
     prompt = (
-        "基于下列已核验证据，压缩并提升中文美股财报研究表述。不得增加或修改任何数字，"
+        "不要展示推理过程，直接返回 JSON。基于下列已核验证据，压缩并提升中文美股财报研究表述。不得增加或修改任何数字，"
         "不得把预计写成事实。只返回 JSON：preview_verdict, preview_summary, analysis_verdict, analysis_summary；"
         "未来未发布事件的 analysis 两字段必须为 null。每个 verdict 不超过90字，summary 不超过180字。证据："
         + json.dumps(evidence, ensure_ascii=False, separators=(",", ":"))
@@ -208,7 +208,8 @@ def call_paratera(event: dict) -> dict:
     payload = {"model": model, "messages": [
         {"role": "system", "content": "你是谨慎的美股财报研究编辑。事实、口径和时间边界优先。"},
         {"role": "user", "content": prompt},
-    ], "temperature": 0.1, "max_tokens": 1100, "stream": False,
+    ], "temperature": 0.1, "max_tokens": 1800, "stream": False,
+        "response_format": {"type": "json_object"},
         # Paratera's official API documents this top-level switch.  Disabling
         # reasoning prevents a short editing task from spending the output
         # budget on reasoning_content and returning an empty answer string.
