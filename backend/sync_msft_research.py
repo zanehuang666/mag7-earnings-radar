@@ -8,6 +8,7 @@ from __future__ import annotations
 import copy
 import json
 import os
+import re
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -192,18 +193,21 @@ def call_paratera(event: dict) -> dict:
     key = os.environ["PARATERA_API_KEY"].strip()
     base = os.environ["PARATERA_BASE_URL"].strip().rstrip("/")
     model = os.environ.get("PARATERA_MODEL", "DeepSeek-V4-Flash").strip()
-    evidence = {
+    drafts = {
+        "preview_verdict": event["preview"]["verdict"],
+        "preview_summary": event["preview"]["summary"],
+        "analysis_verdict": event["analysis"]["verdict"] if event["analysis"] else None,
+        "analysis_summary": event["analysis"]["summary"] if event["analysis"] else None,
+    }
+    brief = {
         "event": {k: event[k] for k in ("period", "date", "status", "information_cutoff")},
-        "preview_metrics": event["preview"]["metrics"],
-        "preview_observations": [item["text"] for item in event["preview"]["observations"]],
-        "analysis_metrics": event["analysis"]["metrics"] if event["analysis"] else None,
-        "analysis_drivers": [item["text"] for item in event["analysis"]["drivers"]] if event["analysis"] else None,
+        "drafts": drafts,
     }
     prompt = (
-        "不要展示推理过程，直接返回 JSON。基于下列已核验证据，压缩并提升中文美股财报研究表述。不得增加或修改任何数字，"
+        "不要展示推理过程，直接返回 JSON。只压缩和润色下列已核验草稿，不得增加或修改任何数字或事实，"
         "不得把预计写成事实。只返回 JSON：preview_verdict, preview_summary, analysis_verdict, analysis_summary；"
         "未来未发布事件的 analysis 两字段必须为 null。每个 verdict 不超过90字，summary 不超过180字。证据："
-        + json.dumps(evidence, ensure_ascii=False, separators=(",", ":"))
+        + json.dumps(brief, ensure_ascii=False, separators=(",", ":"))
     )
     payload = {"model": model, "messages": [
         {"role": "system", "content": "你是谨慎的美股财报研究编辑。事实、口径和时间边界优先。"},
@@ -232,6 +236,18 @@ def call_paratera(event: dict) -> dict:
 
 
 def apply_narrative(event: dict, value: dict) -> None:
+    original_text = " ".join(filter(None, (
+        event["preview"]["verdict"], event["preview"]["summary"],
+        event["analysis"]["verdict"] if event["analysis"] else None,
+        event["analysis"]["summary"] if event["analysis"] else None,
+    )))
+    allowed_numbers = set(re.findall(r"\d+(?:\.\d+)?", original_text))
+    candidate_text = " ".join(str(value.get(key) or "") for key in (
+        "preview_verdict", "preview_summary", "analysis_verdict", "analysis_summary"
+    ))
+    new_numbers = set(re.findall(r"\d+(?:\.\d+)?", candidate_text)) - allowed_numbers
+    if new_numbers:
+        raise ValueError(f"model introduced numbers not in draft: {sorted(new_numbers)}")
     for key in ("preview_verdict", "preview_summary"):
         if not isinstance(value.get(key), str) or not value[key].strip():
             raise ValueError(f"invalid {key}")

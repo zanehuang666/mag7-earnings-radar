@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from backend.sync import parse_json_object
+from backend.sync_msft_research import EVENTS as MSFT_RESEARCH_EVENTS, apply_narrative
 
 
 class ContractTest(unittest.TestCase):
@@ -184,6 +185,17 @@ class MicrosoftResearchTest(unittest.TestCase):
         workflow = (ROOT / ".github" / "workflows" / "sync-and-deploy.yml").read_text(encoding="utf-8")
         self.assertIn("refresh_research", workflow)
         self.assertIn("sync_msft_research.py", workflow)
+
+    def test_model_cannot_introduce_new_numbers(self):
+        event = json.loads(json.dumps(MSFT_RESEARCH_EVENTS[0]))
+        value = {
+            "preview_verdict": event["preview"]["verdict"] + " 新增 999%",
+            "preview_summary": event["preview"]["summary"],
+            "analysis_verdict": event["analysis"]["verdict"],
+            "analysis_summary": event["analysis"]["summary"],
+        }
+        with self.assertRaisesRegex(ValueError, "introduced numbers"):
+            apply_narrative(event, value)
 
 
 if __name__ == "__main__":
