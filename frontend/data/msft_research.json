@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-03T08:09:58+00:00",
+  "generated_at": "2026-10-03T08:13:02+00:00",
   "ticker": "MSFT",
   "company": "Microsoft",
   "strategy": "deterministic evidence + optional low-token LLM narrative",
@@ -14,8 +14,8 @@
       "information_cutoff": "2026-01-27T23:59:59-05:00",
       "preview": {
         "title": "Microsoft FY26 Q2 · 财报前 Preview",
-        "verdict": "收入和 EPS 门槛不算激进，真正决定市场反应的是 Azure 能否超过约 37% CC 指引，以及高强度 AI 投资能否维持云毛利率。",
-        "summary": "市场一致预期收入约 803.1 亿美元、调整后 EPS 约 3.91 美元；公司给出的收入区间为 795–806 亿美元。应把 Azure、供给约束、Copilot 商业化和资本开支回报放在 headline beat 之前。",
+        "verdict": "收入与EPS门槛不算激进，关键看Azure能否超过约37% CC指引，以及高强度AI投资能否守住云毛利率。",
+        "summary": "市场一致预期收入约803.1亿美元、调整后EPS约3.91美元；公司收入指引795–806亿美元。应优先关注Azure、供给约束、Copilot商业化与资本开支回报，而非headline beat。",
         "metrics": [
           {
             "name": "Revenue",
@@ -130,8 +130,8 @@
       },
       "analysis": {
         "title": "Microsoft FY26 Q2 · 财报后 Analysis",
-        "verdict": "收入、调整后 EPS、Azure 和云毛利率均高于基准，经营结果偏超预期；但 375 亿美元 CapEx、自由现金流下滑及 OpenAI 集中度使市场更关注 AI 投资回报，属于“数字 beat、质量仍需验证”。",
-        "summary": "收入 812.73 亿美元，较 FactSet 共识高约 9.63 亿美元；调整后 EPS 4.14 美元，高约 0.23 美元。Azure CC 增长 38%，较公司约 37% 指引高 1 个百分点，Microsoft Cloud 毛利率 67% 也高于约 66% 指引。",
+        "verdict": "收入、调整后EPS、Azure与云毛利率均高于基准，经营偏超预期；但375亿美元CapEx、自由现金流下滑及OpenAI集中度，使焦点转向AI投资回报，属数字beat、质量待验。",
+        "summary": "收入812.73亿美元，较FactSet共识高约9.63亿美元；调整后EPS 4.14美元，高约0.23美元。Azure CC增长38%，较公司约37%指引高1个百分点，Microsoft Cloud毛利率67%也高于约66%指引。",
         "metrics": [
           {
             "name": "Revenue",
@@ -246,8 +246,8 @@
         ]
       },
       "generation": {
-        "mode": "verified_snapshot",
-        "warning": "JSONDecodeError"
+        "mode": "paratera",
+        "model": "DeepSeek-V4-Flash"
       }
     },
     {
@@ -725,11 +725,9 @@
     }
   },
   "generation": {
-    "paratera_calls": 0,
+    "paratera_calls": 1,
     "call_limit": 1,
-    "errors": [
-      "FY26 Q2: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-    ]
+    "errors": []
   },
   "disclaimer": "Research demo only. Estimated dates and consensus may change. Not investment advice."
 }
