@@ -218,9 +218,15 @@ def call_paratera(event: dict) -> dict:
                                      headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"})
     with urllib.request.urlopen(request, timeout=120) as response:
         raw = json.loads(response.read().decode())
-    content = raw["choices"][0]["message"].get("content")
+    message = raw["choices"][0]["message"]
+    content = message.get("content")
+    # Some Paratera-hosted reasoning models return the only textual payload in
+    # reasoning_content even when enable_thinking=false.  We still pass it
+    # through the exact same strict JSON/field validation before accepting it.
     if not isinstance(content, str) or not content.strip():
-        raise ValueError("Paratera returned empty answer content")
+        content = message.get("reasoning_content")
+    if not isinstance(content, str) or not content.strip():
+        raise ValueError("Paratera returned empty content and reasoning_content")
     return parse_json_object(content)
 
 
