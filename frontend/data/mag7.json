@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-03T09:12:57+00:00",
+  "generated_at": "2026-10-03T13:28:22+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -8406,7 +8406,21 @@
     "confirmed_count": 0,
     "source": "Nasdaq public earnings endpoints",
     "errors": [],
-    "forward_days": 120
+    "forward_days": 120,
+    "automatic": true,
+    "schedule_timezone": "Asia/Shanghai",
+    "schedule": [
+      "工作日 09:37",
+      "工作日 21:37",
+      "周末 09:37 心跳验证"
+    ],
+    "audit": {
+      "previous_generated_at": "2026-10-03T09:12:57+00:00",
+      "current_generated_at": "2026-10-03T13:28:22+00:00",
+      "event_ids_added": 0,
+      "event_ids_removed": 0,
+      "heartbeat_changed": true
+    }
   },
   "disclaimer": "Calendar research demo only. Estimated dates may change. Not investment advice."
 }

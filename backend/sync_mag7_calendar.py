@@ -46,6 +46,15 @@ EXTRA_COMPANIES = {
 }
 ALL_COMPANIES = {**COMPANIES, **EXTRA_COMPANIES}
 
+# A single, deliberately small public verification sample.  It lets the UI
+# prove that a scheduled run can move a real event from estimated to reported
+# without spending LLM tokens or pretending that a Mag 7 release is imminent.
+VERIFICATION_SAMPLE = {
+    "ticker": "AEHR",
+    "company": "Aehr Test Systems",
+    "expected_date": "2026-10-05",
+}
+
 # Individually verified against Nasdaq daily earnings-calendar rows on 2026-10-02.
 HISTORICAL_SEED = {
     "MSFT": ["2024-01-30", "2024-04-25", "2024-07-30", "2024-10-30", "2025-01-29", "2025-04-30", "2025-07-30"],
@@ -252,12 +261,71 @@ def build_extra_profiles() -> tuple[dict[str, dict], list[str]]:
     return profiles, errors
 
 
+def build_verification_sample(candidates: list[dict]) -> tuple[dict, str | None]:
+    ticker = VERIFICATION_SAMPLE["ticker"]
+    expected_date = VERIFICATION_SAMPLE["expected_date"]
+    calendar_row = next(
+        (item for item in candidates if item["ticker"] == ticker and item["date"] == expected_date),
+        None,
+    )
+    previous = None
+    if CANDIDATES_OUTPUT.exists():
+        try:
+            previous = json.loads(CANDIDATES_OUTPUT.read_text(encoding="utf-8")).get("verification_sample")
+        except (OSError, json.JSONDecodeError):
+            pass
+    sample = {
+        "ticker": ticker,
+        "company": (calendar_row or previous or VERIFICATION_SAMPLE).get("company", VERIFICATION_SAMPLE["company"]),
+        "date": expected_date,
+        "status": "estimated",
+        "session": (calendar_row or previous or {}).get("session", "time-not-supplied"),
+        "eps_forecast": (calendar_row or previous or {}).get("eps", (previous or {}).get("eps_forecast")),
+        "analyst_count": (calendar_row or previous or {}).get("analyst_count"),
+        "actual_eps": None,
+        "consensus_eps": None,
+        "surprise_pct": None,
+        "calendar_source": f"{NASDAQ}/calendar/earnings?date={expected_date}",
+        "result_source": f"{NASDAQ}/company/{ticker}/earnings-surprise",
+        "checked_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+        "purpose": "公开验证定时同步是否把真实事件从预计更新为已发布；不调用 LLM。",
+    }
+    try:
+        payload = fetch_json(sample["result_source"])
+        rows = payload["data"]["earningsSurpriseTable"]["rows"] or []
+        reported = next(
+            (row for row in rows if normalize_us_date(row["dateReported"]) == expected_date),
+            None,
+        )
+        if reported:
+            actual = reported.get("eps")
+            consensus = reported.get("consensusForecast")
+            surprise = reported.get("percentageSurprise")
+            sample.update({
+                "status": "reported",
+                "actual_eps": actual,
+                "consensus_eps": consensus,
+                "surprise_pct": float(surprise) if surprise not in (None, "") else None,
+            })
+        return sample, None
+    except Exception as exc:
+        # Keep the prior reported state if the upstream endpoint is temporarily
+        # unavailable; a transient source failure must not reverse the demo.
+        if previous and previous.get("status") == "reported":
+            sample.update({key: previous.get(key) for key in ("status", "actual_eps", "consensus_eps", "surprise_pct")})
+        return sample, f"{ticker} verification: {type(exc).__name__}"
+
+
 def build() -> tuple[dict, dict]:
     by_id: dict[str, dict] = {}
+    previous_generated_at = None
+    previous_ids: set[str] = set()
     if OUTPUT.exists():
         try:
             previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
+            previous_generated_at = previous.get("generated_at")
             for event in previous.get("calendar", {}).get("formal", {}).get("events", []):
+                previous_ids.add(event.get("id", ""))
                 if event.get("status") == "reported" or (
                     event.get("status") in {"estimated", "confirmed"} and event.get("date", "") >= date.today().isoformat()
                 ):
@@ -288,6 +356,9 @@ def build() -> tuple[dict, dict]:
 
     add_cadence_projections(by_id)
     extra_profiles, profile_errors = build_extra_profiles()
+    verification_sample, verification_error = build_verification_sample(candidates)
+    if verification_error:
+        profile_errors.append(verification_error)
 
     events = sorted(by_id.values(), key=lambda item: (item["date"], item["ticker"]))
     reported = [event for event in events if event["status"] == "reported" and event["date"] >= "2024-01-01"]
@@ -295,6 +366,14 @@ def build() -> tuple[dict, dict]:
     confirmed = [event for event in events if event["status"] == "confirmed"]
     projected = [event for event in events if event["status"] == "projected"]
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+    current_ids = {event["id"] for event in reported + projected + estimated + confirmed}
+    audit = {
+        "previous_generated_at": previous_generated_at,
+        "current_generated_at": now,
+        "event_ids_added": len(current_ids - previous_ids) if previous_generated_at else 0,
+        "event_ids_removed": len(previous_ids - current_ids) if previous_generated_at else 0,
+        "heartbeat_changed": previous_generated_at != now,
+    }
     calendar = {
         "schema_version": 3, "generated_at": now,
         "companies": [{"ticker": ticker, "company": values[0], "ir_url": values[1]} for ticker, values in COMPANIES.items()],
@@ -315,6 +394,10 @@ def build() -> tuple[dict, dict]:
             "estimated_count": len(estimated), "confirmed_count": len(confirmed),
             "source": "Nasdaq public earnings endpoints", "errors": recent_errors + future_errors + profile_errors,
             "forward_days": int(os.getenv("MAG7_FORWARD_DAYS", "120")),
+            "automatic": True,
+            "schedule_timezone": "Asia/Shanghai",
+            "schedule": ["工作日 09:37", "工作日 21:37", "周末 09:37 心跳验证"],
+            "audit": audit,
         },
         "disclaimer": "Calendar research demo only. Estimated dates may change. Not investment advice.",
     }
@@ -323,6 +406,7 @@ def build() -> tuple[dict, dict]:
         "source": "Nasdaq public earnings calendar plus supported historical profiles",
         "events": sorted(candidates, key=lambda item: (item["date"], item["ticker"])),
         "profiles": extra_profiles,
+        "verification_sample": verification_sample,
     }
     return calendar, candidate_index
 

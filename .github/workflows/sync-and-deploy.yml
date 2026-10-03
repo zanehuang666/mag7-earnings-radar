@@ -23,6 +23,9 @@ on:
   schedule:
     - cron: "37 1 * * 1-5"
     - cron: "37 13 * * 1-5"
+    # Weekend heartbeat keeps the public audit timestamp moving even when US
+    # markets are closed, so the automatic pipeline can be verified visibly.
+    - cron: "37 1 * * 0,6"
 
 permissions:
   contents: write

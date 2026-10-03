@@ -105,6 +105,31 @@ class Mag7CalendarTest(unittest.TestCase):
         for event in candidates["events"]:
             self.assertTrue({"ticker", "company", "date", "fiscal_period"}.issubset(event))
 
+    def test_public_sync_audit_and_real_verification_sample(self):
+        sync = self.data["sync"]
+        self.assertTrue(sync["automatic"])
+        self.assertEqual(sync["schedule_timezone"], "Asia/Shanghai")
+        self.assertTrue(any("周末" in item for item in sync["schedule"]))
+        self.assertTrue({"previous_generated_at", "current_generated_at", "heartbeat_changed"}
+                        .issubset(sync["audit"]))
+        candidates = json.loads((ROOT / "frontend" / "data" / "us_earnings_candidates.json").read_text(encoding="utf-8"))
+        sample = candidates["verification_sample"]
+        self.assertEqual(sample["ticker"], "AEHR")
+        self.assertEqual(sample["date"], "2026-10-05")
+        self.assertIn(sample["status"], {"estimated", "reported"})
+        self.assertTrue(sample["calendar_source"].startswith("https://api.nasdaq.com/"))
+        self.assertTrue(sample["result_source"].startswith("https://api.nasdaq.com/"))
+
+    def test_chart_colors_require_structured_research(self):
+        html = (ROOT / "frontend" / "calendar.html").read_text(encoding="utf-8")
+        self.assertIn("e.research?.analysis?.result_tone", html)
+        self.assertIn("尚无完整研究结论", html)
+        self.assertIn("空心灰＝尚无完整研究", html)
+        self.assertIn("mag7-custom-cache", html)
+        self.assertIn("checkLatestData", html)
+        workflow = (ROOT / ".github" / "workflows" / "sync-and-deploy.yml").read_text(encoding="utf-8")
+        self.assertIn('37 1 * * 0,6', workflow)
+
     def test_mu_search_fallback_has_history_and_four_projections(self):
         candidates = json.loads((ROOT / "frontend" / "data" / "us_earnings_candidates.json").read_text(encoding="utf-8"))
         profile = candidates["profiles"]["MU"]
@@ -228,6 +253,15 @@ class MicrosoftResearchTest(unittest.TestCase):
                 self.assertEqual(reported[horizon]["msft"], f"{returns['MSFT']:+.2f}%")
                 self.assertEqual(reported[horizon]["qqq"], f"{returns['QQQ']:+.2f}%")
                 self.assertEqual(reported[horizon]["relative"], f"{relative:+.2f} pct")
+
+    def test_analysis_risks_use_investment_validation_framework(self):
+        required = {"title", "text", "transmission", "monitor", "trigger", "horizon",
+                    "status", "counter_signal", "source_ids"}
+        for event_id in ("msft-2026-01-28", "msft-2026-07-29"):
+            risks = self.events[event_id]["analysis"]["risks"]
+            self.assertGreaterEqual(len(risks), 5)
+            self.assertTrue(all(required.issubset(risk) for risk in risks))
+            self.assertTrue(all(risk["source_ids"] for risk in risks))
 
 
 if __name__ == "__main__":
