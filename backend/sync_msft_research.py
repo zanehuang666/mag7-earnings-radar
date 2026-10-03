@@ -208,13 +208,20 @@ def call_paratera(event: dict) -> dict:
     payload = {"model": model, "messages": [
         {"role": "system", "content": "你是谨慎的美股财报研究编辑。事实、口径和时间边界优先。"},
         {"role": "user", "content": prompt},
-    ], "temperature": 0.1, "max_tokens": 700, "stream": False}
+    ], "temperature": 0.1, "max_tokens": 700, "stream": False,
+        # Paratera's official API documents this top-level switch.  Disabling
+        # reasoning prevents a short editing task from spending the output
+        # budget on reasoning_content and returning an empty answer string.
+        "enable_thinking": False}
     endpoint = f"{base}/chat/completions" if base.endswith("/v1") else f"{base}/v1/chat/completions"
     request = urllib.request.Request(endpoint, data=json.dumps(payload).encode(), method="POST",
                                      headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"})
     with urllib.request.urlopen(request, timeout=120) as response:
         raw = json.loads(response.read().decode())
-    return parse_json_object(raw["choices"][0]["message"]["content"])
+    content = raw["choices"][0]["message"].get("content")
+    if not isinstance(content, str) or not content.strip():
+        raise ValueError("Paratera returned empty answer content")
+    return parse_json_object(content)
 
 
 def apply_narrative(event: dict, value: dict) -> None:
