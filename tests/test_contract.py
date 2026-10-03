@@ -116,10 +116,14 @@ class Mag7CalendarTest(unittest.TestCase):
 
     def test_market_snapshot_is_usable(self):
         market = json.loads((ROOT / "frontend" / "data" / "market_qqq.json").read_text(encoding="utf-8"))
-        self.assertEqual(market["symbol"], "QQQ")
-        self.assertGreater(len(market["points"]), 500)
-        self.assertGreaterEqual(market["points"][0]["date"], "2024-01-01")
-        self.assertTrue(all({"date", "close"}.issubset(point) for point in market["points"]))
+        expected = {"QQQ", "AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA"}
+        self.assertEqual(set(market["series"]), expected)
+        self.assertIn("09:37", market["refresh_schedule"])
+        self.assertIn("21:37", market["refresh_schedule"])
+        for series in market["series"].values():
+            self.assertGreater(len(series["points"]), 500)
+            self.assertGreaterEqual(series["points"][0]["date"], "2024-01-01")
+            self.assertTrue(all({"date", "close"}.issubset(point) for point in series["points"]))
 
 
 if __name__ == "__main__":
