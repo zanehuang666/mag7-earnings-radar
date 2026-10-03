@@ -2,6 +2,12 @@ name: Sync earnings and deploy Pages
 
 on:
   workflow_dispatch:
+    inputs:
+      refresh_research:
+        description: "Regenerate the three Microsoft research narratives with Paratera"
+        required: false
+        default: false
+        type: boolean
   push:
     branches: [main]
   schedule:
@@ -32,6 +38,13 @@ jobs:
         run: python backend/sync_mag7_calendar.py
       - name: Refresh keyless QQQ market snapshot
         run: python backend/sync_market_data.py
+      - name: Refresh Microsoft source-grounded research when due
+        env:
+          PARATERA_API_KEY: ${{ secrets.PARATERA_API_KEY }}
+          PARATERA_BASE_URL: ${{ secrets.PARATERA_BASE_URL }}
+          PARATERA_MODEL: ${{ secrets.PARATERA_MODEL }}
+          MSFT_RESEARCH_FORCE: ${{ inputs.refresh_research || 'false' }}
+        run: python backend/sync_msft_research.py
       - name: Run contract tests
         run: python -m unittest discover -s tests -v
       - name: Commit refreshed public data

@@ -12,6 +12,18 @@
 - GitHub Actions 定时同步
 - GitHub Pages 自动发布
 
+## Microsoft 三期深度研究样本
+
+`frontend/data/msft_research.json` 固定展示三期，便于先小范围校准研究质量：
+
+- `2026-01-28 · FY26 Q2`：过往已发布样本；
+- `2026-07-29 · FY26 Q4`：最近已发布样本；
+- `2026-11-04 · FY27 Q1`：未来预计样本（Nasdaq estimated，Microsoft IR 尚未确认）。
+
+每份 Preview 都保留发布前信息截止时间、公司指引/市场共识、核心观察点、风险和逐项来源；已发布样本的 Analysis 另列预期、实际、差值和判断。数字与引用由确定性数据层锁定，模型只能压缩 verdict/summary 文案，不能改数字或来源。未来事件在结果发布前不生成 Analysis，避免把预测写成事实。
+
+为节省 token，`backend/sync_msft_research.py` 默认不调用模型；只有距离事件一天（T-1）或手动运行工作流并勾选 `refresh_research` 时才调用 Paratera，且每个事件最多一次、全批最多三次、单次最多 700 output tokens。调用失败会保留可审计的已核验快照，页面仍可正常使用。
+
 探索版另提供 `frontend/calendar.html`：
 
 - Mag 7 可点击月历
@@ -75,6 +87,7 @@ tests/                    数据契约测试
 python .\backend\sync.py
 python .\backend\sync_mag7_calendar.py
 python .\backend\sync_market_data.py
+python .\backend\sync_msft_research.py
 python -m unittest discover -s tests -v
 ```
 
@@ -84,7 +97,8 @@ Paratera 为可选配置：
 $env:PARATERA_API_KEY = "..."
 $env:PARATERA_BASE_URL = "https://llmapi.paratera.com"
 $env:PARATERA_MODEL = "DeepSeek-V4-Flash"
-python .\backend\sync.py
+$env:MSFT_RESEARCH_FORCE = "true"
+python .\backend\sync_msft_research.py
 ```
 
 ## 数据状态

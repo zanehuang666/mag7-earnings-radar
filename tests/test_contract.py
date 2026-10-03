@@ -126,5 +126,65 @@ class Mag7CalendarTest(unittest.TestCase):
             self.assertTrue(all({"date", "close"}.issubset(point) for point in series["points"]))
 
 
+class MicrosoftResearchTest(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.data = json.loads((ROOT / "frontend" / "data" / "msft_research.json").read_text(encoding="utf-8"))
+        cls.events = {event["id"]: event for event in cls.data["events"]}
+
+    def test_three_deliberate_samples(self):
+        self.assertEqual(set(self.events), {
+            "msft-2026-01-28", "msft-2026-07-29", "msft-2026-11-04",
+        })
+        self.assertEqual(
+            [event["sample_role"] for event in self.data["events"]],
+            ["过往已发布样本", "最近已发布样本", "未来预计样本"],
+        )
+
+    def test_reported_analysis_has_expected_actual_and_delta(self):
+        for event_id in ("msft-2026-01-28", "msft-2026-07-29"):
+            event = self.events[event_id]
+            self.assertEqual(event["status"], "reported")
+            self.assertGreaterEqual(len(event["analysis"]["metrics"]), 6)
+            for metric in event["analysis"]["metrics"]:
+                self.assertTrue(metric["expectation"])
+                self.assertTrue(metric["actual"])
+                self.assertTrue(metric["delta"])
+                self.assertTrue(metric["assessment"])
+
+    def test_future_event_is_preview_only_and_unconfirmed(self):
+        event = self.events["msft-2026-11-04"]
+        self.assertEqual(event["status"], "estimated")
+        self.assertIsNone(event["analysis"])
+        self.assertGreaterEqual(len(event["preview"]["metrics"]), 8)
+        self.assertIn("IR 未确认", event["preview"]["metrics"][0]["expectation"])
+
+    def test_every_citation_resolves_to_https_source(self):
+        sources = self.data["sources"]
+        referenced = set()
+        for event in self.data["events"]:
+            for section_name in ("preview", "analysis"):
+                section = event.get(section_name)
+                if not section:
+                    continue
+                for metric in section["metrics"]:
+                    referenced.update(metric["source_ids"])
+                point_key = "observations" if section_name == "preview" else "drivers"
+                for point in section[point_key]:
+                    referenced.update(point["source_ids"])
+        self.assertTrue(referenced)
+        self.assertTrue(referenced.issubset(sources))
+        self.assertTrue(all(source["url"].startswith("https://") for source in sources.values()))
+
+    def test_low_token_guardrail_and_ui_hooks(self):
+        self.assertLessEqual(self.data["generation"]["paratera_calls"], 3)
+        html = (ROOT / "frontend" / "calendar.html").read_text(encoding="utf-8")
+        for required in ("msft_research.json", "metricBody", "sourceList", "information_cutoff"):
+            self.assertIn(required, html)
+        workflow = (ROOT / ".github" / "workflows" / "sync-and-deploy.yml").read_text(encoding="utf-8")
+        self.assertIn("refresh_research", workflow)
+        self.assertIn("sync_msft_research.py", workflow)
+
+
 if __name__ == "__main__":
     unittest.main()
