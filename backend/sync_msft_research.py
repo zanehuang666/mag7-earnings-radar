@@ -266,26 +266,67 @@ def due_tomorrow() -> bool:
     return any(event["status"] != "reported" and event["date"] == tomorrow for event in EVENTS)
 
 
+def previous_paratera_events() -> dict:
+    if not OUTPUT.exists():
+        return {}
+    try:
+        data = json.loads(OUTPUT.read_text(encoding="utf-8"))
+        return {
+            event["id"]: event for event in data.get("events", [])
+            if event.get("generation", {}).get("mode") == "paratera"
+        }
+    except (OSError, ValueError, KeyError, TypeError):
+        return {}
+
+
+def restore_previous_narrative(event: dict, previous: dict) -> bool:
+    prior = previous.get(event["id"])
+    if not prior:
+        return False
+    value = {
+        "preview_verdict": prior["preview"]["verdict"],
+        "preview_summary": prior["preview"]["summary"],
+        "analysis_verdict": prior["analysis"]["verdict"] if prior.get("analysis") else None,
+        "analysis_summary": prior["analysis"]["summary"] if prior.get("analysis") else None,
+    }
+    apply_narrative(event, value)
+    event["generation"] = {"mode": "paratera", "model": prior["generation"].get("model"), "cached": True}
+    return True
+
+
 def build(force: bool = False) -> dict:
     events = copy.deepcopy(EVENTS)
+    previous = previous_paratera_events()
     configured = all(os.getenv(name, "").strip() for name in ("PARATERA_API_KEY", "PARATERA_BASE_URL", "PARATERA_MODEL"))
     should_call = configured and (force or due_tomorrow())
+    selected_id = os.getenv("MSFT_RESEARCH_EVENT_ID", "").strip()
     try:
         call_limit = max(0, min(3, int(os.getenv("MSFT_RESEARCH_CALL_LIMIT", "3"))))
     except ValueError:
         call_limit = 3
     errors, calls = [], 0
     if should_call:
-        for index, event in enumerate(events):
-            if index >= call_limit:
-                event["generation"] = {"mode": "verified_snapshot", "warning": "call_limit"}
+        attempted = 0
+        for event in events:
+            restored = restore_previous_narrative(event, previous)
+            if selected_id and event["id"] != selected_id:
+                if not restored:
+                    event["generation"] = {"mode": "verified_snapshot", "warning": "not_selected"}
                 continue
+            if attempted >= call_limit:
+                if not restored:
+                    event["generation"] = {"mode": "verified_snapshot", "warning": "call_limit"}
+                continue
+            attempted += 1
             try:
                 apply_narrative(event, call_paratera(event))
-                event["generation"] = {"mode": "paratera", "model": os.environ["PARATERA_MODEL"]}
+                event["generation"] = {"mode": "paratera", "model": os.environ["PARATERA_MODEL"], "cached": False}
                 calls += 1
             except Exception as exc:
-                event["generation"] = {"mode": "verified_snapshot", "warning": type(exc).__name__}
+                if restored:
+                    event["generation"]["warning"] = type(exc).__name__
+                else:
+                    event["generation"] = {"mode": "verified_snapshot", "warning": type(exc).__name__}
                 detail = " ".join(str(exc).split())[:160]
                 errors.append(f"{event['period']}: {type(exc).__name__}: {detail}")
     else:
@@ -293,7 +334,8 @@ def build(force: bool = False) -> dict:
             event["generation"] = {"mode": "verified_snapshot", "model": None}
     return {"schema_version": 2, "generated_at": now_iso(), "ticker": "MSFT", "company": "Microsoft",
             "strategy": "deterministic evidence + optional low-token LLM narrative", "events": events,
-            "sources": SOURCES, "generation": {"paratera_calls": calls, "call_limit": call_limit, "errors": errors},
+            "sources": SOURCES, "generation": {"paratera_calls": calls, "call_limit": call_limit,
+            "selected_event_id": selected_id or None, "errors": errors},
             "disclaimer": "Research demo only. Estimated dates and consensus may change. Not investment advice."}
 
 
