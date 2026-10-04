@@ -115,6 +115,10 @@ class Mag7CalendarTest(unittest.TestCase):
         self.assertIn("真实自动更新证据", html)
         self.assertIn("独立真实探针", html)
         self.assertIn("body:has(.mode[data-mode=\"replay\"].active) .layout", html)
+        self.assertIn("可审计的 Mag 7 财报追踪与复盘系统", html)
+        self.assertIn("历史财报分析的主要信息来源", html)
+        self.assertIn("Nasdaq 财报日历", html)
+        self.assertIn("今天", html)
         workflow = (ROOT / ".github" / "workflows" / "sync-and-deploy.yml").read_text(encoding="utf-8")
         self.assertIn('37 1 * * 0,6', workflow)
 
