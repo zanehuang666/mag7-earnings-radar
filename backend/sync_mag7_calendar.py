@@ -320,12 +320,14 @@ def build() -> tuple[dict, dict]:
     by_id: dict[str, dict] = {}
     previous_generated_at = None
     previous_ids: set[str] = set()
+    previous_statuses: dict[str, str] = {}
     if OUTPUT.exists():
         try:
             previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
             previous_generated_at = previous.get("generated_at")
             for event in previous.get("calendar", {}).get("formal", {}).get("events", []):
                 previous_ids.add(event.get("id", ""))
+                previous_statuses[event.get("id", "")] = event.get("status", "")
                 if event.get("status") == "reported" or (
                     event.get("status") in {"estimated", "confirmed"} and event.get("date", "") >= date.today().isoformat()
                 ):
@@ -367,11 +369,25 @@ def build() -> tuple[dict, dict]:
     projected = [event for event in events if event["status"] == "projected"]
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     current_ids = {event["id"] for event in reported + projected + estimated + confirmed}
+    current_events = {event["id"]: event for event in reported + projected + estimated + confirmed}
+    status_changes = [
+        {
+            "id": event_id,
+            "ticker": current_events[event_id]["ticker"],
+            "from": previous_status,
+            "to": current_events[event_id]["status"],
+        }
+        for event_id, previous_status in previous_statuses.items()
+        if event_id in current_events and previous_status != current_events[event_id]["status"]
+    ]
+    run_id = os.getenv("GITHUB_RUN_ID", "")
+    repository = os.getenv("GITHUB_REPOSITORY", "zanehuang666/mag7-earnings-radar")
     audit = {
         "previous_generated_at": previous_generated_at,
         "current_generated_at": now,
         "event_ids_added": len(current_ids - previous_ids) if previous_generated_at else 0,
         "event_ids_removed": len(previous_ids - current_ids) if previous_generated_at else 0,
+        "status_changes": status_changes,
         "heartbeat_changed": previous_generated_at != now,
     }
     calendar = {
@@ -397,6 +413,18 @@ def build() -> tuple[dict, dict]:
             "automatic": True,
             "schedule_timezone": "Asia/Shanghai",
             "schedule": ["工作日 09:37", "工作日 21:37", "周末 09:37 心跳验证"],
+            "run": {
+                "trigger": os.getenv("GITHUB_EVENT_NAME", "local"),
+                "run_id": run_id or None,
+                "url": f"https://github.com/{repository}/actions/runs/{run_id}" if run_id else None,
+            },
+            "source_check": {
+                "checked_at": now,
+                "provider": "Nasdaq public earnings endpoints",
+                "successful": not bool(recent_errors + future_errors),
+                "reported_observed": len(recent),
+                "future_observed": len(future),
+            },
             "audit": audit,
         },
         "disclaimer": "Calendar research demo only. Estimated dates may change. Not investment advice.",

@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-04T04:03:42+00:00",
+  "generated_at": "2026-10-04T04:24:12+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -8414,11 +8414,24 @@
       "工作日 21:37",
       "周末 09:37 心跳验证"
     ],
+    "run": {
+      "trigger": "local",
+      "run_id": null,
+      "url": null
+    },
+    "source_check": {
+      "checked_at": "2026-10-04T04:24:12+00:00",
+      "provider": "Nasdaq public earnings endpoints",
+      "successful": true,
+      "reported_observed": 28,
+      "future_observed": 7
+    },
     "audit": {
-      "previous_generated_at": "2026-10-04T03:17:35+00:00",
-      "current_generated_at": "2026-10-04T04:03:42+00:00",
+      "previous_generated_at": "2026-10-03T14:41:32+00:00",
+      "current_generated_at": "2026-10-04T04:24:12+00:00",
       "event_ids_added": 0,
       "event_ids_removed": 0,
+      "status_changes": [],
       "heartbeat_changed": true
     }
   },

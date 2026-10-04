@@ -91,8 +91,11 @@ class Mag7CalendarTest(unittest.TestCase):
         self.assertTrue(sync["automatic"])
         self.assertEqual(sync["schedule_timezone"], "Asia/Shanghai")
         self.assertTrue(any("周末" in item for item in sync["schedule"]))
-        self.assertTrue({"previous_generated_at", "current_generated_at", "heartbeat_changed"}
+        self.assertTrue({"previous_generated_at", "current_generated_at", "heartbeat_changed", "status_changes"}
                         .issubset(sync["audit"]))
+        self.assertTrue({"trigger", "run_id", "url"}.issubset(sync["run"]))
+        self.assertTrue({"checked_at", "provider", "successful", "reported_observed", "future_observed"}
+                        .issubset(sync["source_check"]))
         candidates = json.loads((ROOT / "frontend" / "data" / "us_earnings_candidates.json").read_text(encoding="utf-8"))
         sample = candidates["verification_sample"]
         self.assertEqual(sample["ticker"], "AEHR")
@@ -108,6 +111,10 @@ class Mag7CalendarTest(unittest.TestCase):
         self.assertIn("空心灰＝尚无完整研究", html)
         self.assertIn("mag7-custom-cache", html)
         self.assertIn("checkLatestData", html)
+        self.assertIn("risk-detail-grid{display:none}", html)
+        self.assertIn("真实自动更新证据", html)
+        self.assertIn("独立真实探针", html)
+        self.assertIn("body:has(.mode[data-mode=\"replay\"].active) .layout", html)
         workflow = (ROOT / ".github" / "workflows" / "sync-and-deploy.yml").read_text(encoding="utf-8")
         self.assertIn('37 1 * * 0,6', workflow)
 
