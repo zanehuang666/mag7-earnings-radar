@@ -1,10 +1,11 @@
 {
   "schema_version": 1,
   "version": "2026-10-04_V12",
-  "generated_at": "2026-10-04T07:38:47+00:00",
+  "generated_at": "2026-10-04T11:31:27+00:00",
   "coverage": {
     "from": "2024-01-01",
     "reported_events": 77,
+    "future_previews": 28,
     "tickers": [
       "AAPL",
       "AMZN",
@@ -21002,6 +21003,806 @@
       }
     },
     {
+      "id": "tsla-2026-10-28",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "period": "Sep/2026",
+      "date": "2026-10-28",
+      "sample_role": "全量未来 Preview",
+      "status": "estimated",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Tesla · 2026-10-28 财报前 Preview",
+        "verdict": "当前日期状态：Nasdaq 市场日历预计，等待公司 IR 确认。研究重点为汽车收入、交付量和平均售价、汽车毛利率、降价与成本下降。",
+        "summary": "这是 Tesla 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“Nasdaq 市场日历预计，等待公司 IR 确认”。可获得的 EPS 一致预期为 $0.24，分析师样本为 11。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "Nasdaq 市场日历预计，等待公司 IR 确认",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS $0.24；分析师样本 11",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "汽车收入、交付量和平均售价；汽车毛利率、降价与成本下降",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "Nasdaq 市场日历预计，等待公司 IR 确认",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2026_10_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2026-10-28",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2026_10_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "$0.24",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2026_10_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "11",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2026_10_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Sep/2026",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2026_10_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "time-not-supplied",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2026_10_28"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "汽车收入、交付量和平均售价",
+            "source_ids": [
+              "ir_tsla"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "汽车毛利率、降价与成本下降",
+            "source_ids": [
+              "ir_tsla"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "储能、FSD/Robotaxi 进展与现金流",
+            "source_ids": [
+              "ir_tsla"
+            ]
+          }
+        ],
+        "market_focus": [
+          "汽车收入、交付量和平均售价",
+          "汽车毛利率、降价与成本下降",
+          "储能、FSD/Robotaxi 进展与现金流",
+          "财报发布后核对 TSLA 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_tsla_2026_10_28",
+              "ir_tsla"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_tsla_2026_10_28"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "价格竞争和需求弹性压低汽车利润，同时自动驾驶预期提前计价",
+            "source_ids": [
+              "ir_tsla"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "aapl-2026-10-29",
+      "ticker": "AAPL",
+      "company": "Apple",
+      "period": "Sep/2026",
+      "date": "2026-10-29",
+      "sample_role": "全量未来 Preview",
+      "status": "estimated",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Apple · 2026-10-29 财报前 Preview",
+        "verdict": "当前日期状态：Nasdaq 市场日历预计，等待公司 IR 确认。研究重点为iPhone 收入、产品组合与换机周期、Services 增速和毛利率。",
+        "summary": "这是 Apple 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“Nasdaq 市场日历预计，等待公司 IR 确认”。可获得的 EPS 一致预期为 $1.98，分析师样本为 8。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "Nasdaq 市场日历预计，等待公司 IR 确认",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS $1.98；分析师样本 8",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "iPhone 收入、产品组合与换机周期；Services 增速和毛利率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "Nasdaq 市场日历预计，等待公司 IR 确认",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2026_10_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2026-10-29",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2026_10_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "$1.98",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2026_10_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "8",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2026_10_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Sep/2026",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2026_10_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "time-not-supplied",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2026_10_29"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "iPhone 收入、产品组合与换机周期",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Services 增速和毛利率",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "大中华区需求、渠道库存与资本回报",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          }
+        ],
+        "market_focus": [
+          "iPhone 收入、产品组合与换机周期",
+          "Services 增速和毛利率",
+          "大中华区需求、渠道库存与资本回报",
+          "财报发布后核对 AAPL 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_aapl_2026_10_29",
+              "ir_aapl"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_aapl_2026_10_29"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "硬件周期、区域需求与高利润服务业务的增长错配",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "amzn-2026-10-29",
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "period": "Sep/2026",
+      "date": "2026-10-29",
+      "sample_role": "全量未来 Preview",
+      "status": "estimated",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Amazon · 2026-10-29 财报前 Preview",
+        "verdict": "当前日期状态：Nasdaq 市场日历预计，等待公司 IR 确认。研究重点为AWS 增速、积压订单与 AI 容量、北美及国际零售利润率。",
+        "summary": "这是 Amazon 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“Nasdaq 市场日历预计，等待公司 IR 确认”。可获得的 EPS 一致预期为 $2.02，分析师样本为 13。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "Nasdaq 市场日历预计，等待公司 IR 确认",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS $2.02；分析师样本 13",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "AWS 增速、积压订单与 AI 容量；北美及国际零售利润率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "Nasdaq 市场日历预计，等待公司 IR 确认",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2026_10_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2026-10-29",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2026_10_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "$2.02",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2026_10_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "13",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2026_10_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Sep/2026",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2026_10_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "time-not-supplied",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2026_10_29"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "AWS 增速、积压订单与 AI 容量",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "北美及国际零售利润率",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "CapEx、履约效率与自由现金流",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          }
+        ],
+        "market_focus": [
+          "AWS 增速、积压订单与 AI 容量",
+          "北美及国际零售利润率",
+          "CapEx、履约效率与自由现金流",
+          "财报发布后核对 AMZN 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_amzn_2026_10_29",
+              "ir_amzn"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_amzn_2026_10_29"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "云和物流资本开支上升快于 AWS 与零售利润兑现",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "googl-2026-11-04",
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "period": "Sep/2026",
+      "date": "2026-11-04",
+      "sample_role": "全量未来 Preview",
+      "status": "estimated",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Alphabet · 2026-11-04 财报前 Preview",
+        "verdict": "当前日期状态：Nasdaq 市场日历预计，等待公司 IR 确认。研究重点为Search 广告增长及 AI 对变现的影响、Google Cloud 增速与营业利润率。",
+        "summary": "这是 Alphabet 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“Nasdaq 市场日历预计，等待公司 IR 确认”。可获得的 EPS 一致预期为 $2.95，分析师样本为 13。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "Nasdaq 市场日历预计，等待公司 IR 确认",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS $2.95；分析师样本 13",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "Search 广告增长及 AI 对变现的影响；Google Cloud 增速与营业利润率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "Nasdaq 市场日历预计，等待公司 IR 确认",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2026_11_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2026-11-04",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2026_11_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "$2.95",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2026_11_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "13",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2026_11_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Sep/2026",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2026_11_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "time-not-supplied",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2026_11_04"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "Search 广告增长及 AI 对变现的影响",
+            "source_ids": [
+              "ir_googl"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Google Cloud 增速与营业利润率",
+            "source_ids": [
+              "ir_googl"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "AI CapEx、流量获取成本与监管风险",
+            "source_ids": [
+              "ir_googl"
+            ]
+          }
+        ],
+        "market_focus": [
+          "Search 广告增长及 AI 对变现的影响",
+          "Google Cloud 增速与营业利润率",
+          "AI CapEx、流量获取成本与监管风险",
+          "财报发布后核对 GOOGL 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_googl_2026_11_04",
+              "ir_googl"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_googl_2026_11_04"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "生成式 AI 投入提高成本，同时搜索份额和广告变现承压",
+            "source_ids": [
+              "ir_googl"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "meta-2026-11-04",
+      "ticker": "META",
+      "company": "Meta",
+      "period": "Sep/2026",
+      "date": "2026-11-04",
+      "sample_role": "全量未来 Preview",
+      "status": "estimated",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Meta · 2026-11-04 财报前 Preview",
+        "verdict": "当前日期状态：Nasdaq 市场日历预计，等待公司 IR 确认。研究重点为广告展示量、价格和推荐效率、Family of Apps 用户参与度与利润率。",
+        "summary": "这是 Meta 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“Nasdaq 市场日历预计，等待公司 IR 确认”。可获得的 EPS 一致预期为 $6.39，分析师样本为 12。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "Nasdaq 市场日历预计，等待公司 IR 确认",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS $6.39；分析师样本 12",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "广告展示量、价格和推荐效率；Family of Apps 用户参与度与利润率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "Nasdaq 市场日历预计，等待公司 IR 确认",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2026_11_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2026-11-04",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2026_11_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "$6.39",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2026_11_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "12",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2026_11_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Sep/2026",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2026_11_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "time-not-supplied",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2026_11_04"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "广告展示量、价格和推荐效率",
+            "source_ids": [
+              "ir_meta"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Family of Apps 用户参与度与利润率",
+            "source_ids": [
+              "ir_meta"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "AI CapEx、Reality Labs 亏损和监管",
+            "source_ids": [
+              "ir_meta"
+            ]
+          }
+        ],
+        "market_focus": [
+          "广告展示量、价格和推荐效率",
+          "Family of Apps 用户参与度与利润率",
+          "AI CapEx、Reality Labs 亏损和监管",
+          "财报发布后核对 META 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_meta_2026_11_04",
+              "ir_meta"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_meta_2026_11_04"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "AI 投入和 Reality Labs 支出快于广告效率及新产品收入兑现",
+            "source_ids": [
+              "ir_meta"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
       "ticker": "MSFT",
       "company": "Microsoft",
       "id": "msft-2026-11-04",
@@ -21230,6 +22031,3526 @@
         "mode": "paratera",
         "model": "DeepSeek-V4-Flash",
         "cached": true
+      }
+    },
+    {
+      "id": "nvda-2026-11-18",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "period": "Oct/2026",
+      "date": "2026-11-18",
+      "sample_role": "全量未来 Preview",
+      "status": "estimated",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "NVIDIA · 2026-11-18 财报前 Preview",
+        "verdict": "当前日期状态：Nasdaq 市场日历预计，等待公司 IR 确认。研究重点为Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换。",
+        "summary": "这是 NVIDIA 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“Nasdaq 市场日历预计，等待公司 IR 确认”。可获得的 EPS 一致预期为 $2.47，分析师样本为 13。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "Nasdaq 市场日历预计，等待公司 IR 确认",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS $2.47；分析师样本 13",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "Data Center 增速和大型客户需求；Blackwell 等新品供给、交付与产品切换",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "Nasdaq 市场日历预计，等待公司 IR 确认",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2026_11_18"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2026-11-18",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2026_11_18"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "$2.47",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2026_11_18"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "13",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2026_11_18"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Oct/2026",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2026_11_18"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "time-not-supplied",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2026_11_18"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "Data Center 增速和大型客户需求",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Blackwell 等新品供给、交付与产品切换",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "毛利率、出口限制与客户集中度",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          }
+        ],
+        "market_focus": [
+          "Data Center 增速和大型客户需求",
+          "Blackwell 等新品供给、交付与产品切换",
+          "毛利率、出口限制与客户集中度",
+          "财报发布后核对 NVDA 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_nvda_2026_11_18",
+              "ir_nvda"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_nvda_2026_11_18"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "极高市场预期、产品切换和客户集中放大任何供给或需求偏差",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "meta-2027-01-27",
+      "ticker": "META",
+      "company": "Meta",
+      "period": "Projected quarter +2",
+      "date": "2027-01-27",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Meta · 2027-01-27 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为广告展示量、价格和推荐效率、Family of Apps 用户参与度与利润率。",
+        "summary": "这是 Meta 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "广告展示量、价格和推荐效率；Family of Apps 用户参与度与利润率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2027_01_27"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-01-20 至 2027-02-03",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2027_01_27"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2027_01_27"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2027_01_27"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +2",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2027_01_27"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2027_01_27"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "广告展示量、价格和推荐效率",
+            "source_ids": [
+              "ir_meta"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Family of Apps 用户参与度与利润率",
+            "source_ids": [
+              "ir_meta"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "AI CapEx、Reality Labs 亏损和监管",
+            "source_ids": [
+              "ir_meta"
+            ]
+          }
+        ],
+        "market_focus": [
+          "广告展示量、价格和推荐效率",
+          "Family of Apps 用户参与度与利润率",
+          "AI CapEx、Reality Labs 亏损和监管",
+          "财报发布后核对 META 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_meta_2027_01_27",
+              "ir_meta"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_meta_2027_01_27"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "AI 投入和 Reality Labs 支出快于广告效率及新产品收入兑现",
+            "source_ids": [
+              "ir_meta"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "msft-2027-01-27",
+      "ticker": "MSFT",
+      "company": "Microsoft",
+      "period": "Projected quarter +2",
+      "date": "2027-01-27",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Microsoft · 2027-01-27 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Azure 增速与 AI 工作负载构成、Microsoft Cloud 毛利率与资本开支。",
+        "summary": "这是 Microsoft 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "Azure 增速与 AI 工作负载构成；Microsoft Cloud 毛利率与资本开支",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_msft_2027_01_27"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-01-20 至 2027-02-03",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_msft_2027_01_27"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_msft_2027_01_27"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_msft_2027_01_27"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +2",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_msft_2027_01_27"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_msft_2027_01_27"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "Azure 增速与 AI 工作负载构成",
+            "source_ids": [
+              "ir_msft"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Microsoft Cloud 毛利率与资本开支",
+            "source_ids": [
+              "ir_msft"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "Copilot 商业化、RPO 质量与现金转化",
+            "source_ids": [
+              "ir_msft"
+            ]
+          }
+        ],
+        "market_focus": [
+          "Azure 增速与 AI 工作负载构成",
+          "Microsoft Cloud 毛利率与资本开支",
+          "Copilot 商业化、RPO 质量与现金转化",
+          "财报发布后核对 MSFT 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_msft_2027_01_27",
+              "ir_msft"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_msft_2027_01_27"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "AI 基础设施投入先于收入和现金回报兑现",
+            "source_ids": [
+              "ir_msft"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "tsla-2027-01-27",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "period": "Projected quarter +2",
+      "date": "2027-01-27",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Tesla · 2027-01-27 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为汽车收入、交付量和平均售价、汽车毛利率、降价与成本下降。",
+        "summary": "这是 Tesla 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "汽车收入、交付量和平均售价；汽车毛利率、降价与成本下降",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2027_01_27"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-01-20 至 2027-02-03",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2027_01_27"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2027_01_27"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2027_01_27"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +2",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2027_01_27"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2027_01_27"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "汽车收入、交付量和平均售价",
+            "source_ids": [
+              "ir_tsla"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "汽车毛利率、降价与成本下降",
+            "source_ids": [
+              "ir_tsla"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "储能、FSD/Robotaxi 进展与现金流",
+            "source_ids": [
+              "ir_tsla"
+            ]
+          }
+        ],
+        "market_focus": [
+          "汽车收入、交付量和平均售价",
+          "汽车毛利率、降价与成本下降",
+          "储能、FSD/Robotaxi 进展与现金流",
+          "财报发布后核对 TSLA 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_tsla_2027_01_27",
+              "ir_tsla"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_tsla_2027_01_27"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "价格竞争和需求弹性压低汽车利润，同时自动驾驶预期提前计价",
+            "source_ids": [
+              "ir_tsla"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "aapl-2027-01-28",
+      "ticker": "AAPL",
+      "company": "Apple",
+      "period": "Projected quarter +2",
+      "date": "2027-01-28",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Apple · 2027-01-28 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为iPhone 收入、产品组合与换机周期、Services 增速和毛利率。",
+        "summary": "这是 Apple 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "iPhone 收入、产品组合与换机周期；Services 增速和毛利率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2027_01_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-01-21 至 2027-02-04",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2027_01_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2027_01_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2027_01_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +2",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2027_01_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2027_01_28"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "iPhone 收入、产品组合与换机周期",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Services 增速和毛利率",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "大中华区需求、渠道库存与资本回报",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          }
+        ],
+        "market_focus": [
+          "iPhone 收入、产品组合与换机周期",
+          "Services 增速和毛利率",
+          "大中华区需求、渠道库存与资本回报",
+          "财报发布后核对 AAPL 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_aapl_2027_01_28",
+              "ir_aapl"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_aapl_2027_01_28"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "硬件周期、区域需求与高利润服务业务的增长错配",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "googl-2027-02-03",
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "period": "Projected quarter +2",
+      "date": "2027-02-03",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Alphabet · 2027-02-03 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Search 广告增长及 AI 对变现的影响、Google Cloud 增速与营业利润率。",
+        "summary": "这是 Alphabet 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "Search 广告增长及 AI 对变现的影响；Google Cloud 增速与营业利润率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2027_02_03"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-01-27 至 2027-02-10",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2027_02_03"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2027_02_03"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2027_02_03"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +2",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2027_02_03"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2027_02_03"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "Search 广告增长及 AI 对变现的影响",
+            "source_ids": [
+              "ir_googl"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Google Cloud 增速与营业利润率",
+            "source_ids": [
+              "ir_googl"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "AI CapEx、流量获取成本与监管风险",
+            "source_ids": [
+              "ir_googl"
+            ]
+          }
+        ],
+        "market_focus": [
+          "Search 广告增长及 AI 对变现的影响",
+          "Google Cloud 增速与营业利润率",
+          "AI CapEx、流量获取成本与监管风险",
+          "财报发布后核对 GOOGL 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_googl_2027_02_03",
+              "ir_googl"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_googl_2027_02_03"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "生成式 AI 投入提高成本，同时搜索份额和广告变现承压",
+            "source_ids": [
+              "ir_googl"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "amzn-2027-02-04",
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "period": "Projected quarter +2",
+      "date": "2027-02-04",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Amazon · 2027-02-04 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为AWS 增速、积压订单与 AI 容量、北美及国际零售利润率。",
+        "summary": "这是 Amazon 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "AWS 增速、积压订单与 AI 容量；北美及国际零售利润率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2027_02_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-01-28 至 2027-02-11",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2027_02_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2027_02_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2027_02_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +2",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2027_02_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2027_02_04"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "AWS 增速、积压订单与 AI 容量",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "北美及国际零售利润率",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "CapEx、履约效率与自由现金流",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          }
+        ],
+        "market_focus": [
+          "AWS 增速、积压订单与 AI 容量",
+          "北美及国际零售利润率",
+          "CapEx、履约效率与自由现金流",
+          "财报发布后核对 AMZN 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_amzn_2027_02_04",
+              "ir_amzn"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_amzn_2027_02_04"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "云和物流资本开支上升快于 AWS 与零售利润兑现",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "nvda-2027-02-24",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "period": "Projected quarter +2",
+      "date": "2027-02-24",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "NVIDIA · 2027-02-24 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换。",
+        "summary": "这是 NVIDIA 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "Data Center 增速和大型客户需求；Blackwell 等新品供给、交付与产品切换",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_02_24"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-02-17 至 2027-03-03",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_02_24"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_02_24"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_02_24"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +2",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_02_24"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_02_24"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "Data Center 增速和大型客户需求",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Blackwell 等新品供给、交付与产品切换",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "毛利率、出口限制与客户集中度",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          }
+        ],
+        "market_focus": [
+          "Data Center 增速和大型客户需求",
+          "Blackwell 等新品供给、交付与产品切换",
+          "毛利率、出口限制与客户集中度",
+          "财报发布后核对 NVDA 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_nvda_2027_02_24",
+              "ir_nvda"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_nvda_2027_02_24"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "极高市场预期、产品切换和客户集中放大任何供给或需求偏差",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "tsla-2027-04-21",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "period": "Projected quarter +3",
+      "date": "2027-04-21",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Tesla · 2027-04-21 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为汽车收入、交付量和平均售价、汽车毛利率、降价与成本下降。",
+        "summary": "这是 Tesla 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "汽车收入、交付量和平均售价；汽车毛利率、降价与成本下降",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2027_04_21"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-04-14 至 2027-04-28",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2027_04_21"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2027_04_21"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2027_04_21"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +3",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2027_04_21"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2027_04_21"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "汽车收入、交付量和平均售价",
+            "source_ids": [
+              "ir_tsla"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "汽车毛利率、降价与成本下降",
+            "source_ids": [
+              "ir_tsla"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "储能、FSD/Robotaxi 进展与现金流",
+            "source_ids": [
+              "ir_tsla"
+            ]
+          }
+        ],
+        "market_focus": [
+          "汽车收入、交付量和平均售价",
+          "汽车毛利率、降价与成本下降",
+          "储能、FSD/Robotaxi 进展与现金流",
+          "财报发布后核对 TSLA 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_tsla_2027_04_21",
+              "ir_tsla"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_tsla_2027_04_21"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "价格竞争和需求弹性压低汽车利润，同时自动驾驶预期提前计价",
+            "source_ids": [
+              "ir_tsla"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "amzn-2027-04-28",
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "period": "Projected quarter +3",
+      "date": "2027-04-28",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Amazon · 2027-04-28 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为AWS 增速、积压订单与 AI 容量、北美及国际零售利润率。",
+        "summary": "这是 Amazon 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "AWS 增速、积压订单与 AI 容量；北美及国际零售利润率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-04-21 至 2027-05-05",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +3",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2027_04_28"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "AWS 增速、积压订单与 AI 容量",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "北美及国际零售利润率",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "CapEx、履约效率与自由现金流",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          }
+        ],
+        "market_focus": [
+          "AWS 增速、积压订单与 AI 容量",
+          "北美及国际零售利润率",
+          "CapEx、履约效率与自由现金流",
+          "财报发布后核对 AMZN 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_amzn_2027_04_28",
+              "ir_amzn"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_amzn_2027_04_28"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "云和物流资本开支上升快于 AWS 与零售利润兑现",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "googl-2027-04-28",
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "period": "Projected quarter +3",
+      "date": "2027-04-28",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Alphabet · 2027-04-28 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Search 广告增长及 AI 对变现的影响、Google Cloud 增速与营业利润率。",
+        "summary": "这是 Alphabet 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "Search 广告增长及 AI 对变现的影响；Google Cloud 增速与营业利润率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-04-21 至 2027-05-05",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +3",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2027_04_28"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "Search 广告增长及 AI 对变现的影响",
+            "source_ids": [
+              "ir_googl"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Google Cloud 增速与营业利润率",
+            "source_ids": [
+              "ir_googl"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "AI CapEx、流量获取成本与监管风险",
+            "source_ids": [
+              "ir_googl"
+            ]
+          }
+        ],
+        "market_focus": [
+          "Search 广告增长及 AI 对变现的影响",
+          "Google Cloud 增速与营业利润率",
+          "AI CapEx、流量获取成本与监管风险",
+          "财报发布后核对 GOOGL 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_googl_2027_04_28",
+              "ir_googl"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_googl_2027_04_28"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "生成式 AI 投入提高成本，同时搜索份额和广告变现承压",
+            "source_ids": [
+              "ir_googl"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "meta-2027-04-28",
+      "ticker": "META",
+      "company": "Meta",
+      "period": "Projected quarter +3",
+      "date": "2027-04-28",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Meta · 2027-04-28 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为广告展示量、价格和推荐效率、Family of Apps 用户参与度与利润率。",
+        "summary": "这是 Meta 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "广告展示量、价格和推荐效率；Family of Apps 用户参与度与利润率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-04-21 至 2027-05-05",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +3",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2027_04_28"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "广告展示量、价格和推荐效率",
+            "source_ids": [
+              "ir_meta"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Family of Apps 用户参与度与利润率",
+            "source_ids": [
+              "ir_meta"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "AI CapEx、Reality Labs 亏损和监管",
+            "source_ids": [
+              "ir_meta"
+            ]
+          }
+        ],
+        "market_focus": [
+          "广告展示量、价格和推荐效率",
+          "Family of Apps 用户参与度与利润率",
+          "AI CapEx、Reality Labs 亏损和监管",
+          "财报发布后核对 META 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_meta_2027_04_28",
+              "ir_meta"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_meta_2027_04_28"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "AI 投入和 Reality Labs 支出快于广告效率及新产品收入兑现",
+            "source_ids": [
+              "ir_meta"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "msft-2027-04-28",
+      "ticker": "MSFT",
+      "company": "Microsoft",
+      "period": "Projected quarter +3",
+      "date": "2027-04-28",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Microsoft · 2027-04-28 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Azure 增速与 AI 工作负载构成、Microsoft Cloud 毛利率与资本开支。",
+        "summary": "这是 Microsoft 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "Azure 增速与 AI 工作负载构成；Microsoft Cloud 毛利率与资本开支",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_msft_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-04-21 至 2027-05-05",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_msft_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_msft_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_msft_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +3",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_msft_2027_04_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_msft_2027_04_28"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "Azure 增速与 AI 工作负载构成",
+            "source_ids": [
+              "ir_msft"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Microsoft Cloud 毛利率与资本开支",
+            "source_ids": [
+              "ir_msft"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "Copilot 商业化、RPO 质量与现金转化",
+            "source_ids": [
+              "ir_msft"
+            ]
+          }
+        ],
+        "market_focus": [
+          "Azure 增速与 AI 工作负载构成",
+          "Microsoft Cloud 毛利率与资本开支",
+          "Copilot 商业化、RPO 质量与现金转化",
+          "财报发布后核对 MSFT 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_msft_2027_04_28",
+              "ir_msft"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_msft_2027_04_28"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "AI 基础设施投入先于收入和现金回报兑现",
+            "source_ids": [
+              "ir_msft"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "aapl-2027-04-29",
+      "ticker": "AAPL",
+      "company": "Apple",
+      "period": "Projected quarter +3",
+      "date": "2027-04-29",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Apple · 2027-04-29 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为iPhone 收入、产品组合与换机周期、Services 增速和毛利率。",
+        "summary": "这是 Apple 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "iPhone 收入、产品组合与换机周期；Services 增速和毛利率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2027_04_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-04-22 至 2027-05-06",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2027_04_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2027_04_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2027_04_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +3",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2027_04_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2027_04_29"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "iPhone 收入、产品组合与换机周期",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Services 增速和毛利率",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "大中华区需求、渠道库存与资本回报",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          }
+        ],
+        "market_focus": [
+          "iPhone 收入、产品组合与换机周期",
+          "Services 增速和毛利率",
+          "大中华区需求、渠道库存与资本回报",
+          "财报发布后核对 AAPL 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_aapl_2027_04_29",
+              "ir_aapl"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_aapl_2027_04_29"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "硬件周期、区域需求与高利润服务业务的增长错配",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "nvda-2027-05-19",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "period": "Projected quarter +3",
+      "date": "2027-05-19",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "NVIDIA · 2027-05-19 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换。",
+        "summary": "这是 NVIDIA 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "Data Center 增速和大型客户需求；Blackwell 等新品供给、交付与产品切换",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_05_19"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-05-12 至 2027-05-26",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_05_19"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_05_19"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_05_19"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +3",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_05_19"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_05_19"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "Data Center 增速和大型客户需求",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Blackwell 等新品供给、交付与产品切换",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "毛利率、出口限制与客户集中度",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          }
+        ],
+        "market_focus": [
+          "Data Center 增速和大型客户需求",
+          "Blackwell 等新品供给、交付与产品切换",
+          "毛利率、出口限制与客户集中度",
+          "财报发布后核对 NVDA 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_nvda_2027_05_19",
+              "ir_nvda"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_nvda_2027_05_19"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "极高市场预期、产品切换和客户集中放大任何供给或需求偏差",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "googl-2027-07-21",
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "period": "Projected quarter +4",
+      "date": "2027-07-21",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Alphabet · 2027-07-21 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Search 广告增长及 AI 对变现的影响、Google Cloud 增速与营业利润率。",
+        "summary": "这是 Alphabet 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "Search 广告增长及 AI 对变现的影响；Google Cloud 增速与营业利润率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2027_07_21"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-07-14 至 2027-07-28",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2027_07_21"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2027_07_21"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2027_07_21"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +4",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2027_07_21"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_googl_2027_07_21"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "Search 广告增长及 AI 对变现的影响",
+            "source_ids": [
+              "ir_googl"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Google Cloud 增速与营业利润率",
+            "source_ids": [
+              "ir_googl"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "AI CapEx、流量获取成本与监管风险",
+            "source_ids": [
+              "ir_googl"
+            ]
+          }
+        ],
+        "market_focus": [
+          "Search 广告增长及 AI 对变现的影响",
+          "Google Cloud 增速与营业利润率",
+          "AI CapEx、流量获取成本与监管风险",
+          "财报发布后核对 GOOGL 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_googl_2027_07_21",
+              "ir_googl"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_googl_2027_07_21"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "生成式 AI 投入提高成本，同时搜索份额和广告变现承压",
+            "source_ids": [
+              "ir_googl"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "tsla-2027-07-21",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "period": "Projected quarter +4",
+      "date": "2027-07-21",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Tesla · 2027-07-21 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为汽车收入、交付量和平均售价、汽车毛利率、降价与成本下降。",
+        "summary": "这是 Tesla 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "汽车收入、交付量和平均售价；汽车毛利率、降价与成本下降",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2027_07_21"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-07-14 至 2027-07-28",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2027_07_21"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2027_07_21"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2027_07_21"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +4",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2027_07_21"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_tsla_2027_07_21"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "汽车收入、交付量和平均售价",
+            "source_ids": [
+              "ir_tsla"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "汽车毛利率、降价与成本下降",
+            "source_ids": [
+              "ir_tsla"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "储能、FSD/Robotaxi 进展与现金流",
+            "source_ids": [
+              "ir_tsla"
+            ]
+          }
+        ],
+        "market_focus": [
+          "汽车收入、交付量和平均售价",
+          "汽车毛利率、降价与成本下降",
+          "储能、FSD/Robotaxi 进展与现金流",
+          "财报发布后核对 TSLA 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_tsla_2027_07_21",
+              "ir_tsla"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_tsla_2027_07_21"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "价格竞争和需求弹性压低汽车利润，同时自动驾驶预期提前计价",
+            "source_ids": [
+              "ir_tsla"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "meta-2027-07-28",
+      "ticker": "META",
+      "company": "Meta",
+      "period": "Projected quarter +4",
+      "date": "2027-07-28",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Meta · 2027-07-28 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为广告展示量、价格和推荐效率、Family of Apps 用户参与度与利润率。",
+        "summary": "这是 Meta 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "广告展示量、价格和推荐效率；Family of Apps 用户参与度与利润率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2027_07_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-07-21 至 2027-08-04",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2027_07_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2027_07_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2027_07_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +4",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2027_07_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2027_07_28"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "广告展示量、价格和推荐效率",
+            "source_ids": [
+              "ir_meta"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Family of Apps 用户参与度与利润率",
+            "source_ids": [
+              "ir_meta"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "AI CapEx、Reality Labs 亏损和监管",
+            "source_ids": [
+              "ir_meta"
+            ]
+          }
+        ],
+        "market_focus": [
+          "广告展示量、价格和推荐效率",
+          "Family of Apps 用户参与度与利润率",
+          "AI CapEx、Reality Labs 亏损和监管",
+          "财报发布后核对 META 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_meta_2027_07_28",
+              "ir_meta"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_meta_2027_07_28"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "AI 投入和 Reality Labs 支出快于广告效率及新产品收入兑现",
+            "source_ids": [
+              "ir_meta"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "msft-2027-07-28",
+      "ticker": "MSFT",
+      "company": "Microsoft",
+      "period": "Projected quarter +4",
+      "date": "2027-07-28",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Microsoft · 2027-07-28 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Azure 增速与 AI 工作负载构成、Microsoft Cloud 毛利率与资本开支。",
+        "summary": "这是 Microsoft 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "Azure 增速与 AI 工作负载构成；Microsoft Cloud 毛利率与资本开支",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_msft_2027_07_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-07-21 至 2027-08-04",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_msft_2027_07_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_msft_2027_07_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_msft_2027_07_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +4",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_msft_2027_07_28"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_msft_2027_07_28"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "Azure 增速与 AI 工作负载构成",
+            "source_ids": [
+              "ir_msft"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Microsoft Cloud 毛利率与资本开支",
+            "source_ids": [
+              "ir_msft"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "Copilot 商业化、RPO 质量与现金转化",
+            "source_ids": [
+              "ir_msft"
+            ]
+          }
+        ],
+        "market_focus": [
+          "Azure 增速与 AI 工作负载构成",
+          "Microsoft Cloud 毛利率与资本开支",
+          "Copilot 商业化、RPO 质量与现金转化",
+          "财报发布后核对 MSFT 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_msft_2027_07_28",
+              "ir_msft"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_msft_2027_07_28"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "AI 基础设施投入先于收入和现金回报兑现",
+            "source_ids": [
+              "ir_msft"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "aapl-2027-07-29",
+      "ticker": "AAPL",
+      "company": "Apple",
+      "period": "Projected quarter +4",
+      "date": "2027-07-29",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Apple · 2027-07-29 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为iPhone 收入、产品组合与换机周期、Services 增速和毛利率。",
+        "summary": "这是 Apple 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "iPhone 收入、产品组合与换机周期；Services 增速和毛利率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2027_07_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-07-22 至 2027-08-05",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2027_07_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2027_07_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2027_07_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +4",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2027_07_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2027_07_29"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "iPhone 收入、产品组合与换机周期",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Services 增速和毛利率",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "大中华区需求、渠道库存与资本回报",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          }
+        ],
+        "market_focus": [
+          "iPhone 收入、产品组合与换机周期",
+          "Services 增速和毛利率",
+          "大中华区需求、渠道库存与资本回报",
+          "财报发布后核对 AAPL 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_aapl_2027_07_29",
+              "ir_aapl"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_aapl_2027_07_29"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "硬件周期、区域需求与高利润服务业务的增长错配",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "amzn-2027-07-29",
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "period": "Projected quarter +4",
+      "date": "2027-07-29",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Amazon · 2027-07-29 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为AWS 增速、积压订单与 AI 容量、北美及国际零售利润率。",
+        "summary": "这是 Amazon 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "AWS 增速、积压订单与 AI 容量；北美及国际零售利润率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2027_07_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-07-22 至 2027-08-05",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2027_07_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2027_07_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2027_07_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +4",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2027_07_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2027_07_29"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "AWS 增速、积压订单与 AI 容量",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "北美及国际零售利润率",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "CapEx、履约效率与自由现金流",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          }
+        ],
+        "market_focus": [
+          "AWS 增速、积压订单与 AI 容量",
+          "北美及国际零售利润率",
+          "CapEx、履约效率与自由现金流",
+          "财报发布后核对 AMZN 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_amzn_2027_07_29",
+              "ir_amzn"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_amzn_2027_07_29"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "云和物流资本开支上升快于 AWS 与零售利润兑现",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "nvda-2027-08-25",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "period": "Projected quarter +4",
+      "date": "2027-08-25",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-10-04T11:31:27+00:00 · 自动日历快照",
+      "preview": {
+        "title": "NVIDIA · 2027-08-25 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换。",
+        "summary": "这是 NVIDIA 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "Data Center 增速和大型客户需求；Blackwell 等新品供给、交付与产品切换",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_08_25"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-08-18 至 2027-09-01",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_08_25"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_08_25"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_08_25"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +4",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_08_25"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_08_25"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "Data Center 增速和大型客户需求",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Blackwell 等新品供给、交付与产品切换",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "毛利率、出口限制与客户集中度",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          }
+        ],
+        "market_focus": [
+          "Data Center 增速和大型客户需求",
+          "Blackwell 等新品供给、交付与产品切换",
+          "毛利率、出口限制与客户集中度",
+          "财报发布后核对 NVDA 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_nvda_2027_08_25",
+              "ir_nvda"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_nvda_2027_08_25"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "极高市场预期、产品切换和客户集中放大任何供给或需求偏差",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
       }
     }
   ],
@@ -21613,6 +25934,146 @@
       "label": "Nasdaq earnings calendar · 2026-08-26",
       "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-08-26",
       "type": "consensus_and_actual"
+    },
+    "calendar_tsla_2026_10_28": {
+      "label": "Nasdaq earnings calendar",
+      "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-28",
+      "type": "calendar"
+    },
+    "calendar_aapl_2026_10_29": {
+      "label": "Nasdaq earnings calendar",
+      "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-29",
+      "type": "calendar"
+    },
+    "calendar_amzn_2026_10_29": {
+      "label": "Nasdaq earnings calendar",
+      "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-29",
+      "type": "calendar"
+    },
+    "calendar_googl_2026_11_04": {
+      "label": "Nasdaq earnings calendar",
+      "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-04",
+      "type": "calendar"
+    },
+    "calendar_meta_2026_11_04": {
+      "label": "Nasdaq earnings calendar",
+      "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-04",
+      "type": "calendar"
+    },
+    "calendar_msft_2026_11_04": {
+      "label": "Nasdaq earnings calendar",
+      "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-04",
+      "type": "calendar"
+    },
+    "calendar_nvda_2026_11_18": {
+      "label": "Nasdaq earnings calendar",
+      "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-18",
+      "type": "calendar"
+    },
+    "calendar_meta_2027_01_27": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_msft_2027_01_27": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_tsla_2027_01_27": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_aapl_2027_01_28": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_googl_2027_02_03": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_amzn_2027_02_04": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_nvda_2027_02_24": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_tsla_2027_04_21": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_amzn_2027_04_28": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_googl_2027_04_28": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_meta_2027_04_28": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_msft_2027_04_28": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_aapl_2027_04_29": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_nvda_2027_05_19": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_googl_2027_07_21": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_tsla_2027_07_21": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_meta_2027_07_28": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_msft_2027_07_28": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_aapl_2027_07_29": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_amzn_2027_07_29": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
+    },
+    "calendar_nvda_2027_08_25": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
     }
   },
   "generation": {

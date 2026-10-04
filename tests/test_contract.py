@@ -171,6 +171,7 @@ class Mag7ResearchTest(unittest.TestCase):
     def setUpClass(cls):
         cls.data = json.loads((ROOT / "frontend" / "data" / "mag7_research.json").read_text(encoding="utf-8"))
         cls.reported = [event for event in cls.data["events"] if event["status"] == "reported"]
+        cls.future = [event for event in cls.data["events"] if event["status"] != "reported"]
 
     def test_all_reported_mag7_events_have_research(self):
         self.assertEqual(self.data["coverage"]["reported_events"], 77)
@@ -210,6 +211,25 @@ class Mag7ResearchTest(unittest.TestCase):
         self.assertIn("sync_mag7_research.py", workflow)
         html = (ROOT / "frontend" / "calendar.html").read_text(encoding="utf-8")
         self.assertIn("mag7_research.json", html)
+
+    def test_all_future_mag7_events_have_detailed_preview(self):
+        self.assertEqual(self.data["coverage"]["future_previews"], 28)
+        self.assertEqual(len(self.future), 28)
+        self.assertEqual({event["ticker"] for event in self.future},
+                         {"AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA"})
+        for event in self.future:
+            self.assertIsNotNone(event["preview"])
+            self.assertIsNone(event["analysis"])
+            self.assertGreaterEqual(len(event["preview"]["metrics"]), 6)
+            self.assertGreaterEqual(len(event["preview"]["observations"]), 3)
+            self.assertGreaterEqual(len(event["preview"]["risks"]), 3)
+
+    def test_next_aapl_preview_uses_structured_research(self):
+        event = next(item for item in self.future if item["ticker"] == "AAPL" and item["status"] == "estimated")
+        self.assertEqual(event["sample_role"], "全量未来 Preview")
+        self.assertIn("EPS consensus", {metric["name"] for metric in event["preview"]["metrics"]})
+        self.assertTrue(all(set(metric["source_ids"]).issubset(self.data["sources"])
+                            for metric in event["preview"]["metrics"]))
 
 
 class MicrosoftResearchTest(unittest.TestCase):

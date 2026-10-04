@@ -188,6 +188,75 @@ def risk_items(ticker: str, source_ids: list[str]) -> list[dict]:
     ]
 
 
+def build_future_record(event: dict) -> dict:
+    """Build a source-linked Preview for every future Mag 7 event.
+
+    Estimated dates may carry a live Nasdaq EPS consensus. Projected dates are
+    deliberately limited to a cadence range and never inherit a made-up EPS.
+    """
+    ticker, event_date = event["ticker"], event["date"]
+    profile = PROFILES[ticker]
+    forecast = event.get("forecast") or {}
+    status = event.get("status", "projected")
+    source_id = f"calendar_{ticker.lower()}_{event_date.replace('-', '_')}"
+    ir_id = f"ir_{ticker.lower()}"
+    eps = forecast.get("eps") or "不可得"
+    analysts = forecast.get("analyst_count") or "未披露"
+    session = forecast.get("session") or "发布时间未提供"
+    date_range = event.get("date_range") or {}
+    if status == "confirmed":
+        confidence = "公司 IR 已正式确认"
+        date_note = event_date
+    elif status == "estimated":
+        confidence = "Nasdaq 市场日历预计，等待公司 IR 确认"
+        date_note = event_date
+    else:
+        confidence = "依据历史披露节奏推算，属于低置信度日期区间"
+        date_note = f"{date_range.get('from', event_date)} 至 {date_range.get('to', event_date)}"
+        eps = "不可得（推算日期不生成 EPS 预期）"
+        analysts = "不适用"
+    preview = {
+        "title": f"{profile['company']} · {event_date} 财报前 Preview",
+        "verdict": f"当前日期状态：{confidence}。研究重点为{profile['focus'][0]}、{profile['focus'][1]}。",
+        "summary": f"这是 {profile['company']} 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“{confidence}”。可获得的 EPS 一致预期为 {eps}，分析师样本为 {analysts}。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+            {"title": "日期可信度", "text": confidence, "tone": "neutral"},
+            {"title": "当前量化锚点", "text": f"EPS {eps}；分析师样本 {analysts}", "tone": "neutral"},
+            {"title": "首要验证项", "text": f"{profile['focus'][0]}；{profile['focus'][1]}", "tone": "mixed"},
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+            {"name": "日期状态", "expectation": confidence, "actual": None, "delta": None, "assessment": None, "source_ids": [source_id], "tone": "neutral"},
+            {"name": "日期 / 区间", "expectation": date_note, "actual": None, "delta": None, "assessment": None, "source_ids": [source_id], "tone": "neutral"},
+            {"name": "EPS consensus", "expectation": str(eps), "actual": None, "delta": None, "assessment": None, "source_ids": [source_id], "tone": "neutral"},
+            {"name": "Analyst sample", "expectation": str(analysts), "actual": None, "delta": None, "assessment": None, "source_ids": [source_id], "tone": "neutral"},
+            {"name": "Fiscal period", "expectation": event.get("fiscal_period") or "未披露", "actual": None, "delta": None, "assessment": None, "source_ids": [source_id], "tone": "neutral"},
+            {"name": "Release session", "expectation": session, "actual": None, "delta": None, "assessment": None, "source_ids": [source_id], "tone": "neutral"},
+        ],
+        "observations": [
+            {"title": f"核心观察 {index + 1}", "text": text, "source_ids": [ir_id]}
+            for index, text in enumerate(profile["focus"])
+        ],
+        "market_focus": [
+            *profile["focus"],
+            f"财报发布后核对 {ticker} 相对 QQQ 的 1 日与 5 日表现",
+        ],
+        "risks": [
+            {"title": "日期风险", "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。", "source_ids": [source_id, ir_id]},
+            {"title": "预期口径", "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。", "source_ids": [source_id]},
+            {"title": "公司特定风险", "text": profile["risk"], "source_ids": [ir_id]},
+        ],
+    }
+    return {
+        "id": event["id"], "ticker": ticker, "company": profile["company"],
+        "period": event.get("fiscal_period"), "date": event_date,
+        "sample_role": "全量未来 Preview", "status": status,
+        "information_cutoff": f"{now_iso()} · 自动日历快照",
+        "preview": preview, "analysis": None,
+        "generation": {"mode": "deterministic_future_preview", "model": None, "cached": False},
+    }
+
+
 def build_record(event: dict, row: dict | None, market: dict) -> dict:
     ticker, event_date = event["ticker"], event["date"]
     profile = PROFILES[ticker]
@@ -268,6 +337,7 @@ def build() -> dict:
     previous = load(OUTPUT, {"events": [], "sources": {}})
     force = os.getenv("MAG7_RESEARCH_FORCE", "").lower() == "true"
     reported = [event for event in calendar.get("calendar", {}).get("formal", {}).get("events", []) if event.get("status") == "reported" and event.get("ticker") in PROFILES and event.get("date") >= "2024-01-01"]
+    future = [event for event in calendar.get("calendar", {}).get("formal", {}).get("events", []) if event.get("status") != "reported" and event.get("ticker") in PROFILES]
     existing = {} if force else {event["id"]: event for event in previous.get("events", []) if event.get("sample_role") == "全量历史确定性研究"}
     deep = {
         event["id"]: {"ticker": "MSFT", "company": "Microsoft", **event}
@@ -325,15 +395,27 @@ def build() -> dict:
     for event in deep.values():
         if event["id"] not in {item["id"] for item in generated}:
             generated.append(event)
+    generated_ids = {item["id"] for item in generated}
+    for event in sorted(future, key=lambda item: (item["date"], item["ticker"])):
+        if event["id"] not in generated_ids:
+            generated.append(build_future_record(event))
+            generated_ids.add(event["id"])
     sources = dict(msft.get("sources", {}))
     for event in reported:
         ticker, day = event["ticker"], event["date"]
         sources.setdefault(f"nasdaq_{day.replace('-', '_')}", {"label": f"Nasdaq earnings calendar · {day}", "url": f"{NASDAQ}/calendar/earnings?date={day}", "type": "consensus_and_actual"})
         sources.setdefault(f"ir_{ticker.lower()}", {"label": f"{PROFILES[ticker]['company']} Investor Relations", "url": PROFILES[ticker]["ir"], "type": "company_ir"})
         sources.setdefault(f"market_{ticker.lower()}", {"label": f"{ticker} / QQQ price history", "url": f"https://finance.yahoo.com/quote/{ticker}/history/", "type": "market_data"})
+    for event in future:
+        ticker, day = event["ticker"], event["date"]
+        sources.setdefault(
+            f"calendar_{ticker.lower()}_{day.replace('-', '_')}",
+            {"label": event["source"]["label"], "url": event["source"]["url"], "type": "calendar"},
+        )
+        sources.setdefault(f"ir_{ticker.lower()}", {"label": f"{PROFILES[ticker]['company']} Investor Relations", "url": PROFILES[ticker]["ir"], "type": "company_ir"})
     return {
         "schema_version": 1, "version": "2026-10-04_V12", "generated_at": now_iso(),
-        "coverage": {"from": "2024-01-01", "reported_events": len(reported), "tickers": sorted(PROFILES)},
+        "coverage": {"from": "2024-01-01", "reported_events": len(reported), "future_previews": len(future), "tickers": sorted(PROFILES)},
         "events": sorted(generated, key=lambda item: (item["date"], item["ticker"])), "sources": sources,
         "generation": {"mode": "deterministic_incremental_cache", "llm_calls": 0, "new_records": len(missing), "preserved_records": preserved, "errors": errors},
         "methodology": "EPS actual/consensus from Nasdaq historical daily calendar; 1D/5D relative reaction from cached market series; company-specific lenses from deterministic profiles; verified Microsoft deep dives override baseline.",
