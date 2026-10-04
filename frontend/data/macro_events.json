@@ -1,35 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T14:41:33+00:00",
+  "generated_at": "2026-10-04T03:17:36+00:00",
   "events": [
-    {
-      "id": "macro-nfp-2026-04-03",
-      "type": "macro",
-      "code": "NFP",
-      "name": "美国非农就业",
-      "category": "labor",
-      "date": "2026-04-03",
-      "scheduled_at": "2026-04-03T12:30:00.000Z",
-      "period": "March 2026",
-      "actual": 214.0,
-      "actual_display": "214K",
-      "previous": -156.0,
-      "previous_display": "-156K",
-      "forecast": null,
-      "forecast_display": "免费官方链路不提供市场一致预期",
-      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
-      "unit": "thousands, monthly change",
-      "headline": "就业增长较前值增强",
-      "commentary": "劳动力需求改善支持经济软着陆，但也可能降低短期降息必要性并推高利率预期。",
-      "source": {
-        "label": "官方数据聚合 / XOOMAR",
-        "url": "https://xoomar.com/markets/api/calendar"
-      },
-      "official_source": {
-        "label": "bls",
-        "url": "https://www.bls.gov/ces/"
-      }
-    },
     {
       "id": "macro-cpi-2026-04-10",
       "type": "macro",
