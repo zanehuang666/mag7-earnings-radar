@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-04T11:32:32+00:00",
+  "generated_at": "2026-10-04T13:35:03+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -8416,19 +8416,19 @@
     ],
     "run": {
       "trigger": "push",
-      "run_id": "37199077815",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/37199077815"
+      "run_id": "37206124576",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/37206124576"
     },
     "source_check": {
-      "checked_at": "2026-10-04T11:32:32+00:00",
+      "checked_at": "2026-10-04T13:35:03+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": true,
       "reported_observed": 28,
       "future_observed": 7
     },
     "audit": {
-      "previous_generated_at": "2026-10-04T07:38:45+00:00",
-      "current_generated_at": "2026-10-04T11:32:32+00:00",
+      "previous_generated_at": "2026-10-04T11:32:32+00:00",
+      "current_generated_at": "2026-10-04T13:35:03+00:00",
       "event_ids_added": 0,
       "event_ids_removed": 0,
       "status_changes": [],
