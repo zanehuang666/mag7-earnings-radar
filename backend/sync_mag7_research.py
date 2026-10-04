@@ -414,7 +414,7 @@ def build() -> dict:
         )
         sources.setdefault(f"ir_{ticker.lower()}", {"label": f"{PROFILES[ticker]['company']} Investor Relations", "url": PROFILES[ticker]["ir"], "type": "company_ir"})
     return {
-        "schema_version": 1, "version": "2026-10-04_V12", "generated_at": now_iso(),
+        "schema_version": 1, "version": "2026-10-04_V13", "generated_at": now_iso(),
         "coverage": {"from": "2024-01-01", "reported_events": len(reported), "future_previews": len(future), "tickers": sorted(PROFILES)},
         "events": sorted(generated, key=lambda item: (item["date"], item["ticker"])), "sources": sources,
         "generation": {"mode": "deterministic_incremental_cache", "llm_calls": 0, "new_records": len(missing), "preserved_records": preserved, "errors": errors},

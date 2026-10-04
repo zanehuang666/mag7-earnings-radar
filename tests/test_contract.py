@@ -348,5 +348,28 @@ class MicrosoftResearchTest(unittest.TestCase):
             self.assertTrue(all(risk["source_ids"] for risk in risks))
 
 
+class ReleaseStructureTest(unittest.TestCase):
+    def test_v13_metadata_and_document_layout(self):
+        version = json.loads((ROOT / "VERSION.json").read_text(encoding="utf-8-sig"))
+        research = json.loads((ROOT / "frontend" / "data" / "mag7_research.json").read_text(encoding="utf-8"))
+        self.assertEqual(version["version"], "V13")
+        self.assertEqual(version["research_coverage"]["reported_events"], 77)
+        self.assertEqual(version["research_coverage"]["future_previews"], 28)
+        self.assertEqual(research["version"], "2026-10-04_V13")
+
+        final_files = {path.name for path in (ROOT / "docs" / "final").iterdir() if path.is_file()}
+        self.assertEqual(final_files, {
+            "2026-10-04_V13_简短项目说明.md",
+            "2026-10-04_V13_完整项目交接说明.md",
+            "2026-10-04_V13_最终文件说明_README.md",
+        })
+        self.assertTrue((ROOT / "docs" / "process" / "2026-10-04_V12_archive").is_dir())
+
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        html = (ROOT / "frontend" / "calendar.html").read_text(encoding="utf-8")
+        self.assertIn("2026-10-04 · V13", readme)
+        self.assertIn("2026-10-04_V13_完整项目交接说明.md", html)
+
+
 if __name__ == "__main__":
     unittest.main()
