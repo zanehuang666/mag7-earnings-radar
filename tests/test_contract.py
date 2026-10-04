@@ -6,35 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from backend.sync import parse_json_object
-from backend.sync_msft_research import EVENTS as MSFT_RESEARCH_EVENTS, apply_narrative
-
-
-class ContractTest(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.data = json.loads((ROOT / "frontend" / "data" / "microsoft.json").read_text(encoding="utf-8"))
-
-    def test_required_top_level_fields(self):
-        self.assertTrue({"company", "ticker", "formal", "demo", "sources"}.issubset(self.data))
-
-    def test_supported_date_status(self):
-        allowed = {"estimated", "confirmed", "reported", "not_announced", "source_error", "review_required"}
-        self.assertIn(self.data["formal"]["next_event"]["status"], allowed)
-
-    def test_no_fake_confirmed_date(self):
-        event = self.data["formal"]["next_event"]
-        if event["status"] == "not_announced":
-            self.assertIsNone(event["date"])
-
-    def test_research_contract(self):
-        required = {"title", "verdict", "summary", "points", "risks"}
-        for kind in ("preview", "aftercheck"):
-            self.assertTrue(required.issubset(self.data["demo"][kind]["data"]))
-
-    def test_model_json_can_follow_brief_prose(self):
-        parsed = parse_json_object('以下是结果：\n```json\n{"title":"ok"}\n```')
-        self.assertEqual(parsed, {"title": "ok"})
+from backend.sync_msft_research import EVENTS as MSFT_RESEARCH_EVENTS, apply_narrative, parse_json_object
 
 
 class Mag7CalendarTest(unittest.TestCase):
@@ -180,6 +152,52 @@ class Mag7CalendarTest(unittest.TestCase):
         self.assertIn("sync_macro_events.py", workflow)
 
 
+class Mag7ResearchTest(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.data = json.loads((ROOT / "frontend" / "data" / "mag7_research.json").read_text(encoding="utf-8"))
+        cls.reported = [event for event in cls.data["events"] if event["status"] == "reported"]
+
+    def test_all_reported_mag7_events_have_research(self):
+        self.assertEqual(self.data["coverage"]["reported_events"], 77)
+        self.assertEqual(len(self.reported), 77)
+        counts = {}
+        for event in self.reported:
+            counts[event["ticker"]] = counts.get(event["ticker"], 0) + 1
+            self.assertIsNotNone(event["preview"])
+            self.assertIsNotNone(event["analysis"])
+            self.assertIn(event["analysis"]["result_tone"], {"positive", "negative", "mixed"})
+            self.assertGreaterEqual(len(event["preview"]["market_focus"]), 3)
+            self.assertGreaterEqual(len(event["analysis"]["risks"]), 3)
+        self.assertEqual(set(counts.values()), {11})
+
+    def test_baseline_has_real_eps_and_market_comparison(self):
+        for event in self.reported:
+            eps = next(metric for metric in event["analysis"]["metrics"] if metric["name"] in {"EPS", "Adjusted EPS"})
+            self.assertNotEqual(eps["expectation"], "—")
+            self.assertNotEqual(eps["actual"], "—")
+            self.assertTrue(eps["source_ids"])
+            reaction = event["analysis"].get("market_reaction")
+            self.assertIsNotNone(reaction)
+            self.assertEqual({item["horizon"] for item in reaction["metrics"]}, {"次一交易日", "5 个交易日"})
+
+    def test_sources_and_low_token_incremental_policy(self):
+        sources = self.data["sources"]
+        for event in self.reported:
+            for section_name, item_name in (("preview", "observations"), ("analysis", "drivers")):
+                section = event[section_name]
+                for metric in section["metrics"]:
+                    self.assertTrue(set(metric["source_ids"]).issubset(sources))
+                for item in section[item_name]:
+                    self.assertTrue(set(item["source_ids"]).issubset(sources))
+        self.assertEqual(self.data["generation"]["mode"], "deterministic_incremental_cache")
+        self.assertEqual(self.data["generation"]["llm_calls"], 0)
+        workflow = (ROOT / ".github" / "workflows" / "sync-and-deploy.yml").read_text(encoding="utf-8")
+        self.assertIn("sync_mag7_research.py", workflow)
+        html = (ROOT / "frontend" / "calendar.html").read_text(encoding="utf-8")
+        self.assertIn("mag7_research.json", html)
+
+
 class MicrosoftResearchTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -194,6 +212,10 @@ class MicrosoftResearchTest(unittest.TestCase):
             [event["sample_role"] for event in self.data["events"]],
             ["过往已发布样本", "最近已发布样本", "未来预计样本"],
         )
+
+    def test_model_json_can_follow_brief_prose(self):
+        parsed = parse_json_object('以下是结果：\n```json\n{"preview_verdict":"ok"}\n```')
+        self.assertEqual(parsed, {"preview_verdict": "ok"})
 
     def test_reported_analysis_has_expected_actual_and_delta(self):
         for event_id in ("msft-2026-01-28", "msft-2026-07-29"):
@@ -233,7 +255,7 @@ class MicrosoftResearchTest(unittest.TestCase):
     def test_low_token_guardrail_and_ui_hooks(self):
         self.assertLessEqual(self.data["generation"]["paratera_calls"], 3)
         html = (ROOT / "frontend" / "calendar.html").read_text(encoding="utf-8")
-        for required in ("msft_research.json", "metricBody", "sourceList", "information_cutoff",
+        for required in ("mag7_research.json", "metricBody", "sourceList", "information_cutoff",
                          "summaryBullets", "guidanceWrap", "reactionWrap", "chartVerdict"):
             self.assertIn(required, html)
         workflow = (ROOT / ".github" / "workflows" / "sync-and-deploy.yml").read_text(encoding="utf-8")

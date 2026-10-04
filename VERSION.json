@@ -1,0 +1,13 @@
+{
+  "version": "V12",
+  "release_date": "2026-10-04",
+  "name": "Mag 7 Earnings Radar",
+  "scope": "2024年至今Mag 7财报、Preview/Analysis、行情、宏观事件、历史时间模拟与自动更新",
+  "public_url": "https://zanehuang666.github.io/mag7-earnings-radar/calendar.html",
+  "research_coverage": {
+    "reported_events": 77,
+    "companies": 7,
+    "llm_calls_for_baseline": 0,
+    "deep_dive_company": "Microsoft"
+  }
+}

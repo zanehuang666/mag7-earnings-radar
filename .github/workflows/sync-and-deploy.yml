@@ -62,6 +62,8 @@ jobs:
           MSFT_RESEARCH_CALL_LIMIT: ${{ inputs.research_call_limit || '3' }}
           MSFT_RESEARCH_EVENT_ID: ${{ inputs.research_event_id || '' }}
         run: python backend/sync_msft_research.py
+      - name: Refresh incremental Mag 7 research cache
+        run: python backend/sync_mag7_research.py
       - name: Run contract tests
         run: python -m unittest discover -s tests -v
       - name: Commit refreshed public data
