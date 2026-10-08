@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-07T01:49:02+00:00",
+  "generated_at": "2026-10-08T13:02:49+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -41,7 +41,7 @@
   "calendar": {
     "formal": {
       "label": "正式日历",
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-08",
       "message": "历史日期来自 Nasdaq 日历并由最近四季接口自动校准；未来日期明确标记为预计，最终以公司 IR 为准。",
       "events": [
         {
@@ -3510,16 +3510,16 @@
           }
         },
         {
-          "id": "tsla-2026-10-28",
+          "id": "tsla-2026-10-21",
           "ticker": "TSLA",
           "company": "Tesla",
-          "date": "2026-10-28",
+          "date": "2026-10-21",
           "fiscal_period": "Sep/2026",
           "status": "estimated",
           "date_confidence": "estimated",
           "source": {
             "label": "Nasdaq earnings calendar",
-            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-28"
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-21"
           },
           "ir_source": {
             "label": "Tesla IR",
@@ -3528,7 +3528,7 @@
           "forecast": {
             "eps": "$0.24",
             "analyst_count": "11",
-            "session": "time-not-supplied"
+            "session": "time-after-hours"
           },
           "date_range": {},
           "preview": {
@@ -3551,6 +3551,55 @@
               "汽车毛利率",
               "交付与需求",
               "储能和自动驾驶"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "googl-2026-10-28",
+          "ticker": "GOOGL",
+          "company": "Alphabet",
+          "date": "2026-10-28",
+          "fiscal_period": "Sep/2026",
+          "status": "estimated",
+          "date_confidence": "estimated",
+          "source": {
+            "label": "Nasdaq earnings calendar",
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-28"
+          },
+          "ir_source": {
+            "label": "Alphabet IR",
+            "url": "https://abc.xyz/investor/"
+          },
+          "forecast": {
+            "eps": "$2.95",
+            "analyst_count": "13",
+            "session": "time-after-hours"
+          },
+          "date_range": {},
+          "preview": {
+            "verdict": "Alphabet 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
             ],
             "risks": [
               "不得把预测写成已发生事实",
@@ -3657,55 +3706,6 @@
           }
         },
         {
-          "id": "googl-2026-11-04",
-          "ticker": "GOOGL",
-          "company": "Alphabet",
-          "date": "2026-11-04",
-          "fiscal_period": "Sep/2026",
-          "status": "estimated",
-          "date_confidence": "estimated",
-          "source": {
-            "label": "Nasdaq earnings calendar",
-            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-04"
-          },
-          "ir_source": {
-            "label": "Alphabet IR",
-            "url": "https://abc.xyz/investor/"
-          },
-          "forecast": {
-            "eps": "$2.95",
-            "analyst_count": "13",
-            "session": "time-not-supplied"
-          },
-          "date_range": {},
-          "preview": {
-            "verdict": "Alphabet 财报前检查清单（简版）",
-            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
-            "points": [
-              "搜索广告",
-              "Google Cloud",
-              "AI 投入回报"
-            ],
-            "risks": [
-              "预计日期可能调整，应以公司 IR 最终公告为准",
-              "简版内容不代表完整卖方一致预期"
-            ]
-          },
-          "aftercheck": {
-            "verdict": "尚未发布，Analysis 将在财报后生成",
-            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
-            "points": [
-              "搜索广告",
-              "Google Cloud",
-              "AI 投入回报"
-            ],
-            "risks": [
-              "不得把预测写成已发生事实",
-              "等待正式结果和来源验证"
-            ]
-          }
-        },
-        {
           "id": "meta-2026-11-04",
           "ticker": "META",
           "company": "Meta",
@@ -3771,8 +3771,8 @@
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {
-            "eps": "$4.70",
-            "analyst_count": "14",
+            "eps": "$4.71",
+            "analyst_count": "13",
             "session": "time-not-supplied"
           },
           "date_range": {},
@@ -8415,22 +8415,22 @@
       "周末 09:37 心跳验证"
     ],
     "run": {
-      "trigger": "schedule",
-      "run_id": "37558942667",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/37558942667"
+      "trigger": "push",
+      "run_id": "37781281890",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/37781281890"
     },
     "source_check": {
-      "checked_at": "2026-10-07T01:49:02+00:00",
+      "checked_at": "2026-10-08T13:02:49+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": true,
       "reported_observed": 28,
       "future_observed": 7
     },
     "audit": {
-      "previous_generated_at": "2026-10-06T13:52:06+00:00",
-      "current_generated_at": "2026-10-07T01:49:02+00:00",
-      "event_ids_added": 0,
-      "event_ids_removed": 0,
+      "previous_generated_at": "2026-10-07T01:49:02+00:00",
+      "current_generated_at": "2026-10-08T13:02:49+00:00",
+      "event_ids_added": 2,
+      "event_ids_removed": 2,
       "status_changes": [],
       "heartbeat_changed": true
     }
