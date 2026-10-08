@@ -318,6 +318,7 @@ def build_verification_sample(candidates: list[dict]) -> tuple[dict, str | None]
 
 def build() -> tuple[dict, dict]:
     by_id: dict[str, dict] = {}
+    previous_future: list[dict] = []
     previous_generated_at = None
     previous_ids: set[str] = set()
     previous_statuses: dict[str, str] = {}
@@ -328,10 +329,10 @@ def build() -> tuple[dict, dict]:
             for event in previous.get("calendar", {}).get("formal", {}).get("events", []):
                 previous_ids.add(event.get("id", ""))
                 previous_statuses[event.get("id", "")] = event.get("status", "")
-                if event.get("status") == "reported" or (
-                    event.get("status") in {"estimated", "confirmed"} and event.get("date", "") >= date.today().isoformat()
-                ):
+                if event.get("status") == "reported":
                     by_id[event["id"]] = event
+                elif event.get("status") in {"estimated", "confirmed"} and event.get("date", "") >= date.today().isoformat():
+                    previous_future.append(event)
         except (OSError, json.JSONDecodeError, KeyError):
             pass
     for ticker, dates in HISTORICAL_SEED.items():
@@ -344,6 +345,13 @@ def build() -> tuple[dict, dict]:
     for event in recent:
         by_id[event["id"]] = event
     future, future_errors, candidates = upcoming(int(os.getenv("MAG7_FORWARD_DAYS", "120")))
+    fresh_future_tickers = {event["ticker"] for event in future}
+    for event in previous_future:
+        # A complete Nasdaq scan is authoritative: replace yesterday's estimates
+        # so a moved date cannot survive beside its replacement.  During a partial
+        # source outage, retain only companies for which no fresh row was observed.
+        if event["status"] == "confirmed" or (future_errors and event["ticker"] not in fresh_future_tickers):
+            by_id[event["id"]] = event
     for event in future:
         by_id[event["id"]] = event
 

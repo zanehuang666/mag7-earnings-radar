@@ -60,7 +60,10 @@ class Mag7CalendarTest(unittest.TestCase):
             counts[event["ticker"]] = counts.get(event["ticker"], 0) + 1
         self.assertEqual(set(counts.values()), {4})
         self.assertEqual(len(future), 28)
-        self.assertEqual(sum(event["status"] == "projected" for event in future), 21)
+        self.assertTrue(all(event["status"] in {"projected", "estimated", "confirmed"} for event in future))
+        sourced = [event for event in future if event["status"] in {"estimated", "confirmed"}]
+        period_keys = [(event["ticker"], event["fiscal_period"]) for event in sourced]
+        self.assertEqual(len(period_keys), len(set(period_keys)), "duplicate sourced dates for the same company quarter")
 
     def test_calendar_ui_has_required_controls(self):
         html = (ROOT / "frontend" / "calendar.html").read_text(encoding="utf-8")
