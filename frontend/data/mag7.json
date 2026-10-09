@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-09T01:50:53+00:00",
+  "generated_at": "2026-10-09T15:10:46+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -3526,7 +3526,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {
-            "eps": "$0.24",
+            "eps": "$0.23",
             "analyst_count": "11",
             "session": "time-after-hours"
           },
@@ -3608,34 +3608,34 @@
           }
         },
         {
-          "id": "aapl-2026-10-29",
-          "ticker": "AAPL",
-          "company": "Apple",
-          "date": "2026-10-29",
+          "id": "msft-2026-10-28",
+          "ticker": "MSFT",
+          "company": "Microsoft",
+          "date": "2026-10-28",
           "fiscal_period": "Sep/2026",
           "status": "estimated",
           "date_confidence": "estimated",
           "source": {
             "label": "Nasdaq earnings calendar",
-            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-29"
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-28"
           },
           "ir_source": {
-            "label": "Apple IR",
-            "url": "https://investor.apple.com/"
+            "label": "Microsoft IR",
+            "url": "https://www.microsoft.com/en-us/Investor/"
           },
           "forecast": {
-            "eps": "$1.98",
-            "analyst_count": "8",
-            "session": "time-not-supplied"
+            "eps": "$4.71",
+            "analyst_count": "13",
+            "session": "time-after-hours"
           },
           "date_range": {},
           "preview": {
-            "verdict": "Apple 财报前检查清单（简版）",
+            "verdict": "Microsoft 财报前检查清单（简版）",
             "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
             "points": [
-              "iPhone 产品周期",
-              "服务收入",
-              "大中华区需求"
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
             ],
             "risks": [
               "预计日期可能调整，应以公司 IR 最终公告为准",
@@ -3646,9 +3646,9 @@
             "verdict": "尚未发布，Analysis 将在财报后生成",
             "summary": "当前仅保留结构化占位，不提前生成事后结论。",
             "points": [
-              "iPhone 产品周期",
-              "服务收入",
-              "大中华区需求"
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
             ],
             "risks": [
               "不得把预测写成已发生事实",
@@ -3706,6 +3706,55 @@
           }
         },
         {
+          "id": "aapl-2026-11-02",
+          "ticker": "AAPL",
+          "company": "Apple",
+          "date": "2026-11-02",
+          "fiscal_period": "Sep/2026",
+          "status": "estimated",
+          "date_confidence": "estimated",
+          "source": {
+            "label": "Nasdaq earnings calendar",
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-02"
+          },
+          "ir_source": {
+            "label": "Apple IR",
+            "url": "https://investor.apple.com/"
+          },
+          "forecast": {
+            "eps": "$1.98",
+            "analyst_count": "8",
+            "session": "time-after-hours"
+          },
+          "date_range": {},
+          "preview": {
+            "verdict": "Apple 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "iPhone 产品周期",
+              "服务收入",
+              "大中华区需求"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "iPhone 产品周期",
+              "服务收入",
+              "大中华区需求"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
           "id": "meta-2026-11-04",
           "ticker": "META",
           "company": "Meta",
@@ -3747,55 +3796,6 @@
               "广告效率",
               "用户参与度",
               "AI 基础设施投入"
-            ],
-            "risks": [
-              "不得把预测写成已发生事实",
-              "等待正式结果和来源验证"
-            ]
-          }
-        },
-        {
-          "id": "msft-2026-11-04",
-          "ticker": "MSFT",
-          "company": "Microsoft",
-          "date": "2026-11-04",
-          "fiscal_period": "Sep/2026",
-          "status": "estimated",
-          "date_confidence": "estimated",
-          "source": {
-            "label": "Nasdaq earnings calendar",
-            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-04"
-          },
-          "ir_source": {
-            "label": "Microsoft IR",
-            "url": "https://www.microsoft.com/en-us/Investor/"
-          },
-          "forecast": {
-            "eps": "$4.71",
-            "analyst_count": "13",
-            "session": "time-not-supplied"
-          },
-          "date_range": {},
-          "preview": {
-            "verdict": "Microsoft 财报前检查清单（简版）",
-            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
-            "points": [
-              "Azure 增速",
-              "AI 资本开支",
-              "云业务利润率"
-            ],
-            "risks": [
-              "预计日期可能调整，应以公司 IR 最终公告为准",
-              "简版内容不代表完整卖方一致预期"
-            ]
-          },
-          "aftercheck": {
-            "verdict": "尚未发布，Analysis 将在财报后生成",
-            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
-            "points": [
-              "Azure 增速",
-              "AI 资本开支",
-              "云业务利润率"
             ],
             "risks": [
               "不得把预测写成已发生事实",
@@ -8415,23 +8415,55 @@
       "周末 09:37 心跳验证"
     ],
     "run": {
-      "trigger": "schedule",
-      "run_id": "37871723235",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/37871723235"
+      "trigger": "push",
+      "run_id": "37949740544",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/37949740544"
     },
     "source_check": {
-      "checked_at": "2026-10-09T01:50:53+00:00",
+      "checked_at": "2026-10-09T15:10:46+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": true,
       "reported_observed": 28,
       "future_observed": 7
     },
     "audit": {
-      "previous_generated_at": "2026-10-08T13:52:49+00:00",
-      "current_generated_at": "2026-10-09T01:50:53+00:00",
-      "event_ids_added": 0,
-      "event_ids_removed": 0,
+      "previous_generated_at": "2026-10-09T01:50:53+00:00",
+      "current_generated_at": "2026-10-09T15:10:46+00:00",
+      "event_ids_added": 2,
+      "event_ids_removed": 2,
+      "content_change_count": 3,
+      "date_changes": [
+        {
+          "ticker": "AAPL",
+          "fiscal_period": "Sep/2026",
+          "from_date": "2026-10-29",
+          "to_date": "2026-11-02",
+          "from_status": "estimated",
+          "to_status": "estimated"
+        },
+        {
+          "ticker": "MSFT",
+          "fiscal_period": "Sep/2026",
+          "from_date": "2026-11-04",
+          "to_date": "2026-10-28",
+          "from_status": "estimated",
+          "to_status": "estimated"
+        }
+      ],
       "status_changes": [],
+      "field_changes": [
+        {
+          "id": "tsla-2026-10-21",
+          "ticker": "TSLA",
+          "date": "2026-10-21",
+          "field": "eps_forecast",
+          "label": "EPS 预期",
+          "from": "$0.24",
+          "to": "$0.23"
+        }
+      ],
+      "added_events": [],
+      "removed_events": [],
       "heartbeat_changed": true
     }
   },

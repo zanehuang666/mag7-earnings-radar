@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "version": "2026-10-04_V13",
-  "generated_at": "2026-10-09T01:50:54+00:00",
+  "generated_at": "2026-10-09T15:10:47+00:00",
   "coverage": {
     "from": "2024-01-01",
     "reported_events": 77,
@@ -21010,11 +21010,11 @@
       "date": "2026-10-21",
       "sample_role": "全量未来 Preview",
       "status": "estimated",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Tesla · 2026-10-21 财报前 Preview",
         "verdict": "当前日期状态：Nasdaq 市场日历预计，等待公司 IR 确认。研究重点为汽车收入、交付量和平均售价、汽车毛利率、降价与成本下降。",
-        "summary": "这是 Tesla 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“Nasdaq 市场日历预计，等待公司 IR 确认”。可获得的 EPS 一致预期为 $0.24，分析师样本为 11。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary": "这是 Tesla 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“Nasdaq 市场日历预计，等待公司 IR 确认”。可获得的 EPS 一致预期为 $0.23，分析师样本为 11。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
         "summary_points": [
           {
             "title": "日期可信度",
@@ -21023,7 +21023,7 @@
           },
           {
             "title": "当前量化锚点",
-            "text": "EPS $0.24；分析师样本 11",
+            "text": "EPS $0.23；分析师样本 11",
             "tone": "neutral"
           },
           {
@@ -21058,7 +21058,7 @@
           },
           {
             "name": "EPS consensus",
-            "expectation": "$0.24",
+            "expectation": "$0.23",
             "actual": null,
             "delta": null,
             "assessment": null,
@@ -21170,7 +21170,7 @@
       "date": "2026-10-28",
       "sample_role": "全量未来 Preview",
       "status": "estimated",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Alphabet · 2026-10-28 财报前 Preview",
         "verdict": "当前日期状态：Nasdaq 市场日历预计，等待公司 IR 确认。研究重点为Search 广告增长及 AI 对变现的影响、Google Cloud 增速与营业利润率。",
@@ -21323,498 +21323,18 @@
       }
     },
     {
-      "id": "aapl-2026-10-29",
-      "ticker": "AAPL",
-      "company": "Apple",
-      "period": "Sep/2026",
-      "date": "2026-10-29",
-      "sample_role": "全量未来 Preview",
-      "status": "estimated",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
-      "preview": {
-        "title": "Apple · 2026-10-29 财报前 Preview",
-        "verdict": "当前日期状态：Nasdaq 市场日历预计，等待公司 IR 确认。研究重点为iPhone 收入、产品组合与换机周期、Services 增速和毛利率。",
-        "summary": "这是 Apple 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“Nasdaq 市场日历预计，等待公司 IR 确认”。可获得的 EPS 一致预期为 $1.98，分析师样本为 8。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
-        "summary_points": [
-          {
-            "title": "日期可信度",
-            "text": "Nasdaq 市场日历预计，等待公司 IR 确认",
-            "tone": "neutral"
-          },
-          {
-            "title": "当前量化锚点",
-            "text": "EPS $1.98；分析师样本 8",
-            "tone": "neutral"
-          },
-          {
-            "title": "首要验证项",
-            "text": "iPhone 收入、产品组合与换机周期；Services 增速和毛利率",
-            "tone": "mixed"
-          }
-        ],
-        "metrics_title": "财报前已知信息与待验证指标",
-        "metrics": [
-          {
-            "name": "日期状态",
-            "expectation": "Nasdaq 市场日历预计，等待公司 IR 确认",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_aapl_2026_10_29"
-            ],
-            "tone": "neutral"
-          },
-          {
-            "name": "日期 / 区间",
-            "expectation": "2026-10-29",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_aapl_2026_10_29"
-            ],
-            "tone": "neutral"
-          },
-          {
-            "name": "EPS consensus",
-            "expectation": "$1.98",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_aapl_2026_10_29"
-            ],
-            "tone": "neutral"
-          },
-          {
-            "name": "Analyst sample",
-            "expectation": "8",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_aapl_2026_10_29"
-            ],
-            "tone": "neutral"
-          },
-          {
-            "name": "Fiscal period",
-            "expectation": "Sep/2026",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_aapl_2026_10_29"
-            ],
-            "tone": "neutral"
-          },
-          {
-            "name": "Release session",
-            "expectation": "time-not-supplied",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_aapl_2026_10_29"
-            ],
-            "tone": "neutral"
-          }
-        ],
-        "observations": [
-          {
-            "title": "核心观察 1",
-            "text": "iPhone 收入、产品组合与换机周期",
-            "source_ids": [
-              "ir_aapl"
-            ]
-          },
-          {
-            "title": "核心观察 2",
-            "text": "Services 增速和毛利率",
-            "source_ids": [
-              "ir_aapl"
-            ]
-          },
-          {
-            "title": "核心观察 3",
-            "text": "大中华区需求、渠道库存与资本回报",
-            "source_ids": [
-              "ir_aapl"
-            ]
-          }
-        ],
-        "market_focus": [
-          "iPhone 收入、产品组合与换机周期",
-          "Services 增速和毛利率",
-          "大中华区需求、渠道库存与资本回报",
-          "财报发布后核对 AAPL 相对 QQQ 的 1 日与 5 日表现"
-        ],
-        "risks": [
-          {
-            "title": "日期风险",
-            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
-            "source_ids": [
-              "calendar_aapl_2026_10_29",
-              "ir_aapl"
-            ]
-          },
-          {
-            "title": "预期口径",
-            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
-            "source_ids": [
-              "calendar_aapl_2026_10_29"
-            ]
-          },
-          {
-            "title": "公司特定风险",
-            "text": "硬件周期、区域需求与高利润服务业务的增长错配",
-            "source_ids": [
-              "ir_aapl"
-            ]
-          }
-        ]
-      },
-      "analysis": null,
-      "generation": {
-        "mode": "deterministic_future_preview",
-        "model": null,
-        "cached": false
-      }
-    },
-    {
-      "id": "amzn-2026-10-29",
-      "ticker": "AMZN",
-      "company": "Amazon",
-      "period": "Sep/2026",
-      "date": "2026-10-29",
-      "sample_role": "全量未来 Preview",
-      "status": "estimated",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
-      "preview": {
-        "title": "Amazon · 2026-10-29 财报前 Preview",
-        "verdict": "当前日期状态：Nasdaq 市场日历预计，等待公司 IR 确认。研究重点为AWS 增速、积压订单与 AI 容量、北美及国际零售利润率。",
-        "summary": "这是 Amazon 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“Nasdaq 市场日历预计，等待公司 IR 确认”。可获得的 EPS 一致预期为 $2.02，分析师样本为 13。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
-        "summary_points": [
-          {
-            "title": "日期可信度",
-            "text": "Nasdaq 市场日历预计，等待公司 IR 确认",
-            "tone": "neutral"
-          },
-          {
-            "title": "当前量化锚点",
-            "text": "EPS $2.02；分析师样本 13",
-            "tone": "neutral"
-          },
-          {
-            "title": "首要验证项",
-            "text": "AWS 增速、积压订单与 AI 容量；北美及国际零售利润率",
-            "tone": "mixed"
-          }
-        ],
-        "metrics_title": "财报前已知信息与待验证指标",
-        "metrics": [
-          {
-            "name": "日期状态",
-            "expectation": "Nasdaq 市场日历预计，等待公司 IR 确认",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_amzn_2026_10_29"
-            ],
-            "tone": "neutral"
-          },
-          {
-            "name": "日期 / 区间",
-            "expectation": "2026-10-29",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_amzn_2026_10_29"
-            ],
-            "tone": "neutral"
-          },
-          {
-            "name": "EPS consensus",
-            "expectation": "$2.02",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_amzn_2026_10_29"
-            ],
-            "tone": "neutral"
-          },
-          {
-            "name": "Analyst sample",
-            "expectation": "13",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_amzn_2026_10_29"
-            ],
-            "tone": "neutral"
-          },
-          {
-            "name": "Fiscal period",
-            "expectation": "Sep/2026",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_amzn_2026_10_29"
-            ],
-            "tone": "neutral"
-          },
-          {
-            "name": "Release session",
-            "expectation": "time-not-supplied",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_amzn_2026_10_29"
-            ],
-            "tone": "neutral"
-          }
-        ],
-        "observations": [
-          {
-            "title": "核心观察 1",
-            "text": "AWS 增速、积压订单与 AI 容量",
-            "source_ids": [
-              "ir_amzn"
-            ]
-          },
-          {
-            "title": "核心观察 2",
-            "text": "北美及国际零售利润率",
-            "source_ids": [
-              "ir_amzn"
-            ]
-          },
-          {
-            "title": "核心观察 3",
-            "text": "CapEx、履约效率与自由现金流",
-            "source_ids": [
-              "ir_amzn"
-            ]
-          }
-        ],
-        "market_focus": [
-          "AWS 增速、积压订单与 AI 容量",
-          "北美及国际零售利润率",
-          "CapEx、履约效率与自由现金流",
-          "财报发布后核对 AMZN 相对 QQQ 的 1 日与 5 日表现"
-        ],
-        "risks": [
-          {
-            "title": "日期风险",
-            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
-            "source_ids": [
-              "calendar_amzn_2026_10_29",
-              "ir_amzn"
-            ]
-          },
-          {
-            "title": "预期口径",
-            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
-            "source_ids": [
-              "calendar_amzn_2026_10_29"
-            ]
-          },
-          {
-            "title": "公司特定风险",
-            "text": "云和物流资本开支上升快于 AWS 与零售利润兑现",
-            "source_ids": [
-              "ir_amzn"
-            ]
-          }
-        ]
-      },
-      "analysis": null,
-      "generation": {
-        "mode": "deterministic_future_preview",
-        "model": null,
-        "cached": false
-      }
-    },
-    {
-      "id": "meta-2026-11-04",
-      "ticker": "META",
-      "company": "Meta",
-      "period": "Sep/2026",
-      "date": "2026-11-04",
-      "sample_role": "全量未来 Preview",
-      "status": "estimated",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
-      "preview": {
-        "title": "Meta · 2026-11-04 财报前 Preview",
-        "verdict": "当前日期状态：Nasdaq 市场日历预计，等待公司 IR 确认。研究重点为广告展示量、价格和推荐效率、Family of Apps 用户参与度与利润率。",
-        "summary": "这是 Meta 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“Nasdaq 市场日历预计，等待公司 IR 确认”。可获得的 EPS 一致预期为 $6.39，分析师样本为 12。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
-        "summary_points": [
-          {
-            "title": "日期可信度",
-            "text": "Nasdaq 市场日历预计，等待公司 IR 确认",
-            "tone": "neutral"
-          },
-          {
-            "title": "当前量化锚点",
-            "text": "EPS $6.39；分析师样本 12",
-            "tone": "neutral"
-          },
-          {
-            "title": "首要验证项",
-            "text": "广告展示量、价格和推荐效率；Family of Apps 用户参与度与利润率",
-            "tone": "mixed"
-          }
-        ],
-        "metrics_title": "财报前已知信息与待验证指标",
-        "metrics": [
-          {
-            "name": "日期状态",
-            "expectation": "Nasdaq 市场日历预计，等待公司 IR 确认",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_meta_2026_11_04"
-            ],
-            "tone": "neutral"
-          },
-          {
-            "name": "日期 / 区间",
-            "expectation": "2026-11-04",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_meta_2026_11_04"
-            ],
-            "tone": "neutral"
-          },
-          {
-            "name": "EPS consensus",
-            "expectation": "$6.39",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_meta_2026_11_04"
-            ],
-            "tone": "neutral"
-          },
-          {
-            "name": "Analyst sample",
-            "expectation": "12",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_meta_2026_11_04"
-            ],
-            "tone": "neutral"
-          },
-          {
-            "name": "Fiscal period",
-            "expectation": "Sep/2026",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_meta_2026_11_04"
-            ],
-            "tone": "neutral"
-          },
-          {
-            "name": "Release session",
-            "expectation": "time-not-supplied",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_meta_2026_11_04"
-            ],
-            "tone": "neutral"
-          }
-        ],
-        "observations": [
-          {
-            "title": "核心观察 1",
-            "text": "广告展示量、价格和推荐效率",
-            "source_ids": [
-              "ir_meta"
-            ]
-          },
-          {
-            "title": "核心观察 2",
-            "text": "Family of Apps 用户参与度与利润率",
-            "source_ids": [
-              "ir_meta"
-            ]
-          },
-          {
-            "title": "核心观察 3",
-            "text": "AI CapEx、Reality Labs 亏损和监管",
-            "source_ids": [
-              "ir_meta"
-            ]
-          }
-        ],
-        "market_focus": [
-          "广告展示量、价格和推荐效率",
-          "Family of Apps 用户参与度与利润率",
-          "AI CapEx、Reality Labs 亏损和监管",
-          "财报发布后核对 META 相对 QQQ 的 1 日与 5 日表现"
-        ],
-        "risks": [
-          {
-            "title": "日期风险",
-            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
-            "source_ids": [
-              "calendar_meta_2026_11_04",
-              "ir_meta"
-            ]
-          },
-          {
-            "title": "预期口径",
-            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
-            "source_ids": [
-              "calendar_meta_2026_11_04"
-            ]
-          },
-          {
-            "title": "公司特定风险",
-            "text": "AI 投入和 Reality Labs 支出快于广告效率及新产品收入兑现",
-            "source_ids": [
-              "ir_meta"
-            ]
-          }
-        ]
-      },
-      "analysis": null,
-      "generation": {
-        "mode": "deterministic_future_preview",
-        "model": null,
-        "cached": false
-      }
-    },
-    {
       "ticker": "MSFT",
       "company": "Microsoft",
-      "id": "msft-2026-11-04",
+      "id": "msft-2026-10-28",
       "period": "FY27 Q1",
-      "date": "2026-11-04",
+      "date": "2026-10-28",
       "sample_role": "未来预计样本",
       "status": "estimated",
-      "information_cutoff": "2026-10-03T23:59:59+08:00",
+      "information_cutoff": "2026-10-09T15:10:46+00:00 · 当前自动日历快照；研究事实沿用已核验来源",
       "preview": {
         "title": "Microsoft FY27 Q1 · 财报前 Preview",
         "verdict": "公司给出的收入和 Azure 指引已经很强，核心问题不是能否保持双位数增长，而是约 45% Azure CC 增长和超过 500 亿美元 CapEx 能否同时保持云毛利率及现金流纪律。",
-        "summary": "Nasdaq 当前预计日期为 2026-11-04、14 位分析师 EPS 预期约 4.70 美元，但 Microsoft IR 尚未确认日期。公司给出的总收入指引为 898.5–909.5 亿美元、Azure 约 45% CC、Intelligent Cloud 409.5–412.5 亿美元，增长门槛已经很高。市场将重点判断超过 500 亿美元 CapEx 是否继续换来 Azure 加速，同时 Cloud GM 能否环比稳定、Copilot 计费能否扩大 ARPU，并警惕 PC 需求和会计口径变化掩盖真实经营趋势。",
+        "summary": "Nasdaq 当前预计日期为 2026-10-28、14 位分析师 EPS 预期约 4.70 美元，但 Microsoft IR 尚未确认日期。公司给出的总收入指引为 898.5–909.5 亿美元、Azure 约 45% CC、Intelligent Cloud 409.5–412.5 亿美元，增长门槛已经很高。市场将重点判断超过 500 亿美元 CapEx 是否继续换来 Azure 加速，同时 Cloud GM 能否环比稳定、Copilot 计费能否扩大 ARPU，并警惕 PC 需求和会计口径变化掩盖真实经营趋势。",
         "summary_points": [
           {
             "title": "强指引基准",
@@ -21836,7 +21356,7 @@
         "metrics": [
           {
             "name": "Expected date",
-            "expectation": "2026-11-04 Nasdaq estimated；IR 未确认",
+            "expectation": "2026-10-28 Nasdaq estimated；IR 未确认",
             "actual": null,
             "delta": null,
             "assessment": null,
@@ -21848,7 +21368,7 @@
           },
           {
             "name": "EPS consensus",
-            "expectation": "$4.70 / 14 analysts (Nasdaq snapshot)",
+            "expectation": "$4.71 / 13 analysts (Nasdaq snapshot)",
             "actual": null,
             "delta": null,
             "assessment": null,
@@ -22010,7 +21530,7 @@
         "risks": [
           {
             "title": "日期不确定",
-            "text": "2026-11-04 仅为 Nasdaq estimated，必须等待 Microsoft IR 正式确认。"
+            "text": "2026-10-28 仅为 Nasdaq estimated，必须等待 Microsoft IR 正式确认。"
           },
           {
             "title": "共识漂移",
@@ -22034,6 +21554,486 @@
       }
     },
     {
+      "id": "amzn-2026-10-29",
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "period": "Sep/2026",
+      "date": "2026-10-29",
+      "sample_role": "全量未来 Preview",
+      "status": "estimated",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Amazon · 2026-10-29 财报前 Preview",
+        "verdict": "当前日期状态：Nasdaq 市场日历预计，等待公司 IR 确认。研究重点为AWS 增速、积压订单与 AI 容量、北美及国际零售利润率。",
+        "summary": "这是 Amazon 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“Nasdaq 市场日历预计，等待公司 IR 确认”。可获得的 EPS 一致预期为 $2.02，分析师样本为 13。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "Nasdaq 市场日历预计，等待公司 IR 确认",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS $2.02；分析师样本 13",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "AWS 增速、积压订单与 AI 容量；北美及国际零售利润率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "Nasdaq 市场日历预计，等待公司 IR 确认",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2026_10_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2026-10-29",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2026_10_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "$2.02",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2026_10_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "13",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2026_10_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Sep/2026",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2026_10_29"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "time-not-supplied",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_amzn_2026_10_29"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "AWS 增速、积压订单与 AI 容量",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "北美及国际零售利润率",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "CapEx、履约效率与自由现金流",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          }
+        ],
+        "market_focus": [
+          "AWS 增速、积压订单与 AI 容量",
+          "北美及国际零售利润率",
+          "CapEx、履约效率与自由现金流",
+          "财报发布后核对 AMZN 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_amzn_2026_10_29",
+              "ir_amzn"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_amzn_2026_10_29"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "云和物流资本开支上升快于 AWS 与零售利润兑现",
+            "source_ids": [
+              "ir_amzn"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "aapl-2026-11-02",
+      "ticker": "AAPL",
+      "company": "Apple",
+      "period": "Sep/2026",
+      "date": "2026-11-02",
+      "sample_role": "全量未来 Preview",
+      "status": "estimated",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Apple · 2026-11-02 财报前 Preview",
+        "verdict": "当前日期状态：Nasdaq 市场日历预计，等待公司 IR 确认。研究重点为iPhone 收入、产品组合与换机周期、Services 增速和毛利率。",
+        "summary": "这是 Apple 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“Nasdaq 市场日历预计，等待公司 IR 确认”。可获得的 EPS 一致预期为 $1.98，分析师样本为 8。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "Nasdaq 市场日历预计，等待公司 IR 确认",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS $1.98；分析师样本 8",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "iPhone 收入、产品组合与换机周期；Services 增速和毛利率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "Nasdaq 市场日历预计，等待公司 IR 确认",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2026_11_02"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2026-11-02",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2026_11_02"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "$1.98",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2026_11_02"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "8",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2026_11_02"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Sep/2026",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2026_11_02"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "time-after-hours",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_aapl_2026_11_02"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "iPhone 收入、产品组合与换机周期",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Services 增速和毛利率",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "大中华区需求、渠道库存与资本回报",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          }
+        ],
+        "market_focus": [
+          "iPhone 收入、产品组合与换机周期",
+          "Services 增速和毛利率",
+          "大中华区需求、渠道库存与资本回报",
+          "财报发布后核对 AAPL 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_aapl_2026_11_02",
+              "ir_aapl"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_aapl_2026_11_02"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "硬件周期、区域需求与高利润服务业务的增长错配",
+            "source_ids": [
+              "ir_aapl"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "meta-2026-11-04",
+      "ticker": "META",
+      "company": "Meta",
+      "period": "Sep/2026",
+      "date": "2026-11-04",
+      "sample_role": "全量未来 Preview",
+      "status": "estimated",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
+      "preview": {
+        "title": "Meta · 2026-11-04 财报前 Preview",
+        "verdict": "当前日期状态：Nasdaq 市场日历预计，等待公司 IR 确认。研究重点为广告展示量、价格和推荐效率、Family of Apps 用户参与度与利润率。",
+        "summary": "这是 Meta 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“Nasdaq 市场日历预计，等待公司 IR 确认”。可获得的 EPS 一致预期为 $6.39，分析师样本为 12。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "Nasdaq 市场日历预计，等待公司 IR 确认",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS $6.39；分析师样本 12",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "广告展示量、价格和推荐效率；Family of Apps 用户参与度与利润率",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "Nasdaq 市场日历预计，等待公司 IR 确认",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2026_11_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2026-11-04",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2026_11_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "$6.39",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2026_11_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "12",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2026_11_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Sep/2026",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2026_11_04"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "time-not-supplied",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_meta_2026_11_04"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "广告展示量、价格和推荐效率",
+            "source_ids": [
+              "ir_meta"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Family of Apps 用户参与度与利润率",
+            "source_ids": [
+              "ir_meta"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "AI CapEx、Reality Labs 亏损和监管",
+            "source_ids": [
+              "ir_meta"
+            ]
+          }
+        ],
+        "market_focus": [
+          "广告展示量、价格和推荐效率",
+          "Family of Apps 用户参与度与利润率",
+          "AI CapEx、Reality Labs 亏损和监管",
+          "财报发布后核对 META 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_meta_2026_11_04",
+              "ir_meta"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_meta_2026_11_04"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "AI 投入和 Reality Labs 支出快于广告效率及新产品收入兑现",
+            "source_ids": [
+              "ir_meta"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
       "id": "nvda-2026-11-18",
       "ticker": "NVDA",
       "company": "NVIDIA",
@@ -22041,7 +22041,7 @@
       "date": "2026-11-18",
       "sample_role": "全量未来 Preview",
       "status": "estimated",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "NVIDIA · 2026-11-18 财报前 Preview",
         "verdict": "当前日期状态：Nasdaq 市场日历预计，等待公司 IR 确认。研究重点为Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换。",
@@ -22201,7 +22201,7 @@
       "date": "2027-01-27",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Meta · 2027-01-27 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为广告展示量、价格和推荐效率、Family of Apps 用户参与度与利润率。",
@@ -22361,7 +22361,7 @@
       "date": "2027-01-27",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Microsoft · 2027-01-27 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Azure 增速与 AI 工作负载构成、Microsoft Cloud 毛利率与资本开支。",
@@ -22521,7 +22521,7 @@
       "date": "2027-01-27",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Tesla · 2027-01-27 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为汽车收入、交付量和平均售价、汽车毛利率、降价与成本下降。",
@@ -22681,7 +22681,7 @@
       "date": "2027-01-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Apple · 2027-01-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为iPhone 收入、产品组合与换机周期、Services 增速和毛利率。",
@@ -22841,7 +22841,7 @@
       "date": "2027-02-03",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Alphabet · 2027-02-03 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Search 广告增长及 AI 对变现的影响、Google Cloud 增速与营业利润率。",
@@ -23001,7 +23001,7 @@
       "date": "2027-02-04",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Amazon · 2027-02-04 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为AWS 增速、积压订单与 AI 容量、北美及国际零售利润率。",
@@ -23161,7 +23161,7 @@
       "date": "2027-02-24",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "NVIDIA · 2027-02-24 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换。",
@@ -23321,7 +23321,7 @@
       "date": "2027-04-21",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Tesla · 2027-04-21 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为汽车收入、交付量和平均售价、汽车毛利率、降价与成本下降。",
@@ -23481,7 +23481,7 @@
       "date": "2027-04-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Amazon · 2027-04-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为AWS 增速、积压订单与 AI 容量、北美及国际零售利润率。",
@@ -23641,7 +23641,7 @@
       "date": "2027-04-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Alphabet · 2027-04-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Search 广告增长及 AI 对变现的影响、Google Cloud 增速与营业利润率。",
@@ -23801,7 +23801,7 @@
       "date": "2027-04-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Meta · 2027-04-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为广告展示量、价格和推荐效率、Family of Apps 用户参与度与利润率。",
@@ -23961,7 +23961,7 @@
       "date": "2027-04-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Microsoft · 2027-04-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Azure 增速与 AI 工作负载构成、Microsoft Cloud 毛利率与资本开支。",
@@ -24121,7 +24121,7 @@
       "date": "2027-04-29",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Apple · 2027-04-29 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为iPhone 收入、产品组合与换机周期、Services 增速和毛利率。",
@@ -24281,7 +24281,7 @@
       "date": "2027-05-19",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "NVIDIA · 2027-05-19 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换。",
@@ -24441,7 +24441,7 @@
       "date": "2027-07-21",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Alphabet · 2027-07-21 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Search 广告增长及 AI 对变现的影响、Google Cloud 增速与营业利润率。",
@@ -24601,7 +24601,7 @@
       "date": "2027-07-21",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Tesla · 2027-07-21 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为汽车收入、交付量和平均售价、汽车毛利率、降价与成本下降。",
@@ -24761,7 +24761,7 @@
       "date": "2027-07-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Meta · 2027-07-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为广告展示量、价格和推荐效率、Family of Apps 用户参与度与利润率。",
@@ -24921,7 +24921,7 @@
       "date": "2027-07-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Microsoft · 2027-07-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Azure 增速与 AI 工作负载构成、Microsoft Cloud 毛利率与资本开支。",
@@ -25081,7 +25081,7 @@
       "date": "2027-07-29",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Apple · 2027-07-29 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为iPhone 收入、产品组合与换机周期、Services 增速和毛利率。",
@@ -25241,7 +25241,7 @@
       "date": "2027-07-29",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "Amazon · 2027-07-29 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为AWS 增速、积压订单与 AI 容量、北美及国际零售利润率。",
@@ -25401,7 +25401,7 @@
       "date": "2027-08-25",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-10-09T01:50:54+00:00 · 自动日历快照",
+      "information_cutoff": "2026-10-09T15:10:47+00:00 · 自动日历快照",
       "preview": {
         "title": "NVIDIA · 2027-08-25 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换。",
@@ -25596,8 +25596,8 @@
       "type": "consensus"
     },
     "nasdaq_future": {
-      "label": "Nasdaq earnings calendar（date and EPS forecast）",
-      "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-04",
+      "label": "Nasdaq earnings calendar · 2026-10-28",
+      "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-28",
       "type": "calendar"
     },
     "sec_filings": {
@@ -25945,9 +25945,9 @@
       "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-28",
       "type": "calendar"
     },
-    "calendar_aapl_2026_10_29": {
+    "calendar_msft_2026_10_28": {
       "label": "Nasdaq earnings calendar",
-      "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-29",
+      "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-28",
       "type": "calendar"
     },
     "calendar_amzn_2026_10_29": {
@@ -25955,12 +25955,12 @@
       "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-29",
       "type": "calendar"
     },
-    "calendar_meta_2026_11_04": {
+    "calendar_aapl_2026_11_02": {
       "label": "Nasdaq earnings calendar",
-      "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-04",
+      "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-02",
       "type": "calendar"
     },
-    "calendar_msft_2026_11_04": {
+    "calendar_meta_2026_11_04": {
       "label": "Nasdaq earnings calendar",
       "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-04",
       "type": "calendar"
