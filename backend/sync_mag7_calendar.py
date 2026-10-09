@@ -322,6 +322,7 @@ def build() -> tuple[dict, dict]:
     previous_generated_at = None
     previous_ids: set[str] = set()
     previous_statuses: dict[str, str] = {}
+    previous_events: dict[str, dict] = {}
     if OUTPUT.exists():
         try:
             previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
@@ -329,6 +330,7 @@ def build() -> tuple[dict, dict]:
             for event in previous.get("calendar", {}).get("formal", {}).get("events", []):
                 previous_ids.add(event.get("id", ""))
                 previous_statuses[event.get("id", "")] = event.get("status", "")
+                previous_events[event.get("id", "")] = event
                 if event.get("status") == "reported":
                     by_id[event["id"]] = event
                 elif event.get("status") in {"estimated", "confirmed"} and event.get("date", "") >= date.today().isoformat():
@@ -378,24 +380,80 @@ def build() -> tuple[dict, dict]:
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     current_ids = {event["id"] for event in reported + projected + estimated + confirmed}
     current_events = {event["id"]: event for event in reported + projected + estimated + confirmed}
+    added_ids = current_ids - previous_ids if previous_generated_at else set()
+    removed_ids = previous_ids - current_ids if previous_generated_at else set()
+    matched_added: set[str] = set()
+    matched_removed: set[str] = set()
+    date_changes = []
+    for removed_id in sorted(removed_ids):
+        before = previous_events.get(removed_id, {})
+        migration_candidates = [
+            current_events[event_id] for event_id in added_ids
+            if event_id not in matched_added
+            and current_events[event_id].get("ticker") == before.get("ticker")
+            and current_events[event_id].get("fiscal_period") == before.get("fiscal_period")
+            and current_events[event_id].get("status") != "reported"
+            and before.get("status") != "reported"
+        ]
+        if not migration_candidates:
+            continue
+        after = min(migration_candidates, key=lambda event: abs((date.fromisoformat(event["date"]) - date.fromisoformat(before["date"])).days))
+        matched_removed.add(removed_id)
+        matched_added.add(after["id"])
+        date_changes.append({
+            "ticker": after["ticker"], "fiscal_period": after.get("fiscal_period"),
+            "from_date": before.get("date"), "to_date": after.get("date"),
+            "from_status": before.get("status"), "to_status": after.get("status"),
+        })
     status_changes = [
         {
             "id": event_id,
             "ticker": current_events[event_id]["ticker"],
+            "date": current_events[event_id]["date"],
+            "fiscal_period": current_events[event_id].get("fiscal_period"),
             "from": previous_status,
             "to": current_events[event_id]["status"],
         }
         for event_id, previous_status in previous_statuses.items()
         if event_id in current_events and previous_status != current_events[event_id]["status"]
     ]
+    field_changes = []
+    tracked_fields = (
+        ("eps_forecast", "EPS 预期"),
+        ("analyst_count", "分析师数量"),
+        ("session", "发布时间段"),
+    )
+    for event_id in sorted(current_ids & previous_ids):
+        before, after = previous_events.get(event_id, {}), current_events[event_id]
+        for field, label in tracked_fields:
+            old_value = (before.get("forecast") or {}).get(field.replace("eps_forecast", "eps"))
+            new_value = (after.get("forecast") or {}).get(field.replace("eps_forecast", "eps"))
+            if old_value != new_value:
+                field_changes.append({
+                    "id": event_id, "ticker": after["ticker"], "date": after["date"],
+                    "field": field, "label": label, "from": old_value, "to": new_value,
+                })
+    added_events = [
+        {key: current_events[event_id].get(key) for key in ("id", "ticker", "date", "status", "fiscal_period")}
+        for event_id in sorted(added_ids - matched_added)
+    ]
+    removed_events = [
+        {key: previous_events[event_id].get(key) for key in ("id", "ticker", "date", "status", "fiscal_period")}
+        for event_id in sorted(removed_ids - matched_removed) if event_id in previous_events
+    ]
     run_id = os.getenv("GITHUB_RUN_ID", "")
     repository = os.getenv("GITHUB_REPOSITORY", "zanehuang666/mag7-earnings-radar")
     audit = {
         "previous_generated_at": previous_generated_at,
         "current_generated_at": now,
-        "event_ids_added": len(current_ids - previous_ids) if previous_generated_at else 0,
-        "event_ids_removed": len(previous_ids - current_ids) if previous_generated_at else 0,
+        "event_ids_added": len(added_ids),
+        "event_ids_removed": len(removed_ids),
+        "content_change_count": len(date_changes) + len(status_changes) + len(field_changes) + len(added_events) + len(removed_events),
+        "date_changes": date_changes,
         "status_changes": status_changes,
+        "field_changes": field_changes,
+        "added_events": added_events,
+        "removed_events": removed_events,
         "heartbeat_changed": previous_generated_at != now,
     }
     calendar = {

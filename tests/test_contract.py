@@ -94,7 +94,8 @@ class Mag7CalendarTest(unittest.TestCase):
         self.assertTrue(sync["automatic"])
         self.assertEqual(sync["schedule_timezone"], "Asia/Shanghai")
         self.assertTrue(any("周末" in item for item in sync["schedule"]))
-        self.assertTrue({"previous_generated_at", "current_generated_at", "heartbeat_changed", "status_changes"}
+        self.assertTrue({"previous_generated_at", "current_generated_at", "heartbeat_changed", "status_changes",
+                         "content_change_count", "date_changes", "field_changes", "added_events", "removed_events"}
                         .issubset(sync["audit"]))
         self.assertTrue({"trigger", "run_id", "url"}.issubset(sync["run"]))
         self.assertTrue({"checked_at", "provider", "successful", "reported_observed", "future_observed"}
@@ -114,6 +115,8 @@ class Mag7CalendarTest(unittest.TestCase):
         self.assertIn("空心灰＝尚无完整研究", html)
         self.assertIn("mag7-custom-cache", html)
         self.assertIn("checkLatestData", html)
+        self.assertIn("本次具体更新内容", html)
+        self.assertIn("audit-change-list", html)
         self.assertIn("risk-detail-grid{display:none}", html)
         self.assertIn("真实自动更新证据", html)
         self.assertIn("独立真实探针", html)
@@ -226,6 +229,14 @@ class Mag7ResearchTest(unittest.TestCase):
             self.assertGreaterEqual(len(event["preview"]["metrics"]), 6)
             self.assertGreaterEqual(len(event["preview"]["observations"]), 3)
             self.assertGreaterEqual(len(event["preview"]["risks"]), 3)
+
+    def test_future_research_matches_current_calendar_ids(self):
+        calendar = json.loads((ROOT / "frontend" / "data" / "mag7.json").read_text(encoding="utf-8"))
+        calendar_ids = {
+            event["id"] for event in calendar["calendar"]["formal"]["events"]
+            if event["status"] != "reported"
+        }
+        self.assertEqual({event["id"] for event in self.future}, calendar_ids)
 
     def test_next_aapl_preview_uses_structured_research(self):
         event = next(item for item in self.future if item["ticker"] == "AAPL" and item["status"] == "estimated")

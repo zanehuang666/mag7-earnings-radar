@@ -10,6 +10,7 @@ Microsoft deep-dive records remain authoritative overrides.
 from __future__ import annotations
 
 import concurrent.futures
+import copy
 import json
 import os
 import re
@@ -330,6 +331,36 @@ def build_record(event: dict, row: dict | None, market: dict) -> dict:
     }
 
 
+def adapt_future_deep_record(record: dict, calendar_event: dict, generated_at: str | None) -> dict:
+    """Move a verified future research sample onto the current calendar date."""
+    item = copy.deepcopy(record)
+    old_date, new_date = item["date"], calendar_event["date"]
+
+    def replace_date(value):
+        if isinstance(value, str):
+            return value.replace(old_date, new_date)
+        if isinstance(value, list):
+            return [replace_date(child) for child in value]
+        if isinstance(value, dict):
+            return {key: replace_date(child) for key, child in value.items()}
+        return value
+
+    item = replace_date(item)
+    item.update({
+        "id": calendar_event["id"], "date": new_date,
+        "status": calendar_event["status"],
+        "information_cutoff": f"{generated_at or new_date} · 当前自动日历快照；研究事实沿用已核验来源",
+    })
+    forecast = calendar_event.get("forecast") or {}
+    for metric in item["preview"].get("metrics", []):
+        if metric.get("name") == "Expected date":
+            metric["expectation"] = f"{new_date} Nasdaq {calendar_event['status']}；IR 未确认"
+        elif metric.get("name") == "EPS consensus":
+            eps, analysts = forecast.get("eps"), forecast.get("analyst_count")
+            metric["expectation"] = f"{eps or '当前快照未提供'} / {analysts or '—'} analysts (Nasdaq snapshot)"
+    return item
+
+
 def build() -> dict:
     calendar = load(CALENDAR_PATH, {})
     market = load(MARKET_PATH, {})
@@ -341,8 +372,24 @@ def build() -> dict:
     existing = {} if force else {event["id"]: event for event in previous.get("events", []) if event.get("sample_role") == "全量历史确定性研究"}
     deep = {
         event["id"]: {"ticker": "MSFT", "company": "Microsoft", **event}
-        for event in msft.get("events", [])
+        for event in msft.get("events", []) if event.get("status") == "reported"
     }
+    deep_future_source = None
+    for record in (event for event in msft.get("events", []) if event.get("status") != "reported"):
+        candidates = [
+            event for event in future
+            if event["ticker"] == "MSFT" and event["status"] in {"estimated", "confirmed"}
+        ]
+        if not candidates:
+            continue
+        match = min(candidates, key=lambda event: abs((date.fromisoformat(event["date"]) - date.fromisoformat(record["date"])).days))
+        if abs((date.fromisoformat(match["date"]) - date.fromisoformat(record["date"])).days) > 45:
+            continue
+        adapted = adapt_future_deep_record(
+            {"ticker": "MSFT", "company": "Microsoft", **record}, match, calendar.get("generated_at")
+        )
+        deep[adapted["id"]] = adapted
+        deep_future_source = match
     # A newly released event may not yet have a complete 5-trading-day market
     # window.  Rebuild only those pending records until the reaction exists;
     # mature history remains byte-for-byte cached.
@@ -391,7 +438,7 @@ def build() -> dict:
         aliases = {"GOOGL": {"GOOGL", "GOOG"}}.get(event["ticker"], {event["ticker"]})
         row = recent_by_id.get(event["id"]) or next((item for item in rows_by_date.get(event["date"], []) if (item.get("symbol") or "").upper() in aliases), None)
         generated.append(build_record(event, row, market))
-    # Keep the verified future Microsoft Preview as the exemplar for T-1 behavior.
+    # Keep the verified future Microsoft Preview on the current calendar event.
     for event in deep.values():
         if event["id"] not in {item["id"] for item in generated}:
             generated.append(event)
@@ -401,6 +448,11 @@ def build() -> dict:
             generated.append(build_future_record(event))
             generated_ids.add(event["id"])
     sources = dict(msft.get("sources", {}))
+    if deep_future_source:
+        sources["nasdaq_future"] = {
+            "label": f"Nasdaq earnings calendar · {deep_future_source['date']}",
+            "url": deep_future_source["source"]["url"], "type": "calendar",
+        }
     for event in reported:
         ticker, day = event["ticker"], event["date"]
         sources.setdefault(f"nasdaq_{day.replace('-', '_')}", {"label": f"Nasdaq earnings calendar · {day}", "url": f"{NASDAQ}/calendar/earnings?date={day}", "type": "consensus_and_actual"})
