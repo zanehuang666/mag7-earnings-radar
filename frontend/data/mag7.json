@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-09T15:10:46+00:00",
+  "generated_at": "2026-10-10T01:51:40+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -41,7 +41,7 @@
   "calendar": {
     "formal": {
       "label": "正式日历",
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-10",
       "message": "历史日期来自 Nasdaq 日历并由最近四季接口自动校准；未来日期明确标记为预计，最终以公司 IR 为准。",
       "events": [
         {
@@ -8415,53 +8415,26 @@
       "周末 09:37 心跳验证"
     ],
     "run": {
-      "trigger": "push",
-      "run_id": "37949740544",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/37949740544"
+      "trigger": "schedule",
+      "run_id": "38014787401",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/38014787401"
     },
     "source_check": {
-      "checked_at": "2026-10-09T15:10:46+00:00",
+      "checked_at": "2026-10-10T01:51:40+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": true,
       "reported_observed": 28,
       "future_observed": 7
     },
     "audit": {
-      "previous_generated_at": "2026-10-09T01:50:53+00:00",
-      "current_generated_at": "2026-10-09T15:10:46+00:00",
-      "event_ids_added": 2,
-      "event_ids_removed": 2,
-      "content_change_count": 3,
-      "date_changes": [
-        {
-          "ticker": "AAPL",
-          "fiscal_period": "Sep/2026",
-          "from_date": "2026-10-29",
-          "to_date": "2026-11-02",
-          "from_status": "estimated",
-          "to_status": "estimated"
-        },
-        {
-          "ticker": "MSFT",
-          "fiscal_period": "Sep/2026",
-          "from_date": "2026-11-04",
-          "to_date": "2026-10-28",
-          "from_status": "estimated",
-          "to_status": "estimated"
-        }
-      ],
+      "previous_generated_at": "2026-10-09T15:10:46+00:00",
+      "current_generated_at": "2026-10-10T01:51:40+00:00",
+      "event_ids_added": 0,
+      "event_ids_removed": 0,
+      "content_change_count": 0,
+      "date_changes": [],
       "status_changes": [],
-      "field_changes": [
-        {
-          "id": "tsla-2026-10-21",
-          "ticker": "TSLA",
-          "date": "2026-10-21",
-          "field": "eps_forecast",
-          "label": "EPS 预期",
-          "from": "$0.24",
-          "to": "$0.23"
-        }
-      ],
+      "field_changes": [],
       "added_events": [],
       "removed_events": [],
       "heartbeat_changed": true
