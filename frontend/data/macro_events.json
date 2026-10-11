@@ -1,35 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T01:51:41+00:00",
+  "generated_at": "2026-10-11T01:50:38+00:00",
   "events": [
-    {
-      "id": "macro-cpi-2026-04-10",
-      "type": "macro",
-      "code": "CPI",
-      "name": "美国 CPI",
-      "category": "inflation",
-      "date": "2026-04-10",
-      "scheduled_at": "2026-04-10T12:30:00.000Z",
-      "period": "March 2026",
-      "actual": 3.3,
-      "actual_display": "3.3%",
-      "previous": 2.4,
-      "previous_display": "2.4%",
-      "forecast": null,
-      "forecast_display": "免费官方链路不提供市场一致预期",
-      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
-      "unit": "% y/y, all items",
-      "headline": "通胀较前值升温",
-      "commentary": "通胀黏性上升可能推迟宽松预期、推高长端收益率，并对高估值科技股形成折现率压力。",
-      "source": {
-        "label": "官方数据聚合 / XOOMAR",
-        "url": "https://xoomar.com/markets/api/calendar"
-      },
-      "official_source": {
-        "label": "bls",
-        "url": "https://www.bls.gov/cpi/"
-      }
-    },
     {
       "id": "macro-fomc-2026-04-29",
       "type": "macro",
