@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-12T01:52:47+00:00",
+  "generated_at": "2026-10-12T14:03:03+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -3526,7 +3526,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {
-            "eps": "$0.23",
+            "eps": "$0.22",
             "analyst_count": "11",
             "session": "time-after-hours"
           },
@@ -3575,7 +3575,7 @@
             "url": "https://abc.xyz/investor/"
           },
           "forecast": {
-            "eps": "$2.95",
+            "eps": "$2.94",
             "analyst_count": "13",
             "session": "time-after-hours"
           },
@@ -8416,25 +8416,44 @@
     ],
     "run": {
       "trigger": "schedule",
-      "run_id": "38193586552",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/38193586552"
+      "run_id": "38260046262",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/38260046262"
     },
     "source_check": {
-      "checked_at": "2026-10-12T01:52:47+00:00",
+      "checked_at": "2026-10-12T14:03:03+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": true,
       "reported_observed": 28,
       "future_observed": 7
     },
     "audit": {
-      "previous_generated_at": "2026-10-11T01:50:37+00:00",
-      "current_generated_at": "2026-10-12T01:52:47+00:00",
+      "previous_generated_at": "2026-10-12T01:52:47+00:00",
+      "current_generated_at": "2026-10-12T14:03:03+00:00",
       "event_ids_added": 0,
       "event_ids_removed": 0,
-      "content_change_count": 0,
+      "content_change_count": 2,
       "date_changes": [],
       "status_changes": [],
-      "field_changes": [],
+      "field_changes": [
+        {
+          "id": "googl-2026-10-28",
+          "ticker": "GOOGL",
+          "date": "2026-10-28",
+          "field": "eps_forecast",
+          "label": "EPS 预期",
+          "from": "$2.95",
+          "to": "$2.94"
+        },
+        {
+          "id": "tsla-2026-10-21",
+          "ticker": "TSLA",
+          "date": "2026-10-21",
+          "field": "eps_forecast",
+          "label": "EPS 预期",
+          "from": "$0.23",
+          "to": "$0.22"
+        }
+      ],
       "added_events": [],
       "removed_events": [],
       "heartbeat_changed": true
