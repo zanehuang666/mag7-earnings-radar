@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-15T02:03:49+00:00",
+  "generated_at": "2026-10-15T14:14:17+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -3526,8 +3526,8 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {
-            "eps": "$6.39",
-            "analyst_count": "12",
+            "eps": "$6.35",
+            "analyst_count": "11",
             "session": "time-after-hours"
           },
           "date_range": {},
@@ -8416,25 +8416,44 @@
     ],
     "run": {
       "trigger": "schedule",
-      "run_id": "38668983849",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/38668983849"
+      "run_id": "38749571982",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/38749571982"
     },
     "source_check": {
-      "checked_at": "2026-10-15T02:03:49+00:00",
+      "checked_at": "2026-10-15T14:14:17+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": true,
       "reported_observed": 28,
       "future_observed": 7
     },
     "audit": {
-      "previous_generated_at": "2026-10-15T01:34:59+00:00",
-      "current_generated_at": "2026-10-15T02:03:49+00:00",
+      "previous_generated_at": "2026-10-15T02:03:49+00:00",
+      "current_generated_at": "2026-10-15T14:14:17+00:00",
       "event_ids_added": 0,
       "event_ids_removed": 0,
-      "content_change_count": 0,
+      "content_change_count": 2,
       "date_changes": [],
       "status_changes": [],
-      "field_changes": [],
+      "field_changes": [
+        {
+          "id": "meta-2026-10-21",
+          "ticker": "META",
+          "date": "2026-10-21",
+          "field": "eps_forecast",
+          "label": "EPS 预期",
+          "from": "$6.39",
+          "to": "$6.35"
+        },
+        {
+          "id": "meta-2026-10-21",
+          "ticker": "META",
+          "date": "2026-10-21",
+          "field": "analyst_count",
+          "label": "分析师数量",
+          "from": "12",
+          "to": "11"
+        }
+      ],
       "added_events": [],
       "removed_events": [],
       "heartbeat_changed": true
