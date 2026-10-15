@@ -50,8 +50,8 @@ class Mag7CalendarTest(unittest.TestCase):
         self.assertEqual(len({event["id"] for event in reported}), len(reported))
 
     def test_forward_calendar_covers_every_company(self):
-        estimated = [event for event in self.data["calendar"]["formal"]["events"] if event["status"] == "estimated"]
-        self.assertEqual({event["ticker"] for event in estimated}, {"AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA"})
+        future = [event for event in self.data["calendar"]["formal"]["events"] if event["status"] != "reported"]
+        self.assertEqual({event["ticker"] for event in future}, {"AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA"})
 
     def test_four_future_periods_per_company(self):
         future = [event for event in self.data["calendar"]["formal"]["events"] if event["status"] != "reported"]
