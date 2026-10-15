@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-15T01:34:59+00:00",
+  "generated_at": "2026-10-15T02:03:49+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -8415,72 +8415,26 @@
       "周末 09:37 心跳验证"
     ],
     "run": {
-      "trigger": "push",
-      "run_id": "38666416706",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/38666416706"
+      "trigger": "schedule",
+      "run_id": "38668983849",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/38668983849"
     },
     "source_check": {
-      "checked_at": "2026-10-15T01:34:59+00:00",
+      "checked_at": "2026-10-15T02:03:49+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": true,
       "reported_observed": 28,
       "future_observed": 7
     },
     "audit": {
-      "previous_generated_at": "2026-10-14T02:02:04+00:00",
-      "current_generated_at": "2026-10-15T01:34:59+00:00",
-      "event_ids_added": 1,
-      "event_ids_removed": 1,
-      "content_change_count": 5,
-      "date_changes": [
-        {
-          "ticker": "META",
-          "fiscal_period": "Sep/2026",
-          "from_date": "2026-11-04",
-          "to_date": "2026-10-21",
-          "from_status": "estimated",
-          "to_status": "estimated"
-        }
-      ],
+      "previous_generated_at": "2026-10-15T01:34:59+00:00",
+      "current_generated_at": "2026-10-15T02:03:49+00:00",
+      "event_ids_added": 0,
+      "event_ids_removed": 0,
+      "content_change_count": 0,
+      "date_changes": [],
       "status_changes": [],
-      "field_changes": [
-        {
-          "id": "aapl-2026-11-02",
-          "ticker": "AAPL",
-          "date": "2026-11-02",
-          "field": "eps_forecast",
-          "label": "EPS 预期",
-          "from": "$1.98",
-          "to": "$1.99"
-        },
-        {
-          "id": "aapl-2026-11-02",
-          "ticker": "AAPL",
-          "date": "2026-11-02",
-          "field": "analyst_count",
-          "label": "分析师数量",
-          "from": "8",
-          "to": "7"
-        },
-        {
-          "id": "tsla-2026-10-21",
-          "ticker": "TSLA",
-          "date": "2026-10-21",
-          "field": "eps_forecast",
-          "label": "EPS 预期",
-          "from": "$0.22",
-          "to": "$0.21"
-        },
-        {
-          "id": "tsla-2026-10-21",
-          "ticker": "TSLA",
-          "date": "2026-10-21",
-          "field": "analyst_count",
-          "label": "分析师数量",
-          "from": "11",
-          "to": "10"
-        }
-      ],
+      "field_changes": [],
       "added_events": [],
       "removed_events": [],
       "heartbeat_changed": true
