@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-16T02:03:28+00:00",
+  "generated_at": "2026-10-16T17:40:40+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -3526,8 +3526,8 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {
-            "eps": "$6.35",
-            "analyst_count": "11",
+            "eps": "$6.67",
+            "analyst_count": "10",
             "session": "time-after-hours"
           },
           "date_range": {},
@@ -3820,8 +3820,8 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {
-            "eps": "$2.47",
-            "analyst_count": "13",
+            "eps": "$2.48",
+            "analyst_count": "12",
             "session": "time-not-supplied"
           },
           "date_range": {},
@@ -8416,25 +8416,62 @@
     ],
     "run": {
       "trigger": "schedule",
-      "run_id": "38838422840",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/38838422840"
+      "run_id": "38941490150",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/38941490150"
     },
     "source_check": {
-      "checked_at": "2026-10-16T02:03:28+00:00",
+      "checked_at": "2026-10-16T17:40:40+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": true,
       "reported_observed": 28,
       "future_observed": 7
     },
     "audit": {
-      "previous_generated_at": "2026-10-15T14:14:17+00:00",
-      "current_generated_at": "2026-10-16T02:03:28+00:00",
+      "previous_generated_at": "2026-10-16T02:03:28+00:00",
+      "current_generated_at": "2026-10-16T17:40:40+00:00",
       "event_ids_added": 0,
       "event_ids_removed": 0,
-      "content_change_count": 0,
+      "content_change_count": 4,
       "date_changes": [],
       "status_changes": [],
-      "field_changes": [],
+      "field_changes": [
+        {
+          "id": "meta-2026-10-21",
+          "ticker": "META",
+          "date": "2026-10-21",
+          "field": "eps_forecast",
+          "label": "EPS 预期",
+          "from": "$6.35",
+          "to": "$6.67"
+        },
+        {
+          "id": "meta-2026-10-21",
+          "ticker": "META",
+          "date": "2026-10-21",
+          "field": "analyst_count",
+          "label": "分析师数量",
+          "from": "11",
+          "to": "10"
+        },
+        {
+          "id": "nvda-2026-11-18",
+          "ticker": "NVDA",
+          "date": "2026-11-18",
+          "field": "eps_forecast",
+          "label": "EPS 预期",
+          "from": "$2.47",
+          "to": "$2.48"
+        },
+        {
+          "id": "nvda-2026-11-18",
+          "ticker": "NVDA",
+          "date": "2026-11-18",
+          "field": "analyst_count",
+          "label": "分析师数量",
+          "from": "13",
+          "to": "12"
+        }
+      ],
       "added_events": [],
       "removed_events": [],
       "heartbeat_changed": true
