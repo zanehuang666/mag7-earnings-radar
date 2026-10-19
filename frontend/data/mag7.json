@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-19T06:44:10+00:00",
+  "generated_at": "2026-10-19T19:27:25+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -3526,8 +3526,8 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {
-            "eps": "$6.67",
-            "analyst_count": "10",
+            "eps": "$6.54",
+            "analyst_count": "11",
             "session": "time-after-hours"
           },
           "date_range": {},
@@ -3575,7 +3575,7 @@
             "url": "https://ir.tesla.com/"
           },
           "forecast": {
-            "eps": "$0.21",
+            "eps": "$0.22",
             "analyst_count": "10",
             "session": "time-after-hours"
           },
@@ -3625,7 +3625,7 @@
           },
           "forecast": {
             "eps": "$2.94",
-            "analyst_count": "13",
+            "analyst_count": "14",
             "session": "time-after-hours"
           },
           "date_range": {},
@@ -3674,7 +3674,7 @@
           },
           "forecast": {
             "eps": "$4.71",
-            "analyst_count": "13",
+            "analyst_count": "14",
             "session": "time-after-hours"
           },
           "date_range": {},
@@ -3722,9 +3722,9 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {
-            "eps": "$2.02",
-            "analyst_count": "13",
-            "session": "time-not-supplied"
+            "eps": "$2.01",
+            "analyst_count": "14",
+            "session": "time-after-hours"
           },
           "date_range": {},
           "preview": {
@@ -3771,8 +3771,8 @@
             "url": "https://investor.apple.com/"
           },
           "forecast": {
-            "eps": "$1.99",
-            "analyst_count": "7",
+            "eps": "$2",
+            "analyst_count": "8",
             "session": "time-after-hours"
           },
           "date_range": {},
@@ -3820,8 +3820,8 @@
             "url": "https://investor.nvidia.com/"
           },
           "forecast": {
-            "eps": "$2.48",
-            "analyst_count": "12",
+            "eps": "$2.49",
+            "analyst_count": "13",
             "session": "time-not-supplied"
           },
           "date_range": {},
@@ -8416,25 +8416,134 @@
     ],
     "run": {
       "trigger": "schedule",
-      "run_id": "39211611632",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/39211611632"
+      "run_id": "39311107194",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/39311107194"
     },
     "source_check": {
-      "checked_at": "2026-10-19T06:44:10+00:00",
+      "checked_at": "2026-10-19T19:27:25+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": true,
       "reported_observed": 28,
       "future_observed": 7
     },
     "audit": {
-      "previous_generated_at": "2026-10-18T06:33:21+00:00",
-      "current_generated_at": "2026-10-19T06:44:10+00:00",
+      "previous_generated_at": "2026-10-19T06:44:10+00:00",
+      "current_generated_at": "2026-10-19T19:27:25+00:00",
       "event_ids_added": 0,
       "event_ids_removed": 0,
-      "content_change_count": 0,
+      "content_change_count": 12,
       "date_changes": [],
       "status_changes": [],
-      "field_changes": [],
+      "field_changes": [
+        {
+          "id": "aapl-2026-11-02",
+          "ticker": "AAPL",
+          "date": "2026-11-02",
+          "field": "eps_forecast",
+          "label": "EPS 预期",
+          "from": "$1.99",
+          "to": "$2"
+        },
+        {
+          "id": "aapl-2026-11-02",
+          "ticker": "AAPL",
+          "date": "2026-11-02",
+          "field": "analyst_count",
+          "label": "分析师数量",
+          "from": "7",
+          "to": "8"
+        },
+        {
+          "id": "amzn-2026-10-29",
+          "ticker": "AMZN",
+          "date": "2026-10-29",
+          "field": "eps_forecast",
+          "label": "EPS 预期",
+          "from": "$2.02",
+          "to": "$2.01"
+        },
+        {
+          "id": "amzn-2026-10-29",
+          "ticker": "AMZN",
+          "date": "2026-10-29",
+          "field": "analyst_count",
+          "label": "分析师数量",
+          "from": "13",
+          "to": "14"
+        },
+        {
+          "id": "amzn-2026-10-29",
+          "ticker": "AMZN",
+          "date": "2026-10-29",
+          "field": "session",
+          "label": "发布时间段",
+          "from": "time-not-supplied",
+          "to": "time-after-hours"
+        },
+        {
+          "id": "googl-2026-10-28",
+          "ticker": "GOOGL",
+          "date": "2026-10-28",
+          "field": "analyst_count",
+          "label": "分析师数量",
+          "from": "13",
+          "to": "14"
+        },
+        {
+          "id": "meta-2026-10-21",
+          "ticker": "META",
+          "date": "2026-10-21",
+          "field": "eps_forecast",
+          "label": "EPS 预期",
+          "from": "$6.67",
+          "to": "$6.54"
+        },
+        {
+          "id": "meta-2026-10-21",
+          "ticker": "META",
+          "date": "2026-10-21",
+          "field": "analyst_count",
+          "label": "分析师数量",
+          "from": "10",
+          "to": "11"
+        },
+        {
+          "id": "msft-2026-10-28",
+          "ticker": "MSFT",
+          "date": "2026-10-28",
+          "field": "analyst_count",
+          "label": "分析师数量",
+          "from": "13",
+          "to": "14"
+        },
+        {
+          "id": "nvda-2026-11-18",
+          "ticker": "NVDA",
+          "date": "2026-11-18",
+          "field": "eps_forecast",
+          "label": "EPS 预期",
+          "from": "$2.48",
+          "to": "$2.49"
+        },
+        {
+          "id": "nvda-2026-11-18",
+          "ticker": "NVDA",
+          "date": "2026-11-18",
+          "field": "analyst_count",
+          "label": "分析师数量",
+          "from": "12",
+          "to": "13"
+        },
+        {
+          "id": "tsla-2026-10-21",
+          "ticker": "TSLA",
+          "date": "2026-10-21",
+          "field": "eps_forecast",
+          "label": "EPS 预期",
+          "from": "$0.21",
+          "to": "$0.22"
+        }
+      ],
       "added_events": [],
       "removed_events": [],
       "heartbeat_changed": true
