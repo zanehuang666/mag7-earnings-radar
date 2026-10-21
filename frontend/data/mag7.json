@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-21T06:30:21+00:00",
+  "generated_at": "2026-10-21T18:14:25+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -3526,8 +3526,8 @@
             "url": "https://investor.atmeta.com/"
           },
           "forecast": {
-            "eps": "$6.54",
-            "analyst_count": "11",
+            "eps": "$4.98",
+            "analyst_count": "12",
             "session": "time-after-hours"
           },
           "date_range": {},
@@ -3722,7 +3722,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {
-            "eps": "$2.01",
+            "eps": "$2.02",
             "analyst_count": "14",
             "session": "time-after-hours"
           },
@@ -8405,17 +8405,7 @@
     "estimated_count": 7,
     "confirmed_count": 0,
     "source": "Nasdaq public earnings endpoints",
-    "errors": [
-      "MSFT latest: RuntimeError: Nasdaq earnings-surprise data unavailable: No record found.",
-      "AAPL latest: RuntimeError: Nasdaq earnings-surprise data unavailable: No record found.",
-      "GOOGL latest: RuntimeError: Nasdaq earnings-surprise data unavailable: No record found.",
-      "AMZN latest: RuntimeError: Nasdaq earnings-surprise data unavailable: No record found.",
-      "NVDA latest: RuntimeError: Nasdaq earnings-surprise data unavailable: No record found.",
-      "META latest: RuntimeError: Nasdaq earnings-surprise data unavailable: No record found.",
-      "TSLA latest: RuntimeError: Nasdaq earnings-surprise data unavailable: No record found.",
-      "MU profile: RuntimeError: Nasdaq earnings-surprise data unavailable: No record found.; retained previous cached profile",
-      "AEHR verification: RuntimeError: Nasdaq earnings-surprise data unavailable: No record found."
-    ],
+    "errors": [],
     "forward_days": 120,
     "automatic": true,
     "schedule_timezone": "Asia/Shanghai",
@@ -8426,25 +8416,53 @@
     ],
     "run": {
       "trigger": "schedule",
-      "run_id": "39555794067",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/39555794067"
+      "run_id": "39650889943",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/39650889943"
     },
     "source_check": {
-      "checked_at": "2026-10-21T06:30:21+00:00",
+      "checked_at": "2026-10-21T18:14:25+00:00",
       "provider": "Nasdaq public earnings endpoints",
-      "successful": false,
-      "reported_observed": 0,
+      "successful": true,
+      "reported_observed": 28,
       "future_observed": 7
     },
     "audit": {
-      "previous_generated_at": "2026-10-21T02:14:36+00:00",
-      "current_generated_at": "2026-10-21T06:30:21+00:00",
+      "previous_generated_at": "2026-10-21T06:30:21+00:00",
+      "current_generated_at": "2026-10-21T18:14:25+00:00",
       "event_ids_added": 0,
       "event_ids_removed": 0,
-      "content_change_count": 0,
+      "content_change_count": 3,
       "date_changes": [],
       "status_changes": [],
-      "field_changes": [],
+      "field_changes": [
+        {
+          "id": "amzn-2026-10-29",
+          "ticker": "AMZN",
+          "date": "2026-10-29",
+          "field": "eps_forecast",
+          "label": "EPS 预期",
+          "from": "$2.01",
+          "to": "$2.02"
+        },
+        {
+          "id": "meta-2026-10-21",
+          "ticker": "META",
+          "date": "2026-10-21",
+          "field": "eps_forecast",
+          "label": "EPS 预期",
+          "from": "$6.54",
+          "to": "$4.98"
+        },
+        {
+          "id": "meta-2026-10-21",
+          "ticker": "META",
+          "date": "2026-10-21",
+          "field": "analyst_count",
+          "label": "分析师数量",
+          "from": "11",
+          "to": "12"
+        }
+      ],
       "added_events": [],
       "removed_events": [],
       "heartbeat_changed": true
