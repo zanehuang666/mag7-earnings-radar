@@ -88,6 +88,24 @@ def normalize_us_date(value: str) -> str:
     return datetime.strptime(value, "%m/%d/%Y").date().isoformat()
 
 
+def earnings_surprise_rows(payload: dict) -> list[dict]:
+    """Return Nasdaq surprise rows or raise a clear error for empty responses."""
+    data = payload.get("data")
+    table = data.get("earningsSurpriseTable") if isinstance(data, dict) else None
+    if not isinstance(table, dict):
+        status = payload.get("status") or {}
+        messages = status.get("bCodeMessage") or []
+        detail = "; ".join(
+            item.get("errorMessage", "") for item in messages
+            if isinstance(item, dict) and item.get("errorMessage")
+        )
+        raise RuntimeError(f"Nasdaq earnings-surprise data unavailable: {detail or 'missing data/table'}")
+    rows = table.get("rows")
+    if not isinstance(rows, list) or not rows:
+        raise RuntimeError("Nasdaq earnings-surprise data unavailable: no rows")
+    return rows
+
+
 def research_blocks(ticker: str, status: str, surprise: dict | None = None) -> tuple[dict, dict]:
     name, _, focus = ALL_COMPANIES[ticker]
     preview = {
@@ -144,7 +162,7 @@ def latest_reported() -> tuple[list[dict], list[str]]:
         url = f"{NASDAQ}/company/{ticker}/earnings-surprise"
         try:
             payload = fetch_json(url)
-            rows = payload["data"]["earningsSurpriseTable"]["rows"] or []
+            rows = earnings_surprise_rows(payload)
             for row in rows:
                 event_date = normalize_us_date(row["dateReported"])
                 events.append(make_event(ticker, event_date, "reported", row.get("fiscalQtrEnd") or "Reported quarter",
@@ -250,7 +268,7 @@ def build_extra_profiles() -> tuple[dict[str, dict], list[str]]:
         url = f"{NASDAQ}/company/{ticker}/earnings-surprise"
         try:
             payload = fetch_json(url)
-            rows = payload["data"]["earningsSurpriseTable"]["rows"] or []
+            rows = earnings_surprise_rows(payload)
             for row in rows:
                 event_date = normalize_us_date(row["dateReported"])
                 event = make_event(ticker, event_date, "reported", row.get("fiscalQtrEnd") or "Reported quarter",
@@ -305,7 +323,7 @@ def build_verification_sample(candidates: list[dict]) -> tuple[dict, str | None]
     }
     try:
         payload = fetch_json(sample["result_source"])
-        rows = payload["data"]["earningsSurpriseTable"]["rows"] or []
+        rows = earnings_surprise_rows(payload)
         reported = next(
             (row for row in rows if normalize_us_date(row["dateReported"]) == expected_date),
             None,

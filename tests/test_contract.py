@@ -156,6 +156,13 @@ class Mag7CalendarTest(unittest.TestCase):
         self.assertEqual(profiles["MU"], source["profiles"]["MU"])
         self.assertTrue(any("MU profile: RuntimeError" in error and "retained previous cached profile" in error for error in errors))
 
+    def test_nasdaq_empty_surprise_response_has_clear_error(self):
+        with self.assertRaisesRegex(RuntimeError, "No record found"):
+            sync_mag7_calendar.earnings_surprise_rows({
+                "data": None,
+                "status": {"bCodeMessage": [{"errorMessage": "No record found."}]},
+            })
+
     def test_market_snapshot_is_usable(self):
         market = json.loads((ROOT / "frontend" / "data" / "market_qqq.json").read_text(encoding="utf-8"))
         expected = {"QQQ", "AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA"}
