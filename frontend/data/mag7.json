@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-21T02:14:36+00:00",
+  "generated_at": "2026-10-21T06:30:21+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -8425,20 +8425,20 @@
       "周末 09:37 心跳验证"
     ],
     "run": {
-      "trigger": "push",
-      "run_id": "39531906875",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/39531906875"
+      "trigger": "schedule",
+      "run_id": "39555794067",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/39555794067"
     },
     "source_check": {
-      "checked_at": "2026-10-21T02:14:36+00:00",
+      "checked_at": "2026-10-21T06:30:21+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": false,
       "reported_observed": 0,
       "future_observed": 7
     },
     "audit": {
-      "previous_generated_at": "2026-10-21T02:13:39+00:00",
-      "current_generated_at": "2026-10-21T02:14:36+00:00",
+      "previous_generated_at": "2026-10-21T02:14:36+00:00",
+      "current_generated_at": "2026-10-21T06:30:21+00:00",
       "event_ids_added": 0,
       "event_ids_removed": 0,
       "content_change_count": 0,
