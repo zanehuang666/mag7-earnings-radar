@@ -168,7 +168,7 @@ def latest_reported() -> tuple[list[dict], list[str]]:
                 events.append(make_event(ticker, event_date, "reported", row.get("fiscalQtrEnd") or "Reported quarter",
                                          url, "Nasdaq earnings surprise", surprise=row))
         except Exception as exc:
-            errors.append(f"{ticker} latest: {type(exc).__name__}")
+            errors.append(f"{ticker} latest: {type(exc).__name__}: {exc}")
     return events, errors
 
 
@@ -283,7 +283,7 @@ def build_extra_profiles() -> tuple[dict[str, dict], list[str]]:
                 "events": sorted(by_id.values(), key=lambda item: item["date"]),
             }
         except Exception as exc:
-            errors.append(f"{ticker} profile: {type(exc).__name__}")
+            errors.append(f"{ticker} profile: {type(exc).__name__}: {exc}")
             cached = previous_profiles.get(ticker)
             if (isinstance(cached, dict) and cached.get("ticker") == ticker
                     and isinstance(cached.get("events"), list) and cached["events"]):
@@ -344,7 +344,7 @@ def build_verification_sample(candidates: list[dict]) -> tuple[dict, str | None]
         # unavailable; a transient source failure must not reverse the demo.
         if previous and previous.get("status") == "reported":
             sample.update({key: previous.get(key) for key in ("status", "actual_eps", "consensus_eps", "surprise_pct")})
-        return sample, f"{ticker} verification: {type(exc).__name__}"
+        return sample, f"{ticker} verification: {type(exc).__name__}: {exc}"
 
 
 def build() -> tuple[dict, dict]:
