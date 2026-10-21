@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-21T02:11:27+00:00",
+  "generated_at": "2026-10-21T02:13:39+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -8406,15 +8406,15 @@
     "confirmed_count": 0,
     "source": "Nasdaq public earnings endpoints",
     "errors": [
-      "MSFT latest: TypeError",
-      "AAPL latest: TypeError",
-      "GOOGL latest: TypeError",
-      "AMZN latest: TypeError",
-      "NVDA latest: TypeError",
-      "META latest: TypeError",
-      "TSLA latest: TypeError",
-      "MU profile: TypeError; retained previous cached profile",
-      "AEHR verification: TypeError"
+      "MSFT latest: RuntimeError",
+      "AAPL latest: RuntimeError",
+      "GOOGL latest: RuntimeError",
+      "AMZN latest: RuntimeError",
+      "NVDA latest: RuntimeError",
+      "META latest: RuntimeError",
+      "TSLA latest: RuntimeError",
+      "MU profile: RuntimeError; retained previous cached profile",
+      "AEHR verification: RuntimeError"
     ],
     "forward_days": 120,
     "automatic": true,
@@ -8426,19 +8426,19 @@
     ],
     "run": {
       "trigger": "push",
-      "run_id": "39531607657",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/39531607657"
+      "run_id": "39531811265",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/39531811265"
     },
     "source_check": {
-      "checked_at": "2026-10-21T02:11:27+00:00",
+      "checked_at": "2026-10-21T02:13:39+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": false,
       "reported_observed": 0,
       "future_observed": 7
     },
     "audit": {
-      "previous_generated_at": "2026-10-20T06:31:19+00:00",
-      "current_generated_at": "2026-10-21T02:11:27+00:00",
+      "previous_generated_at": "2026-10-21T02:11:27+00:00",
+      "current_generated_at": "2026-10-21T02:13:39+00:00",
       "event_ids_added": 0,
       "event_ids_removed": 0,
       "content_change_count": 0,
