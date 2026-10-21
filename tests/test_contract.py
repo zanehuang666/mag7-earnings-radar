@@ -1,12 +1,15 @@
 import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from backend.sync_msft_research import EVENTS as MSFT_RESEARCH_EVENTS, apply_narrative, parse_json_object
+from backend import sync_mag7_calendar
 
 
 class Mag7CalendarTest(unittest.TestCase):
@@ -140,6 +143,18 @@ class Mag7CalendarTest(unittest.TestCase):
         self.assertGreaterEqual(len(reported), 4)
         self.assertEqual(len(projected), 4)
         self.assertTrue(all({"from", "to"}.issubset(event["date_range"]) for event in projected))
+
+    def test_mu_search_fallback_retains_cached_profile_when_nasdaq_fails(self):
+        source = json.loads((ROOT / "frontend" / "data" / "us_earnings_candidates.json").read_text(encoding="utf-8"))
+        with tempfile.TemporaryDirectory() as temp_dir:
+            cache_path = Path(temp_dir) / "candidates.json"
+            cache_path.write_text(json.dumps({"profiles": {"MU": source["profiles"]["MU"]}}), encoding="utf-8")
+            with patch.object(sync_mag7_calendar, "CANDIDATES_OUTPUT", cache_path), patch.object(
+                sync_mag7_calendar, "fetch_json", side_effect=RuntimeError("Nasdaq unavailable")
+            ):
+                profiles, errors = sync_mag7_calendar.build_extra_profiles()
+        self.assertEqual(profiles["MU"], source["profiles"]["MU"])
+        self.assertTrue(any("MU profile: RuntimeError" in error and "retained previous cached profile" in error for error in errors))
 
     def test_market_snapshot_is_usable(self):
         market = json.loads((ROOT / "frontend" / "data" / "market_qqq.json").read_text(encoding="utf-8"))

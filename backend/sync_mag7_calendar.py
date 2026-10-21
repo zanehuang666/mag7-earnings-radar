@@ -237,6 +237,14 @@ def add_cadence_projections(by_id: dict[str, dict], periods_per_company: int = 4
 def build_extra_profiles() -> tuple[dict[str, dict], list[str]]:
     """Build auditable history + projections for a small search fallback set."""
     profiles, errors = {}, []
+    previous_profiles = {}
+    if CANDIDATES_OUTPUT.exists():
+        try:
+            previous_profiles = json.loads(
+                CANDIDATES_OUTPUT.read_text(encoding="utf-8")
+            ).get("profiles", {})
+        except (OSError, json.JSONDecodeError):
+            pass
     for ticker, (company, ir_url, _) in EXTRA_COMPANIES.items():
         by_id: dict[str, dict] = {}
         url = f"{NASDAQ}/company/{ticker}/earnings-surprise"
@@ -258,6 +266,11 @@ def build_extra_profiles() -> tuple[dict[str, dict], list[str]]:
             }
         except Exception as exc:
             errors.append(f"{ticker} profile: {type(exc).__name__}")
+            cached = previous_profiles.get(ticker)
+            if (isinstance(cached, dict) and cached.get("ticker") == ticker
+                    and isinstance(cached.get("events"), list) and cached["events"]):
+                profiles[ticker] = cached
+                errors[-1] += "; retained previous cached profile"
     return profiles, errors
 
 
