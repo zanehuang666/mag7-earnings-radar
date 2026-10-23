@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-23T02:16:20+00:00",
+  "generated_at": "2026-10-23T06:26:51+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -8599,68 +8599,28 @@
       "周末 09:37 心跳验证"
     ],
     "run": {
-      "trigger": "push",
-      "run_id": "39888638139",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/39888638139"
+      "trigger": "schedule",
+      "run_id": "39911509135",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/39911509135"
     },
     "source_check": {
-      "checked_at": "2026-10-23T02:16:20+00:00",
+      "checked_at": "2026-10-23T06:26:51+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": true,
       "reported_observed": 28,
       "future_observed": 5
     },
     "audit": {
-      "previous_generated_at": "2026-10-22T06:32:24+00:00",
-      "current_generated_at": "2026-10-23T02:16:20+00:00",
-      "event_ids_added": 3,
-      "event_ids_removed": 1,
-      "content_change_count": 5,
+      "previous_generated_at": "2026-10-23T02:16:20+00:00",
+      "current_generated_at": "2026-10-23T06:26:51+00:00",
+      "event_ids_added": 0,
+      "event_ids_removed": 0,
+      "content_change_count": 0,
       "date_changes": [],
       "status_changes": [],
-      "field_changes": [
-        {
-          "id": "amzn-2026-10-29",
-          "ticker": "AMZN",
-          "date": "2026-10-29",
-          "field": "eps_forecast",
-          "label": "EPS 预期",
-          "from": "$2.02",
-          "to": "$2.01"
-        }
-      ],
-      "added_events": [
-        {
-          "id": "meta-2026-10-21",
-          "ticker": "META",
-          "date": "2026-10-21",
-          "status": "reported",
-          "fiscal_period": "Sep 2026"
-        },
-        {
-          "id": "meta-2027-10-20",
-          "ticker": "META",
-          "date": "2027-10-20",
-          "status": "projected",
-          "fiscal_period": "Projected quarter +4"
-        },
-        {
-          "id": "tsla-2026-10-21",
-          "ticker": "TSLA",
-          "date": "2026-10-21",
-          "status": "reported",
-          "fiscal_period": "Sep 2026"
-        }
-      ],
-      "removed_events": [
-        {
-          "id": "meta-2026-10-28",
-          "ticker": "META",
-          "date": "2026-10-28",
-          "status": "projected",
-          "fiscal_period": "Projected quarter +1"
-        }
-      ],
+      "field_changes": [],
+      "added_events": [],
+      "removed_events": [],
       "heartbeat_changed": true
     }
   },
