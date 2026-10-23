@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-22T06:32:24+00:00",
+  "generated_at": "2026-10-23T02:16:20+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -41,7 +41,7 @@
   "calendar": {
     "formal": {
       "label": "正式日历",
-      "as_of": "2026-10-22",
+      "as_of": "2026-10-23",
       "message": "历史日期来自 Nasdaq 日历并由最近四季接口自动校准；未来日期明确标记为预计，最终以公司 IR 为准。",
       "events": [
         {
@@ -3510,6 +3510,96 @@
           }
         },
         {
+          "id": "meta-2026-10-21",
+          "ticker": "META",
+          "company": "Meta",
+          "date": "2026-10-21",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/META/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Meta IR",
+            "url": "https://investor.atmeta.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Meta 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "广告效率",
+              "用户参与度",
+              "AI 基础设施投入"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 13.50%",
+            "summary": "报告 EPS 7.4，一致预期 6.52。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：7.4",
+              "一致预期：6.52",
+              "惊喜幅度：13.50%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "tsla-2026-10-21",
+          "ticker": "TSLA",
+          "company": "Tesla",
+          "date": "2026-10-21",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/TSLA/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Tesla IR",
+            "url": "https://ir.tesla.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Tesla 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "汽车毛利率",
+              "交付与需求",
+              "储能和自动驾驶"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 9.09%",
+            "summary": "报告 EPS 0.2，一致预期 0.22。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：0.2",
+              "一致预期：0.22",
+              "惊喜幅度：-9.09%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
           "id": "googl-2026-10-28",
           "ticker": "GOOGL",
           "company": "Alphabet",
@@ -3551,57 +3641,6 @@
               "搜索广告",
               "Google Cloud",
               "AI 投入回报"
-            ],
-            "risks": [
-              "不得把预测写成已发生事实",
-              "等待正式结果和来源验证"
-            ]
-          }
-        },
-        {
-          "id": "meta-2026-10-28",
-          "ticker": "META",
-          "company": "Meta",
-          "date": "2026-10-28",
-          "fiscal_period": "Projected quarter +1",
-          "status": "projected",
-          "date_confidence": "projected",
-          "source": {
-            "label": "Historical cadence projection",
-            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
-          },
-          "ir_source": {
-            "label": "Meta IR",
-            "url": "https://investor.atmeta.com/"
-          },
-          "forecast": {
-            "method": "same_quarter_plus_52_weeks",
-            "cadence_days_fallback": 91
-          },
-          "date_range": {
-            "from": "2026-10-21",
-            "to": "2026-11-04"
-          },
-          "preview": {
-            "verdict": "Meta 财报前检查清单（简版）",
-            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
-            "points": [
-              "广告效率",
-              "用户参与度",
-              "AI 基础设施投入"
-            ],
-            "risks": [
-              "预计日期可能调整，应以公司 IR 最终公告为准",
-              "简版内容不代表完整卖方一致预期"
-            ]
-          },
-          "aftercheck": {
-            "verdict": "尚未发布，Analysis 将在财报后生成",
-            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
-            "points": [
-              "广告效率",
-              "用户参与度",
-              "AI 基础设施投入"
             ],
             "risks": [
               "不得把预测写成已发生事实",
@@ -3675,7 +3714,7 @@
             "url": "https://ir.aboutamazon.com/"
           },
           "forecast": {
-            "eps": "$2.02",
+            "eps": "$2.01",
             "analyst_count": "14",
             "session": "time-after-hours"
           },
@@ -3810,7 +3849,7 @@
           "ticker": "META",
           "company": "Meta",
           "date": "2027-01-27",
-          "fiscal_period": "Projected quarter +2",
+          "fiscal_period": "Projected quarter +1",
           "status": "projected",
           "date_confidence": "projected",
           "source": {
@@ -3912,7 +3951,7 @@
           "ticker": "TSLA",
           "company": "Tesla",
           "date": "2027-01-27",
-          "fiscal_period": "Projected quarter +2",
+          "fiscal_period": "Projected quarter +1",
           "status": "projected",
           "date_confidence": "projected",
           "source": {
@@ -3925,7 +3964,7 @@
           },
           "forecast": {
             "method": "same_quarter_plus_52_weeks",
-            "cadence_days_fallback": 92
+            "cadence_days_fallback": 91
           },
           "date_range": {
             "from": "2027-01-20",
@@ -4167,7 +4206,7 @@
           "ticker": "TSLA",
           "company": "Tesla",
           "date": "2027-04-21",
-          "fiscal_period": "Projected quarter +3",
+          "fiscal_period": "Projected quarter +2",
           "status": "projected",
           "date_confidence": "projected",
           "source": {
@@ -4180,7 +4219,7 @@
           },
           "forecast": {
             "method": "same_quarter_plus_52_weeks",
-            "cadence_days_fallback": 92
+            "cadence_days_fallback": 91
           },
           "date_range": {
             "from": "2027-04-14",
@@ -4320,7 +4359,7 @@
           "ticker": "META",
           "company": "Meta",
           "date": "2027-04-28",
-          "fiscal_period": "Projected quarter +3",
+          "fiscal_period": "Projected quarter +2",
           "status": "projected",
           "date_confidence": "projected",
           "source": {
@@ -4575,7 +4614,7 @@
           "ticker": "TSLA",
           "company": "Tesla",
           "date": "2027-07-21",
-          "fiscal_period": "Projected quarter +4",
+          "fiscal_period": "Projected quarter +3",
           "status": "projected",
           "date_confidence": "projected",
           "source": {
@@ -4588,7 +4627,7 @@
           },
           "forecast": {
             "method": "same_quarter_plus_52_weeks",
-            "cadence_days_fallback": 92
+            "cadence_days_fallback": 91
           },
           "date_range": {
             "from": "2027-07-14",
@@ -4626,7 +4665,7 @@
           "ticker": "META",
           "company": "Meta",
           "date": "2027-07-28",
-          "fiscal_period": "Projected quarter +4",
+          "fiscal_period": "Projected quarter +3",
           "status": "projected",
           "date_confidence": "projected",
           "source": {
@@ -4877,11 +4916,62 @@
           }
         },
         {
+          "id": "meta-2027-10-20",
+          "ticker": "META",
+          "company": "Meta",
+          "date": "2027-10-20",
+          "fiscal_period": "Projected quarter +4",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Meta IR",
+            "url": "https://investor.atmeta.com/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 91
+          },
+          "date_range": {
+            "from": "2027-10-13",
+            "to": "2027-10-27"
+          },
+          "preview": {
+            "verdict": "Meta 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "广告效率",
+              "用户参与度",
+              "AI 基础设施投入"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "广告效率",
+              "用户参与度",
+              "AI 基础设施投入"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
           "id": "tsla-2027-10-20",
           "ticker": "TSLA",
           "company": "Tesla",
           "date": "2027-10-20",
-          "fiscal_period": "Projected quarter +1",
+          "fiscal_period": "Projected quarter +4",
           "status": "projected",
           "date_confidence": "projected",
           "source": {
@@ -4894,7 +4984,7 @@
           },
           "forecast": {
             "method": "same_quarter_plus_52_weeks",
-            "cadence_days_fallback": 92
+            "cadence_days_fallback": 91
           },
           "date_range": {
             "from": "2027-10-13",
@@ -8399,12 +8489,102 @@
               "不同数据源的 GAAP/调整后口径可能不同"
             ]
           }
+        },
+        {
+          "id": "meta-2026-10-21",
+          "ticker": "META",
+          "company": "Meta",
+          "date": "2026-10-21",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/META/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Meta IR",
+            "url": "https://investor.atmeta.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Meta 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "广告效率",
+              "用户参与度",
+              "AI 基础设施投入"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 13.50%",
+            "summary": "报告 EPS 7.4，一致预期 6.52。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：7.4",
+              "一致预期：6.52",
+              "惊喜幅度：13.50%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "tsla-2026-10-21",
+          "ticker": "TSLA",
+          "company": "Tesla",
+          "date": "2026-10-21",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/TSLA/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Tesla IR",
+            "url": "https://ir.tesla.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Tesla 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "汽车毛利率",
+              "交付与需求",
+              "储能和自动驾驶"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 9.09%",
+            "summary": "报告 EPS 0.2，一致预期 0.22。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：0.2",
+              "一致预期：0.22",
+              "惊喜幅度：-9.09%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
         }
       ]
     }
   },
   "sync": {
-    "reported_count": 77,
+    "reported_count": 79,
     "projected_count": 23,
     "estimated_count": 5,
     "confirmed_count": 0,
@@ -8419,56 +8599,66 @@
       "周末 09:37 心跳验证"
     ],
     "run": {
-      "trigger": "schedule",
-      "run_id": "39734550267",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/39734550267"
+      "trigger": "push",
+      "run_id": "39888638139",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/39888638139"
     },
     "source_check": {
-      "checked_at": "2026-10-22T06:32:24+00:00",
+      "checked_at": "2026-10-23T02:16:20+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": true,
       "reported_observed": 28,
       "future_observed": 5
     },
     "audit": {
-      "previous_generated_at": "2026-10-21T18:14:25+00:00",
-      "current_generated_at": "2026-10-22T06:32:24+00:00",
-      "event_ids_added": 2,
-      "event_ids_removed": 2,
-      "content_change_count": 4,
+      "previous_generated_at": "2026-10-22T06:32:24+00:00",
+      "current_generated_at": "2026-10-23T02:16:20+00:00",
+      "event_ids_added": 3,
+      "event_ids_removed": 1,
+      "content_change_count": 5,
       "date_changes": [],
       "status_changes": [],
-      "field_changes": [],
+      "field_changes": [
+        {
+          "id": "amzn-2026-10-29",
+          "ticker": "AMZN",
+          "date": "2026-10-29",
+          "field": "eps_forecast",
+          "label": "EPS 预期",
+          "from": "$2.02",
+          "to": "$2.01"
+        }
+      ],
       "added_events": [
+        {
+          "id": "meta-2026-10-21",
+          "ticker": "META",
+          "date": "2026-10-21",
+          "status": "reported",
+          "fiscal_period": "Sep 2026"
+        },
+        {
+          "id": "meta-2027-10-20",
+          "ticker": "META",
+          "date": "2027-10-20",
+          "status": "projected",
+          "fiscal_period": "Projected quarter +4"
+        },
+        {
+          "id": "tsla-2026-10-21",
+          "ticker": "TSLA",
+          "date": "2026-10-21",
+          "status": "reported",
+          "fiscal_period": "Sep 2026"
+        }
+      ],
+      "removed_events": [
         {
           "id": "meta-2026-10-28",
           "ticker": "META",
           "date": "2026-10-28",
           "status": "projected",
           "fiscal_period": "Projected quarter +1"
-        },
-        {
-          "id": "tsla-2027-10-20",
-          "ticker": "TSLA",
-          "date": "2027-10-20",
-          "status": "projected",
-          "fiscal_period": "Projected quarter +1"
-        }
-      ],
-      "removed_events": [
-        {
-          "id": "meta-2026-10-21",
-          "ticker": "META",
-          "date": "2026-10-21",
-          "status": "estimated",
-          "fiscal_period": "Sep/2026"
-        },
-        {
-          "id": "tsla-2026-10-21",
-          "ticker": "TSLA",
-          "date": "2026-10-21",
-          "status": "estimated",
-          "fiscal_period": "Sep/2026"
         }
       ],
       "heartbeat_changed": true

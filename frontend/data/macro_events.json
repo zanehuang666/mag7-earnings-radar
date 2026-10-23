@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T06:32:26+00:00",
+  "generated_at": "2026-10-23T02:16:21+00:00",
   "events": [
     {
       "id": "macro-fomc-2026-04-29",
@@ -575,7 +575,7 @@
   ],
   "consensus_policy": "unavailable_not_inferred",
   "source": "xoomar.com",
-  "source_updated_at": "2026-10-20T13:00:12.570Z",
+  "source_updated_at": "2026-10-22T12:35:14.678Z",
   "attribution": "Credit XOOMAR with a link to the dataset page on xoomar.com when you republish this data",
   "upstream_attribution": "Release dates and figures: Bureau of Labor Statistics, Bureau of Economic Analysis, Census Bureau, Federal Reserve Board, FRED (Federal Reserve Bank of St. Louis) and U.S. Treasury. This product uses the FRED® API but is not endorsed or certified by the Federal Reserve Bank of St. Louis.",
   "disclaimer": "Released events only. Previous is not consensus. Not investment advice."
