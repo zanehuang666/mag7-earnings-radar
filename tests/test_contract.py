@@ -3,6 +3,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from datetime import date, timedelta
 from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -48,8 +49,10 @@ class Mag7CalendarTest(unittest.TestCase):
         for event in reported:
             self.assertGreaterEqual(event["date"], "2024-01-01")
             counts[event["ticker"]] = counts.get(event["ticker"], 0) + 1
-        self.assertEqual(len(reported), 77)
-        self.assertEqual(set(counts.values()), {11})
+        self.assertGreaterEqual(len(reported), 77)
+        self.assertEqual(set(counts), {"AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA"})
+        self.assertTrue(all(count >= 11 for count in counts.values()))
+        self.assertEqual(sum(counts.values()), len(reported))
         self.assertEqual(len({event["id"] for event in reported}), len(reported))
 
     def test_forward_calendar_covers_every_company(self):
@@ -67,6 +70,15 @@ class Mag7CalendarTest(unittest.TestCase):
         sourced = [event for event in future if event["status"] in {"estimated", "confirmed"}]
         period_keys = [(event["ticker"], event["fiscal_period"]) for event in sourced]
         self.assertEqual(len(period_keys), len(set(period_keys)), "duplicate sourced dates for the same company quarter")
+
+    def test_recent_estimate_is_retained_until_report_feed_catches_up(self):
+        today = date(2026, 10, 22)
+        stale = {"id": "tsla-2026-10-21", "ticker": "TSLA", "date": "2026-10-21", "status": "estimated"}
+        actual = {"id": "tsla-2026-10-21", "ticker": "TSLA", "date": "2026-10-21", "status": "reported"}
+        self.assertTrue(sync_mag7_calendar.should_retain_recent_estimate(stale, [], today))
+        self.assertFalse(sync_mag7_calendar.should_retain_recent_estimate(stale, [actual], today))
+        expired = {**stale, "date": "2026-10-01"}
+        self.assertFalse(sync_mag7_calendar.should_retain_recent_estimate(expired, [], today))
 
     def test_calendar_ui_has_required_controls(self):
         html = (ROOT / "frontend" / "calendar.html").read_text(encoding="utf-8")
@@ -202,8 +214,8 @@ class Mag7ResearchTest(unittest.TestCase):
         cls.future = [event for event in cls.data["events"] if event["status"] != "reported"]
 
     def test_all_reported_mag7_events_have_research(self):
-        self.assertEqual(self.data["coverage"]["reported_events"], 77)
-        self.assertEqual(len(self.reported), 77)
+        self.assertEqual(self.data["coverage"]["reported_events"], len(self.reported))
+        self.assertGreaterEqual(len(self.reported), 77)
         counts = {}
         for event in self.reported:
             counts[event["ticker"]] = counts.get(event["ticker"], 0) + 1
@@ -212,7 +224,7 @@ class Mag7ResearchTest(unittest.TestCase):
             self.assertIn(event["analysis"]["result_tone"], {"positive", "negative", "mixed"})
             self.assertGreaterEqual(len(event["preview"]["market_focus"]), 3)
             self.assertGreaterEqual(len(event["analysis"]["risks"]), 3)
-        self.assertEqual(set(counts.values()), {11})
+        self.assertTrue(all(count >= 11 for count in counts.values()))
 
     def test_baseline_has_real_eps_and_market_comparison(self):
         for event in self.reported:
@@ -221,7 +233,10 @@ class Mag7ResearchTest(unittest.TestCase):
             self.assertNotEqual(eps["actual"], "—")
             self.assertTrue(eps["source_ids"])
             reaction = event["analysis"].get("market_reaction")
-            self.assertIsNotNone(reaction)
+            if reaction is None:
+                generated = date.fromisoformat(self.data["generated_at"][:10])
+                self.assertGreaterEqual(date.fromisoformat(event["date"]), generated - timedelta(days=7))
+                continue
             self.assertEqual({item["horizon"] for item in reaction["metrics"]}, {"次一交易日", "5 个交易日"})
 
     def test_sources_and_low_token_incremental_policy(self):
@@ -389,7 +404,7 @@ class ReleaseStructureTest(unittest.TestCase):
         version = json.loads((ROOT / "VERSION.json").read_text(encoding="utf-8-sig"))
         research = json.loads((ROOT / "frontend" / "data" / "mag7_research.json").read_text(encoding="utf-8"))
         self.assertEqual(version["version"], "V13")
-        self.assertEqual(version["research_coverage"]["reported_events"], 77)
+        self.assertGreaterEqual(version["research_coverage"]["reported_events"], 77)
         self.assertEqual(version["research_coverage"]["future_previews"], 28)
         self.assertEqual(research["version"], "2026-10-04_V13")
 

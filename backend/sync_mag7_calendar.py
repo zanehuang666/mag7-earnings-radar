@@ -23,6 +23,10 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "frontend" / "data" / "mag7.json"
 CANDIDATES_OUTPUT = ROOT / "frontend" / "data" / "us_earnings_candidates.json"
 NASDAQ = "https://api.nasdaq.com/api"
+# Nasdaq's upcoming calendar drops a row as soon as the scheduled day passes,
+# while its reported-results feed can lag by several days. Keep the prior
+# estimate briefly so a scheduled event does not disappear in that gap.
+RESULTS_INGESTION_GRACE_DAYS = 7
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; Mag7-Earnings-Radar/1.0; research demo)",
     "Accept": "application/json, text/plain, */*",
@@ -364,8 +368,10 @@ def build() -> tuple[dict, dict]:
                 previous_events[event.get("id", "")] = event
                 if event.get("status") == "reported":
                     by_id[event["id"]] = event
-                elif event.get("status") in {"estimated", "confirmed"} and event.get("date", "") >= date.today().isoformat():
-                    previous_future.append(event)
+                elif event.get("status") in {"estimated", "confirmed"}:
+                    event_date = date.fromisoformat(event.get("date", "1900-01-01"))
+                    if event.get("status") == "confirmed" or event_date >= date.today() - timedelta(days=RESULTS_INGESTION_GRACE_DAYS):
+                        previous_future.append(event)
         except (OSError, json.JSONDecodeError, KeyError):
             pass
     for ticker, dates in HISTORICAL_SEED.items():
@@ -377,13 +383,17 @@ def build() -> tuple[dict, dict]:
     recent, recent_errors = latest_reported()
     for event in recent:
         by_id[event["id"]] = event
+    recent_reported = [event for event in by_id.values() if event.get("status") == "reported"]
     future, future_errors, candidates = upcoming(int(os.getenv("MAG7_FORWARD_DAYS", "120")))
     fresh_future_tickers = {event["ticker"] for event in future}
     for event in previous_future:
         # A complete Nasdaq scan is authoritative: replace yesterday's estimates
         # so a moved date cannot survive beside its replacement.  During a partial
         # source outage, retain only companies for which no fresh row was observed.
-        if event["status"] == "confirmed" or (future_errors and event["ticker"] not in fresh_future_tickers):
+        still_in_ingestion_grace = should_retain_recent_estimate(event, recent_reported, date.today())
+        if (event["status"] == "confirmed"
+                or still_in_ingestion_grace
+                or (future_errors and event["ticker"] not in fresh_future_tickers)):
             by_id[event["id"]] = event
     for event in future:
         by_id[event["id"]] = event
@@ -534,6 +544,20 @@ def build() -> tuple[dict, dict]:
         "verification_sample": verification_sample,
     }
     return calendar, candidate_index
+
+
+def should_retain_recent_estimate(event: dict, reported_events: list[dict], today: date) -> bool:
+    """Retain a just-passed estimate only while the results feed is catching up."""
+    if event.get("status") != "estimated":
+        return False
+    event_date = date.fromisoformat(event["date"])
+    if not (today - timedelta(days=RESULTS_INGESTION_GRACE_DAYS) <= event_date <= today):
+        return False
+    return not any(
+        actual.get("ticker") == event.get("ticker")
+        and abs((date.fromisoformat(actual["date"]) - event_date).days) <= RESULTS_INGESTION_GRACE_DAYS
+        for actual in reported_events
+    )
 
 
 if __name__ == "__main__":
