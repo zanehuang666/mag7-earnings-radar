@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T19:04:09+00:00",
+  "generated_at": "2026-10-29T19:11:08+00:00",
   "events": [
     {
       "id": "macro-fomc-2026-04-29",
@@ -594,6 +594,34 @@
         "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
       },
       "target_range": "3.75%–4%"
+    },
+    {
+      "id": "macro-pce-2026-10-29",
+      "type": "macro",
+      "code": "PCE",
+      "name": "美国 PCE 通胀",
+      "category": "inflation",
+      "date": "2026-10-29",
+      "scheduled_at": "2026-10-29T12:30:00.000Z",
+      "period": "September 2026",
+      "actual": 3.6,
+      "actual_display": "3.6%",
+      "previous": 3.4,
+      "previous_display": "3.4%",
+      "forecast": null,
+      "forecast_display": "免费官方链路不提供市场一致预期",
+      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
+      "unit": "% y/y, PCE price index",
+      "headline": "通胀较前值升温",
+      "commentary": "通胀黏性上升可能推迟宽松预期、推高长端收益率，并对高估值科技股形成折现率压力。",
+      "source": {
+        "label": "官方数据聚合 / XOOMAR",
+        "url": "https://xoomar.com/markets/api/calendar"
+      },
+      "official_source": {
+        "label": "bea",
+        "url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
+      }
     }
   ],
   "supported": [
@@ -604,7 +632,7 @@
   ],
   "consensus_policy": "unavailable_not_inferred",
   "source": "xoomar.com",
-  "source_updated_at": "2026-10-28T18:01:00.075Z",
+  "source_updated_at": "2026-10-29T17:30:03.590Z",
   "attribution": "Credit XOOMAR with a link to the dataset page on xoomar.com when you republish this data",
   "upstream_attribution": "Release dates and figures: Bureau of Labor Statistics, Bureau of Economic Analysis, Census Bureau, Federal Reserve Board, FRED (Federal Reserve Bank of St. Louis) and U.S. Treasury. This product uses the FRED® API but is not endorsed or certified by the Federal Reserve Bank of St. Louis.",
   "disclaimer": "Released events only. Previous is not consensus. Not investment advice."

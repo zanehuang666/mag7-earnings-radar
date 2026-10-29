@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-28T19:04:07+00:00",
+  "generated_at": "2026-10-29T19:11:06+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -41,7 +41,7 @@
   "calendar": {
     "formal": {
       "label": "正式日历",
-      "as_of": "2026-10-28",
+      "as_of": "2026-10-29",
       "message": "历史日期来自 Nasdaq 日历并由最近四季接口自动校准；未来日期明确标记为预计，最终以公司 IR 为准。",
       "events": [
         {
@@ -3604,22 +3604,18 @@
           "ticker": "GOOGL",
           "company": "Alphabet",
           "date": "2026-10-28",
-          "fiscal_period": "Sep/2026",
-          "status": "estimated",
-          "date_confidence": "estimated",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
           "source": {
-            "label": "Nasdaq earnings calendar",
-            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-28"
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/GOOGL/earnings-surprise"
           },
           "ir_source": {
             "label": "Alphabet IR",
             "url": "https://abc.xyz/investor/"
           },
-          "forecast": {
-            "eps": "$2.94",
-            "analyst_count": "14",
-            "session": "time-after-hours"
-          },
+          "forecast": {},
           "date_range": {},
           "preview": {
             "verdict": "Alphabet 财报前检查清单（简版）",
@@ -3635,16 +3631,16 @@
             ]
           },
           "aftercheck": {
-            "verdict": "尚未发布，Analysis 将在财报后生成",
-            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 27.89%",
+            "summary": "报告 EPS 2.12，一致预期 2.94。当前仅用于日期层验收。",
             "points": [
-              "搜索广告",
-              "Google Cloud",
-              "AI 投入回报"
+              "报告 EPS：2.12",
+              "一致预期：2.94",
+              "惊喜幅度：-27.89%"
             ],
             "risks": [
-              "不得把预测写成已发生事实",
-              "等待正式结果和来源验证"
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
             ]
           }
         },
@@ -3653,22 +3649,18 @@
           "ticker": "MSFT",
           "company": "Microsoft",
           "date": "2026-10-28",
-          "fiscal_period": "Sep/2026",
-          "status": "estimated",
-          "date_confidence": "estimated",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
           "source": {
-            "label": "Nasdaq earnings calendar",
-            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-28"
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/MSFT/earnings-surprise"
           },
           "ir_source": {
             "label": "Microsoft IR",
             "url": "https://www.microsoft.com/en-us/Investor/"
           },
-          "forecast": {
-            "eps": "$4.71",
-            "analyst_count": "14",
-            "session": "time-after-hours"
-          },
+          "forecast": {},
           "date_range": {},
           "preview": {
             "verdict": "Microsoft 财报前检查清单（简版）",
@@ -3684,16 +3676,16 @@
             ]
           },
           "aftercheck": {
-            "verdict": "尚未发布，Analysis 将在财报后生成",
-            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 3.82%",
+            "summary": "报告 EPS 4.89，一致预期 4.71。当前仅用于日期层验收。",
             "points": [
-              "Azure 增速",
-              "AI 资本开支",
-              "云业务利润率"
+              "报告 EPS：4.89",
+              "一致预期：4.71",
+              "惊喜幅度：3.82%"
             ],
             "risks": [
-              "不得把预测写成已发生事实",
-              "等待正式结果和来源验证"
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
             ]
           }
         },
@@ -3900,7 +3892,7 @@
           "ticker": "MSFT",
           "company": "Microsoft",
           "date": "2027-01-27",
-          "fiscal_period": "Projected quarter +2",
+          "fiscal_period": "Projected quarter +1",
           "status": "projected",
           "date_confidence": "projected",
           "source": {
@@ -4053,7 +4045,7 @@
           "ticker": "GOOGL",
           "company": "Alphabet",
           "date": "2027-02-03",
-          "fiscal_period": "Projected quarter +2",
+          "fiscal_period": "Projected quarter +1",
           "status": "projected",
           "date_confidence": "projected",
           "source": {
@@ -4308,7 +4300,7 @@
           "ticker": "GOOGL",
           "company": "Alphabet",
           "date": "2027-04-28",
-          "fiscal_period": "Projected quarter +3",
+          "fiscal_period": "Projected quarter +2",
           "status": "projected",
           "date_confidence": "projected",
           "source": {
@@ -4410,7 +4402,7 @@
           "ticker": "MSFT",
           "company": "Microsoft",
           "date": "2027-04-28",
-          "fiscal_period": "Projected quarter +3",
+          "fiscal_period": "Projected quarter +2",
           "status": "projected",
           "date_confidence": "projected",
           "source": {
@@ -4563,7 +4555,7 @@
           "ticker": "GOOGL",
           "company": "Alphabet",
           "date": "2027-07-21",
-          "fiscal_period": "Projected quarter +4",
+          "fiscal_period": "Projected quarter +3",
           "status": "projected",
           "date_confidence": "projected",
           "source": {
@@ -4716,7 +4708,7 @@
           "ticker": "MSFT",
           "company": "Microsoft",
           "date": "2027-07-28",
-          "fiscal_period": "Projected quarter +4",
+          "fiscal_period": "Projected quarter +3",
           "status": "projected",
           "date_confidence": "projected",
           "source": {
@@ -5010,6 +5002,108 @@
               "汽车毛利率",
               "交付与需求",
               "储能和自动驾驶"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "googl-2027-10-27",
+          "ticker": "GOOGL",
+          "company": "Alphabet",
+          "date": "2027-10-27",
+          "fiscal_period": "Projected quarter +4",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Alphabet IR",
+            "url": "https://abc.xyz/investor/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 94
+          },
+          "date_range": {
+            "from": "2027-10-20",
+            "to": "2027-11-03"
+          },
+          "preview": {
+            "verdict": "Alphabet 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "msft-2027-10-27",
+          "ticker": "MSFT",
+          "company": "Microsoft",
+          "date": "2027-10-27",
+          "fiscal_period": "Projected quarter +4",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Microsoft IR",
+            "url": "https://www.microsoft.com/en-us/Investor/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 91
+          },
+          "date_range": {
+            "from": "2027-10-20",
+            "to": "2027-11-03"
+          },
+          "preview": {
+            "verdict": "Microsoft 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
             ],
             "risks": [
               "不得把预测写成已发生事实",
@@ -8579,14 +8673,104 @@
               "不同数据源的 GAAP/调整后口径可能不同"
             ]
           }
+        },
+        {
+          "id": "googl-2026-10-28",
+          "ticker": "GOOGL",
+          "company": "Alphabet",
+          "date": "2026-10-28",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/GOOGL/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Alphabet IR",
+            "url": "https://abc.xyz/investor/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Alphabet 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 27.89%",
+            "summary": "报告 EPS 2.12，一致预期 2.94。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：2.12",
+              "一致预期：2.94",
+              "惊喜幅度：-27.89%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "msft-2026-10-28",
+          "ticker": "MSFT",
+          "company": "Microsoft",
+          "date": "2026-10-28",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/MSFT/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Microsoft IR",
+            "url": "https://www.microsoft.com/en-us/Investor/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Microsoft 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 3.82%",
+            "summary": "报告 EPS 4.89，一致预期 4.71。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：4.89",
+              "一致预期：4.71",
+              "惊喜幅度：3.82%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
         }
       ]
     }
   },
   "sync": {
-    "reported_count": 79,
-    "projected_count": 23,
-    "estimated_count": 5,
+    "reported_count": 81,
+    "projected_count": 25,
+    "estimated_count": 3,
     "confirmed_count": 0,
     "source": "Nasdaq public earnings endpoints",
     "errors": [],
@@ -8600,26 +8784,113 @@
     ],
     "run": {
       "trigger": "schedule",
-      "run_id": "40750889649",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/40750889649"
+      "run_id": "40937724718",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/40937724718"
     },
     "source_check": {
-      "checked_at": "2026-10-28T19:04:07+00:00",
+      "checked_at": "2026-10-29T19:11:06+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": true,
       "reported_observed": 28,
-      "future_observed": 5
+      "future_observed": 3
     },
     "audit": {
-      "previous_generated_at": "2026-10-28T07:19:15+00:00",
-      "current_generated_at": "2026-10-28T19:04:07+00:00",
-      "event_ids_added": 0,
+      "previous_generated_at": "2026-10-28T19:04:07+00:00",
+      "current_generated_at": "2026-10-29T19:11:06+00:00",
+      "event_ids_added": 2,
       "event_ids_removed": 0,
-      "content_change_count": 0,
+      "content_change_count": 10,
       "date_changes": [],
-      "status_changes": [],
-      "field_changes": [],
-      "added_events": [],
+      "status_changes": [
+        {
+          "id": "googl-2026-10-28",
+          "ticker": "GOOGL",
+          "date": "2026-10-28",
+          "fiscal_period": "Sep 2026",
+          "from": "estimated",
+          "to": "reported"
+        },
+        {
+          "id": "msft-2026-10-28",
+          "ticker": "MSFT",
+          "date": "2026-10-28",
+          "fiscal_period": "Sep 2026",
+          "from": "estimated",
+          "to": "reported"
+        }
+      ],
+      "field_changes": [
+        {
+          "id": "googl-2026-10-28",
+          "ticker": "GOOGL",
+          "date": "2026-10-28",
+          "field": "eps_forecast",
+          "label": "EPS 预期",
+          "from": "$2.94",
+          "to": null
+        },
+        {
+          "id": "googl-2026-10-28",
+          "ticker": "GOOGL",
+          "date": "2026-10-28",
+          "field": "analyst_count",
+          "label": "分析师数量",
+          "from": "14",
+          "to": null
+        },
+        {
+          "id": "googl-2026-10-28",
+          "ticker": "GOOGL",
+          "date": "2026-10-28",
+          "field": "session",
+          "label": "发布时间段",
+          "from": "time-after-hours",
+          "to": null
+        },
+        {
+          "id": "msft-2026-10-28",
+          "ticker": "MSFT",
+          "date": "2026-10-28",
+          "field": "eps_forecast",
+          "label": "EPS 预期",
+          "from": "$4.71",
+          "to": null
+        },
+        {
+          "id": "msft-2026-10-28",
+          "ticker": "MSFT",
+          "date": "2026-10-28",
+          "field": "analyst_count",
+          "label": "分析师数量",
+          "from": "14",
+          "to": null
+        },
+        {
+          "id": "msft-2026-10-28",
+          "ticker": "MSFT",
+          "date": "2026-10-28",
+          "field": "session",
+          "label": "发布时间段",
+          "from": "time-after-hours",
+          "to": null
+        }
+      ],
+      "added_events": [
+        {
+          "id": "googl-2027-10-27",
+          "ticker": "GOOGL",
+          "date": "2027-10-27",
+          "status": "projected",
+          "fiscal_period": "Projected quarter +4"
+        },
+        {
+          "id": "msft-2027-10-27",
+          "ticker": "MSFT",
+          "date": "2027-10-27",
+          "status": "projected",
+          "fiscal_period": "Projected quarter +4"
+        }
+      ],
       "removed_events": [],
       "heartbeat_changed": true
     }
