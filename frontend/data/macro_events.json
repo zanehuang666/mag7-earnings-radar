@@ -1,36 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T19:11:08+00:00",
+  "generated_at": "2026-10-30T18:49:15+00:00",
   "events": [
-    {
-      "id": "macro-fomc-2026-04-29",
-      "type": "macro",
-      "code": "FOMC",
-      "name": "美联储利率决议",
-      "category": "policy",
-      "date": "2026-04-29",
-      "scheduled_at": "2026-04-29T18:00:00.000Z",
-      "period": "April 28-29, 2026 meeting",
-      "actual": 3.625,
-      "actual_display": "3.625%",
-      "previous": 3.625,
-      "previous_display": "3.625%",
-      "forecast": null,
-      "forecast_display": "免费官方链路不提供市场一致预期",
-      "comparison_basis": "实际值 vs 前值（不是市场预期差）",
-      "unit": "%, target range midpoint",
-      "headline": "政策利率维持不变",
-      "commentary": "利率水平未变，市场影响更多取决于声明措辞、点阵图和主席对后续路径的表述。",
-      "source": {
-        "label": "官方数据聚合 / XOOMAR",
-        "url": "https://xoomar.com/markets/api/calendar"
-      },
-      "official_source": {
-        "label": "fed",
-        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
-      },
-      "target_range": "3.5%–3.75%"
-    },
     {
       "id": "macro-nfp-2026-05-08",
       "type": "macro",
@@ -632,7 +603,7 @@
   ],
   "consensus_policy": "unavailable_not_inferred",
   "source": "xoomar.com",
-  "source_updated_at": "2026-10-29T17:30:03.590Z",
+  "source_updated_at": "2026-10-30T17:30:03.738Z",
   "attribution": "Credit XOOMAR with a link to the dataset page on xoomar.com when you republish this data",
   "upstream_attribution": "Release dates and figures: Bureau of Labor Statistics, Bureau of Economic Analysis, Census Bureau, Federal Reserve Board, FRED (Federal Reserve Bank of St. Louis) and U.S. Treasury. This product uses the FRED® API but is not endorsed or certified by the Federal Reserve Bank of St. Louis.",
   "disclaimer": "Released events only. Previous is not consensus. Not investment advice."

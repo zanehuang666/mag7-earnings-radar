@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-29T19:11:06+00:00",
+  "generated_at": "2026-10-30T18:49:14+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -41,7 +41,7 @@
   "calendar": {
     "formal": {
       "label": "正式日历",
-      "as_of": "2026-10-29",
+      "as_of": "2026-10-30",
       "message": "历史日期来自 Nasdaq 日历并由最近四季接口自动校准；未来日期明确标记为预计，最终以公司 IR 为准。",
       "events": [
         {
@@ -3694,22 +3694,18 @@
           "ticker": "AMZN",
           "company": "Amazon",
           "date": "2026-10-29",
-          "fiscal_period": "Sep/2026",
-          "status": "estimated",
-          "date_confidence": "estimated",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
           "source": {
-            "label": "Nasdaq earnings calendar",
-            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-29"
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/AMZN/earnings-surprise"
           },
           "ir_source": {
             "label": "Amazon IR",
             "url": "https://ir.aboutamazon.com/"
           },
-          "forecast": {
-            "eps": "$2.01",
-            "analyst_count": "14",
-            "session": "time-after-hours"
-          },
+          "forecast": {},
           "date_range": {},
           "preview": {
             "verdict": "Amazon 财报前检查清单（简版）",
@@ -3725,16 +3721,16 @@
             ]
           },
           "aftercheck": {
-            "verdict": "尚未发布，Analysis 将在财报后生成",
-            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 5.97%",
+            "summary": "报告 EPS 1.89，一致预期 2.01。当前仅用于日期层验收。",
             "points": [
-              "AWS 增速",
-              "零售利润率",
-              "资本开支"
+              "报告 EPS：1.89",
+              "一致预期：2.01",
+              "惊喜幅度：-5.97%"
             ],
             "risks": [
-              "不得把预测写成已发生事实",
-              "等待正式结果和来源验证"
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
             ]
           }
         },
@@ -3788,16 +3784,16 @@
           }
         },
         {
-          "id": "nvda-2026-11-18",
+          "id": "nvda-2026-11-17",
           "ticker": "NVDA",
           "company": "NVIDIA",
-          "date": "2026-11-18",
+          "date": "2026-11-17",
           "fiscal_period": "Oct/2026",
           "status": "estimated",
           "date_confidence": "estimated",
           "source": {
             "label": "Nasdaq earnings calendar",
-            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-18"
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-17"
           },
           "ir_source": {
             "label": "NVIDIA IR",
@@ -3806,7 +3802,7 @@
           "forecast": {
             "eps": "$2.49",
             "analyst_count": "13",
-            "session": "time-not-supplied"
+            "session": "time-after-hours"
           },
           "date_range": {},
           "preview": {
@@ -4096,7 +4092,7 @@
           "ticker": "AMZN",
           "company": "Amazon",
           "date": "2027-02-04",
-          "fiscal_period": "Projected quarter +2",
+          "fiscal_period": "Projected quarter +1",
           "status": "projected",
           "date_confidence": "projected",
           "source": {
@@ -4249,7 +4245,7 @@
           "ticker": "AMZN",
           "company": "Amazon",
           "date": "2027-04-28",
-          "fiscal_period": "Projected quarter +3",
+          "fiscal_period": "Projected quarter +2",
           "status": "projected",
           "date_confidence": "projected",
           "source": {
@@ -4810,7 +4806,7 @@
           "ticker": "AMZN",
           "company": "Amazon",
           "date": "2027-07-29",
-          "fiscal_period": "Projected quarter +4",
+          "fiscal_period": "Projected quarter +3",
           "status": "projected",
           "date_confidence": "projected",
           "source": {
@@ -5104,6 +5100,57 @@
               "Azure 增速",
               "AI 资本开支",
               "云业务利润率"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "amzn-2027-10-28",
+          "ticker": "AMZN",
+          "company": "Amazon",
+          "date": "2027-10-28",
+          "fiscal_period": "Projected quarter +4",
+          "status": "projected",
+          "date_confidence": "projected",
+          "source": {
+            "label": "Historical cadence projection",
+            "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制"
+          },
+          "ir_source": {
+            "label": "Amazon IR",
+            "url": "https://ir.aboutamazon.com/"
+          },
+          "forecast": {
+            "method": "same_quarter_plus_52_weeks",
+            "cadence_days_fallback": 91
+          },
+          "date_range": {
+            "from": "2027-10-21",
+            "to": "2027-11-04"
+          },
+          "preview": {
+            "verdict": "Amazon 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "AWS 增速",
+              "零售利润率",
+              "资本开支"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "AWS 增速",
+              "零售利润率",
+              "资本开支"
             ],
             "risks": [
               "不得把预测写成已发生事实",
@@ -8763,14 +8810,59 @@
               "不同数据源的 GAAP/调整后口径可能不同"
             ]
           }
+        },
+        {
+          "id": "amzn-2026-10-29",
+          "ticker": "AMZN",
+          "company": "Amazon",
+          "date": "2026-10-29",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/AMZN/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Amazon IR",
+            "url": "https://ir.aboutamazon.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Amazon 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "AWS 增速",
+              "零售利润率",
+              "资本开支"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 5.97%",
+            "summary": "报告 EPS 1.89，一致预期 2.01。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：1.89",
+              "一致预期：2.01",
+              "惊喜幅度：-5.97%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
         }
       ]
     }
   },
   "sync": {
-    "reported_count": 81,
-    "projected_count": 25,
-    "estimated_count": 3,
+    "reported_count": 82,
+    "projected_count": 26,
+    "estimated_count": 2,
     "confirmed_count": 0,
     "source": "Nasdaq public earnings endpoints",
     "errors": [],
@@ -8784,36 +8876,37 @@
     ],
     "run": {
       "trigger": "schedule",
-      "run_id": "40937724718",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/40937724718"
+      "run_id": "41110113244",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/41110113244"
     },
     "source_check": {
-      "checked_at": "2026-10-29T19:11:06+00:00",
+      "checked_at": "2026-10-30T18:49:14+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": true,
       "reported_observed": 28,
-      "future_observed": 3
+      "future_observed": 2
     },
     "audit": {
-      "previous_generated_at": "2026-10-28T19:04:07+00:00",
-      "current_generated_at": "2026-10-29T19:11:06+00:00",
+      "previous_generated_at": "2026-10-29T19:11:06+00:00",
+      "current_generated_at": "2026-10-30T18:49:14+00:00",
       "event_ids_added": 2,
-      "event_ids_removed": 0,
-      "content_change_count": 10,
-      "date_changes": [],
+      "event_ids_removed": 1,
+      "content_change_count": 6,
+      "date_changes": [
+        {
+          "ticker": "NVDA",
+          "fiscal_period": "Oct/2026",
+          "from_date": "2026-11-18",
+          "to_date": "2026-11-17",
+          "from_status": "estimated",
+          "to_status": "estimated"
+        }
+      ],
       "status_changes": [
         {
-          "id": "googl-2026-10-28",
-          "ticker": "GOOGL",
-          "date": "2026-10-28",
-          "fiscal_period": "Sep 2026",
-          "from": "estimated",
-          "to": "reported"
-        },
-        {
-          "id": "msft-2026-10-28",
-          "ticker": "MSFT",
-          "date": "2026-10-28",
+          "id": "amzn-2026-10-29",
+          "ticker": "AMZN",
+          "date": "2026-10-29",
           "fiscal_period": "Sep 2026",
           "from": "estimated",
           "to": "reported"
@@ -8821,54 +8914,27 @@
       ],
       "field_changes": [
         {
-          "id": "googl-2026-10-28",
-          "ticker": "GOOGL",
-          "date": "2026-10-28",
+          "id": "amzn-2026-10-29",
+          "ticker": "AMZN",
+          "date": "2026-10-29",
           "field": "eps_forecast",
           "label": "EPS 预期",
-          "from": "$2.94",
+          "from": "$2.01",
           "to": null
         },
         {
-          "id": "googl-2026-10-28",
-          "ticker": "GOOGL",
-          "date": "2026-10-28",
+          "id": "amzn-2026-10-29",
+          "ticker": "AMZN",
+          "date": "2026-10-29",
           "field": "analyst_count",
           "label": "分析师数量",
           "from": "14",
           "to": null
         },
         {
-          "id": "googl-2026-10-28",
-          "ticker": "GOOGL",
-          "date": "2026-10-28",
-          "field": "session",
-          "label": "发布时间段",
-          "from": "time-after-hours",
-          "to": null
-        },
-        {
-          "id": "msft-2026-10-28",
-          "ticker": "MSFT",
-          "date": "2026-10-28",
-          "field": "eps_forecast",
-          "label": "EPS 预期",
-          "from": "$4.71",
-          "to": null
-        },
-        {
-          "id": "msft-2026-10-28",
-          "ticker": "MSFT",
-          "date": "2026-10-28",
-          "field": "analyst_count",
-          "label": "分析师数量",
-          "from": "14",
-          "to": null
-        },
-        {
-          "id": "msft-2026-10-28",
-          "ticker": "MSFT",
-          "date": "2026-10-28",
+          "id": "amzn-2026-10-29",
+          "ticker": "AMZN",
+          "date": "2026-10-29",
           "field": "session",
           "label": "发布时间段",
           "from": "time-after-hours",
@@ -8877,16 +8943,9 @@
       ],
       "added_events": [
         {
-          "id": "googl-2027-10-27",
-          "ticker": "GOOGL",
-          "date": "2027-10-27",
-          "status": "projected",
-          "fiscal_period": "Projected quarter +4"
-        },
-        {
-          "id": "msft-2027-10-27",
-          "ticker": "MSFT",
-          "date": "2027-10-27",
+          "id": "amzn-2027-10-28",
+          "ticker": "AMZN",
+          "date": "2027-10-28",
           "status": "projected",
           "fiscal_period": "Projected quarter +4"
         }
