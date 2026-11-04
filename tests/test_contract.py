@@ -216,6 +216,14 @@ class Mag7ResearchTest(unittest.TestCase):
     def test_all_reported_mag7_events_have_research(self):
         self.assertEqual(self.data["coverage"]["reported_events"], len(self.reported))
         self.assertGreaterEqual(len(self.reported), 77)
+        calendar = json.loads((ROOT / "frontend" / "data" / "mag7.json").read_text(encoding="utf-8"))
+        calendar_reported_ids = {
+            event["id"] for event in calendar["calendar"]["formal"]["events"]
+            if event["status"] == "reported" and event["date"] >= "2024-01-01"
+        }
+        research_reported_ids = {event["id"] for event in self.reported}
+        self.assertTrue(calendar_reported_ids.issubset(research_reported_ids),
+                        "every currently reported calendar event must have a research analysis")
         counts = {}
         for event in self.reported:
             counts[event["ticker"]] = counts.get(event["ticker"], 0) + 1
@@ -276,7 +284,7 @@ class Mag7ResearchTest(unittest.TestCase):
         self.assertEqual({event["id"] for event in self.future}, calendar_ids)
 
     def test_next_aapl_preview_uses_structured_research(self):
-        event = next(item for item in self.future if item["ticker"] == "AAPL" and item["status"] == "estimated")
+        event = min((item for item in self.future if item["ticker"] == "AAPL"), key=lambda item: item["date"])
         self.assertEqual(event["sample_role"], "全量未来 Preview")
         self.assertIn("EPS consensus", {metric["name"] for metric in event["preview"]["metrics"]})
         self.assertTrue(all(set(metric["source_ids"]).issubset(self.data["sources"])
