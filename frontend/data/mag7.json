@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-04T09:31:52+00:00",
+  "generated_at": "2026-11-04T20:32:11+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -8967,72 +8967,27 @@
       "周末 09:37 心跳验证"
     ],
     "run": {
-      "trigger": "push",
-      "run_id": "41808113509",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/41808113509"
+      "trigger": "schedule",
+      "run_id": "41907337643",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/41907337643"
     },
     "source_check": {
-      "checked_at": "2026-11-04T09:31:52+00:00",
+      "checked_at": "2026-11-04T20:32:11+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": true,
       "reported_observed": 28,
       "future_observed": 1
     },
     "audit": {
-      "previous_generated_at": "2026-11-02T22:27:17+00:00",
-      "current_generated_at": "2026-11-04T09:31:52+00:00",
-      "event_ids_added": 1,
+      "previous_generated_at": "2026-11-04T09:31:52+00:00",
+      "current_generated_at": "2026-11-04T20:32:11+00:00",
+      "event_ids_added": 0,
       "event_ids_removed": 0,
-      "content_change_count": 5,
+      "content_change_count": 0,
       "date_changes": [],
-      "status_changes": [
-        {
-          "id": "aapl-2026-11-02",
-          "ticker": "AAPL",
-          "date": "2026-11-02",
-          "fiscal_period": "Sep 2026",
-          "from": "estimated",
-          "to": "reported"
-        }
-      ],
-      "field_changes": [
-        {
-          "id": "aapl-2026-11-02",
-          "ticker": "AAPL",
-          "date": "2026-11-02",
-          "field": "eps_forecast",
-          "label": "EPS 预期",
-          "from": "$1.98",
-          "to": null
-        },
-        {
-          "id": "aapl-2026-11-02",
-          "ticker": "AAPL",
-          "date": "2026-11-02",
-          "field": "analyst_count",
-          "label": "分析师数量",
-          "from": "7",
-          "to": null
-        },
-        {
-          "id": "aapl-2026-11-02",
-          "ticker": "AAPL",
-          "date": "2026-11-02",
-          "field": "session",
-          "label": "发布时间段",
-          "from": "time-after-hours",
-          "to": null
-        }
-      ],
-      "added_events": [
-        {
-          "id": "aapl-2027-11-01",
-          "ticker": "AAPL",
-          "date": "2027-11-01",
-          "status": "projected",
-          "fiscal_period": "Projected quarter +4"
-        }
-      ],
+      "status_changes": [],
+      "field_changes": [],
+      "added_events": [],
       "removed_events": [],
       "heartbeat_changed": true
     }
