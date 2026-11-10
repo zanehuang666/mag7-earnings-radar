@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-09T23:07:47+00:00",
+  "generated_at": "2026-11-10T02:05:02+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -41,7 +41,7 @@
   "calendar": {
     "formal": {
       "label": "正式日历",
-      "as_of": "2026-11-09",
+      "as_of": "2026-11-10",
       "message": "历史日期来自 Nasdaq 日历并由最近四季接口自动校准；未来日期明确标记为预计，最终以公司 IR 为准。",
       "events": [
         {
@@ -3784,22 +3784,18 @@
           "ticker": "NVDA",
           "company": "NVIDIA",
           "date": "2026-11-17",
-          "fiscal_period": "Oct/2026",
-          "status": "estimated",
-          "date_confidence": "estimated",
+          "fiscal_period": "Oct 2026",
+          "status": "confirmed",
+          "date_confidence": "confirmed",
           "source": {
-            "label": "Nasdaq earnings calendar",
-            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-17"
+            "label": "Company IR confirmation",
+            "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx"
           },
           "ir_source": {
             "label": "NVIDIA IR",
             "url": "https://investor.nvidia.com/"
           },
-          "forecast": {
-            "eps": "$2.49",
-            "analyst_count": "13",
-            "session": "time-after-hours"
-          },
+          "forecast": {},
           "date_range": {},
           "preview": {
             "verdict": "NVIDIA 财报前检查清单（简版）",
@@ -8954,8 +8950,8 @@
   "sync": {
     "reported_count": 83,
     "projected_count": 27,
-    "estimated_count": 1,
-    "confirmed_count": 0,
+    "estimated_count": 0,
+    "confirmed_count": 1,
     "source": "Nasdaq public earnings endpoints",
     "errors": [
       "AEHR verification: RuntimeError: Nasdaq earnings-surprise data unavailable: No record found."
@@ -8969,26 +8965,63 @@
       "周末 09:37 心跳验证"
     ],
     "run": {
-      "trigger": "schedule",
-      "run_id": "42717847807",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/42717847807"
+      "trigger": "push",
+      "run_id": "42740233615",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/42740233615"
     },
     "source_check": {
-      "checked_at": "2026-11-09T23:07:47+00:00",
+      "checked_at": "2026-11-10T02:05:02+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": true,
       "reported_observed": 28,
       "future_observed": 1
     },
     "audit": {
-      "previous_generated_at": "2026-11-09T08:37:24+00:00",
-      "current_generated_at": "2026-11-09T23:07:47+00:00",
+      "previous_generated_at": "2026-11-09T23:07:47+00:00",
+      "current_generated_at": "2026-11-10T02:05:02+00:00",
       "event_ids_added": 0,
       "event_ids_removed": 0,
-      "content_change_count": 0,
+      "content_change_count": 4,
       "date_changes": [],
-      "status_changes": [],
-      "field_changes": [],
+      "status_changes": [
+        {
+          "id": "nvda-2026-11-17",
+          "ticker": "NVDA",
+          "date": "2026-11-17",
+          "fiscal_period": "Oct 2026",
+          "from": "estimated",
+          "to": "confirmed"
+        }
+      ],
+      "field_changes": [
+        {
+          "id": "nvda-2026-11-17",
+          "ticker": "NVDA",
+          "date": "2026-11-17",
+          "field": "eps_forecast",
+          "label": "EPS 预期",
+          "from": "$2.49",
+          "to": null
+        },
+        {
+          "id": "nvda-2026-11-17",
+          "ticker": "NVDA",
+          "date": "2026-11-17",
+          "field": "analyst_count",
+          "label": "分析师数量",
+          "from": "13",
+          "to": null
+        },
+        {
+          "id": "nvda-2026-11-17",
+          "ticker": "NVDA",
+          "date": "2026-11-17",
+          "field": "session",
+          "label": "发布时间段",
+          "from": "time-after-hours",
+          "to": null
+        }
+      ],
       "added_events": [],
       "removed_events": [],
       "heartbeat_changed": true
