@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-10T02:05:02+00:00",
+  "generated_at": "2026-11-10T08:47:36+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -8965,63 +8965,26 @@
       "周末 09:37 心跳验证"
     ],
     "run": {
-      "trigger": "push",
-      "run_id": "42740233615",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/42740233615"
+      "trigger": "schedule",
+      "run_id": "42785379400",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/42785379400"
     },
     "source_check": {
-      "checked_at": "2026-11-10T02:05:02+00:00",
+      "checked_at": "2026-11-10T08:47:36+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": true,
       "reported_observed": 28,
       "future_observed": 1
     },
     "audit": {
-      "previous_generated_at": "2026-11-09T23:07:47+00:00",
-      "current_generated_at": "2026-11-10T02:05:02+00:00",
+      "previous_generated_at": "2026-11-10T02:05:02+00:00",
+      "current_generated_at": "2026-11-10T08:47:36+00:00",
       "event_ids_added": 0,
       "event_ids_removed": 0,
-      "content_change_count": 4,
+      "content_change_count": 0,
       "date_changes": [],
-      "status_changes": [
-        {
-          "id": "nvda-2026-11-17",
-          "ticker": "NVDA",
-          "date": "2026-11-17",
-          "fiscal_period": "Oct 2026",
-          "from": "estimated",
-          "to": "confirmed"
-        }
-      ],
-      "field_changes": [
-        {
-          "id": "nvda-2026-11-17",
-          "ticker": "NVDA",
-          "date": "2026-11-17",
-          "field": "eps_forecast",
-          "label": "EPS 预期",
-          "from": "$2.49",
-          "to": null
-        },
-        {
-          "id": "nvda-2026-11-17",
-          "ticker": "NVDA",
-          "date": "2026-11-17",
-          "field": "analyst_count",
-          "label": "分析师数量",
-          "from": "13",
-          "to": null
-        },
-        {
-          "id": "nvda-2026-11-17",
-          "ticker": "NVDA",
-          "date": "2026-11-17",
-          "field": "session",
-          "label": "发布时间段",
-          "from": "time-after-hours",
-          "to": null
-        }
-      ],
+      "status_changes": [],
+      "field_changes": [],
       "added_events": [],
       "removed_events": [],
       "heartbeat_changed": true
