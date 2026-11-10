@@ -71,6 +71,15 @@ class Mag7CalendarTest(unittest.TestCase):
         period_keys = [(event["ticker"], event["fiscal_period"]) for event in sourced]
         self.assertEqual(len(period_keys), len(set(period_keys)), "duplicate sourced dates for the same company quarter")
 
+    def test_nvidia_ir_announcement_confirms_q3_date(self):
+        event = next(item for item in sync_mag7_calendar.CONFIRMED_EVENTS if item["ticker"] == "NVDA")
+        self.assertEqual(event["date"], "2026-11-17")
+        self.assertEqual(event["period"], "Oct 2026")
+        self.assertEqual(
+            event["source_url"],
+            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
+        )
+
     def test_recent_estimate_is_retained_until_report_feed_catches_up(self):
         today = date(2026, 10, 22)
         stale = {"id": "tsla-2026-10-21", "ticker": "TSLA", "date": "2026-10-21", "status": "estimated"}

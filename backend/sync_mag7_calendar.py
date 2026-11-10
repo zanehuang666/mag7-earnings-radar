@@ -5,7 +5,7 @@ Sources:
 - Nasdaq earnings surprise table: latest reported dates and EPS surprise.
 
 The historical seed was individually checked against Nasdaq daily calendar rows.
-Future rows remain `estimated`; the job never promotes them to `confirmed` by itself.
+Future rows remain `estimated` unless a matching company IR announcement is curated.
 """
 from __future__ import annotations
 
@@ -72,7 +72,14 @@ HISTORICAL_SEED = {
 
 # Add an item only after an IR announcement is verified. A confirmed row replaces
 # an estimate/projection for the same company and nearby quarter.
-CONFIRMED_EVENTS: list[dict] = []
+CONFIRMED_EVENTS: list[dict] = [
+    {
+        "ticker": "NVDA",
+        "date": "2026-11-17",
+        "period": "Oct 2026",
+        "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
+    },
+]
 
 
 def fetch_json(url: str, attempts: int = 3) -> dict:
