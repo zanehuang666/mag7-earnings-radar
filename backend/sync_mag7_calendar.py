@@ -235,7 +235,10 @@ def add_cadence_projections(by_id: dict[str, dict], periods_per_company: int = 4
     for ticker in tickers or COMPANIES:
         company_events = sorted((event for event in by_id.values() if event["ticker"] == ticker), key=lambda event: event["date"])
         reported_dates = [date.fromisoformat(event["date"]) for event in company_events if event["status"] == "reported"]
-        future_events = [event for event in company_events if event["status"] in {"estimated", "confirmed"} and date.fromisoformat(event["date"]) >= today]
+        # Keep a confirmed earnings date in the four-quarter window while the
+        # results feed is catching up, even after its calendar day has passed.
+        future_events = [event for event in company_events if event["status"] == "confirmed" or
+                         (event["status"] == "estimated" and date.fromisoformat(event["date"]) >= today)]
         gaps = [(right - left).days for left, right in zip(reported_dates[-9:-1], reported_dates[-8:])]
         cadence = max(84, min(100, round(statistics.median(gaps or [91]))))
         missing = periods_per_company - len(future_events)
@@ -394,6 +397,10 @@ def build() -> tuple[dict, dict]:
     future, future_errors, candidates = upcoming(int(os.getenv("MAG7_FORWARD_DAYS", "120")))
     fresh_future_tickers = {event["ticker"] for event in future}
     for event in previous_future:
+        if any(actual["ticker"] == event["ticker"] and
+               abs((date.fromisoformat(actual["date"]) - date.fromisoformat(event["date"])).days) <= RESULTS_INGESTION_GRACE_DAYS
+               for actual in recent_reported):
+            continue
         # A complete Nasdaq scan is authoritative: replace yesterday's estimates
         # so a moved date cannot survive beside its replacement.  During a partial
         # source outage, retain only companies for which no fresh row was observed.
@@ -406,6 +413,10 @@ def build() -> tuple[dict, dict]:
         by_id[event["id"]] = event
 
     for item in CONFIRMED_EVENTS:
+        if any(event["ticker"] == item["ticker"] and event["status"] == "reported"
+               and abs((date.fromisoformat(event["date"]) - date.fromisoformat(item["date"])).days) <= RESULTS_INGESTION_GRACE_DAYS
+               for event in by_id.values()):
+            continue
         event = make_event(item["ticker"], item["date"], "confirmed", item["period"],
                            item["source_url"], "Company IR confirmation")
         for key, candidate in list(by_id.items()):

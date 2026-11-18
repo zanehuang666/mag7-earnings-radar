@@ -80,6 +80,28 @@ class Mag7CalendarTest(unittest.TestCase):
             "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
         )
 
+    def test_past_confirmed_event_occupies_one_forward_slot(self):
+        today = date.today()
+        by_id = {}
+        for index in range(8):
+            event_date = today - timedelta(days=91 * (8 - index))
+            event = sync_mag7_calendar.make_event(
+                "NVDA", event_date.isoformat(), "reported", "Historical",
+                "https://example.com", "test",
+            )
+            by_id[event["id"]] = event
+        confirmed = sync_mag7_calendar.make_event(
+            "NVDA", (today - timedelta(days=1)).isoformat(), "confirmed",
+            "Oct 2026", "https://example.com", "test",
+        )
+        by_id[confirmed["id"]] = confirmed
+
+        sync_mag7_calendar.add_cadence_projections(by_id, tickers=["NVDA"])
+
+        pending = [event for event in by_id.values() if event["status"] != "reported"]
+        self.assertEqual(len(pending), 4)
+        self.assertEqual(sum(event["status"] == "confirmed" for event in pending), 1)
+
     def test_recent_estimate_is_retained_until_report_feed_catches_up(self):
         today = date(2026, 10, 22)
         stale = {"id": "tsla-2026-10-21", "ticker": "TSLA", "date": "2026-10-21", "status": "estimated"}
