@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "version": "2026-10-04_V13",
-  "generated_at": "2026-11-17T21:53:26+00:00",
+  "generated_at": "2026-11-18T15:17:03+00:00",
   "coverage": {
     "from": "2024-01-01",
-    "reported_events": 83,
+    "reported_events": 84,
     "future_previews": 28,
     "tickers": [
       "AAPL",
@@ -22616,62 +22616,40 @@
       "company": "NVIDIA",
       "period": "Oct 2026",
       "date": "2026-11-17",
-      "sample_role": "全量未来 Preview",
-      "status": "confirmed",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "sample_role": "全量历史确定性研究",
+      "status": "reported",
+      "information_cutoff": "2026-11-17T00:00:00-05:00（Preview 使用发布前共识快照）",
       "preview": {
         "title": "NVIDIA · 2026-11-17 财报前 Preview",
-        "verdict": "当前日期状态：公司 IR 已正式确认。研究重点为Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换。",
-        "summary": "这是 NVIDIA 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“公司 IR 已正式确认”。可获得的 EPS 一致预期为 不可得，分析师样本为 未披露。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "verdict": "公开 EPS 共识为 $2.47；真正需要同时验证的是Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换。",
+        "summary": "这是一份冻结在财报发布前的确定性历史 Preview。Nasdaq 当日历记录的 EPS 共识为 $2.47，覆盖 未披露 位分析师。公开 EPS 只是基础门槛，不能替代公司分部数据和指引；对 NVIDIA，市场更关注Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换以及毛利率、出口限制与客户集中度。本页不会把财报后的实际结果倒灌到 Preview。",
         "summary_points": [
           {
-            "title": "日期可信度",
-            "text": "公司 IR 已正式确认",
+            "title": "基础门槛",
+            "text": "EPS consensus $2.47；分析师数量 未披露。",
             "tone": "neutral"
           },
           {
-            "title": "当前量化锚点",
-            "text": "EPS 不可得；分析师样本 未披露",
-            "tone": "neutral"
+            "title": "核心上行",
+            "text": "Data Center 增速和大型客户需求与Blackwell 等新品供给、交付与产品切换同时强于市场门槛。",
+            "tone": "positive"
           },
           {
-            "title": "首要验证项",
-            "text": "Data Center 增速和大型客户需求；Blackwell 等新品供给、交付与产品切换",
-            "tone": "mixed"
+            "title": "核心下行",
+            "text": "极高市场预期、产品切换和客户集中放大任何供给或需求偏差，即使 EPS 达标也可能压制估值。",
+            "tone": "negative"
           }
         ],
-        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics_title": "财报前公开门槛与研究范围",
         "metrics": [
           {
-            "name": "日期状态",
-            "expectation": "公司 IR 已正式确认",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_nvda_2026_11_17"
-            ],
-            "tone": "neutral"
-          },
-          {
-            "name": "日期 / 区间",
-            "expectation": "2026-11-17",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_nvda_2026_11_17"
-            ],
-            "tone": "neutral"
-          },
-          {
             "name": "EPS consensus",
-            "expectation": "不可得",
+            "expectation": "$2.47",
             "actual": null,
             "delta": null,
             "assessment": null,
             "source_ids": [
-              "calendar_nvda_2026_11_17"
+              "nasdaq_2026_11_17"
             ],
             "tone": "neutral"
           },
@@ -22682,50 +22660,39 @@
             "delta": null,
             "assessment": null,
             "source_ids": [
-              "calendar_nvda_2026_11_17"
+              "nasdaq_2026_11_17"
             ],
             "tone": "neutral"
           },
           {
-            "name": "Fiscal period",
+            "name": "Fiscal quarter",
             "expectation": "Oct 2026",
             "actual": null,
             "delta": null,
             "assessment": null,
             "source_ids": [
-              "calendar_nvda_2026_11_17"
-            ],
-            "tone": "neutral"
-          },
-          {
-            "name": "Release session",
-            "expectation": "发布时间未提供",
-            "actual": null,
-            "delta": null,
-            "assessment": null,
-            "source_ids": [
-              "calendar_nvda_2026_11_17"
+              "nasdaq_2026_11_17"
             ],
             "tone": "neutral"
           }
         ],
         "observations": [
           {
-            "title": "核心观察 1",
+            "title": "观察 1",
             "text": "Data Center 增速和大型客户需求",
             "source_ids": [
               "ir_nvda"
             ]
           },
           {
-            "title": "核心观察 2",
+            "title": "观察 2",
             "text": "Blackwell 等新品供给、交付与产品切换",
             "source_ids": [
               "ir_nvda"
             ]
           },
           {
-            "title": "核心观察 3",
+            "title": "观察 3",
             "text": "毛利率、出口限制与客户集中度",
             "source_ids": [
               "ir_nvda"
@@ -22735,39 +22702,156 @@
         "market_focus": [
           "Data Center 增速和大型客户需求",
           "Blackwell 等新品供给、交付与产品切换",
-          "毛利率、出口限制与客户集中度",
-          "财报发布后核对 NVDA 相对 QQQ 的 1 日与 5 日表现"
+          "毛利率、出口限制与客户集中度"
         ],
         "risks": [
           {
-            "title": "日期风险",
-            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "title": "信息边界",
+            "text": "仅使用历史日历中的财报前 EPS 共识，不使用发布后结果倒推当时观点。"
+          },
+          {
+            "title": "共识覆盖",
+            "text": "免费公开共识不等于完整买方预期，也不能代表收入和分部指标门槛。"
+          },
+          {
+            "title": "口径差异",
+            "text": "需用公司正式财报核对 GAAP/non-GAAP、拆股及一次性项目。"
+          }
+        ]
+      },
+      "analysis": {
+        "title": "NVIDIA · 2026-11-17 财报后 Analysis",
+        "verdict": "EPS 较公开一致预期 +8.50%，尚无完整行情窗口；综合判断为结果有分歧。",
+        "summary": "Nasdaq 历史日历记录实际 EPS $2.68、公开一致预期 $2.47，对应预期差 +8.50%",
+        "summary_points": [
+          {
+            "title": "EPS 结果",
+            "text": "EPS 较公开一致预期 +8.50%",
+            "tone": "positive"
+          },
+          {
+            "title": "市场确认",
+            "text": "尚无完整行情窗口",
+            "tone": "neutral"
+          },
+          {
+            "title": "综合边界",
+            "text": "整体判断由 EPS 与相对价格共同约束；收入、分部和指引仍需查看公司原始材料。",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "实际结果 vs 财报前公开门槛",
+        "result_tone": "mixed",
+        "metrics": [
+          {
+            "name": "EPS",
+            "expectation": "$2.47",
+            "actual": "$2.68",
+            "delta": "+0.21 / +8.50%",
+            "assessment": "超预期",
             "source_ids": [
-              "calendar_nvda_2026_11_17",
-              "ir_nvda"
+              "nasdaq_2026_11_17"
+            ],
+            "tone": "positive"
+          },
+          {
+            "name": "次日相对 QQQ",
+            "expectation": "0.00 pct（市场基准）",
+            "actual": "—",
+            "delta": "—",
+            "assessment": "相对表现中性",
+            "source_ids": [
+              "market_nvda"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "drivers": [
+          {
+            "title": "公开预期差",
+            "text": "EPS 较公开一致预期 +8.50%",
+            "source_ids": [
+              "nasdaq_2026_11_17"
             ]
           },
           {
-            "title": "预期口径",
-            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "title": "价格交叉验证",
+            "text": "尚无完整行情窗口；价格反应用于识别隐含门槛，不证明单一因果。",
             "source_ids": [
-              "calendar_nvda_2026_11_17"
+              "market_nvda"
             ]
           },
           {
-            "title": "公司特定风险",
-            "text": "极高市场预期、产品切换和客户集中放大任何供给或需求偏差",
+            "title": "业务质量",
+            "text": "仍需回到公司材料核对Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换和毛利率、出口限制与客户集中度。",
             "source_ids": [
               "ir_nvda"
             ]
           }
+        ],
+        "guidance_changes": [
+          {
+            "title": "管理层指引",
+            "text": "免费结构化基线未自动抽取本季指引变化；保留 IR 入口供逐项复核，避免模型补写。",
+            "tone": "neutral",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          }
+        ],
+        "market_reaction": null,
+        "risks": [
+          {
+            "title": "核心经营变量未被单一 EPS 完整覆盖",
+            "text": "EPS 预期差不能替代对收入、分部增速、利润率和管理层指引的判断；极高市场预期、产品切换和客户集中放大任何供给或需求偏差是该公司的主要质量风险。",
+            "transmission": "单项 EPS beat/miss → 市场重新检查收入质量和指引 → 盈利预测与估值可能朝相反方向调整。",
+            "monitor": "Data Center 收入、GM 指引、库存/预付款、供应周期、网络业务和区域限制",
+            "trigger": "EPS 与收入、分部趋势或下一季指引明显背离。",
+            "horizon": "当前财报至下一季度",
+            "status": "需要结合公司正式材料复核。",
+            "counter_signal": "核心业务、利润率、现金流和下一季指引与 EPS 方向一致。",
+            "source_ids": [
+              "nasdaq_2026_11_17",
+              "ir_nvda",
+              "market_nvda"
+            ]
+          },
+          {
+            "title": "市场预期高于公开一致预期",
+            "text": "Nasdaq EPS consensus 是公开卖方样本，不包含全部买方 whisper、期权定价和仓位，因此击败公开共识仍可能对应负面股价反应。",
+            "transmission": "隐含门槛高于公开共识 → headline beat 无法推动盈利继续上修 → 拥挤交易解除并压缩估值。",
+            "monitor": "财报前盈利修订、期权隐含波动、估值、财报后远期 EPS 修订和相对 QQQ 表现。",
+            "trigger": "EPS beat 但次日和 5 日持续跑输 QQQ。",
+            "horizon": "财报后 1–5 个交易日",
+            "status": "通过相对价格反应进行交叉验证。",
+            "counter_signal": "盈利预测上修且相对 QQQ 持续走强。",
+            "source_ids": [
+              "nasdaq_2026_11_17",
+              "ir_nvda",
+              "market_nvda"
+            ]
+          },
+          {
+            "title": "历史回放与口径风险",
+            "text": "历史 Preview 只能使用发布日期前可获得的共识；不同来源可能混合 GAAP、non-GAAP、拆股调整和后续修订口径。",
+            "transmission": "口径错配或后见信息进入 Preview → 夸大可预测性 → 回测结论失真。",
+            "monitor": "原始发布日期、EPS 注释、公司 reconciliation、拆股与会计政策变化。",
+            "trigger": "Nasdaq 数值与公司正式稿口径无法对齐。",
+            "horizon": "每次历史复核",
+            "status": "免费数据链保留这一限制，不自动补写缺失指标。",
+            "counter_signal": "公司原始材料和共识来源能够逐项对账。",
+            "source_ids": [
+              "nasdaq_2026_11_17",
+              "ir_nvda",
+              "market_nvda"
+            ]
+          }
         ]
       },
-      "analysis": null,
       "generation": {
-        "mode": "deterministic_future_preview",
+        "mode": "deterministic_cached",
         "model": null,
-        "cached": false
+        "cached": true
       }
     },
     {
@@ -22778,7 +22862,7 @@
       "date": "2027-01-27",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Meta · 2027-01-27 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为广告展示量、价格和推荐效率、Family of Apps 用户参与度与利润率。",
@@ -22938,7 +23022,7 @@
       "date": "2027-01-27",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Microsoft · 2027-01-27 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Azure 增速与 AI 工作负载构成、Microsoft Cloud 毛利率与资本开支。",
@@ -23098,7 +23182,7 @@
       "date": "2027-01-27",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Tesla · 2027-01-27 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为汽车收入、交付量和平均售价、汽车毛利率、降价与成本下降。",
@@ -23258,7 +23342,7 @@
       "date": "2027-01-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Apple · 2027-01-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为iPhone 收入、产品组合与换机周期、Services 增速和毛利率。",
@@ -23418,7 +23502,7 @@
       "date": "2027-02-03",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Alphabet · 2027-02-03 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Search 广告增长及 AI 对变现的影响、Google Cloud 增速与营业利润率。",
@@ -23578,7 +23662,7 @@
       "date": "2027-02-04",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Amazon · 2027-02-04 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为AWS 增速、积压订单与 AI 容量、北美及国际零售利润率。",
@@ -23734,11 +23818,11 @@
       "id": "nvda-2027-02-24",
       "ticker": "NVDA",
       "company": "NVIDIA",
-      "period": "Projected quarter +2",
+      "period": "Projected quarter +1",
       "date": "2027-02-24",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "NVIDIA · 2027-02-24 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换。",
@@ -23808,7 +23892,7 @@
           },
           {
             "name": "Fiscal period",
-            "expectation": "Projected quarter +2",
+            "expectation": "Projected quarter +1",
             "actual": null,
             "delta": null,
             "assessment": null,
@@ -23898,7 +23982,7 @@
       "date": "2027-04-21",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Tesla · 2027-04-21 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为汽车收入、交付量和平均售价、汽车毛利率、降价与成本下降。",
@@ -24058,7 +24142,7 @@
       "date": "2027-04-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Amazon · 2027-04-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为AWS 增速、积压订单与 AI 容量、北美及国际零售利润率。",
@@ -24218,7 +24302,7 @@
       "date": "2027-04-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Alphabet · 2027-04-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Search 广告增长及 AI 对变现的影响、Google Cloud 增速与营业利润率。",
@@ -24378,7 +24462,7 @@
       "date": "2027-04-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Meta · 2027-04-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为广告展示量、价格和推荐效率、Family of Apps 用户参与度与利润率。",
@@ -24538,7 +24622,7 @@
       "date": "2027-04-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Microsoft · 2027-04-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Azure 增速与 AI 工作负载构成、Microsoft Cloud 毛利率与资本开支。",
@@ -24698,7 +24782,7 @@
       "date": "2027-04-29",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Apple · 2027-04-29 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为iPhone 收入、产品组合与换机周期、Services 增速和毛利率。",
@@ -24854,11 +24938,11 @@
       "id": "nvda-2027-05-19",
       "ticker": "NVDA",
       "company": "NVIDIA",
-      "period": "Projected quarter +3",
+      "period": "Projected quarter +2",
       "date": "2027-05-19",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "NVIDIA · 2027-05-19 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换。",
@@ -24928,7 +25012,7 @@
           },
           {
             "name": "Fiscal period",
-            "expectation": "Projected quarter +3",
+            "expectation": "Projected quarter +2",
             "actual": null,
             "delta": null,
             "assessment": null,
@@ -25018,7 +25102,7 @@
       "date": "2027-07-21",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Alphabet · 2027-07-21 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Search 广告增长及 AI 对变现的影响、Google Cloud 增速与营业利润率。",
@@ -25178,7 +25262,7 @@
       "date": "2027-07-21",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Tesla · 2027-07-21 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为汽车收入、交付量和平均售价、汽车毛利率、降价与成本下降。",
@@ -25338,7 +25422,7 @@
       "date": "2027-07-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Meta · 2027-07-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为广告展示量、价格和推荐效率、Family of Apps 用户参与度与利润率。",
@@ -25498,7 +25582,7 @@
       "date": "2027-07-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Microsoft · 2027-07-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Azure 增速与 AI 工作负载构成、Microsoft Cloud 毛利率与资本开支。",
@@ -25658,7 +25742,7 @@
       "date": "2027-07-29",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Apple · 2027-07-29 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为iPhone 收入、产品组合与换机周期、Services 增速和毛利率。",
@@ -25818,7 +25902,7 @@
       "date": "2027-07-29",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Amazon · 2027-07-29 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为AWS 增速、积压订单与 AI 容量、北美及国际零售利润率。",
@@ -25974,11 +26058,11 @@
       "id": "nvda-2027-08-25",
       "ticker": "NVDA",
       "company": "NVIDIA",
-      "period": "Projected quarter +4",
+      "period": "Projected quarter +3",
       "date": "2027-08-25",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "NVIDIA · 2027-08-25 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换。",
@@ -26048,7 +26132,7 @@
           },
           {
             "name": "Fiscal period",
-            "expectation": "Projected quarter +4",
+            "expectation": "Projected quarter +3",
             "actual": null,
             "delta": null,
             "assessment": null,
@@ -26138,7 +26222,7 @@
       "date": "2027-10-20",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Meta · 2027-10-20 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为广告展示量、价格和推荐效率、Family of Apps 用户参与度与利润率。",
@@ -26298,7 +26382,7 @@
       "date": "2027-10-20",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Tesla · 2027-10-20 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为汽车收入、交付量和平均售价、汽车毛利率、降价与成本下降。",
@@ -26458,7 +26542,7 @@
       "date": "2027-10-27",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Alphabet · 2027-10-27 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Search 广告增长及 AI 对变现的影响、Google Cloud 增速与营业利润率。",
@@ -26618,7 +26702,7 @@
       "date": "2027-10-27",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Microsoft · 2027-10-27 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Azure 增速与 AI 工作负载构成、Microsoft Cloud 毛利率与资本开支。",
@@ -26778,7 +26862,7 @@
       "date": "2027-10-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Amazon · 2027-10-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为AWS 增速、积压订单与 AI 容量、北美及国际零售利润率。",
@@ -26938,7 +27022,7 @@
       "date": "2027-11-01",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-17T21:53:26+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
       "preview": {
         "title": "Apple · 2027-11-01 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为iPhone 收入、产品组合与换机周期、Services 增速和毛利率。",
@@ -27079,6 +27163,166 @@
             "text": "硬件周期、区域需求与高利润服务业务的增长错配",
             "source_ids": [
               "ir_aapl"
+            ]
+          }
+        ]
+      },
+      "analysis": null,
+      "generation": {
+        "mode": "deterministic_future_preview",
+        "model": null,
+        "cached": false
+      }
+    },
+    {
+      "id": "nvda-2027-11-16",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "period": "Projected quarter +4",
+      "date": "2027-11-16",
+      "sample_role": "全量未来 Preview",
+      "status": "projected",
+      "information_cutoff": "2026-11-18T15:17:03+00:00 · 自动日历快照",
+      "preview": {
+        "title": "NVIDIA · 2027-11-16 财报前 Preview",
+        "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换。",
+        "summary": "这是 NVIDIA 下一次财报的确定性研究清单。日期状态由日历同步流程控制，不由模型判断；当前为“依据历史披露节奏推算，属于低置信度日期区间”。可获得的 EPS 一致预期为 不可得（推算日期不生成 EPS 预期），分析师样本为 不适用。在正式结果发布前，页面只展示需要核验的业务指标、市场关注点和风险，不提前生成 Analysis，也不把市场预计写成公司确认。",
+        "summary_points": [
+          {
+            "title": "日期可信度",
+            "text": "依据历史披露节奏推算，属于低置信度日期区间",
+            "tone": "neutral"
+          },
+          {
+            "title": "当前量化锚点",
+            "text": "EPS 不可得（推算日期不生成 EPS 预期）；分析师样本 不适用",
+            "tone": "neutral"
+          },
+          {
+            "title": "首要验证项",
+            "text": "Data Center 增速和大型客户需求；Blackwell 等新品供给、交付与产品切换",
+            "tone": "mixed"
+          }
+        ],
+        "metrics_title": "财报前已知信息与待验证指标",
+        "metrics": [
+          {
+            "name": "日期状态",
+            "expectation": "依据历史披露节奏推算，属于低置信度日期区间",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_11_16"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "日期 / 区间",
+            "expectation": "2027-11-09 至 2027-11-23",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_11_16"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "EPS consensus",
+            "expectation": "不可得（推算日期不生成 EPS 预期）",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_11_16"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Analyst sample",
+            "expectation": "不适用",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_11_16"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Fiscal period",
+            "expectation": "Projected quarter +4",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_11_16"
+            ],
+            "tone": "neutral"
+          },
+          {
+            "name": "Release session",
+            "expectation": "发布时间未提供",
+            "actual": null,
+            "delta": null,
+            "assessment": null,
+            "source_ids": [
+              "calendar_nvda_2027_11_16"
+            ],
+            "tone": "neutral"
+          }
+        ],
+        "observations": [
+          {
+            "title": "核心观察 1",
+            "text": "Data Center 增速和大型客户需求",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          },
+          {
+            "title": "核心观察 2",
+            "text": "Blackwell 等新品供给、交付与产品切换",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          },
+          {
+            "title": "核心观察 3",
+            "text": "毛利率、出口限制与客户集中度",
+            "source_ids": [
+              "ir_nvda"
+            ]
+          }
+        ],
+        "market_focus": [
+          "Data Center 增速和大型客户需求",
+          "Blackwell 等新品供给、交付与产品切换",
+          "毛利率、出口限制与客户集中度",
+          "财报发布后核对 NVDA 相对 QQQ 的 1 日与 5 日表现"
+        ],
+        "risks": [
+          {
+            "title": "日期风险",
+            "text": "预计或推算日期可能调整；只有公司 IR 公告才能升级为正式确认。",
+            "source_ids": [
+              "calendar_nvda_2027_11_16",
+              "ir_nvda"
+            ]
+          },
+          {
+            "title": "预期口径",
+            "text": "公开 EPS consensus 不等于完整市场预期，也不能替代收入、分部指标和管理层指引。",
+            "source_ids": [
+              "calendar_nvda_2027_11_16"
+            ]
+          },
+          {
+            "title": "公司特定风险",
+            "text": "极高市场预期、产品切换和客户集中放大任何供给或需求偏差",
+            "source_ids": [
+              "ir_nvda"
             ]
           }
         ]
@@ -27492,10 +27736,10 @@
       "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-02",
       "type": "consensus_and_actual"
     },
-    "calendar_nvda_2026_11_17": {
-      "label": "Company IR confirmation",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
-      "type": "calendar"
+    "nasdaq_2026_11_17": {
+      "label": "Nasdaq earnings calendar · 2026-11-17",
+      "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-17",
+      "type": "consensus_and_actual"
     },
     "calendar_meta_2027_01_27": {
       "label": "Historical cadence projection",
@@ -27631,12 +27875,17 @@
       "label": "Historical cadence projection",
       "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
       "type": "calendar"
+    },
+    "calendar_nvda_2027_11_16": {
+      "label": "Historical cadence projection",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar#日期同步机制",
+      "type": "calendar"
     }
   },
   "generation": {
     "mode": "deterministic_incremental_cache",
     "llm_calls": 0,
-    "new_records": 0,
+    "new_records": 1,
     "preserved_records": 81,
     "errors": []
   },
