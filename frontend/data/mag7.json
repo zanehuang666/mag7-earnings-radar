@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-18T15:17:01+00:00",
+  "generated_at": "2026-11-18T21:33:51+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -9061,44 +9061,27 @@
       "周末 09:37 心跳验证"
     ],
     "run": {
-      "trigger": "push",
-      "run_id": "44333791039",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/44333791039"
+      "trigger": "schedule",
+      "run_id": "44402727564",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/44402727564"
     },
     "source_check": {
-      "checked_at": "2026-11-18T15:17:01+00:00",
+      "checked_at": "2026-11-18T21:33:51+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": true,
       "reported_observed": 28,
       "future_observed": 0
     },
     "audit": {
-      "previous_generated_at": "2026-11-17T21:53:24+00:00",
-      "current_generated_at": "2026-11-18T15:17:01+00:00",
-      "event_ids_added": 1,
+      "previous_generated_at": "2026-11-18T15:17:01+00:00",
+      "current_generated_at": "2026-11-18T21:33:51+00:00",
+      "event_ids_added": 0,
       "event_ids_removed": 0,
-      "content_change_count": 2,
+      "content_change_count": 0,
       "date_changes": [],
-      "status_changes": [
-        {
-          "id": "nvda-2026-11-17",
-          "ticker": "NVDA",
-          "date": "2026-11-17",
-          "fiscal_period": "Oct 2026",
-          "from": "confirmed",
-          "to": "reported"
-        }
-      ],
+      "status_changes": [],
       "field_changes": [],
-      "added_events": [
-        {
-          "id": "nvda-2027-11-16",
-          "ticker": "NVDA",
-          "date": "2027-11-16",
-          "status": "projected",
-          "fiscal_period": "Projected quarter +4"
-        }
-      ],
+      "added_events": [],
       "removed_events": [],
       "heartbeat_changed": true
     }
