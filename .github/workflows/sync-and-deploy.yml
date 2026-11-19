@@ -1,82 +1,45 @@
-name: Sync earnings and deploy Pages
+name: Trial first-tier Markdown refresh
 
 on:
   workflow_dispatch:
     inputs:
-      refresh_research:
-        description: "Regenerate the three Microsoft research narratives with Paratera"
-        required: false
-        default: false
-        type: boolean
       research_call_limit:
-        description: "Maximum Paratera calls for this run (1 for debugging, 3 for full refresh)"
+        description: "Maximum Paratera draft calls in this trial run"
         required: false
         default: "3"
         type: string
-      research_event_id:
-        description: "Optional event id to retry, for example msft-2026-07-29"
-        required: false
-        default: ""
-        type: string
-  push:
-    branches: [main]
-  schedule:
-    - cron: "37 1 * * 1-5"
-    - cron: "37 13 * * 1-5"
-    # Weekend heartbeat keeps the public audit timestamp moving even when US
-    # markets are closed, so the automatic pipeline can be verified visibly.
-    - cron: "37 1 * * 0,6"
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: trial-first-tier-md
   cancel-in-progress: false
 
 jobs:
-  sync-test-deploy:
+  refresh-trial:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Refresh deterministic earnings calendar
-        run: python backend/sync_mag7_calendar.py
-      - name: Refresh keyless QQQ market snapshot
-        run: python backend/sync_market_data.py
-      - name: Refresh released US macro events
-        run: python backend/sync_macro_events.py
-      - name: Refresh Microsoft source-grounded research when due
+      - name: Generate sourced trial Markdown
         env:
           PARATERA_API_KEY: ${{ secrets.PARATERA_API_KEY }}
           PARATERA_BASE_URL: ${{ secrets.PARATERA_BASE_URL }}
           PARATERA_MODEL: ${{ secrets.PARATERA_MODEL }}
-          MSFT_RESEARCH_FORCE: ${{ inputs.refresh_research || 'false' }}
-          MSFT_RESEARCH_CALL_LIMIT: ${{ inputs.research_call_limit || '3' }}
-          MSFT_RESEARCH_EVENT_ID: ${{ inputs.research_event_id || '' }}
-        run: python backend/sync_msft_research.py
-      - name: Refresh incremental Mag 7 research cache
-        run: python backend/sync_mag7_research.py
-      - name: Run contract tests
-        run: python -m unittest discover -s tests -v
-      - name: Commit refreshed public data
+          RESEARCH_CALL_LIMIT: ${{ inputs.research_call_limit || '3' }}
+          RESEARCH_FROM_DATE: "2026-01-01"
+          RESEARCH_THROUGH_DATE: "2026-12-31"
+          RESEARCH_FAIL_ON_ERROR: "1"
+        run: python trial/refresh_trial_assets.py
+      - name: Validate trial research
+        run: python -m unittest discover -s trial/tests -v
+      - name: Commit trial assets on this branch
         run: |
-          git config user.name "mag7-calendar-bot"
+          git config user.name "mag7-trial-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add frontend/data/
-          git diff --cached --quiet || git commit -m "data: refresh earnings snapshot"
-          git push
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v4
-        with:
-          path: frontend
-      - name: Deploy GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          git add trial/research trial/research-index.json trial/research-coverage.md trial/v13-based
+          git diff --cached --quiet || git commit -m "trial: refresh first-tier Markdown"
+          git push origin HEAD:${{ github.ref_name }}
