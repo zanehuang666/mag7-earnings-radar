@@ -1,0 +1,23 @@
+{
+  "english_draft": "Amazon published its third-quarter 2026 results on October 29, 2026. The source is the official earnings release. Net sales were USD 201.9 billion. Operating income was USD 28.1 billion. AWS sales grew 39.3 percent year over year. The figures use the unit of billions of US dollars. No Preview exists for this quarter. A later reconstruction is not a contemporaneous forecast. Therefore, this analysis cannot compare actual results against a prior preview. The source contains no company guidance. The source contains no market consensus. Therefore, the comparison section remains to be verified. The source does not show segment operating income. The source does not show product-line profit outside AWS. The source does not show capital expenditure. Therefore, profit attribution remains to be verified. AWS sales growth is the only confirmed growth driver. Operating margin is about 13.9 percent. This figure is computed from reported numbers. It is not stated in the release. The next quarterly report should show whether AWS growth continues. It should also show whether the operating margin holds. The impact of AI infrastructure spending remains to be verified.",
+  "reader_questions": [
+    "AWS 39.3% 的同比增速是名义增速还是恒定汇率增速？来源未披露汇率口径——若为恒定汇率口径，AWS 需求的实际强度可能低于表面数字，这会改变对增长引擎的解读。",
+    "281 亿美元营业利润中 AWS 贡献多少？来源未披露分部营业利润——若不披露，就无法判断整体利润增长是 AWS 拉动还是零售业务贡献，这会改变利润质量结论。",
+    "2025Q3 的净销售额、营业利润和 AWS 销售额基数是多少？没有基数就无法判断 2026Q3 是加速还是减速，这会改变对业绩动能的理解。"
+  ],
+  "fact_checks": {
+    "first_round": [
+      "日期/季度：2026Q3 财报发布于 2026-10-29，季度为截至 2026-09-30；与官方来源一致。",
+      "币种/单位：Net sales USD 201.9 billion = 2019 亿美元；Operating income USD 28.1 billion = 281 亿美元；单位换算无误。",
+      "GAAP/非 GAAP：来源未标注非 GAAP 调整项；本稿按新闻稿报告口径处理，未声称 GAAP 认证。",
+      "集团/分部：AWS 销售额 +39.3% 为分部销售额同比增速，非集团整体销售增速；本稿未混用。",
+      "事实/指引/共识：来源仅包含公司事实；未附公司指引或市场共识；本稿未编造共识或股价。",
+      "本稿推论：营业利润率 13.9% 来自 281÷2019 的推算，已在正文标注；利润归因因缺分部数据而标'待核'。"
+    ],
+    "second_round": [
+      "问题1：AWS 39.3% 是否为恒定汇率口径？——来源未披露汇率口径，正文将汇率口径列入待核，不把 39.3% 解读为纯需求强度。",
+      "问题2：281 亿美元营业利润中 AWS 占多少？——正文明确“未披露分部营业利润”，不做整体利润增长归因于 AWS 的判断。",
+      "问题3：2025Q3 基数是多少？——正文只报告绝对数与同比增速，不做加速/减速判断；基数待下一来源补充。"
+    ]
+  }
+}

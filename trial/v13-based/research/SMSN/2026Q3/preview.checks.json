@@ -1,0 +1,18 @@
+{
+  "english_draft": "English intermediate draft (for process only)\nThis is a historical reconstruction of a Samsung Electronics 2026 Q3 preview. The cutoff is July 30, 2026. The only source is the Q2 2026 results release.\nBaseline facts: Q2 2026 consolidated revenue was KRW 171.5 trillion. Q2 2026 consolidated operating profit was KRW 89.5 trillion. Both were all-time quarterly highs. DS Division revenue was KRW 127.5 trillion and operating profit was KRW 89.2 trillion. Memory achieved record revenue and operating profit. HBM4 sales were scaled up. The company shipped the industry's first HBM4E samples. DX Division sales fell 9% quarter on quarter. MX/Networks revenue was KRW 33.2 trillion with an operating loss of KRW 0.7 trillion. VD/DA revenue was KRW 14.5 trillion with a slight operating loss. SDC revenue was KRW 7.5 trillion and operating profit was KRW 0.7 trillion.\nCompany H2 2026 guidance: Memory expects robust server demand and continued undersupply. Supply constraints will continue. The Memory Business will focus on HBM4, DDR5, SOCAMM2 and other high-value products. System LSI expects component costs to stay high and consumer demand to stay soft. Foundry targets double-digit revenue growth in H2 2026. SDC plans 8.6G IT OLED mass production. MX plans to expand flagship-led sales around Galaxy Z8 and S26 and launch Intelligent Eyewear. VD/DA will lead AI TV and AI appliance sales.\nQuestions for 2026 Q3: Can Memory deliver another record profit while supply constraints limit volume? Can MX improve earnings despite component cost pressure and new product launch costs? Can Foundry growth be verified while System LSI remains soft?\nPotential positive surprise: Memory price and mix exceed company guidance; Foundry base-die and LPU orders accelerate; MX efficiency reduces operating loss.\nPotential negative surprise: Memory volume is constrained; mobile/PC demand weakens; MX operating loss widens; component costs persist.\nVerification points: consolidated QoQ direction; Memory revenue and profit; MX operating margin; any Foundry or LSI disclosure; SDC 8.6G line; no consensus or stock price is used.\nNo contemporaneous preview existed for 2026 Q3; the Analysis section will state that no same-period Preview is available.",
+  "reader_questions": [
+    "季度口径是否会被误读为2026Q3实际业绩？本文目标Q3是7至9月，而原始来源是截至6月底的Q2；若混用，环比判断会失效。",
+    "文中“内存供不应求将持续”是公司对2026下半年的指引，还是本文对Q3的必然判断？公司指引不是承诺，不能直接当作Q3可验证事实。",
+    "Foundry“双位数收入增长”是全年、下半年还是Q3单季目标？原文未明确单季，引用时必须标注为公司H2指引，而不能写成Q3共识。"
+  ],
+  "fact_checks": [
+    "来源日期为2026-07-30，报道2026Q2截至2026-06-30的业绩；不是2026Q3业绩。核对通过。",
+    "Q2合并营收171.5万亿韩元、合并营业利润89.5万亿韩元，均为单季新高；EPS为10,849韩元，较上年同期增加52%。核对通过。",
+    "DS部门营收127.5万亿韩元、营业利润89.2万亿韩元；Memory营收和营业利润创纪录。核对通过。",
+    "HBM4E表述为“向主要客户出货行业首款样品”，不是已量产；HBM4为“扩大销售”。核对通过。",
+    "MX/Networks营收33.2万亿韩元，营业亏损0.7万亿韩元；VD/DA营收14.5万亿韩元，小幅营业亏损；SDC营收7.5万亿韩元、营业利润0.7万亿韩元。核对通过。",
+    "公司H2指引：Memory服务器需求强劲、供应受限；System LSI成本高且消费需求软；Foundry目标双位数收入增长；SDC规划8.6G IT OLED量产；MX规划Z8/S26和Intelligent Eyewear。核对通过。",
+    "本文未引用市场共识、股价或未披露产品利润；目标财报日2026-10-29来自任务元数据，原始新闻稿未含。核对通过。",
+    "无同期Preview可复核；Analysis将明确写“无同期Preview”，不用事后信息补写。核对通过。"
+  ]
+}

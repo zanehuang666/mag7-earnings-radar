@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "manual_verified",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "35967b8711c7ee14c4d00ca3fa8f4d8639cf166cdd7e20e11995f1839f374d52",
+  "cutoff": "2026-11-19T10:11:19.339698+00:00",
+  "generated_at": "2026-11-19T16:50:42.564150+00:00",
+  "sources": [
+    "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
+  ]
 }

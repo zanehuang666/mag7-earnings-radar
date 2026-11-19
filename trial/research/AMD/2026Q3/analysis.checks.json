@@ -1,0 +1,16 @@
+{
+  "english_draft": "AMD released its third quarter 2026 financial results on November 3, 2026. Revenue was USD 13.4 billion, up 45% year over year. The company attributed the growth partly to record Data Center revenue. The official release presents separate GAAP and non-GAAP figures. This analysis does not include specific profit numbers because the source material provides only the confirmed facts. No preview written before the earnings release was found. Therefore, this analysis cannot compare earlier forecasts. It only reviews the official post-release announcement. Key observations: Data Center revenue reached a record level and was a partial growth driver. The absolute amount of Data Center revenue is not available in the provided source. The year-over-year comparison base is not provided. No further inference is made. Next quarter, attention should be paid to Data Center revenue continuity, gross margin trends, and management guidance.",
+  "reader_questions": [
+    "45%同比增长中，数据中心业务贡献了多少绝对金额？",
+    "官方新闻稿中的“创纪录数据中心收入”是基于GAAP还是非GAAP口径？",
+    "与上一季度相比，本季度收入环比变化如何？"
+  ],
+  "fact_checks": [
+    "核对：来源链接为AMD官方新闻稿，标题为“AMD Reports Third Quarter 2026 Financial Results”，发布日期为2026年11月3日，与给定事实一致。",
+    "核对：季度标识为2026Q3，新闻稿发布日期符合2026-11-03，cutoff时间之后无额外信息。",
+    "核对：收入134亿美元、同比增长45%为官方新闻稿披露事实。",
+    "核对：“数据中心收入创纪录”为官方新闻稿对增长原因的归因表述，本稿仅转述，未推断具体金额。",
+    "核对：官方新闻稿分别列示GAAP与非GAAP数据，但本分析未引用具体利润数字，因来源资料未提供。",
+    "核对：不存在财报前撰写的同期Preview，因此不进行前瞻复核。"
+  ]
+}

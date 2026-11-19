@@ -1,31 +1,27 @@
-# AMD（AMD）2026Q3｜财报后资料索引
+# AMD 2026年第三季度业绩分析
 
-> 自动整理的资料索引，尚不是经逐季财报核对的完整研究文章。
+- **发布日期**：2026年11月3日
+- **季度**：2026年第三季度（2026Q3）
+- **收入**：134亿美元，同比增长45%
 
-- 财报日：2026-11-03（已发布）
-- 财报期：Sep 2026
+## 实际结果
 
-## 已核实资料与待复核判断
+AMD于2026年11月3日发布2026年第三季度财务业绩。本季度总收入为134亿美元，较上年同期增长45%。公司表示，增长部分归因于数据中心收入创下纪录。官方新闻稿对GAAP与非GAAP口径分别列示财务数据，但本次分析仅依据已确认的公开事实，不包含未披露的利润绝对金额。
 
-- Q3 2026 results released November 3, 2026.
-- Revenue was USD 13.4 billion, up 45% year over year.
-- The company attributed growth partly to record Data Center revenue; separate GAAP and non-GAAP figures in analysis.
+## 与原Preview的复核
 
-### Nasdaq EPS 线索（尚待核对财报口径）
+本次分析未找到财报发布前撰写的同期Preview，因此无法对事前预测进行复核。本文所有结论均基于财报发布后的官方新闻稿。
 
-Nasdaq 快照记录实际 EPS 1.84、公开一致预期 1.68、差异 9.52%。
-此处不推断 GAAP、非 GAAP或拆股调整口径，也不据此单独判断财报质量。
+## 观察点
 
-### 后续核对
+- 数据中心收入创纪录是本季度增长的主要驱动因素之一，但本次来源未披露其绝对金额，需以新闻稿原文为准。
+- 同比增长45%的基数效应与产品周期需结合上一年同期收入判断，但本稿未取得该数据，不进行延伸推论。
+- GAAP与非GAAP数据均以官方发布为准，本稿不推测具体数字。
 
-- 数据中心收入：实际结果、指引与下季变化。
-- GPU 与 CPU 产品组合：实际结果、指引与下季变化。
-- 毛利率和指引：实际结果、指引与下季变化。
+## 下一季关注点
 
-## 来源与状态
+建议关注下季度数据中心收入能否延续增长、毛利率趋势以及管理层在业绩电话会议中给出的指引。以上仅为观察建议，不构成对下一季度业绩的预测。
 
-- [原始资料 1](https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results)
-- [原始资料 2](https://api.nasdaq.com/api/calendar/earnings?date=2026-11-03)
-- [原始资料 3](https://api.nasdaq.com/api/company/AMD/earnings-surprise)
+## 来源
 
-资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
+[AMD Reports Third Quarter 2026 Financial Results](https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results)
