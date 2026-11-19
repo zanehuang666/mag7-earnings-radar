@@ -215,6 +215,7 @@ def main() -> None:
     subprocess.run([sys.executable, str(ROOT / "add_latest_official_packets.py")], check=True)
     subprocess.run([sys.executable, str(ROOT / "collect_official_packets.py")], check=True)
     subprocess.run([sys.executable, str(ROOT / "prepare_previews.py")], check=True)
+    subprocess.run([sys.executable, str(ROOT / "prune_out_of_scope_baselines.py")], check=True)
     subprocess.run([sys.executable, str(ROOT / "seed_markdown_baselines.py")], check=True)
     subprocess.run([sys.executable, str(ROOT / "research_pipeline.py")], check=True)
     subprocess.run([sys.executable, str(ROOT / "coverage_report.py")], check=True, capture_output=True)

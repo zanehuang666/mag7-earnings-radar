@@ -1,5 +1,7 @@
 # V13 基础上的扩展日历试用版
 
+当前季度 Markdown 研究交付范围限定为第一梯队公司 **2026 年财报日**：45 场已发布财报的 Preview/Analysis，加 3 场未来财报的 Preview，共 93 个页面入口。日历保留早年日期，但不把早年的自动索引计入本次完整研究。2026 年 93 个 Markdown 中，只有 2 篇现有人工样稿可算研究稿，其余为清楚标记的资料索引，待官方资料和 Paratera 生成逐篇升级。另两篇人工样稿对应 2027 年事件，保留文件但不在本次范围展示。
+
 打开 `v13-based/trial-offline.html` 查看本地试用页面。`v13-based/calendar.html` 与 `v13-based/data/` 是可部署的静态页面与数据；原有 `mag7-earnings-radar-debug` 和线上 `main` 未被修改。
 
 ## 数据与更新
@@ -10,7 +12,7 @@
 - 扩展公司的未来预计日期复用原有 `us_earnings_candidates.json`，不增加逐公司的未来日历请求。
 - 每家扩展美股公司显示四个未来槽位；Nasdaq 收录日期标记为 `estimated`，其余根据历史间隔标记为低置信度 `projected`。推算日期不是财报公告日期。
 - 公司研究报告集中在 `v13-based/reports/<ticker>/overview.html`，五类源数据在相邻 `data/`（如有），状态和来源见 `v13-based/data/report_index.json`。第一梯队 13 家均有 HTML：6 家由指定 Skill 的数据合同重建并通过静态检查，2 家为只含 2026Q3 的硬件 Skill 诊断报告，5 家仍为尚未迁入新 Skill 的旧版草稿；均未认定为逐值核实的正式版。
-- 第一梯队季度 Preview/Analysis 改为 `research/<ticker>/<YYYYQn>/<stage>.md`，网页从 `data/research_index.json` 读取状态与正文。`seed_markdown_baselines.py` 参考正式版的 Nasdaq 确定性资料层，为 139 场已发布财报的 Preview/Analysis 和 47 个未来 Preview 建立可读 Markdown；其中 321 篇标为“自动资料索引”，不能算逐季核验的完整研究。Google 和 Intel 的 2026Q4 Preview、2026Q3 Analysis 是现有的 4 篇人工样稿。具备官方资料与 Paratera 凭证时，生成流程逐篇将索引升级为完整草稿，保留人工文章。
+- 第一梯队季度 Preview/Analysis 改为 `research/<ticker>/<YYYYQn>/<stage>.md`，网页从 `data/research_index.json` 读取状态与正文。`seed_markdown_baselines.py` 参考正式版的 Nasdaq 确定性资料层，为 2026 年范围的 93 个阶段建立可读 Markdown；其中 91 篇标为“自动资料索引”，不能算逐季核验的完整研究，2 篇是 Google 和 Intel 的现有 Analysis 人工样稿。具备官方资料与 Paratera 凭证时，生成流程逐篇将索引升级为完整草稿，保留人工文章。
 - 2024 年至今的第一梯队季度事件已建立逐季资料包索引：Intel 11 季、SK hynix 11 季、Samsung Electronics 11 季采集了官方季度公告正文；另外九家上市公司的最近已发布季度均有人工核对官方公告的关键事实资料包。六家公司既有报告数据的其他 2024+ 季度仍是待逐值复核线索，其余季度标明官方正文待补。准确覆盖数量见 `research-coverage.md`。SpaceX 无公开标准季度财报事件。
 - `collect_official_packets.py` 从已有研究数据和韩国官方公告建立资料包；`add_latest_official_packets.py` 补入九家上市公司最近一期已核对的官方关键事实；`collect_intel_packets.py` 读取 Intel 官方财务新闻归档；`collect_sec_packets.py` 为十家美国上市公司准备 SEC 10-Q/10-K 采集通道。当前本机访问 SEC 及多家 IR 网站返回 HTTP 403，程序记录缺口而不伪造资料。10-K 年报不能自动冒充独立 Q4 季报。
 - `prepare_previews.py` 给尚未发布的下一季准备上季资料，也可把已发布季度之前的官方资料封装为“历史资料重建”前瞻输入。重建稿必须明确标识，不能冒充当时发表的预测；Analysis 不把它当成真实同期 Preview 来复核。`research_pipeline.py` 默认每次最多 3 次 Paratera 调用，可用 `RESEARCH_CALL_LIMIT` 调整，按近期 Preview、最近 Analysis、较早季度的顺序排队。

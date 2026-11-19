@@ -1,0 +1,20 @@
+{
+  "ticker": "AVGO",
+  "calendar_quarter": "2026Q4",
+  "target_event_date": "2026-12-09",
+  "date_status": "estimated",
+  "cutoff": "2026-11-19T11:15:13.839382+00:00",
+  "sources": [
+    "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial"
+  ],
+  "facts": [
+    "Broadcom official FY2026 Q3 release dated 2026-09-02; quarter ended 2026-08-02.",
+    "Revenue about USD 29.6 billion, +86% year over year; GAAP operating income USD 16.0 billion; non-GAAP operating income USD 20.1 billion.",
+    "AI semiconductor revenue USD 16.7 billion, +221% year over year, per company CEO statement.",
+    "Operating cash flow USD 14.2 billion; capex USD 0.5 billion; free cash flow USD 13.7 billion.",
+    "FY2026 Q4 revenue guidance about USD 34.8 billion; expected AI semiconductor revenue USD 21.7 billion. These are company forecasts."
+  ],
+  "prior_quarter": "2026Q3",
+  "verification_status": "manual_verified",
+  "note": "Only prior-quarter materials are provided. Target-quarter results are not yet public. Date is projected or estimated unless company IR confirms it."
+}

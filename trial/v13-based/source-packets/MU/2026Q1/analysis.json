@@ -1,0 +1,32 @@
+{
+  "ticker": "MU",
+  "calendar_quarter": "2026Q1",
+  "fiscal_period": "FY2026Q2",
+  "quarter_end": "2026-02-26",
+  "cutoff": "2026-11-19T05:56:27.618846+00:00",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/723125/000072312525000046/mu-20251127.htm",
+    "https://www.sec.gov/Archives/edgar/data/723125/000072312526000006/mu-20260226.htm"
+  ],
+  "facts": [
+    "RevenueFromContractWithCustomerExcludingAssessedTax | group | 23860.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "OperatingIncomeLoss | group | 16135.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "ocf | group | 20314.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "ocf | group | 8411.0 USD millions USD | GAAP | source_id=sec_FY2026Q1",
+    "cash_capex | group | 11776.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "cash_capex | group | 5389.0 USD millions USD | GAAP | source_id=sec_FY2026Q1",
+    "business_unit_revenue | cmbu | 7749.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "business_unit_revenue | cdbu | 5687.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "business_unit_revenue | mcbu | 7711.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "business_unit_revenue | aebu | 2708.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "business_unit_revenue | all_other | 5.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "segment_operating_profit | cmbu | 5127.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "segment_operating_profit | cdbu | 3809.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "segment_operating_profit | mcbu | 5836.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "segment_operating_profit | aebu | 1682.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "segment_operating_profit | all_other | 1.0 USD millions USD | GAAP | source_id=sec_FY2026Q2"
+  ],
+  "verification_status": "source_review_pending",
+  "official_release_confirmed": false,
+  "note": "Imported report bundle. Source URLs and individual numbers require independent review."
+}

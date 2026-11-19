@@ -1,0 +1,31 @@
+{
+  "ticker": "AMD",
+  "calendar_quarter": "2026Q2",
+  "fiscal_period": "FY2026Q2",
+  "quarter_end": "2026-06-27",
+  "cutoff": "2026-11-19T05:56:27.601605+00:00",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2488/000000248826000076/amd-20260328.htm",
+    "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm"
+  ],
+  "facts": [
+    "RevenueFromContractWithCustomerExcludingAssessedTax | group | 11536.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "OperatingIncomeLoss | group | 1990.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "ocf | group | 5321.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "ocf | group | 2955.0 USD millions USD | GAAP | source_id=sec_FY2026Q1",
+    "cash_capex | group | 1197.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "cash_capex | group | 389.0 USD millions USD | GAAP | source_id=sec_FY2026Q1",
+    "segment_revenue | data_center | 6718.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "product_revenue | client | 3062.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "product_revenue | gaming | 779.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "segment_revenue | client_gaming | 3841.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "segment_revenue | embedded | 977.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "segment_operating_profit | data_center | 2103.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "segment_operating_profit | client_gaming | 582.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "segment_operating_profit | embedded | 386.0 USD millions USD | GAAP | source_id=sec_FY2026Q2",
+    "corporate_adjustment | all_other | -1081.0 USD millions USD | GAAP | source_id=sec_FY2026Q2"
+  ],
+  "verification_status": "source_review_pending",
+  "official_release_confirmed": false,
+  "note": "Imported report bundle. Source URLs and individual numbers require independent review."
+}

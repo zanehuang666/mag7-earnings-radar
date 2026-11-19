@@ -38,7 +38,7 @@ class ResearchPipelineTest(unittest.TestCase):
             answer = {"english_draft": "Prior-quarter revenue increased.", "reader_questions": ["a", "b", "c"],
                       "fact_checks": ["verified"], "markdown": "# 历史资料重建：Intel 前瞻\n\n[Source](https://example.com/q1)"}
             with patch.multiple(pipeline, ROOT=root, DATA=data, RESEARCH=root / "research", PACKETS=packets, PROMPT=prompt), \
-                 patch.dict(os.environ, {"PARATERA_API_KEY": "test", "PARATERA_BASE_URL": "https://example.com", "PARATERA_MODEL": "test", "RESEARCH_CALL_LIMIT": "1"}), \
+                 patch.dict(os.environ, {"PARATERA_API_KEY": "test", "PARATERA_BASE_URL": "https://example.com", "PARATERA_MODEL": "test", "RESEARCH_CALL_LIMIT": "1", "RESEARCH_FROM_DATE": "2024-01-01", "RESEARCH_THROUGH_DATE": "2030-12-31"}), \
                  patch.object(pipeline, "call_model", return_value=answer):
                 pipeline.main()
             index = json.loads((root / "research-index.json").read_text(encoding="utf-8"))
@@ -65,7 +65,7 @@ class ResearchPipelineTest(unittest.TestCase):
             answer = {"english_draft": "Revenue increased.", "reader_questions": ["a", "b", "c"],
                       "fact_checks": ["checked"], "markdown": "# Report\n\n[Source](https://example.com/official)"}
             with patch.multiple(pipeline, ROOT=root, DATA=data, RESEARCH=root / "research", PACKETS=packets, PROMPT=prompt), \
-                 patch.dict(os.environ, {"PARATERA_API_KEY": "test", "PARATERA_BASE_URL": "https://example.com", "PARATERA_MODEL": "test", "RESEARCH_CALL_LIMIT": "1"}), \
+                 patch.dict(os.environ, {"PARATERA_API_KEY": "test", "PARATERA_BASE_URL": "https://example.com", "PARATERA_MODEL": "test", "RESEARCH_CALL_LIMIT": "1", "RESEARCH_FROM_DATE": "2024-01-01", "RESEARCH_THROUGH_DATE": "2030-12-31"}), \
                  patch.object(pipeline, "call_model", return_value=answer) as model:
                 pipeline.main()
                 first = json.loads((root / "research-index.json").read_text(encoding="utf-8"))

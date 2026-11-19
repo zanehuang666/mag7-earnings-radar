@@ -1,0 +1,13 @@
+{
+  "ticker": "AVGO",
+  "calendar_quarter": "2026Q1",
+  "release_date": "2026-03-04",
+  "discovery_links": [
+    "https://api.nasdaq.com/api/calendar/earnings?date=2026-03-04"
+  ],
+  "sources": [],
+  "facts": [],
+  "official_release_confirmed": false,
+  "verification_status": "official_source_missing",
+  "note": "Calendar date is known. An official earnings release or filing text is still needed."
+}

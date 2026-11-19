@@ -7,6 +7,7 @@ Paratera may replace a baseline when a qualified source packet is available.
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 from research_pipeline import DATA, FIRST, PACKETS, RESEARCH, ROOT, event_quarters
@@ -93,11 +94,13 @@ def stage_text(event: dict, quarter: str, stage: str, live: dict | None, packet:
 
 def main() -> None:
     events = read(DATA, {})["calendar"]["formal"]["events"]
+    from_date = os.getenv("RESEARCH_FROM_DATE", "2026-01-01")
+    through_date = os.getenv("RESEARCH_THROUGH_DATE", "2026-12-31")
     quarters = event_quarters(events)
     legacy = {row["id"]: row for row in read(LIVE, {}).get("events", [])}
     made = 0
     for event in events:
-        if event["ticker"] not in FIRST or event["ticker"] == "SPACEX":
+        if event["ticker"] not in FIRST or event["ticker"] == "SPACEX" or not from_date <= event["date"] <= through_date:
             continue
         quarter = quarters.get(event["id"])
         if not quarter:

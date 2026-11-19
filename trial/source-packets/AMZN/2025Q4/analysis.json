@@ -1,0 +1,36 @@
+{
+  "ticker": "AMZN",
+  "calendar_quarter": "2025Q4",
+  "fiscal_period": "2025Q4",
+  "quarter_end": "2025-12-31",
+  "cutoff": "2026-11-19T05:56:27.558295+00:00",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm"
+  ],
+  "facts": [
+    "Consolidated net sales | group | 213386 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "传统业务收入 | group | 177807 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "AWS net sales | group | 35579 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "North America | na | 127083 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "International | international | 50724 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "AWS | aws | 35579 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "North America Operating income | na | 11472 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "International Operating income | international | 1040 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "AWS Operating income | aws | 12465 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "Net cash from operating activities | group | 54459 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "Net cash purchases of PP&E | group | 38469 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "Free cash flow | group | 15990 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "Consolidated operating income | group | 24977 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "Online stores | online | 82988 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "Physical stores | physical | 5855 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "Third-party seller services | thirdparty | 52816 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "Subscription services | subscription | 13122 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "Advertising services | advertising | 21317 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "Other | other | 1709 million USD | GAAP | source_id=source-b0be02d65ee4",
+    "Worldwide paid units 同比 | paidunits | 12 % USD | GAAP | source_id=source-b0be02d65ee4",
+    "Seller unit mix | sellermix | 61 % USD | GAAP | source_id=source-b0be02d65ee4"
+  ],
+  "verification_status": "source_review_pending",
+  "official_release_confirmed": false,
+  "note": "Imported report bundle. Source URLs and individual numbers require independent review."
+}

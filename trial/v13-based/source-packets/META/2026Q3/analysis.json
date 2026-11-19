@@ -1,0 +1,13 @@
+{
+  "ticker": "META", "calendar_quarter": "2026Q3", "cutoff": "2026-11-19T12:00:00+08:00",
+  "sources": ["https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"],
+  "facts": [
+    "Meta official Q3 2026 release dated 2026-10-21; quarter ended 2026-09-30.",
+    "Revenue USD 64.601 billion, +26% year over year; GAAP operating income USD 12.988 billion.",
+    "Q3 GAAP expenses include USD 9.89 billion litigation charge; without it operating income would be USD 22.88 billion. This is a company-provided counterfactual, not GAAP actual.",
+    "Operating cash flow USD 32.79 billion; free cash flow negative USD 2.12 billion; capex including finance lease principal USD 34.91 billion.",
+    "Q4 2026 revenue guidance USD 73-76 billion; 2026 capex guidance USD 135-145 billion."
+  ],
+  "official_release_confirmed": true, "verification_status": "manual_verified",
+  "note": "Facts checked against the linked official company release. AI article still requires editorial review."
+}

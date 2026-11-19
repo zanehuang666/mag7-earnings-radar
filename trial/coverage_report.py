@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -13,11 +14,14 @@ ORDER = ("MSFT", "AMZN", "META", "GOOGL", "ORCL", "SPACEX", "NVDA", "AVGO", "AMD
 
 def main() -> None:
     events = json.loads(INDEX.read_text(encoding="utf-8"))["events"]
+    from_date = os.getenv("RESEARCH_FROM_DATE", "2026-01-01")
+    through_date = os.getenv("RESEARCH_THROUGH_DATE", "2026-12-31")
     source = json.loads(PACKETS.read_text(encoding="utf-8"))["quarters"]
     by_ticker = defaultdict(list)
     for event in events.values():
-        by_ticker[event["ticker"]].append(event)
-    lines = ["# 第一梯队 2024 年至今季度研究覆盖", "", "状态按本地试用版资料统计。官方资料包不等于已经完成 Markdown 文章。", "",
+        if from_date <= event["date"] <= through_date:
+            by_ticker[event["ticker"]].append(event)
+    lines = ["# 第一梯队 2026 年财报研究覆盖", "", "状态按本地试用版资料统计。官方资料包不等于已经完成 Markdown 文章。", "",
              "| 公司 | 已发布季度 | 官方正文已采 | 官方关键事实已核 | 旧数据待逐值复核 | 官方正文待补 | 历史 Preview 资料包 | Analysis MD 索引/研究 | 历史 Preview MD 索引/研究 | 未来 Preview MD 索引/研究 |",
              "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |"]
     for ticker in ORDER:

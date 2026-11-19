@@ -1,0 +1,16 @@
+{
+  "ticker": "MU",
+  "calendar_quarter": "2026Q3",
+  "cutoff": "2026-11-19T10:11:19.340697+00:00",
+  "sources": [
+    "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx"
+  ],
+  "facts": [
+    "Fiscal 2026 Q4 ended September 3, 2026; this maps to calendar 2026Q3; released September 30, 2026.",
+    "Revenue was USD 54.229 billion according to the official release (table unit: USD millions).",
+    "GAAP gross margin was USD 47.047 billion; verify the unusually large year-on-year increase before writing conclusions."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "manual_verified",
+  "note": "Curated facts from linked official release; AI article still needs editorial review."
+}

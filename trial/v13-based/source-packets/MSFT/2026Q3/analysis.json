@@ -1,0 +1,16 @@
+{
+  "ticker": "MSFT",
+  "calendar_quarter": "2026Q3",
+  "cutoff": "2026-11-19T10:11:19.336769+00:00",
+  "sources": [
+    "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast"
+  ],
+  "facts": [
+    "Fiscal 2027 Q1 ended September 30, 2026; published October 28, 2026.",
+    "Revenue was USD 92.3 billion, up 19% year over year.",
+    "GAAP operating income was USD 45.9 billion, up 21% year over year."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "manual_verified",
+  "note": "Curated facts from linked official release; AI article still needs editorial review."
+}

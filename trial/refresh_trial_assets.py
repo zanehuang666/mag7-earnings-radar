@@ -22,6 +22,7 @@ def run(script: str) -> None:
 
 def main() -> None:
     run("prepare_previews.py")
+    run("prune_out_of_scope_baselines.py")
     run("seed_markdown_baselines.py")
     run("research_pipeline.py")
     run("coverage_report.py")
@@ -29,6 +30,9 @@ def main() -> None:
                          (ROOT / "research-coverage.md", SITE / "data/research-coverage.md")):
         shutil.copyfile(source, dest)
     shutil.copytree(ROOT / "research", SITE / "research", dirs_exist_ok=True)
+    for file in (SITE / "research").rglob("*.md"):
+        if not (ROOT / "research" / file.relative_to(SITE / "research")).exists():
+            file.unlink()
     shutil.copytree(ROOT / "source-packets", SITE / "source-packets", dirs_exist_ok=True)
     page = SITE / "calendar.html"
     html = page.read_text(encoding="utf-8")

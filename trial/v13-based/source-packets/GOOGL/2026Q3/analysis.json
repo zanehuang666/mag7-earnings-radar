@@ -1,0 +1,16 @@
+{
+  "ticker": "GOOGL",
+  "calendar_quarter": "2026Q3",
+  "cutoff": "2026-11-19T10:11:19.338690+00:00",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm"
+  ],
+  "facts": [
+    "Q3 2026 ended September 30, 2026; released October 28, 2026.",
+    "Consolidated revenue was USD 127.577 billion, up 25% year over year.",
+    "Google Cloud revenue was USD 30.709 billion; operating income was USD 11.121 billion."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "manual_verified",
+  "note": "Curated facts from linked official release; AI article still needs editorial review."
+}

@@ -1,0 +1,16 @@
+{
+  "ticker": "AMD",
+  "calendar_quarter": "2026Q3",
+  "cutoff": "2026-11-19T10:11:19.339698+00:00",
+  "sources": [
+    "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
+  ],
+  "facts": [
+    "Q3 2026 results released November 3, 2026.",
+    "Revenue was USD 13.4 billion, up 45% year over year.",
+    "The company attributed growth partly to record Data Center revenue; separate GAAP and non-GAAP figures in analysis."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "manual_verified",
+  "note": "Curated facts from linked official release; AI article still needs editorial review."
+}

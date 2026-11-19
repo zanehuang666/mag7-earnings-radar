@@ -1,0 +1,14 @@
+{
+  "ticker": "META",
+  "calendar_quarter": "2025Q4",
+  "release_date": "2026-01-28",
+  "discovery_links": [
+    "https://investor.atmeta.com/",
+    "https://api.nasdaq.com/api/company/META/earnings-surprise"
+  ],
+  "sources": [],
+  "facts": [],
+  "official_release_confirmed": false,
+  "verification_status": "official_source_missing",
+  "note": "Calendar date is known. An official earnings release or filing text is still needed."
+}

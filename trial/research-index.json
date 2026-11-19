@@ -1,0 +1,1113 @@
+{
+  "generated_at": "2026-11-19T14:59:12.937638+00:00",
+  "events": {
+    "avgo-2026-12-09": {
+      "ticker": "AVGO",
+      "quarter": "2026Q4",
+      "date": "2026-12-09",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/AVGO/2026Q4/preview.md",
+          "source_packet": "source-packets/AVGO/2026Q4/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "orcl-2026-12-09": {
+      "ticker": "ORCL",
+      "quarter": "2026Q4",
+      "date": "2026-12-09",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/ORCL/2026Q4/preview.md",
+          "source_packet": "source-packets/ORCL/2026Q4/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "mu-2026-12-16": {
+      "ticker": "MU",
+      "quarter": "2026Q4",
+      "date": "2026-12-16",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/MU/2026Q4/preview.md",
+          "source_packet": "source-packets/MU/2026Q4/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "nvda-2026-11-17": {
+      "ticker": "NVDA",
+      "quarter": "2026Q4",
+      "date": "2026-11-17",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/NVDA/2026Q4/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/NVDA/2026Q4/analysis.md",
+          "source_packet": "source-packets/NVDA/2026Q4/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "amd-2026-11-03": {
+      "ticker": "AMD",
+      "quarter": "2026Q3",
+      "date": "2026-11-03",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/AMD/2026Q3/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/AMD/2026Q3/analysis.md",
+          "source_packet": "source-packets/AMD/2026Q3/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "amzn-2026-10-29": {
+      "ticker": "AMZN",
+      "quarter": "2026Q3",
+      "date": "2026-10-29",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/AMZN/2026Q3/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/AMZN/2026Q3/analysis.md",
+          "source_packet": "source-packets/AMZN/2026Q3/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "intc-2026-10-29": {
+      "ticker": "INTC",
+      "quarter": "2026Q3",
+      "date": "2026-10-29",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/INTC/2026Q3/preview.md",
+          "source_packet": "source-packets/INTC/2026Q3/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "manual",
+          "path": "research/INTC/2026Q3/analysis.md",
+          "source_packet": "source-packets/INTC/2026Q3/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "smsn-2026-10-29": {
+      "ticker": "SMSN",
+      "quarter": "2026Q3",
+      "date": "2026-10-29",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/SMSN/2026Q3/preview.md",
+          "source_packet": "source-packets/SMSN/2026Q3/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/SMSN/2026Q3/analysis.md",
+          "source_packet": "source-packets/SMSN/2026Q3/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "googl-2026-10-28": {
+      "ticker": "GOOGL",
+      "quarter": "2026Q3",
+      "date": "2026-10-28",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/GOOGL/2026Q3/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "manual",
+          "path": "research/GOOGL/2026Q3/analysis.md",
+          "source_packet": "source-packets/GOOGL/2026Q3/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "msft-2026-10-28": {
+      "ticker": "MSFT",
+      "quarter": "2026Q3",
+      "date": "2026-10-28",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/MSFT/2026Q3/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/MSFT/2026Q3/analysis.md",
+          "source_packet": "source-packets/MSFT/2026Q3/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "skhx-2026-10-28": {
+      "ticker": "SKHX",
+      "quarter": "2026Q3",
+      "date": "2026-10-28",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/SKHX/2026Q3/preview.md",
+          "source_packet": "source-packets/SKHX/2026Q3/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/SKHX/2026Q3/analysis.md",
+          "source_packet": "source-packets/SKHX/2026Q3/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "meta-2026-10-21": {
+      "ticker": "META",
+      "quarter": "2026Q3",
+      "date": "2026-10-21",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/META/2026Q3/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/META/2026Q3/analysis.md",
+          "source_packet": "source-packets/META/2026Q3/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "mu-2026-09-30": {
+      "ticker": "MU",
+      "quarter": "2026Q3",
+      "date": "2026-09-30",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/MU/2026Q3/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/MU/2026Q3/analysis.md",
+          "source_packet": "source-packets/MU/2026Q3/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "orcl-2026-09-10": {
+      "ticker": "ORCL",
+      "quarter": "2026Q3",
+      "date": "2026-09-10",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/ORCL/2026Q3/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/ORCL/2026Q3/analysis.md",
+          "source_packet": "source-packets/ORCL/2026Q3/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "avgo-2026-09-02": {
+      "ticker": "AVGO",
+      "quarter": "2026Q3",
+      "date": "2026-09-02",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/AVGO/2026Q3/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/AVGO/2026Q3/analysis.md",
+          "source_packet": "source-packets/AVGO/2026Q3/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "nvda-2026-08-26": {
+      "ticker": "NVDA",
+      "quarter": "2026Q3",
+      "date": "2026-08-26",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/NVDA/2026Q3/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/NVDA/2026Q3/analysis.md",
+          "source_packet": "source-packets/NVDA/2026Q3/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "amd-2026-08-04": {
+      "ticker": "AMD",
+      "quarter": "2026Q2",
+      "date": "2026-08-04",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/AMD/2026Q2/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/AMD/2026Q2/analysis.md",
+          "source_packet": "source-packets/AMD/2026Q2/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "amzn-2026-07-30": {
+      "ticker": "AMZN",
+      "quarter": "2026Q2",
+      "date": "2026-07-30",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/AMZN/2026Q2/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/AMZN/2026Q2/analysis.md",
+          "source_packet": "source-packets/AMZN/2026Q2/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "smsn-2026-07-30": {
+      "ticker": "SMSN",
+      "quarter": "2026Q2",
+      "date": "2026-07-30",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/SMSN/2026Q2/preview.md",
+          "source_packet": "source-packets/SMSN/2026Q2/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/SMSN/2026Q2/analysis.md",
+          "source_packet": "source-packets/SMSN/2026Q2/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "meta-2026-07-29": {
+      "ticker": "META",
+      "quarter": "2026Q2",
+      "date": "2026-07-29",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/META/2026Q2/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/META/2026Q2/analysis.md",
+          "source_packet": "source-packets/META/2026Q2/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "msft-2026-07-29": {
+      "ticker": "MSFT",
+      "quarter": "2026Q2",
+      "date": "2026-07-29",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/MSFT/2026Q2/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/MSFT/2026Q2/analysis.md",
+          "source_packet": "source-packets/MSFT/2026Q2/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "skhx-2026-07-29": {
+      "ticker": "SKHX",
+      "quarter": "2026Q2",
+      "date": "2026-07-29",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/SKHX/2026Q2/preview.md",
+          "source_packet": "source-packets/SKHX/2026Q2/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/SKHX/2026Q2/analysis.md",
+          "source_packet": "source-packets/SKHX/2026Q2/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "intc-2026-07-23": {
+      "ticker": "INTC",
+      "quarter": "2026Q2",
+      "date": "2026-07-23",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/INTC/2026Q2/preview.md",
+          "source_packet": "source-packets/INTC/2026Q2/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/INTC/2026Q2/analysis.md",
+          "source_packet": "source-packets/INTC/2026Q2/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "googl-2026-07-22": {
+      "ticker": "GOOGL",
+      "quarter": "2026Q2",
+      "date": "2026-07-22",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/GOOGL/2026Q2/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/GOOGL/2026Q2/analysis.md",
+          "source_packet": "source-packets/GOOGL/2026Q2/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "mu-2026-06-24": {
+      "ticker": "MU",
+      "quarter": "2026Q2",
+      "date": "2026-06-24",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/MU/2026Q2/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/MU/2026Q2/analysis.md",
+          "source_packet": "source-packets/MU/2026Q2/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "orcl-2026-06-10": {
+      "ticker": "ORCL",
+      "quarter": "2026Q2",
+      "date": "2026-06-10",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/ORCL/2026Q2/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/ORCL/2026Q2/analysis.md",
+          "source_packet": "source-packets/ORCL/2026Q2/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "avgo-2026-06-03": {
+      "ticker": "AVGO",
+      "quarter": "2026Q2",
+      "date": "2026-06-03",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/AVGO/2026Q2/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/AVGO/2026Q2/analysis.md",
+          "source_packet": "source-packets/AVGO/2026Q2/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "nvda-2026-05-20": {
+      "ticker": "NVDA",
+      "quarter": "2026Q2",
+      "date": "2026-05-20",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/NVDA/2026Q2/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/NVDA/2026Q2/analysis.md",
+          "source_packet": "source-packets/NVDA/2026Q2/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "amd-2026-05-05": {
+      "ticker": "AMD",
+      "quarter": "2026Q1",
+      "date": "2026-05-05",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/AMD/2026Q1/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/AMD/2026Q1/analysis.md",
+          "source_packet": "source-packets/AMD/2026Q1/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "smsn-2026-04-30": {
+      "ticker": "SMSN",
+      "quarter": "2026Q1",
+      "date": "2026-04-30",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/SMSN/2026Q1/preview.md",
+          "source_packet": "source-packets/SMSN/2026Q1/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/SMSN/2026Q1/analysis.md",
+          "source_packet": "source-packets/SMSN/2026Q1/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "amzn-2026-04-29": {
+      "ticker": "AMZN",
+      "quarter": "2026Q1",
+      "date": "2026-04-29",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/AMZN/2026Q1/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/AMZN/2026Q1/analysis.md",
+          "source_packet": "source-packets/AMZN/2026Q1/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "googl-2026-04-29": {
+      "ticker": "GOOGL",
+      "quarter": "2026Q1",
+      "date": "2026-04-29",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/GOOGL/2026Q1/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/GOOGL/2026Q1/analysis.md",
+          "source_packet": "source-packets/GOOGL/2026Q1/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "meta-2026-04-29": {
+      "ticker": "META",
+      "quarter": "2026Q1",
+      "date": "2026-04-29",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/META/2026Q1/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/META/2026Q1/analysis.md",
+          "source_packet": "source-packets/META/2026Q1/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "msft-2026-04-29": {
+      "ticker": "MSFT",
+      "quarter": "2026Q1",
+      "date": "2026-04-29",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/MSFT/2026Q1/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/MSFT/2026Q1/analysis.md",
+          "source_packet": "source-packets/MSFT/2026Q1/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "intc-2026-04-23": {
+      "ticker": "INTC",
+      "quarter": "2026Q1",
+      "date": "2026-04-23",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/INTC/2026Q1/preview.md",
+          "source_packet": "source-packets/INTC/2026Q1/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/INTC/2026Q1/analysis.md",
+          "source_packet": "source-packets/INTC/2026Q1/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "skhx-2026-04-23": {
+      "ticker": "SKHX",
+      "quarter": "2026Q1",
+      "date": "2026-04-23",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/SKHX/2026Q1/preview.md",
+          "source_packet": "source-packets/SKHX/2026Q1/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/SKHX/2026Q1/analysis.md",
+          "source_packet": "source-packets/SKHX/2026Q1/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "mu-2026-03-18": {
+      "ticker": "MU",
+      "quarter": "2026Q1",
+      "date": "2026-03-18",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/MU/2026Q1/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/MU/2026Q1/analysis.md",
+          "source_packet": "source-packets/MU/2026Q1/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "orcl-2026-03-10": {
+      "ticker": "ORCL",
+      "quarter": "2026Q1",
+      "date": "2026-03-10",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/ORCL/2026Q1/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/ORCL/2026Q1/analysis.md",
+          "source_packet": "source-packets/ORCL/2026Q1/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "avgo-2026-03-04": {
+      "ticker": "AVGO",
+      "quarter": "2026Q1",
+      "date": "2026-03-04",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/AVGO/2026Q1/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/AVGO/2026Q1/analysis.md",
+          "source_packet": "source-packets/AVGO/2026Q1/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "nvda-2026-02-25": {
+      "ticker": "NVDA",
+      "quarter": "2026Q1",
+      "date": "2026-02-25",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/NVDA/2026Q1/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/NVDA/2026Q1/analysis.md",
+          "source_packet": "source-packets/NVDA/2026Q1/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "amzn-2026-02-05": {
+      "ticker": "AMZN",
+      "quarter": "2025Q4",
+      "date": "2026-02-05",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/AMZN/2025Q4/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/AMZN/2025Q4/analysis.md",
+          "source_packet": "source-packets/AMZN/2025Q4/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "googl-2026-02-04": {
+      "ticker": "GOOGL",
+      "quarter": "2025Q4",
+      "date": "2026-02-04",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/GOOGL/2025Q4/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/GOOGL/2025Q4/analysis.md",
+          "source_packet": "source-packets/GOOGL/2025Q4/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "amd-2026-02-03": {
+      "ticker": "AMD",
+      "quarter": "2025Q4",
+      "date": "2026-02-03",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/AMD/2025Q4/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/AMD/2025Q4/analysis.md",
+          "source_packet": "source-packets/AMD/2025Q4/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "smsn-2026-01-29": {
+      "ticker": "SMSN",
+      "quarter": "2025Q4",
+      "date": "2026-01-29",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/SMSN/2025Q4/preview.md",
+          "source_packet": "source-packets/SMSN/2025Q4/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/SMSN/2025Q4/analysis.md",
+          "source_packet": "source-packets/SMSN/2025Q4/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "meta-2026-01-28": {
+      "ticker": "META",
+      "quarter": "2025Q4",
+      "date": "2026-01-28",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/META/2025Q4/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/META/2025Q4/analysis.md",
+          "source_packet": "source-packets/META/2025Q4/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "msft-2026-01-28": {
+      "ticker": "MSFT",
+      "quarter": "2025Q4",
+      "date": "2026-01-28",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/MSFT/2025Q4/preview.md",
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/MSFT/2025Q4/analysis.md",
+          "source_packet": "source-packets/MSFT/2025Q4/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "skhx-2026-01-28": {
+      "ticker": "SKHX",
+      "quarter": "2025Q4",
+      "date": "2026-01-28",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/SKHX/2025Q4/preview.md",
+          "source_packet": "source-packets/SKHX/2025Q4/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/SKHX/2025Q4/analysis.md",
+          "source_packet": "source-packets/SKHX/2025Q4/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "intc-2026-01-22": {
+      "ticker": "INTC",
+      "quarter": "2025Q4",
+      "date": "2026-01-22",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "research/INTC/2025Q4/preview.md",
+          "source_packet": "source-packets/INTC/2025Q4/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "research/INTC/2025Q4/analysis.md",
+          "source_packet": "source-packets/INTC/2025Q4/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    }
+  },
+  "errors": {},
+  "model_calls": 0,
+  "call_limit": 3,
+  "note": "Drafts need source and editorial review; old structured summaries are not used for first-tier reading."
+}

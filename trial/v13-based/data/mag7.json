@@ -1,0 +1,5220 @@
+{
+  "schema_version": 3,
+  "generated_at": "2026-11-17T21:53:24+00:00",
+  "companies": [
+    {
+      "ticker": "MSFT",
+      "company": "Microsoft",
+      "ir_url": "https://www.microsoft.com/en-us/Investor/"
+    },
+    {
+      "ticker": "AAPL",
+      "company": "Apple",
+      "ir_url": "https://investor.apple.com/"
+    },
+    {
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "ir_url": "https://abc.xyz/investor/"
+    },
+    {
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "ir_url": "https://ir.aboutamazon.com/"
+    },
+    {
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "ir_url": "https://investor.nvidia.com/"
+    },
+    {
+      "ticker": "META",
+      "company": "Meta",
+      "ir_url": "https://investor.atmeta.com/"
+    },
+    {
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "ir_url": "https://ir.tesla.com/"
+    },
+    {
+      "ticker": "ORCL",
+      "company": "Oracle",
+      "ir_url": null
+    },
+    {
+      "ticker": "SPACEX",
+      "company": "SpaceX",
+      "ir_url": null
+    },
+    {
+      "ticker": "AVGO",
+      "company": "Broadcom",
+      "ir_url": null
+    },
+    {
+      "ticker": "AMD",
+      "company": "AMD",
+      "ir_url": null
+    },
+    {
+      "ticker": "MU",
+      "company": "Micron",
+      "ir_url": null
+    },
+    {
+      "ticker": "INTC",
+      "company": "Intel",
+      "ir_url": null
+    },
+    {
+      "ticker": "SKHX",
+      "company": "SK hynix",
+      "ir_url": null
+    },
+    {
+      "ticker": "SMSN",
+      "company": "Samsung Electronics",
+      "ir_url": null
+    },
+    {
+      "ticker": "CRWV",
+      "company": "CoreWeave",
+      "ir_url": null
+    },
+    {
+      "ticker": "NBIS",
+      "company": "Nebius",
+      "ir_url": null
+    },
+    {
+      "ticker": "SNDK",
+      "company": "SanDisk",
+      "ir_url": null
+    },
+    {
+      "ticker": "WDC",
+      "company": "Western Digital",
+      "ir_url": null
+    },
+    {
+      "ticker": "STX",
+      "company": "Seagate",
+      "ir_url": null
+    },
+    {
+      "ticker": "AMAT",
+      "company": "Applied Materials",
+      "ir_url": null
+    },
+    {
+      "ticker": "CSCO",
+      "company": "Cisco",
+      "ir_url": null
+    },
+    {
+      "ticker": "LRCX",
+      "company": "Lam Research",
+      "ir_url": null
+    },
+    {
+      "ticker": "ASML",
+      "company": "ASML",
+      "ir_url": null
+    }
+  ],
+  "calendar": {
+    "formal": {
+      "label": "正式日历",
+      "as_of": "2026-11-17",
+      "message": "历史日期来自 Nasdaq 日历并由最近四季接口自动校准；未来日期明确标记为预计，最终以公司 IR 为准。",
+      "events": [
+        {
+          "id": "intc-2026-01-22",
+          "ticker": "INTC",
+          "company": "Intel",
+          "date": "2026-01-22",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-01-22",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 0.04,
+            "consensus_eps": "-0.02",
+            "surprise_pct": "300"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "stx-2026-01-27",
+          "ticker": "STX",
+          "company": "Seagate",
+          "date": "2026-01-27",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-01-27",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 2.9,
+            "consensus_eps": "2.62",
+            "surprise_pct": "10.69"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "asml-2026-01-28",
+          "ticker": "ASML",
+          "company": "ASML",
+          "date": "2026-01-28",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-01-28",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 8.55,
+            "consensus_eps": "9.01",
+            "surprise_pct": "-5.11"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "lrcx-2026-01-28",
+          "ticker": "LRCX",
+          "company": "Lam Research",
+          "date": "2026-01-28",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-01-28",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 1.27,
+            "consensus_eps": "1.17",
+            "surprise_pct": "8.55"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "meta-2026-01-28",
+          "ticker": "META",
+          "company": "Meta",
+          "date": "2026-01-28",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/META/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Meta IR",
+            "url": "https://investor.atmeta.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Meta 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "广告效率",
+              "用户参与度",
+              "AI 基础设施投入"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 8.16%",
+            "summary": "报告 EPS 8.88，一致预期 8.21。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：8.88",
+              "一致预期：8.21",
+              "惊喜幅度：8.16%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "msft-2026-01-28",
+          "ticker": "MSFT",
+          "company": "Microsoft",
+          "date": "2026-01-28",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/MSFT/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Microsoft IR",
+            "url": "https://www.microsoft.com/en-us/Investor/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Microsoft 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 6.70%",
+            "summary": "报告 EPS 4.14，一致预期 3.88。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：4.14",
+              "一致预期：3.88",
+              "惊喜幅度：6.70%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "skhx-2026-01-28",
+          "ticker": "SKHX",
+          "company": "SK hynix",
+          "date": "2026-01-28",
+          "fiscal_period": "2025Q4",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/",
+            "label": "公司官方季度业绩稿"
+          },
+          "ir_source": {
+            "url": "https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/",
+            "label": "公司官方公告"
+          },
+          "forecast": {},
+          "date_range": null,
+          "preview": {
+            "verdict": "历史官方发布日期已收录",
+            "summary": "财报前 Preview 尚待研究。",
+            "points": [
+              "查看公司官方公告"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史研究占位",
+            "summary": "完整季度 Analysis 尚待上传。",
+            "points": [
+              "查看公司官方公告"
+            ],
+            "risks": [
+              "当前仅核验发布日期"
+            ]
+          }
+        },
+        {
+          "id": "tsla-2026-01-28",
+          "ticker": "TSLA",
+          "company": "Tesla",
+          "date": "2026-01-28",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/TSLA/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Tesla IR",
+            "url": "https://ir.tesla.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Tesla 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "汽车毛利率",
+              "交付与需求",
+              "储能和自动驾驶"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 8.82%",
+            "summary": "报告 EPS 0.31，一致预期 0.34。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：0.31",
+              "一致预期：0.34",
+              "惊喜幅度：-8.82%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "aapl-2026-01-29",
+          "ticker": "AAPL",
+          "company": "Apple",
+          "date": "2026-01-29",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/AAPL/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Apple IR",
+            "url": "https://investor.apple.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Apple 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "iPhone 产品周期",
+              "服务收入",
+              "大中华区需求"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 7.17%",
+            "summary": "报告 EPS 2.84，一致预期 2.65。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：2.84",
+              "一致预期：2.65",
+              "惊喜幅度：7.17%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "smsn-2026-01-29",
+          "ticker": "SMSN",
+          "company": "Samsung Electronics",
+          "date": "2026-01-29",
+          "fiscal_period": "2025Q4",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://news.samsung.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2025-results",
+            "label": "公司官方季度业绩稿"
+          },
+          "ir_source": {
+            "url": "https://news.samsung.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2025-results",
+            "label": "公司官方公告"
+          },
+          "forecast": {},
+          "date_range": null,
+          "preview": {
+            "verdict": "历史官方发布日期已收录",
+            "summary": "财报前 Preview 尚待研究。",
+            "points": [
+              "查看公司官方公告"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史研究占位",
+            "summary": "完整季度 Analysis 尚待上传。",
+            "points": [
+              "查看公司官方公告"
+            ],
+            "risks": [
+              "当前仅核验发布日期"
+            ]
+          }
+        },
+        {
+          "id": "sndk-2026-01-29",
+          "ticker": "SNDK",
+          "company": "SanDisk",
+          "date": "2026-01-29",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-01-29",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 5.83,
+            "consensus_eps": "3.31",
+            "surprise_pct": "76.13"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "wdc-2026-01-29",
+          "ticker": "WDC",
+          "company": "Western Digital",
+          "date": "2026-01-29",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-01-29",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 1.99,
+            "consensus_eps": "1.83",
+            "surprise_pct": "8.74"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "amd-2026-02-03",
+          "ticker": "AMD",
+          "company": "AMD",
+          "date": "2026-02-03",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-02-03",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 1.24,
+            "consensus_eps": "1.11",
+            "surprise_pct": "11.71"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "googl-2026-02-04",
+          "ticker": "GOOGL",
+          "company": "Alphabet",
+          "date": "2026-02-04",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/GOOGL/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Alphabet IR",
+            "url": "https://abc.xyz/investor/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Alphabet 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 9.73%",
+            "summary": "报告 EPS 2.82，一致预期 2.57。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：2.82",
+              "一致预期：2.57",
+              "惊喜幅度：9.73%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "amzn-2026-02-05",
+          "ticker": "AMZN",
+          "company": "Amazon",
+          "date": "2026-02-05",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/AMZN/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Amazon IR",
+            "url": "https://ir.aboutamazon.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Amazon 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "AWS 增速",
+              "零售利润率",
+              "资本开支"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 1.52%",
+            "summary": "报告 EPS 1.95，一致预期 1.98。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：1.95",
+              "一致预期：1.98",
+              "惊喜幅度：-1.52%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "csco-2026-02-11",
+          "ticker": "CSCO",
+          "company": "Cisco",
+          "date": "2026-02-11",
+          "fiscal_period": "Jan 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-02-11",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 0.88,
+            "consensus_eps": "0.82",
+            "surprise_pct": "7.32"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "amat-2026-02-12",
+          "ticker": "AMAT",
+          "company": "Applied Materials",
+          "date": "2026-02-12",
+          "fiscal_period": "Jan 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-02-12",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 2.38,
+            "consensus_eps": "2.19",
+            "surprise_pct": "8.68"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "nbis-2026-02-12",
+          "ticker": "NBIS",
+          "company": "Nebius",
+          "date": "2026-02-12",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-02-12",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": -0.69,
+            "consensus_eps": "-0.44",
+            "surprise_pct": "-56.82"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "nvda-2026-02-25",
+          "ticker": "NVDA",
+          "company": "NVIDIA",
+          "date": "2026-02-25",
+          "fiscal_period": "Jan 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/NVDA/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "NVIDIA IR",
+            "url": "https://investor.nvidia.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "NVIDIA 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "数据中心需求",
+              "新品供给",
+              "毛利率路径"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 8.28%",
+            "summary": "报告 EPS 1.57，一致预期 1.45。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：1.57",
+              "一致预期：1.45",
+              "惊喜幅度：8.28%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "crwv-2026-02-26",
+          "ticker": "CRWV",
+          "company": "CoreWeave",
+          "date": "2026-02-26",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-02-26",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": -0.84,
+            "consensus_eps": "-0.61",
+            "surprise_pct": "-37.7"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "avgo-2026-03-04",
+          "ticker": "AVGO",
+          "company": "Broadcom",
+          "date": "2026-03-04",
+          "fiscal_period": "Jan 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-03-04",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 1.76,
+            "consensus_eps": "1.67",
+            "surprise_pct": "5.39"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "orcl-2026-03-10",
+          "ticker": "ORCL",
+          "company": "Oracle",
+          "date": "2026-03-10",
+          "fiscal_period": "Feb 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-03-10",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 1.43,
+            "consensus_eps": "1.34",
+            "surprise_pct": "6.72"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "mu-2026-03-18",
+          "ticker": "MU",
+          "company": "Micron",
+          "date": "2026-03-18",
+          "fiscal_period": "Feb 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-03-18",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 12.08,
+            "consensus_eps": "8.64",
+            "surprise_pct": "39.81"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "asml-2026-04-15",
+          "ticker": "ASML",
+          "company": "ASML",
+          "date": "2026-04-15",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-04-15",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 8.37,
+            "consensus_eps": "7.72",
+            "surprise_pct": "8.42"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "lrcx-2026-04-22",
+          "ticker": "LRCX",
+          "company": "Lam Research",
+          "date": "2026-04-22",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-04-22",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 1.47,
+            "consensus_eps": "1.36",
+            "surprise_pct": "8.09"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "tsla-2026-04-22",
+          "ticker": "TSLA",
+          "company": "Tesla",
+          "date": "2026-04-22",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/TSLA/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Tesla IR",
+            "url": "https://ir.tesla.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Tesla 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "汽车毛利率",
+              "交付与需求",
+              "储能和自动驾驶"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 14.29%",
+            "summary": "报告 EPS 0.18，一致预期 0.21。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：0.18",
+              "一致预期：0.21",
+              "惊喜幅度：-14.29%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "intc-2026-04-23",
+          "ticker": "INTC",
+          "company": "Intel",
+          "date": "2026-04-23",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-04-23",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 0.17,
+            "consensus_eps": "-0.1",
+            "surprise_pct": "270"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "skhx-2026-04-23",
+          "ticker": "SKHX",
+          "company": "SK hynix",
+          "date": "2026-04-23",
+          "fiscal_period": "2026Q1",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://news.skhynix.com/en/q1-2026-business-results/",
+            "label": "公司官方季度业绩稿"
+          },
+          "ir_source": {
+            "url": "https://news.skhynix.com/en/q1-2026-business-results/",
+            "label": "公司官方公告"
+          },
+          "forecast": {},
+          "date_range": null,
+          "preview": {
+            "verdict": "历史官方发布日期已收录",
+            "summary": "财报前 Preview 尚待研究。",
+            "points": [
+              "查看公司官方公告"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史研究占位",
+            "summary": "完整季度 Analysis 尚待上传。",
+            "points": [
+              "查看公司官方公告"
+            ],
+            "risks": [
+              "当前仅核验发布日期"
+            ]
+          }
+        },
+        {
+          "id": "stx-2026-04-28",
+          "ticker": "STX",
+          "company": "Seagate",
+          "date": "2026-04-28",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-04-28",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 3.92,
+            "consensus_eps": "3.26",
+            "surprise_pct": "20.25"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "amzn-2026-04-29",
+          "ticker": "AMZN",
+          "company": "Amazon",
+          "date": "2026-04-29",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/AMZN/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Amazon IR",
+            "url": "https://ir.aboutamazon.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Amazon 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "AWS 增速",
+              "零售利润率",
+              "资本开支"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 2.50%",
+            "summary": "报告 EPS 1.56，一致预期 1.6。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：1.56",
+              "一致预期：1.6",
+              "惊喜幅度：-2.50%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "googl-2026-04-29",
+          "ticker": "GOOGL",
+          "company": "Alphabet",
+          "date": "2026-04-29",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/GOOGL/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Alphabet IR",
+            "url": "https://abc.xyz/investor/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Alphabet 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 93.56%",
+            "summary": "报告 EPS 5.11，一致预期 2.64。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：5.11",
+              "一致预期：2.64",
+              "惊喜幅度：93.56%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "meta-2026-04-29",
+          "ticker": "META",
+          "company": "Meta",
+          "date": "2026-04-29",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/META/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Meta IR",
+            "url": "https://investor.atmeta.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Meta 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "广告效率",
+              "用户参与度",
+              "AI 基础设施投入"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 8.94%",
+            "summary": "报告 EPS 7.31，一致预期 6.71。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：7.31",
+              "一致预期：6.71",
+              "惊喜幅度：8.94%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "msft-2026-04-29",
+          "ticker": "MSFT",
+          "company": "Microsoft",
+          "date": "2026-04-29",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/MSFT/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Microsoft IR",
+            "url": "https://www.microsoft.com/en-us/Investor/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Microsoft 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 4.91%",
+            "summary": "报告 EPS 4.27，一致预期 4.07。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：4.27",
+              "一致预期：4.07",
+              "惊喜幅度：4.91%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "aapl-2026-04-30",
+          "ticker": "AAPL",
+          "company": "Apple",
+          "date": "2026-04-30",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/AAPL/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Apple IR",
+            "url": "https://investor.apple.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Apple 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "iPhone 产品周期",
+              "服务收入",
+              "大中华区需求"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 4.69%",
+            "summary": "报告 EPS 2.01，一致预期 1.92。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：2.01",
+              "一致预期：1.92",
+              "惊喜幅度：4.69%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "smsn-2026-04-30",
+          "ticker": "SMSN",
+          "company": "Samsung Electronics",
+          "date": "2026-04-30",
+          "fiscal_period": "2026Q1",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://news.samsung.com/global/samsung-electronics-announces-first-quarter-2026-results",
+            "label": "公司官方季度业绩稿"
+          },
+          "ir_source": {
+            "url": "https://news.samsung.com/global/samsung-electronics-announces-first-quarter-2026-results",
+            "label": "公司官方公告"
+          },
+          "forecast": {},
+          "date_range": null,
+          "preview": {
+            "verdict": "历史官方发布日期已收录",
+            "summary": "财报前 Preview 尚待研究。",
+            "points": [
+              "查看公司官方公告"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史研究占位",
+            "summary": "完整季度 Analysis 尚待上传。",
+            "points": [
+              "查看公司官方公告"
+            ],
+            "risks": [
+              "当前仅核验发布日期"
+            ]
+          }
+        },
+        {
+          "id": "sndk-2026-04-30",
+          "ticker": "SNDK",
+          "company": "SanDisk",
+          "date": "2026-04-30",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-04-30",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 23.22,
+            "consensus_eps": "14.17",
+            "surprise_pct": "63.87"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "wdc-2026-04-30",
+          "ticker": "WDC",
+          "company": "Western Digital",
+          "date": "2026-04-30",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-04-30",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 2.62,
+            "consensus_eps": "2.28",
+            "surprise_pct": "14.91"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "amd-2026-05-05",
+          "ticker": "AMD",
+          "company": "AMD",
+          "date": "2026-05-05",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-05-05",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 1.11,
+            "consensus_eps": "1.06",
+            "surprise_pct": "4.72"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "crwv-2026-05-07",
+          "ticker": "CRWV",
+          "company": "CoreWeave",
+          "date": "2026-05-07",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-05-07",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": -1.38,
+            "consensus_eps": "-1.17",
+            "surprise_pct": "-17.95"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "csco-2026-05-13",
+          "ticker": "CSCO",
+          "company": "Cisco",
+          "date": "2026-05-13",
+          "fiscal_period": "Apr 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-05-13",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 0.9,
+            "consensus_eps": "0.86",
+            "surprise_pct": "4.65"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "nbis-2026-05-13",
+          "ticker": "NBIS",
+          "company": "Nebius",
+          "date": "2026-05-13",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-05-13",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": -0.23,
+            "consensus_eps": "-0.81",
+            "surprise_pct": "71.6"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "amat-2026-05-14",
+          "ticker": "AMAT",
+          "company": "Applied Materials",
+          "date": "2026-05-14",
+          "fiscal_period": "Apr 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-05-14",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 2.86,
+            "consensus_eps": "2.68",
+            "surprise_pct": "6.72"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "nvda-2026-05-20",
+          "ticker": "NVDA",
+          "company": "NVIDIA",
+          "date": "2026-05-20",
+          "fiscal_period": "Apr 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/NVDA/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "NVIDIA IR",
+            "url": "https://investor.nvidia.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "NVIDIA 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "数据中心需求",
+              "新品供给",
+              "毛利率路径"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 10.00%",
+            "summary": "报告 EPS 1.87，一致预期 1.7。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：1.87",
+              "一致预期：1.7",
+              "惊喜幅度：10.00%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "avgo-2026-06-03",
+          "ticker": "AVGO",
+          "company": "Broadcom",
+          "date": "2026-06-03",
+          "fiscal_period": "Apr 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-06-03",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 2.17,
+            "consensus_eps": "2.02",
+            "surprise_pct": "7.43"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "orcl-2026-06-10",
+          "ticker": "ORCL",
+          "company": "Oracle",
+          "date": "2026-06-10",
+          "fiscal_period": "May 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-06-10",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 1.79,
+            "consensus_eps": "1.58",
+            "surprise_pct": "13.29"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "mu-2026-06-24",
+          "ticker": "MU",
+          "company": "Micron",
+          "date": "2026-06-24",
+          "fiscal_period": "May 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-06-24",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 24.89,
+            "consensus_eps": "20.98",
+            "surprise_pct": "18.64"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "asml-2026-07-15",
+          "ticker": "ASML",
+          "company": "ASML",
+          "date": "2026-07-15",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-07-15",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 8.81,
+            "consensus_eps": "7.98",
+            "surprise_pct": "10.4"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "googl-2026-07-22",
+          "ticker": "GOOGL",
+          "company": "Alphabet",
+          "date": "2026-07-22",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/GOOGL/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Alphabet IR",
+            "url": "https://abc.xyz/investor/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Alphabet 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 216.32%",
+            "summary": "报告 EPS 9.11，一致预期 2.88。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：9.11",
+              "一致预期：2.88",
+              "惊喜幅度：216.32%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "tsla-2026-07-22",
+          "ticker": "TSLA",
+          "company": "Tesla",
+          "date": "2026-07-22",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/TSLA/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Tesla IR",
+            "url": "https://ir.tesla.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Tesla 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "汽车毛利率",
+              "交付与需求",
+              "储能和自动驾驶"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 87.50%",
+            "summary": "报告 EPS 0.04，一致预期 0.32。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：0.04",
+              "一致预期：0.32",
+              "惊喜幅度：-87.50%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "intc-2026-07-23",
+          "ticker": "INTC",
+          "company": "Intel",
+          "date": "2026-07-23",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-07-23",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 0.3,
+            "consensus_eps": "0.1",
+            "surprise_pct": "200"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "stx-2026-07-28",
+          "ticker": "STX",
+          "company": "Seagate",
+          "date": "2026-07-28",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-07-28",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 5.48,
+            "consensus_eps": "4.89",
+            "surprise_pct": "12.07"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "lrcx-2026-07-29",
+          "ticker": "LRCX",
+          "company": "Lam Research",
+          "date": "2026-07-29",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-07-29",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 1.82,
+            "consensus_eps": "1.69",
+            "surprise_pct": "7.69"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "meta-2026-07-29",
+          "ticker": "META",
+          "company": "Meta",
+          "date": "2026-07-29",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/META/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Meta IR",
+            "url": "https://investor.atmeta.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Meta 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "广告效率",
+              "用户参与度",
+              "AI 基础设施投入"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 12.96%",
+            "summary": "报告 EPS 6.18，一致预期 7.1。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：6.18",
+              "一致预期：7.1",
+              "惊喜幅度：-12.96%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "msft-2026-07-29",
+          "ticker": "MSFT",
+          "company": "Microsoft",
+          "date": "2026-07-29",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/MSFT/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Microsoft IR",
+            "url": "https://www.microsoft.com/en-us/Investor/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Microsoft 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 12.59%",
+            "summary": "报告 EPS 4.74，一致预期 4.21。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：4.74",
+              "一致预期：4.21",
+              "惊喜幅度：12.59%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "skhx-2026-07-29",
+          "ticker": "SKHX",
+          "company": "SK hynix",
+          "date": "2026-07-29",
+          "fiscal_period": "2026Q2",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://news.skhynix.com/en/q2-2026-business-results/",
+            "label": "公司官方季度业绩稿"
+          },
+          "ir_source": {
+            "url": "https://news.skhynix.com/en/q2-2026-business-results/",
+            "label": "公司官方公告"
+          },
+          "forecast": {},
+          "date_range": null,
+          "preview": {
+            "verdict": "历史官方发布日期已收录",
+            "summary": "财报前 Preview 尚待研究。",
+            "points": [
+              "查看公司官方公告"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史研究占位",
+            "summary": "完整季度 Analysis 尚待上传。",
+            "points": [
+              "查看公司官方公告"
+            ],
+            "risks": [
+              "当前仅核验发布日期"
+            ]
+          }
+        },
+        {
+          "id": "aapl-2026-07-30",
+          "ticker": "AAPL",
+          "company": "Apple",
+          "date": "2026-07-30",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/AAPL/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Apple IR",
+            "url": "https://investor.apple.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Apple 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "iPhone 产品周期",
+              "服务收入",
+              "大中华区需求"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 1.60%",
+            "summary": "报告 EPS 1.91，一致预期 1.88。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：1.91",
+              "一致预期：1.88",
+              "惊喜幅度：1.60%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "amzn-2026-07-30",
+          "ticker": "AMZN",
+          "company": "Amazon",
+          "date": "2026-07-30",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/AMZN/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Amazon IR",
+            "url": "https://ir.aboutamazon.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Amazon 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "AWS 增速",
+              "零售利润率",
+              "资本开支"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 2.73%",
+            "summary": "报告 EPS 1.88，一致预期 1.83。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：1.88",
+              "一致预期：1.83",
+              "惊喜幅度：2.73%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "smsn-2026-07-30",
+          "ticker": "SMSN",
+          "company": "Samsung Electronics",
+          "date": "2026-07-30",
+          "fiscal_period": "2026Q2",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results",
+            "label": "公司官方季度业绩稿"
+          },
+          "ir_source": {
+            "url": "https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results",
+            "label": "公司官方公告"
+          },
+          "forecast": {},
+          "date_range": null,
+          "preview": {
+            "verdict": "历史官方发布日期已收录",
+            "summary": "财报前 Preview 尚待研究。",
+            "points": [
+              "查看公司官方公告"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史研究占位",
+            "summary": "完整季度 Analysis 尚待上传。",
+            "points": [
+              "查看公司官方公告"
+            ],
+            "risks": [
+              "当前仅核验发布日期"
+            ]
+          }
+        },
+        {
+          "id": "amd-2026-08-04",
+          "ticker": "AMD",
+          "company": "AMD",
+          "date": "2026-08-04",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-08-04",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 1.44,
+            "consensus_eps": "1.35",
+            "surprise_pct": "6.67"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "sndk-2026-08-05",
+          "ticker": "SNDK",
+          "company": "SanDisk",
+          "date": "2026-08-05",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-08-05",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 38.82,
+            "consensus_eps": "33.28",
+            "surprise_pct": "16.65"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "wdc-2026-08-05",
+          "ticker": "WDC",
+          "company": "Western Digital",
+          "date": "2026-08-05",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-08-05",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 3.47,
+            "consensus_eps": "3.24",
+            "surprise_pct": "7.1"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "crwv-2026-08-11",
+          "ticker": "CRWV",
+          "company": "CoreWeave",
+          "date": "2026-08-11",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-08-11",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": -1.32,
+            "consensus_eps": "-1.52",
+            "surprise_pct": "13.16"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "csco-2026-08-12",
+          "ticker": "CSCO",
+          "company": "Cisco",
+          "date": "2026-08-12",
+          "fiscal_period": "Jul 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-08-12",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 1.08,
+            "consensus_eps": "0.99",
+            "surprise_pct": "9.09"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "nbis-2026-08-12",
+          "ticker": "NBIS",
+          "company": "Nebius",
+          "date": "2026-08-12",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-08-12",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": -0.12,
+            "consensus_eps": "-0.67",
+            "surprise_pct": "82.09"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "amat-2026-08-13",
+          "ticker": "AMAT",
+          "company": "Applied Materials",
+          "date": "2026-08-13",
+          "fiscal_period": "Jul 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-08-13",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 3.5,
+            "consensus_eps": "3.38",
+            "surprise_pct": "3.55"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "nvda-2026-08-26",
+          "ticker": "NVDA",
+          "company": "NVIDIA",
+          "date": "2026-08-26",
+          "fiscal_period": "Jul 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/NVDA/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "NVIDIA IR",
+            "url": "https://investor.nvidia.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "NVIDIA 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "数据中心需求",
+              "新品供给",
+              "毛利率路径"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 6.22%",
+            "summary": "报告 EPS 2.22，一致预期 2.09。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：2.22",
+              "一致预期：2.09",
+              "惊喜幅度：6.22%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "avgo-2026-09-02",
+          "ticker": "AVGO",
+          "company": "Broadcom",
+          "date": "2026-09-02",
+          "fiscal_period": "Jul 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-09-02",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 3.03,
+            "consensus_eps": "2.83",
+            "surprise_pct": "7.07"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "orcl-2026-09-10",
+          "ticker": "ORCL",
+          "company": "Oracle",
+          "date": "2026-09-10",
+          "fiscal_period": "Aug 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-09-10",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 1.63,
+            "consensus_eps": "1.39",
+            "surprise_pct": "17.27"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "mu-2026-09-30",
+          "ticker": "MU",
+          "company": "Micron",
+          "date": "2026-09-30",
+          "fiscal_period": "Aug 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-09-30",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 33.19,
+            "consensus_eps": "31.41",
+            "surprise_pct": "5.67"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "asml-2026-10-14",
+          "ticker": "ASML",
+          "company": "ASML",
+          "date": "2026-10-14",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-14",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 14.89,
+            "consensus_eps": "12.47",
+            "surprise_pct": "19.41"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "lrcx-2026-10-21",
+          "ticker": "LRCX",
+          "company": "Lam Research",
+          "date": "2026-10-21",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-21",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 2.2,
+            "consensus_eps": "2.17",
+            "surprise_pct": "1.38"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "meta-2026-10-21",
+          "ticker": "META",
+          "company": "Meta",
+          "date": "2026-10-21",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/META/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Meta IR",
+            "url": "https://investor.atmeta.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Meta 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "广告效率",
+              "用户参与度",
+              "AI 基础设施投入"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 13.50%",
+            "summary": "报告 EPS 7.4，一致预期 6.52。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：7.4",
+              "一致预期：6.52",
+              "惊喜幅度：13.50%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "tsla-2026-10-21",
+          "ticker": "TSLA",
+          "company": "Tesla",
+          "date": "2026-10-21",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/TSLA/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Tesla IR",
+            "url": "https://ir.tesla.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Tesla 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "汽车毛利率",
+              "交付与需求",
+              "储能和自动驾驶"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 9.09%",
+            "summary": "报告 EPS 0.2，一致预期 0.22。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：0.2",
+              "一致预期：0.22",
+              "惊喜幅度：-9.09%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "wdc-2026-10-22",
+          "ticker": "WDC",
+          "company": "Western Digital",
+          "date": "2026-10-22",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-22",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 4.43,
+            "consensus_eps": "3.99",
+            "surprise_pct": "11.03"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "stx-2026-10-27",
+          "ticker": "STX",
+          "company": "Seagate",
+          "date": "2026-10-27",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-27",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 7.34,
+            "consensus_eps": "7.17",
+            "surprise_pct": "2.37"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "googl-2026-10-28",
+          "ticker": "GOOGL",
+          "company": "Alphabet",
+          "date": "2026-10-28",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/GOOGL/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Alphabet IR",
+            "url": "https://abc.xyz/investor/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Alphabet 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 27.89%",
+            "summary": "报告 EPS 2.12，一致预期 2.94。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：2.12",
+              "一致预期：2.94",
+              "惊喜幅度：-27.89%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "msft-2026-10-28",
+          "ticker": "MSFT",
+          "company": "Microsoft",
+          "date": "2026-10-28",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/MSFT/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Microsoft IR",
+            "url": "https://www.microsoft.com/en-us/Investor/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Microsoft 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 3.82%",
+            "summary": "报告 EPS 4.89，一致预期 4.71。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：4.89",
+              "一致预期：4.71",
+              "惊喜幅度：3.82%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "skhx-2026-10-28",
+          "ticker": "SKHX",
+          "company": "SK hynix",
+          "date": "2026-10-28",
+          "fiscal_period": "2026Q3",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://news.skhynix.com/en/q3-2026-business-results/",
+            "label": "公司官方季度业绩稿"
+          },
+          "ir_source": {
+            "url": "https://news.skhynix.com/en/q3-2026-business-results/",
+            "label": "公司官方公告"
+          },
+          "forecast": {},
+          "date_range": null,
+          "preview": {
+            "verdict": "历史官方发布日期已收录",
+            "summary": "财报前 Preview 尚待研究。",
+            "points": [
+              "查看公司官方公告"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史研究占位",
+            "summary": "完整季度 Analysis 尚待上传。",
+            "points": [
+              "查看公司官方公告"
+            ],
+            "risks": [
+              "当前仅核验发布日期"
+            ]
+          }
+        },
+        {
+          "id": "amzn-2026-10-29",
+          "ticker": "AMZN",
+          "company": "Amazon",
+          "date": "2026-10-29",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/AMZN/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Amazon IR",
+            "url": "https://ir.aboutamazon.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Amazon 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "AWS 增速",
+              "零售利润率",
+              "资本开支"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 5.97%",
+            "summary": "报告 EPS 1.89，一致预期 2.01。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：1.89",
+              "一致预期：2.01",
+              "惊喜幅度：-5.97%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "intc-2026-10-29",
+          "ticker": "INTC",
+          "company": "Intel",
+          "date": "2026-10-29",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-29",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 0.41,
+            "consensus_eps": "0.28",
+            "surprise_pct": "46.43"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "smsn-2026-10-29",
+          "ticker": "SMSN",
+          "company": "Samsung Electronics",
+          "date": "2026-10-29",
+          "fiscal_period": "2026Q3",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+            "label": "公司官方季度业绩稿"
+          },
+          "ir_source": {
+            "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+            "label": "公司官方公告"
+          },
+          "forecast": {},
+          "date_range": null,
+          "preview": {
+            "verdict": "历史官方发布日期已收录",
+            "summary": "财报前 Preview 尚待研究。",
+            "points": [
+              "查看公司官方公告"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史研究占位",
+            "summary": "完整季度 Analysis 尚待上传。",
+            "points": [
+              "查看公司官方公告"
+            ],
+            "risks": [
+              "当前仅核验发布日期"
+            ]
+          }
+        },
+        {
+          "id": "sndk-2026-10-29",
+          "ticker": "SNDK",
+          "company": "SanDisk",
+          "date": "2026-10-29",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-29",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 48.92,
+            "consensus_eps": "46.19",
+            "surprise_pct": "5.91"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "aapl-2026-11-02",
+          "ticker": "AAPL",
+          "company": "Apple",
+          "date": "2026-11-02",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/AAPL/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Apple IR",
+            "url": "https://investor.apple.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Apple 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "iPhone 产品周期",
+              "服务收入",
+              "大中华区需求"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 3.54%",
+            "summary": "报告 EPS 2.05，一致预期 1.98。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：2.05",
+              "一致预期：1.98",
+              "惊喜幅度：3.54%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "amd-2026-11-03",
+          "ticker": "AMD",
+          "company": "AMD",
+          "date": "2026-11-03",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-03",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 1.84,
+            "consensus_eps": "1.68",
+            "surprise_pct": "9.52"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "crwv-2026-11-10",
+          "ticker": "CRWV",
+          "company": "CoreWeave",
+          "date": "2026-11-10",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-10",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": -1.28,
+            "consensus_eps": "-1.45",
+            "surprise_pct": "11.72"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "amat-2026-11-12",
+          "ticker": "AMAT",
+          "company": "Applied Materials",
+          "date": "2026-11-12",
+          "fiscal_period": "Oct 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-12",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 4.16,
+            "consensus_eps": "4.06",
+            "surprise_pct": "2.46"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "csco-2026-11-12",
+          "ticker": "CSCO",
+          "company": "Cisco",
+          "date": "2026-11-12",
+          "fiscal_period": "Oct 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-12",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 1.21,
+            "consensus_eps": "1.15",
+            "surprise_pct": "5.22"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "nbis-2026-11-12",
+          "ticker": "NBIS",
+          "company": "Nebius",
+          "date": "2026-11-12",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-11-12",
+            "label": "Nasdaq 历史财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "actual_eps": 0.3,
+            "consensus_eps": "-0.61",
+            "surprise_pct": "149.18"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "历史财报日期已收录",
+            "summary": "此处等待经审阅的财报前 Preview Markdown。",
+            "points": [
+              "历史日期来自 Nasdaq"
+            ],
+            "risks": [
+              "不能用事后数据改写财报前判断"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "历史数据占位",
+            "summary": "已收录 EPS 结果；完整 Analysis 尚待上传。",
+            "points": [
+              "查看 Nasdaq 原始数据来源"
+            ],
+            "risks": [
+              "EPS 差异不能代替完整财报分析"
+            ]
+          }
+        },
+        {
+          "id": "nvda-2026-11-17",
+          "ticker": "NVDA",
+          "company": "NVIDIA",
+          "date": "2026-11-17",
+          "fiscal_period": "Oct 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Company IR confirmation",
+            "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx"
+          },
+          "ir_source": {
+            "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/",
+            "label": "NVIDIA 官方业绩公告"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "NVIDIA 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "数据中心需求",
+              "新品供给",
+              "毛利率路径"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布，Analysis 将在财报后生成",
+            "summary": "当前仅保留结构化占位，不提前生成事后结论。",
+            "points": [
+              "数据中心需求",
+              "新品供给",
+              "毛利率路径"
+            ],
+            "risks": [
+              "不得把预测写成已发生事实",
+              "等待正式结果和来源验证"
+            ]
+          }
+        },
+        {
+          "id": "avgo-2026-12-09",
+          "ticker": "AVGO",
+          "company": "Broadcom Inc.",
+          "date": "2026-12-09",
+          "fiscal_period": "Oct/2026",
+          "status": "estimated",
+          "date_confidence": "estimated",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-12-09",
+            "label": "Nasdaq 预计财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "eps": "$3.47",
+            "analyst_count": "10"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "等待完整季度 Preview",
+            "summary": "Nasdaq 日历收录的预计日期；尚需公司 IR 确认。",
+            "points": [
+              "核对公司公告与财报日期",
+              "核对一致预期及主要业务指标",
+              "财报前上传完整 Markdown"
+            ],
+            "risks": [
+              "预计日期可能变动",
+              "当前没有已审阅的完整研究稿"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布",
+            "summary": "正式财报发布后再生成 Analysis。",
+            "points": [
+              "等待官方财报"
+            ],
+            "risks": [
+              "不可提前推断实际结果"
+            ]
+          }
+        },
+        {
+          "id": "orcl-2026-12-09",
+          "ticker": "ORCL",
+          "company": "Oracle Corporation",
+          "date": "2026-12-09",
+          "fiscal_period": "Nov/2026",
+          "status": "estimated",
+          "date_confidence": "estimated",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-12-09",
+            "label": "Nasdaq 预计财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "eps": "$1.56",
+            "analyst_count": "10"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "等待完整季度 Preview",
+            "summary": "Nasdaq 日历收录的预计日期；尚需公司 IR 确认。",
+            "points": [
+              "核对公司公告与财报日期",
+              "核对一致预期及主要业务指标",
+              "财报前上传完整 Markdown"
+            ],
+            "risks": [
+              "预计日期可能变动",
+              "当前没有已审阅的完整研究稿"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布",
+            "summary": "正式财报发布后再生成 Analysis。",
+            "points": [
+              "等待官方财报"
+            ],
+            "risks": [
+              "不可提前推断实际结果"
+            ]
+          }
+        },
+        {
+          "id": "mu-2026-12-16",
+          "ticker": "MU",
+          "company": "Micron Technology, Inc.",
+          "date": "2026-12-16",
+          "fiscal_period": "Nov/2026",
+          "status": "estimated",
+          "date_confidence": "estimated",
+          "source": {
+            "url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-12-16",
+            "label": "Nasdaq 预计财报日历"
+          },
+          "ir_source": null,
+          "forecast": {
+            "eps": "$37.95",
+            "analyst_count": "8"
+          },
+          "date_range": null,
+          "preview": {
+            "verdict": "等待完整季度 Preview",
+            "summary": "Nasdaq 日历收录的预计日期；尚需公司 IR 确认。",
+            "points": [
+              "核对公司公告与财报日期",
+              "核对一致预期及主要业务指标",
+              "财报前上传完整 Markdown"
+            ],
+            "risks": [
+              "预计日期可能变动",
+              "当前没有已审阅的完整研究稿"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "尚未发布",
+            "summary": "正式财报发布后再生成 Analysis。",
+            "points": [
+              "等待官方财报"
+            ],
+            "risks": [
+              "不可提前推断实际结果"
+            ]
+          }
+        }
+      ]
+    },
+    "replay": {
+      "label": "历史验证",
+      "as_of": "2026-01-27",
+      "month": "2026-01",
+      "message": "模拟系统时间初始冻结在 Microsoft FY26 Q2 财报前一天；运行完整模拟后推进到 2026-01-29，并保留前后两个快照。",
+      "events": [
+        {
+          "id": "meta-2026-01-28",
+          "ticker": "META",
+          "company": "Meta",
+          "date": "2026-01-28",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/META/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Meta IR",
+            "url": "https://investor.atmeta.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Meta 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "广告效率",
+              "用户参与度",
+              "AI 基础设施投入"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 8.16%",
+            "summary": "报告 EPS 8.88，一致预期 8.21。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：8.88",
+              "一致预期：8.21",
+              "惊喜幅度：8.16%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "msft-2026-01-28",
+          "ticker": "MSFT",
+          "company": "Microsoft",
+          "date": "2026-01-28",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/MSFT/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Microsoft IR",
+            "url": "https://www.microsoft.com/en-us/Investor/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Microsoft 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 6.70%",
+            "summary": "报告 EPS 4.14，一致预期 3.88。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：4.14",
+              "一致预期：3.88",
+              "惊喜幅度：6.70%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "tsla-2026-01-28",
+          "ticker": "TSLA",
+          "company": "Tesla",
+          "date": "2026-01-28",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/TSLA/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Tesla IR",
+            "url": "https://ir.tesla.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Tesla 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "汽车毛利率",
+              "交付与需求",
+              "储能和自动驾驶"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 8.82%",
+            "summary": "报告 EPS 0.31，一致预期 0.34。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：0.31",
+              "一致预期：0.34",
+              "惊喜幅度：-8.82%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "aapl-2026-01-29",
+          "ticker": "AAPL",
+          "company": "Apple",
+          "date": "2026-01-29",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/AAPL/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Apple IR",
+            "url": "https://investor.apple.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Apple 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "iPhone 产品周期",
+              "服务收入",
+              "大中华区需求"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 7.17%",
+            "summary": "报告 EPS 2.84，一致预期 2.65。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：2.84",
+              "一致预期：2.65",
+              "惊喜幅度：7.17%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "googl-2026-02-04",
+          "ticker": "GOOGL",
+          "company": "Alphabet",
+          "date": "2026-02-04",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/GOOGL/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Alphabet IR",
+            "url": "https://abc.xyz/investor/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Alphabet 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 9.73%",
+            "summary": "报告 EPS 2.82，一致预期 2.57。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：2.82",
+              "一致预期：2.57",
+              "惊喜幅度：9.73%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "amzn-2026-02-05",
+          "ticker": "AMZN",
+          "company": "Amazon",
+          "date": "2026-02-05",
+          "fiscal_period": "Dec 2025",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/AMZN/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Amazon IR",
+            "url": "https://ir.aboutamazon.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Amazon 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "AWS 增速",
+              "零售利润率",
+              "资本开支"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 1.52%",
+            "summary": "报告 EPS 1.95，一致预期 1.98。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：1.95",
+              "一致预期：1.98",
+              "惊喜幅度：-1.52%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "nvda-2026-02-25",
+          "ticker": "NVDA",
+          "company": "NVIDIA",
+          "date": "2026-02-25",
+          "fiscal_period": "Jan 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/NVDA/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "NVIDIA IR",
+            "url": "https://investor.nvidia.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "NVIDIA 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "数据中心需求",
+              "新品供给",
+              "毛利率路径"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 8.28%",
+            "summary": "报告 EPS 1.57，一致预期 1.45。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：1.57",
+              "一致预期：1.45",
+              "惊喜幅度：8.28%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "tsla-2026-04-22",
+          "ticker": "TSLA",
+          "company": "Tesla",
+          "date": "2026-04-22",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/TSLA/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Tesla IR",
+            "url": "https://ir.tesla.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Tesla 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "汽车毛利率",
+              "交付与需求",
+              "储能和自动驾驶"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 14.29%",
+            "summary": "报告 EPS 0.18，一致预期 0.21。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：0.18",
+              "一致预期：0.21",
+              "惊喜幅度：-14.29%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "amzn-2026-04-29",
+          "ticker": "AMZN",
+          "company": "Amazon",
+          "date": "2026-04-29",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/AMZN/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Amazon IR",
+            "url": "https://ir.aboutamazon.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Amazon 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "AWS 增速",
+              "零售利润率",
+              "资本开支"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 2.50%",
+            "summary": "报告 EPS 1.56，一致预期 1.6。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：1.56",
+              "一致预期：1.6",
+              "惊喜幅度：-2.50%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "googl-2026-04-29",
+          "ticker": "GOOGL",
+          "company": "Alphabet",
+          "date": "2026-04-29",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/GOOGL/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Alphabet IR",
+            "url": "https://abc.xyz/investor/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Alphabet 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 93.56%",
+            "summary": "报告 EPS 5.11，一致预期 2.64。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：5.11",
+              "一致预期：2.64",
+              "惊喜幅度：93.56%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "meta-2026-04-29",
+          "ticker": "META",
+          "company": "Meta",
+          "date": "2026-04-29",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/META/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Meta IR",
+            "url": "https://investor.atmeta.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Meta 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "广告效率",
+              "用户参与度",
+              "AI 基础设施投入"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 8.94%",
+            "summary": "报告 EPS 7.31，一致预期 6.71。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：7.31",
+              "一致预期：6.71",
+              "惊喜幅度：8.94%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "msft-2026-04-29",
+          "ticker": "MSFT",
+          "company": "Microsoft",
+          "date": "2026-04-29",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/MSFT/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Microsoft IR",
+            "url": "https://www.microsoft.com/en-us/Investor/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Microsoft 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 4.91%",
+            "summary": "报告 EPS 4.27，一致预期 4.07。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：4.27",
+              "一致预期：4.07",
+              "惊喜幅度：4.91%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "aapl-2026-04-30",
+          "ticker": "AAPL",
+          "company": "Apple",
+          "date": "2026-04-30",
+          "fiscal_period": "Mar 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/AAPL/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Apple IR",
+            "url": "https://investor.apple.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Apple 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "iPhone 产品周期",
+              "服务收入",
+              "大中华区需求"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 4.69%",
+            "summary": "报告 EPS 2.01，一致预期 1.92。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：2.01",
+              "一致预期：1.92",
+              "惊喜幅度：4.69%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "nvda-2026-05-20",
+          "ticker": "NVDA",
+          "company": "NVIDIA",
+          "date": "2026-05-20",
+          "fiscal_period": "Apr 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/NVDA/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "NVIDIA IR",
+            "url": "https://investor.nvidia.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "NVIDIA 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "数据中心需求",
+              "新品供给",
+              "毛利率路径"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 10.00%",
+            "summary": "报告 EPS 1.87，一致预期 1.7。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：1.87",
+              "一致预期：1.7",
+              "惊喜幅度：10.00%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "googl-2026-07-22",
+          "ticker": "GOOGL",
+          "company": "Alphabet",
+          "date": "2026-07-22",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/GOOGL/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Alphabet IR",
+            "url": "https://abc.xyz/investor/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Alphabet 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 216.32%",
+            "summary": "报告 EPS 9.11，一致预期 2.88。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：9.11",
+              "一致预期：2.88",
+              "惊喜幅度：216.32%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "tsla-2026-07-22",
+          "ticker": "TSLA",
+          "company": "Tesla",
+          "date": "2026-07-22",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/TSLA/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Tesla IR",
+            "url": "https://ir.tesla.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Tesla 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "汽车毛利率",
+              "交付与需求",
+              "储能和自动驾驶"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 87.50%",
+            "summary": "报告 EPS 0.04，一致预期 0.32。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：0.04",
+              "一致预期：0.32",
+              "惊喜幅度：-87.50%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "meta-2026-07-29",
+          "ticker": "META",
+          "company": "Meta",
+          "date": "2026-07-29",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/META/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Meta IR",
+            "url": "https://investor.atmeta.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Meta 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "广告效率",
+              "用户参与度",
+              "AI 基础设施投入"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 12.96%",
+            "summary": "报告 EPS 6.18，一致预期 7.1。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：6.18",
+              "一致预期：7.1",
+              "惊喜幅度：-12.96%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "msft-2026-07-29",
+          "ticker": "MSFT",
+          "company": "Microsoft",
+          "date": "2026-07-29",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/MSFT/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Microsoft IR",
+            "url": "https://www.microsoft.com/en-us/Investor/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Microsoft 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 12.59%",
+            "summary": "报告 EPS 4.74，一致预期 4.21。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：4.74",
+              "一致预期：4.21",
+              "惊喜幅度：12.59%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "aapl-2026-07-30",
+          "ticker": "AAPL",
+          "company": "Apple",
+          "date": "2026-07-30",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/AAPL/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Apple IR",
+            "url": "https://investor.apple.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Apple 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "iPhone 产品周期",
+              "服务收入",
+              "大中华区需求"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 1.60%",
+            "summary": "报告 EPS 1.91，一致预期 1.88。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：1.91",
+              "一致预期：1.88",
+              "惊喜幅度：1.60%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "amzn-2026-07-30",
+          "ticker": "AMZN",
+          "company": "Amazon",
+          "date": "2026-07-30",
+          "fiscal_period": "Jun 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/AMZN/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Amazon IR",
+            "url": "https://ir.aboutamazon.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Amazon 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "AWS 增速",
+              "零售利润率",
+              "资本开支"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 2.73%",
+            "summary": "报告 EPS 1.88，一致预期 1.83。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：1.88",
+              "一致预期：1.83",
+              "惊喜幅度：2.73%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "nvda-2026-08-26",
+          "ticker": "NVDA",
+          "company": "NVIDIA",
+          "date": "2026-08-26",
+          "fiscal_period": "Jul 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/NVDA/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "NVIDIA IR",
+            "url": "https://investor.nvidia.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "NVIDIA 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "数据中心需求",
+              "新品供给",
+              "毛利率路径"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 6.22%",
+            "summary": "报告 EPS 2.22，一致预期 2.09。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：2.22",
+              "一致预期：2.09",
+              "惊喜幅度：6.22%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "meta-2026-10-21",
+          "ticker": "META",
+          "company": "Meta",
+          "date": "2026-10-21",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/META/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Meta IR",
+            "url": "https://investor.atmeta.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Meta 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "广告效率",
+              "用户参与度",
+              "AI 基础设施投入"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 13.50%",
+            "summary": "报告 EPS 7.4，一致预期 6.52。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：7.4",
+              "一致预期：6.52",
+              "惊喜幅度：13.50%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "tsla-2026-10-21",
+          "ticker": "TSLA",
+          "company": "Tesla",
+          "date": "2026-10-21",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/TSLA/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Tesla IR",
+            "url": "https://ir.tesla.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Tesla 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "汽车毛利率",
+              "交付与需求",
+              "储能和自动驾驶"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 9.09%",
+            "summary": "报告 EPS 0.2，一致预期 0.22。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：0.2",
+              "一致预期：0.22",
+              "惊喜幅度：-9.09%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "googl-2026-10-28",
+          "ticker": "GOOGL",
+          "company": "Alphabet",
+          "date": "2026-10-28",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/GOOGL/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Alphabet IR",
+            "url": "https://abc.xyz/investor/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Alphabet 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "搜索广告",
+              "Google Cloud",
+              "AI 投入回报"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 27.89%",
+            "summary": "报告 EPS 2.12，一致预期 2.94。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：2.12",
+              "一致预期：2.94",
+              "惊喜幅度：-27.89%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "msft-2026-10-28",
+          "ticker": "MSFT",
+          "company": "Microsoft",
+          "date": "2026-10-28",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/MSFT/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Microsoft IR",
+            "url": "https://www.microsoft.com/en-us/Investor/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Microsoft 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "Azure 增速",
+              "AI 资本开支",
+              "云业务利润率"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 3.82%",
+            "summary": "报告 EPS 4.89，一致预期 4.71。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：4.89",
+              "一致预期：4.71",
+              "惊喜幅度：3.82%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "amzn-2026-10-29",
+          "ticker": "AMZN",
+          "company": "Amazon",
+          "date": "2026-10-29",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/AMZN/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Amazon IR",
+            "url": "https://ir.aboutamazon.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Amazon 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "AWS 增速",
+              "零售利润率",
+              "资本开支"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 低于 Nasdaq 一致预期 5.97%",
+            "summary": "报告 EPS 1.89，一致预期 2.01。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：1.89",
+              "一致预期：2.01",
+              "惊喜幅度：-5.97%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        },
+        {
+          "id": "aapl-2026-11-02",
+          "ticker": "AAPL",
+          "company": "Apple",
+          "date": "2026-11-02",
+          "fiscal_period": "Sep 2026",
+          "status": "reported",
+          "date_confidence": "reported",
+          "source": {
+            "label": "Nasdaq earnings surprise",
+            "url": "https://api.nasdaq.com/api/company/AAPL/earnings-surprise"
+          },
+          "ir_source": {
+            "label": "Apple IR",
+            "url": "https://investor.apple.com/"
+          },
+          "forecast": {},
+          "date_range": {},
+          "preview": {
+            "verdict": "Apple 财报前检查清单（简版）",
+            "summary": "本阶段先验证日期与流程；研究内容将在下一阶段扩充。",
+            "points": [
+              "iPhone 产品周期",
+              "服务收入",
+              "大中华区需求"
+            ],
+            "risks": [
+              "预计日期可能调整，应以公司 IR 最终公告为准",
+              "简版内容不代表完整卖方一致预期"
+            ]
+          },
+          "aftercheck": {
+            "verdict": "已发布：EPS 高于 Nasdaq 一致预期 3.54%",
+            "summary": "报告 EPS 2.05，一致预期 1.98。当前仅用于日期层验收。",
+            "points": [
+              "报告 EPS：2.05",
+              "一致预期：1.98",
+              "惊喜幅度：3.54%"
+            ],
+            "risks": [
+              "EPS 不能替代收入、指引和分部分析",
+              "不同数据源的 GAAP/调整后口径可能不同"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "sync": {
+    "reported_count": 83,
+    "projected_count": 27,
+    "estimated_count": 0,
+    "confirmed_count": 1,
+    "source": "Nasdaq public earnings endpoints",
+    "errors": [
+      "AEHR verification: RuntimeError: Nasdaq earnings-surprise data unavailable: No record found."
+    ],
+    "forward_days": 120,
+    "automatic": true,
+    "schedule_timezone": "Asia/Shanghai",
+    "schedule": [
+      "工作日 09:37",
+      "工作日 21:37",
+      "周末 09:37 心跳验证"
+    ],
+    "run": {
+      "trigger": "schedule",
+      "run_id": "44184451412",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/44184451412"
+    },
+    "source_check": {
+      "checked_at": "2026-11-17T21:53:24+00:00",
+      "provider": "Nasdaq public earnings endpoints",
+      "successful": true,
+      "reported_observed": 28,
+      "future_observed": 1
+    },
+    "audit": {
+      "previous_generated_at": "2026-11-17T14:07:38+00:00",
+      "current_generated_at": "2026-11-17T21:53:24+00:00",
+      "event_ids_added": 0,
+      "event_ids_removed": 0,
+      "content_change_count": 0,
+      "date_changes": [],
+      "status_changes": [],
+      "field_changes": [],
+      "added_events": [],
+      "removed_events": [],
+      "heartbeat_changed": true
+    }
+  },
+  "disclaimer": "Calendar research demo only. Estimated dates may change. Not investment advice."
+}

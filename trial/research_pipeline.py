@@ -112,7 +112,7 @@ def main() -> None:
     quarter_ids = event_quarters(data["calendar"]["formal"]["events"])
     call_limit = max(0, int(os.getenv("RESEARCH_CALL_LIMIT", "3")))
     from_date = os.getenv("RESEARCH_FROM_DATE", "2026-01-01")
-    through_date = os.getenv("RESEARCH_THROUGH_DATE", "9999-12-31")
+    through_date = os.getenv("RESEARCH_THROUGH_DATE", "2026-12-31")
     calls = 0
     all_events = data["calendar"]["formal"]["events"]
     today = datetime.now().date().isoformat()
@@ -133,7 +133,8 @@ def main() -> None:
             meta = load(meta_path, {})
             raw_packet = load(PACKETS / ticker / q / f"{stage}.json", None)
             packet = official_packet(ticker, q, stage)
-            eligible = from_date <= event["date"] <= through_date and (
+            in_scope = from_date <= event["date"] <= through_date
+            eligible = in_scope and (
                 stage == "preview" and (event["status"] != "reported" or bool(raw_packet and raw_packet.get("historical_reconstruction")))
                 or stage == "analysis" and event["status"] == "reported")
             status = ("unavailable" if not eligible else
@@ -141,7 +142,7 @@ def main() -> None:
                       "awaiting_model_credentials" if packet and not all(os.getenv(n) for n in ("PARATERA_API_KEY", "PARATERA_BASE_URL", "PARATERA_MODEL")) else
                       "awaiting_official_source_packet")
             existing = path.exists() and path.stat().st_size > 20
-            if existing:
+            if existing and in_scope:
                 status = meta.get("status", "manual")
             can_refresh = not existing or meta.get("status") in ("generated_review_pending", "baseline_source_limited")
             if eligible and can_refresh and packet and all(os.getenv(n) for n in ("PARATERA_API_KEY", "PARATERA_BASE_URL", "PARATERA_MODEL")):
@@ -195,7 +196,7 @@ def main() -> None:
                         except Exception as exc:
                             errors[f"{ticker}/{q}/{stage}"] = str(exc)
                             status = "generation_failed"
-            record["stages"][stage] = {"status": status, "path": f"research/{ticker}/{q}/{stage}.md" if path.exists() else None,
+            record["stages"][stage] = {"status": status, "path": f"research/{ticker}/{q}/{stage}.md" if in_scope and path.exists() else None,
                                         "source_packet": f"source-packets/{ticker}/{q}/{stage}.json" if raw_packet else None,
                                         "cutoff": meta.get("cutoff"), "source_digest": meta.get("source_digest"),
                                         "historical_reconstruction": bool(raw_packet and raw_packet.get("historical_reconstruction"))}

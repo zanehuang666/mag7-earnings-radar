@@ -1,0 +1,28 @@
+{
+  "ticker": "MSFT",
+  "calendar_quarter": "2026Q1",
+  "fiscal_period": "FY26Q3",
+  "quarter_end": "2026-03-31",
+  "cutoff": "2026-11-19T05:56:27.547121+00:00",
+  "sources": [
+    "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/press-release-webcast"
+  ],
+  "facts": [
+    "Total revenue | group | 82886.0 million USD | GAAP | source_id=source-a5e019b6ea2d",
+    "传统业务收入 | group | 48205.0 million USD | GAAP | source_id=source-a5e019b6ea2d",
+    "AI 相关分部收入 | group | 34681.0 million USD | GAAP | source_id=source-a5e019b6ea2d",
+    "Total operating income | group | 38398.0 million USD | GAAP | source_id=source-a5e019b6ea2d",
+    "Productivity and Business Processes | legacy_pbp | 35013.0 million USD | GAAP | source_id=source-a5e019b6ea2d",
+    "Productivity and Business Processes Operating income | legacy_pbp | 20973.0 million USD | GAAP | source_id=source-a5e019b6ea2d",
+    "Intelligent Cloud | legacy_ic | 34681.0 million USD | GAAP | source_id=source-a5e019b6ea2d",
+    "Intelligent Cloud Operating income | legacy_ic | 13753.0 million USD | GAAP | source_id=source-a5e019b6ea2d",
+    "More Personal Computing | legacy_mpc | 13192.0 million USD | GAAP | source_id=source-a5e019b6ea2d",
+    "More Personal Computing Operating income | legacy_mpc | 3672.0 million USD | GAAP | source_id=source-a5e019b6ea2d",
+    "Net cash from operations | group | 46679.0 million USD | GAAP | source_id=source-a5e019b6ea2d",
+    "Cash capital expenditures | group | 30876.0 million USD | GAAP | source_id=source-a5e019b6ea2d",
+    "Free cash flow | group | 15803.0 million USD | GAAP | source_id=source-a5e019b6ea2d"
+  ],
+  "verification_status": "source_review_pending",
+  "official_release_confirmed": false,
+  "note": "Imported report bundle. Source URLs and individual numbers require independent review."
+}

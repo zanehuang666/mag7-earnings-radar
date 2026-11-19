@@ -1,0 +1,14 @@
+{
+  "ticker": "ORCL", "calendar_quarter": "2026Q3", "fiscal_period": "FY2027Q1",
+  "cutoff": "2026-11-19T12:00:00+08:00",
+  "sources": ["https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/"],
+  "facts": [
+    "Oracle official FY2027 Q1 release dated 2026-09-10; quarter ended 2026-08-31.",
+    "Total revenue USD 19.345 billion, +30% year over year; Cloud revenue USD 11.607 billion, +62% year over year.",
+    "Cloud Infrastructure IaaS revenue about USD 7.4 billion, +121% year over year; Cloud Applications SaaS about USD 4.2 billion, +10% year over year.",
+    "GAAP operating income about USD 6.7 billion; non-GAAP operating income about USD 8.2 billion. Distinguish these bases.",
+    "Remaining performance obligations USD 664 billion. Company says Q1 free cash flow was negative USD 5 billion."
+  ],
+  "official_release_confirmed": true, "verification_status": "manual_verified",
+  "note": "Facts checked against the linked official company release. AI article still requires editorial review."
+}

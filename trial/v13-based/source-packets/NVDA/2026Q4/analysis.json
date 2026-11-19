@@ -1,0 +1,17 @@
+{
+  "ticker": "NVDA",
+  "calendar_quarter": "2026Q4",
+  "cutoff": "2026-11-19T10:11:19.339698+00:00",
+  "sources": [
+    "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+  ],
+  "facts": [
+    "Fiscal 2027 Q3 ended October 25, 2026; this maps to calendar 2026Q4.",
+    "Revenue was USD 115.8 billion, up 103% year over year.",
+    "GAAP gross margin was 74.8%; GAAP diluted EPS was USD 2.70.",
+    "Data Center revenue was USD 107.6 billion."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "manual_verified",
+  "note": "Curated facts from linked official release; AI article still needs editorial review."
+}

@@ -1,0 +1,13 @@
+{
+  "ticker": "ORCL",
+  "calendar_quarter": "2026Q2",
+  "release_date": "2026-06-10",
+  "discovery_links": [
+    "https://api.nasdaq.com/api/calendar/earnings?date=2026-06-10"
+  ],
+  "sources": [],
+  "facts": [],
+  "official_release_confirmed": false,
+  "verification_status": "official_source_missing",
+  "note": "Calendar date is known. An official earnings release or filing text is still needed."
+}

@@ -1,0 +1,35 @@
+{
+  "ticker": "GOOGL",
+  "calendar_quarter": "2026Q2",
+  "fiscal_period": "2026Q2",
+  "quarter_end": "2026-06-30",
+  "cutoff": "2026-11-19T05:56:27.570694+00:00",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm"
+  ],
+  "facts": [
+    "Total revenues | group | 119796 million USD | GAAP | source_id=source-fb40041ca03e",
+    "传统业务收入 | group | 95028 million USD | GAAP | source_id=source-fb40041ca03e",
+    "Google Cloud | group | 24768 million USD | GAAP | source_id=source-fb40041ca03e",
+    "Google Services | services | 94540 million USD | GAAP | source_id=source-fb40041ca03e",
+    "Google Cloud | cloud | 24768 million USD | GAAP | source_id=source-fb40041ca03e",
+    "Other Bets | otherbets | 382 million USD | GAAP | source_id=source-fb40041ca03e",
+    "Hedging gains (losses) | hedge | 106 million USD | GAAP | source_id=source-fb40041ca03e",
+    "Google Services Operating income | services | 39544 million USD | GAAP | source_id=source-fb40041ca03e",
+    "Google Cloud Operating income | cloud | 8814 million USD | GAAP | source_id=source-fb40041ca03e",
+    "Other Bets Operating loss | otherbets | -1799 million USD | GAAP | source_id=source-fb40041ca03e",
+    "Alphabet-level activities | corporate | -5789 million USD | GAAP | source_id=source-fb40041ca03e",
+    "Total income from operations | group | 40770 million USD | GAAP | source_id=source-fb40041ca03e",
+    "Net cash provided by operating activities | group | 39069 million USD | GAAP | source_id=source-fb40041ca03e",
+    "Purchases of property and equipment | group | 44924 million USD | GAAP | source_id=source-fb40041ca03e",
+    "Free cash flow | group | -5855 million USD | GAAP | source_id=source-fb40041ca03e",
+    "Google Search & other | search | 63271 million USD | GAAP | source_id=source-fb40041ca03e",
+    "YouTube ads | youtube | 11055 million USD | GAAP | source_id=source-fb40041ca03e",
+    "Google Network | network | 7303 million USD | GAAP | source_id=source-fb40041ca03e",
+    "Google subscriptions, platforms, and devices | subscriptions | 12911 million USD | GAAP | source_id=source-fb40041ca03e",
+    "Other Bets | otherbets_product | 382 million USD | GAAP | source_id=source-fb40041ca03e"
+  ],
+  "verification_status": "source_review_pending",
+  "official_release_confirmed": false,
+  "note": "Imported report bundle. Source URLs and individual numbers require independent review."
+}

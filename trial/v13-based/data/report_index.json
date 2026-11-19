@@ -1,0 +1,87 @@
+{
+  "MSFT": {
+    "path": "reports/MSFT/overview.html",
+    "skill": "cloud-earnings-report",
+    "status": "static_pass_source_review_pending"
+  },
+  "AMZN": {
+    "path": "reports/AMZN/overview.html",
+    "skill": "cloud-earnings-report",
+    "status": "static_pass_source_review_pending"
+  },
+  "GOOGL": {
+    "path": "reports/GOOGL/overview.html",
+    "skill": "cloud-earnings-report",
+    "status": "static_pass_source_review_pending"
+  },
+  "META": {
+    "path": "reports/META/overview.html",
+    "skill": "cloud-earnings-report",
+    "status": "existing_draft_not_reverified",
+    "source_file": "美股跟踪\\2026-11-06｜云厂商财报研究\\Meta财报研究Demo_v2\\Meta财报研究Demo_v2.html"
+  },
+  "ORCL": {
+    "path": "reports/ORCL/overview.html",
+    "skill": "cloud-earnings-report",
+    "status": "existing_draft_not_reverified",
+    "source_file": "美股跟踪\\2026-11-06｜云厂商财报研究\\Oracle财报研究Demo_v2\\Oracle财报研究Demo_v2.html"
+  },
+  "SPACEX": {
+    "path": "reports/SPACEX/overview.html",
+    "skill": "cloud-earnings-report",
+    "status": "existing_draft_not_reverified",
+    "source_file": "美股跟踪\\2026-11-06｜云厂商财报研究\\SpaceX财报研究Demo_v2\\SpaceX财报研究Demo_v2.html"
+  },
+  "NBIS": {
+    "path": "reports/NBIS/overview.html",
+    "skill": "cloud-earnings-report",
+    "status": "existing_draft_not_reverified",
+    "source_file": "美股跟踪\\2026-11-18｜Nebius云厂商财报研究草稿\\Nebius财报研究_草稿.html"
+  },
+  "NVDA": {
+    "path": "reports/NVDA/overview.html",
+    "skill": "hardware-earnings-report",
+    "status": "static_pass_source_review_pending",
+    "source_file": "美股跟踪\\硬件Skill设计稿\\完整研究\\nvidia\\nvidia-financial-history-draft.html"
+  },
+  "AMD": {
+    "path": "reports/AMD/overview.html",
+    "skill": "hardware-earnings-report",
+    "status": "static_pass_source_review_pending",
+    "source_file": "美股跟踪\\硬件Skill设计稿\\完整研究\\amd\\amd-financial-history-draft.html"
+  },
+  "MU": {
+    "path": "reports/MU/overview.html",
+    "skill": "hardware-earnings-report",
+    "status": "static_pass_source_review_pending",
+    "source_file": "美股跟踪\\硬件Skill设计稿\\完整研究\\micron\\micron-financial-history-draft.html"
+  },
+  "INTC": {
+    "path": "reports/INTC/overview.html",
+    "skill": "hardware-earnings-report",
+    "status": "existing_draft_not_reverified",
+    "source_file": "美股跟踪\\2026-10-30｜AI产业链研究Demo\\Intel财报研究Demo_v2\\Intel财报研究Demo_v2.html"
+  },
+  "SNDK": {
+    "path": "reports/SNDK/overview.html",
+    "skill": "hardware-earnings-report",
+    "status": "existing_draft_not_reverified",
+    "source_file": "美股跟踪\\2026-10-30｜AI产业链研究Demo\\SanDisk财报研究Demo_v2\\SanDisk财报研究Demo_v2.html"
+  },
+  "SKHX": {
+    "path": "reports/SKHX/overview.html",
+    "skill": "hardware-earnings-report",
+    "status": "existing_draft_not_reverified",
+    "source_file": "美股跟踪\\2026-10-30｜AI产业链研究Demo\\SK海力士财报研究Demo_v2\\SK海力士财报研究Demo_v2.html"
+  },
+  "AVGO": {
+    "path": "reports/AVGO/overview.html",
+    "skill": "hardware-earnings-report",
+    "status": "diagnostic_one_quarter_only"
+  },
+  "SMSN": {
+    "path": "reports/SMSN/overview.html",
+    "skill": "hardware-earnings-report",
+    "status": "diagnostic_one_quarter_only"
+  }
+}

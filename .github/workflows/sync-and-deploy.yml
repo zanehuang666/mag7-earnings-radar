@@ -40,6 +40,6 @@ jobs:
         run: |
           git config user.name "mag7-trial-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add trial/research trial/research-index.json trial/research-coverage.md trial/v13-based
+          git add trial/research trial/research-index.json trial/research-coverage.md trial/v13-based/data/research_index.json trial/v13-based/data/research-coverage.md trial/v13-based/research trial/v13-based/calendar.html
           git diff --cached --quiet || git commit -m "trial: refresh first-tier Markdown"
           git push origin HEAD:${{ github.ref_name }}

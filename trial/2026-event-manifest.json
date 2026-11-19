@@ -1,0 +1,293 @@
+{
+  "scope": "2026 report dates only",
+  "events": [
+    {
+      "ticker": "INTC",
+      "report_date": "2026-01-22",
+      "calendar_quarter": "2025Q4",
+      "status": "reported"
+    },
+    {
+      "ticker": "META",
+      "report_date": "2026-01-28",
+      "calendar_quarter": "2025Q4",
+      "status": "reported"
+    },
+    {
+      "ticker": "MSFT",
+      "report_date": "2026-01-28",
+      "calendar_quarter": "2025Q4",
+      "status": "reported"
+    },
+    {
+      "ticker": "SKHX",
+      "report_date": "2026-01-28",
+      "calendar_quarter": "2025Q4",
+      "status": "reported"
+    },
+    {
+      "ticker": "SMSN",
+      "report_date": "2026-01-29",
+      "calendar_quarter": "2025Q4",
+      "status": "reported"
+    },
+    {
+      "ticker": "AMD",
+      "report_date": "2026-02-03",
+      "calendar_quarter": "2025Q4",
+      "status": "reported"
+    },
+    {
+      "ticker": "GOOGL",
+      "report_date": "2026-02-04",
+      "calendar_quarter": "2025Q4",
+      "status": "reported"
+    },
+    {
+      "ticker": "AMZN",
+      "report_date": "2026-02-05",
+      "calendar_quarter": "2025Q4",
+      "status": "reported"
+    },
+    {
+      "ticker": "NVDA",
+      "report_date": "2026-02-25",
+      "calendar_quarter": "2026Q1",
+      "status": "reported"
+    },
+    {
+      "ticker": "AVGO",
+      "report_date": "2026-03-04",
+      "calendar_quarter": "2026Q1",
+      "status": "reported"
+    },
+    {
+      "ticker": "ORCL",
+      "report_date": "2026-03-10",
+      "calendar_quarter": "2026Q1",
+      "status": "reported"
+    },
+    {
+      "ticker": "MU",
+      "report_date": "2026-03-18",
+      "calendar_quarter": "2026Q1",
+      "status": "reported"
+    },
+    {
+      "ticker": "INTC",
+      "report_date": "2026-04-23",
+      "calendar_quarter": "2026Q1",
+      "status": "reported"
+    },
+    {
+      "ticker": "SKHX",
+      "report_date": "2026-04-23",
+      "calendar_quarter": "2026Q1",
+      "status": "reported"
+    },
+    {
+      "ticker": "AMZN",
+      "report_date": "2026-04-29",
+      "calendar_quarter": "2026Q1",
+      "status": "reported"
+    },
+    {
+      "ticker": "GOOGL",
+      "report_date": "2026-04-29",
+      "calendar_quarter": "2026Q1",
+      "status": "reported"
+    },
+    {
+      "ticker": "META",
+      "report_date": "2026-04-29",
+      "calendar_quarter": "2026Q1",
+      "status": "reported"
+    },
+    {
+      "ticker": "MSFT",
+      "report_date": "2026-04-29",
+      "calendar_quarter": "2026Q1",
+      "status": "reported"
+    },
+    {
+      "ticker": "SMSN",
+      "report_date": "2026-04-30",
+      "calendar_quarter": "2026Q1",
+      "status": "reported"
+    },
+    {
+      "ticker": "AMD",
+      "report_date": "2026-05-05",
+      "calendar_quarter": "2026Q1",
+      "status": "reported"
+    },
+    {
+      "ticker": "NVDA",
+      "report_date": "2026-05-20",
+      "calendar_quarter": "2026Q2",
+      "status": "reported"
+    },
+    {
+      "ticker": "AVGO",
+      "report_date": "2026-06-03",
+      "calendar_quarter": "2026Q2",
+      "status": "reported"
+    },
+    {
+      "ticker": "ORCL",
+      "report_date": "2026-06-10",
+      "calendar_quarter": "2026Q2",
+      "status": "reported"
+    },
+    {
+      "ticker": "MU",
+      "report_date": "2026-06-24",
+      "calendar_quarter": "2026Q2",
+      "status": "reported"
+    },
+    {
+      "ticker": "GOOGL",
+      "report_date": "2026-07-22",
+      "calendar_quarter": "2026Q2",
+      "status": "reported"
+    },
+    {
+      "ticker": "INTC",
+      "report_date": "2026-07-23",
+      "calendar_quarter": "2026Q2",
+      "status": "reported"
+    },
+    {
+      "ticker": "META",
+      "report_date": "2026-07-29",
+      "calendar_quarter": "2026Q2",
+      "status": "reported"
+    },
+    {
+      "ticker": "MSFT",
+      "report_date": "2026-07-29",
+      "calendar_quarter": "2026Q2",
+      "status": "reported"
+    },
+    {
+      "ticker": "SKHX",
+      "report_date": "2026-07-29",
+      "calendar_quarter": "2026Q2",
+      "status": "reported"
+    },
+    {
+      "ticker": "AMZN",
+      "report_date": "2026-07-30",
+      "calendar_quarter": "2026Q2",
+      "status": "reported"
+    },
+    {
+      "ticker": "SMSN",
+      "report_date": "2026-07-30",
+      "calendar_quarter": "2026Q2",
+      "status": "reported"
+    },
+    {
+      "ticker": "AMD",
+      "report_date": "2026-08-04",
+      "calendar_quarter": "2026Q2",
+      "status": "reported"
+    },
+    {
+      "ticker": "NVDA",
+      "report_date": "2026-08-26",
+      "calendar_quarter": "2026Q3",
+      "status": "reported"
+    },
+    {
+      "ticker": "AVGO",
+      "report_date": "2026-09-02",
+      "calendar_quarter": "2026Q3",
+      "status": "reported"
+    },
+    {
+      "ticker": "ORCL",
+      "report_date": "2026-09-10",
+      "calendar_quarter": "2026Q3",
+      "status": "reported"
+    },
+    {
+      "ticker": "MU",
+      "report_date": "2026-09-30",
+      "calendar_quarter": "2026Q3",
+      "status": "reported"
+    },
+    {
+      "ticker": "META",
+      "report_date": "2026-10-21",
+      "calendar_quarter": "2026Q3",
+      "status": "reported"
+    },
+    {
+      "ticker": "GOOGL",
+      "report_date": "2026-10-28",
+      "calendar_quarter": "2026Q3",
+      "status": "reported"
+    },
+    {
+      "ticker": "MSFT",
+      "report_date": "2026-10-28",
+      "calendar_quarter": "2026Q3",
+      "status": "reported"
+    },
+    {
+      "ticker": "SKHX",
+      "report_date": "2026-10-28",
+      "calendar_quarter": "2026Q3",
+      "status": "reported"
+    },
+    {
+      "ticker": "AMZN",
+      "report_date": "2026-10-29",
+      "calendar_quarter": "2026Q3",
+      "status": "reported"
+    },
+    {
+      "ticker": "INTC",
+      "report_date": "2026-10-29",
+      "calendar_quarter": "2026Q3",
+      "status": "reported"
+    },
+    {
+      "ticker": "SMSN",
+      "report_date": "2026-10-29",
+      "calendar_quarter": "2026Q3",
+      "status": "reported"
+    },
+    {
+      "ticker": "AMD",
+      "report_date": "2026-11-03",
+      "calendar_quarter": "2026Q3",
+      "status": "reported"
+    },
+    {
+      "ticker": "NVDA",
+      "report_date": "2026-11-17",
+      "calendar_quarter": "2026Q4",
+      "status": "reported"
+    },
+    {
+      "ticker": "AVGO",
+      "report_date": "2026-12-09",
+      "calendar_quarter": "2026Q4",
+      "status": "estimated"
+    },
+    {
+      "ticker": "ORCL",
+      "report_date": "2026-12-09",
+      "calendar_quarter": "2026Q4",
+      "status": "estimated"
+    },
+    {
+      "ticker": "MU",
+      "report_date": "2026-12-16",
+      "calendar_quarter": "2026Q4",
+      "status": "estimated"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "ticker": "NVDA",
+  "calendar_quarter": "2026Q2",
+  "fiscal_period": "FY2027Q1",
+  "quarter_end": "2026-04-26",
+  "cutoff": "2026-11-19T05:56:27.582048+00:00",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm"
+  ],
+  "facts": [
+    "Revenues | group | 81615.0 USD millions USD | GAAP | source_id=sec_FY2027Q1",
+    "OperatingIncomeLoss | group | 53536.0 USD millions USD | GAAP | source_id=sec_FY2027Q1",
+    "NetCashProvidedByUsedInOperatingActivities | group | 50344.0 USD millions USD | GAAP | source_id=sec_FY2027Q1",
+    "PaymentsToAcquireProductiveAssets | group | 1757.0 USD millions USD | GAAP | source_id=sec_FY2027Q1",
+    "platform_revenue | datacenter | 75246.0 USD millions USD | GAAP | source_id=sec_FY2027Q1",
+    "platform_revenue | edgecomputing | 6369.0 USD millions USD | GAAP | source_id=sec_FY2027Q1"
+  ],
+  "verification_status": "source_review_pending",
+  "official_release_confirmed": false,
+  "note": "Imported report bundle. Source URLs and individual numbers require independent review."
+}
