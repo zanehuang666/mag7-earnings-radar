@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "manual_verified",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "624aec00e109cea662b98fdb61baf7b08970c420c04316620d81a5b7d1b60ed8",
+  "cutoff": "2026-11-19T11:15:13.839382+00:00",
+  "generated_at": "2026-11-19T16:28:12.178665+00:00",
+  "sources": [
+    "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial"
+  ]
 }
