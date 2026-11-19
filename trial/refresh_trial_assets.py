@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import base64
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -35,13 +36,26 @@ def main() -> None:
             file.unlink()
     shutil.copytree(ROOT / "source-packets", SITE / "source-packets", dirs_exist_ok=True)
     page = SITE / "calendar.html"
-    html = page.read_text(encoding="utf-8")
+    html = re.sub(r"<!-- TRIAL_OFFLINE_SHIM_START -->.*?<!-- TRIAL_OFFLINE_SHIM_END -->", "", page.read_text(encoding="utf-8"), flags=re.S)
+    for name in ("nasdaq-history-2024.json", "foreign-history-2024.json"):
+        html = re.sub(rf'<a href="\./data/{name}"[^>]*>.*?</a>', '', html)
     marker = "<script>const QUARTER_RESEARCH="
     if html.count(marker) != 1:
         raise RuntimeError("trial page research marker changed")
     prefix, rest = html.split(marker, 1)
     _, suffix = rest.rsplit("</script></body>", 1)
     index = json.loads((ROOT / "research-index.json").read_text(encoding="utf-8"))["events"]
+    source_status = {}
+    for event in index.values():
+        if not event["date"].startswith("2026-"):
+            continue
+        ticker, quarter = event["ticker"], event["quarter"]
+        for stage in ("preview", "analysis"):
+            packet_path = ROOT / "source-packets" / ticker / quarter / f"{stage}.json"
+            packet = json.loads(packet_path.read_text(encoding="utf-8")) if packet_path.exists() else {}
+            source_status[f"{ticker}/{quarter}/{stage}"] = {"status": packet.get("verification_status", "missing"),
+                                                             "source_count": len(packet.get("sources", []))}
+    (SITE / "data/source_packet_coverage.json").write_text(json.dumps(source_status, ensure_ascii=False, indent=2), encoding="utf-8")
     viewer = (ROOT / "research_viewer.js").read_text(encoding="utf-8")
     html = prefix + marker + json.dumps(index, ensure_ascii=False) + ";" + viewer + "</script></body>" + suffix
     page.write_text(html, encoding="utf-8")
@@ -55,7 +69,9 @@ def main() -> None:
             "'),c=>c.charCodeAt(0))));const originalFetch=window.fetch.bind(window);" +
             "window.fetch=(input,options)=>{const path=String(input).split('?')[0],key=embedded[path]!==undefined?path:path.split('/').pop();" +
             "return embedded[key]===undefined?originalFetch(input,options):Promise.resolve(new Response(embedded[key],{status:200}));};</script>")
-    (SITE / "trial-offline.html").write_text(html.replace("<script>", shim + "<script>", 1), encoding="utf-8")
+    offline = html.replace("<script>", "<!-- TRIAL_OFFLINE_SHIM_START -->" + shim + "<!-- TRIAL_OFFLINE_SHIM_END --><script>", 1)
+    page.write_text(offline, encoding="utf-8")
+    (SITE / "trial-offline.html").write_text(offline, encoding="utf-8")
     print(f"refreshed trial page and offline reader: {len(index)} events")
 
 

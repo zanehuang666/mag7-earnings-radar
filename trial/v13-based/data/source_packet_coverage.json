@@ -1,0 +1,386 @@
+{
+  "AVGO/2026Q4/preview": {
+    "status": "manual_verified",
+    "source_count": 1
+  },
+  "AVGO/2026Q4/analysis": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "ORCL/2026Q4/preview": {
+    "status": "manual_verified",
+    "source_count": 1
+  },
+  "ORCL/2026Q4/analysis": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "MU/2026Q4/preview": {
+    "status": "manual_verified",
+    "source_count": 1
+  },
+  "MU/2026Q4/analysis": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "NVDA/2026Q4/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "NVDA/2026Q4/analysis": {
+    "status": "manual_verified",
+    "source_count": 1
+  },
+  "AMD/2026Q3/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "AMD/2026Q3/analysis": {
+    "status": "manual_verified",
+    "source_count": 1
+  },
+  "AMZN/2026Q3/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "AMZN/2026Q3/analysis": {
+    "status": "manual_verified",
+    "source_count": 1
+  },
+  "INTC/2026Q3/preview": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "INTC/2026Q3/analysis": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "SMSN/2026Q3/preview": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "SMSN/2026Q3/analysis": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "GOOGL/2026Q3/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "GOOGL/2026Q3/analysis": {
+    "status": "manual_verified",
+    "source_count": 1
+  },
+  "MSFT/2026Q3/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "MSFT/2026Q3/analysis": {
+    "status": "manual_verified",
+    "source_count": 1
+  },
+  "SKHX/2026Q3/preview": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "SKHX/2026Q3/analysis": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "META/2026Q3/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "META/2026Q3/analysis": {
+    "status": "manual_verified",
+    "source_count": 1
+  },
+  "MU/2026Q3/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "MU/2026Q3/analysis": {
+    "status": "manual_verified",
+    "source_count": 1
+  },
+  "ORCL/2026Q3/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "ORCL/2026Q3/analysis": {
+    "status": "manual_verified",
+    "source_count": 1
+  },
+  "AVGO/2026Q3/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "AVGO/2026Q3/analysis": {
+    "status": "manual_verified",
+    "source_count": 1
+  },
+  "NVDA/2026Q3/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "NVDA/2026Q3/analysis": {
+    "status": "source_review_pending",
+    "source_count": 2
+  },
+  "AMD/2026Q2/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "AMD/2026Q2/analysis": {
+    "status": "source_review_pending",
+    "source_count": 2
+  },
+  "AMZN/2026Q2/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "AMZN/2026Q2/analysis": {
+    "status": "source_review_pending",
+    "source_count": 1
+  },
+  "SMSN/2026Q2/preview": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "SMSN/2026Q2/analysis": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "META/2026Q2/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "META/2026Q2/analysis": {
+    "status": "official_source_missing",
+    "source_count": 0
+  },
+  "MSFT/2026Q2/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "MSFT/2026Q2/analysis": {
+    "status": "source_review_pending",
+    "source_count": 1
+  },
+  "SKHX/2026Q2/preview": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "SKHX/2026Q2/analysis": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "INTC/2026Q2/preview": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "INTC/2026Q2/analysis": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "GOOGL/2026Q2/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "GOOGL/2026Q2/analysis": {
+    "status": "source_review_pending",
+    "source_count": 1
+  },
+  "MU/2026Q2/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "MU/2026Q2/analysis": {
+    "status": "source_review_pending",
+    "source_count": 2
+  },
+  "ORCL/2026Q2/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "ORCL/2026Q2/analysis": {
+    "status": "official_source_missing",
+    "source_count": 0
+  },
+  "AVGO/2026Q2/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "AVGO/2026Q2/analysis": {
+    "status": "official_source_missing",
+    "source_count": 0
+  },
+  "NVDA/2026Q2/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "NVDA/2026Q2/analysis": {
+    "status": "source_review_pending",
+    "source_count": 1
+  },
+  "AMD/2026Q1/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "AMD/2026Q1/analysis": {
+    "status": "source_review_pending",
+    "source_count": 1
+  },
+  "SMSN/2026Q1/preview": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "SMSN/2026Q1/analysis": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "AMZN/2026Q1/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "AMZN/2026Q1/analysis": {
+    "status": "source_review_pending",
+    "source_count": 1
+  },
+  "GOOGL/2026Q1/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "GOOGL/2026Q1/analysis": {
+    "status": "source_review_pending",
+    "source_count": 1
+  },
+  "META/2026Q1/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "META/2026Q1/analysis": {
+    "status": "official_source_missing",
+    "source_count": 0
+  },
+  "MSFT/2026Q1/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "MSFT/2026Q1/analysis": {
+    "status": "source_review_pending",
+    "source_count": 1
+  },
+  "INTC/2026Q1/preview": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "INTC/2026Q1/analysis": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "SKHX/2026Q1/preview": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "SKHX/2026Q1/analysis": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "MU/2026Q1/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "MU/2026Q1/analysis": {
+    "status": "source_review_pending",
+    "source_count": 2
+  },
+  "ORCL/2026Q1/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "ORCL/2026Q1/analysis": {
+    "status": "official_source_missing",
+    "source_count": 0
+  },
+  "AVGO/2026Q1/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "AVGO/2026Q1/analysis": {
+    "status": "official_source_missing",
+    "source_count": 0
+  },
+  "NVDA/2026Q1/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "NVDA/2026Q1/analysis": {
+    "status": "source_review_pending",
+    "source_count": 2
+  },
+  "AMZN/2025Q4/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "AMZN/2025Q4/analysis": {
+    "status": "source_review_pending",
+    "source_count": 1
+  },
+  "GOOGL/2025Q4/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "GOOGL/2025Q4/analysis": {
+    "status": "source_review_pending",
+    "source_count": 1
+  },
+  "AMD/2025Q4/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "AMD/2025Q4/analysis": {
+    "status": "source_review_pending",
+    "source_count": 2
+  },
+  "SMSN/2025Q4/preview": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "SMSN/2025Q4/analysis": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "META/2025Q4/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "META/2025Q4/analysis": {
+    "status": "official_source_missing",
+    "source_count": 0
+  },
+  "MSFT/2025Q4/preview": {
+    "status": "missing",
+    "source_count": 0
+  },
+  "MSFT/2025Q4/analysis": {
+    "status": "source_review_pending",
+    "source_count": 1
+  },
+  "SKHX/2025Q4/preview": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "SKHX/2025Q4/analysis": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "INTC/2025Q4/preview": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  },
+  "INTC/2025Q4/analysis": {
+    "status": "official_release_text_collected",
+    "source_count": 1
+  }
+}
