@@ -1,0 +1,21 @@
+{
+  "ticker": "META",
+  "calendar_quarter": "2026Q3",
+  "target_event_date": "2026-10-21",
+  "prior_quarter": "2026Q2",
+  "prior_release_date": "2026-07-29",
+  "cutoff": "2026-07-29T23:59:59",
+  "sources": [
+    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx"
+  ],
+  "facts": [
+    "Quarter ended June 30, 2026; revenue USD 60.801 billion, up 28% year over year.",
+    "Operating income USD 18.775 billion, down 8% year over year; operating margin 31%, versus 43% a year earlier; diluted EPS USD 6.18.",
+    "Costs and expenses USD 42.026 billion include USD 2.40 billion of legal charges and USD 1.18 billion of severance from May 2026 headcount reduction.",
+    "Family daily active people averaged 3.60 billion in June 2026; ad impressions grew 14% and average ad price grew 12% year over year.",
+    "Capital expenditure including finance leases USD 31.08 billion; company Q3 revenue outlook USD 61–64 billion is a forecast."
+  ],
+  "verification_status": "manual_verified",
+  "historical_reconstruction": true,
+  "note": "Retrospective reconstruction using only the previous official release. It was not actually written before target-quarter earnings. Do not describe it as a contemporaneous forecast."
+}

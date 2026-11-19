@@ -2,13 +2,18 @@
   "ticker": "META",
   "calendar_quarter": "2025Q4",
   "release_date": "2026-01-28",
-  "discovery_links": [
-    "https://investor.atmeta.com/",
-    "https://api.nasdaq.com/api/company/META/earnings-surprise"
+  "cutoff": "2026-01-28T23:59:59",
+  "sources": [
+    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
   ],
-  "sources": [],
-  "facts": [],
-  "official_release_confirmed": false,
-  "verification_status": "official_source_missing",
-  "note": "Calendar date is known. An official earnings release or filing text is still needed."
+  "facts": [
+    "Quarter ended December 31, 2025; quarterly revenue USD 59.893 billion, up 24% year over year.",
+    "Quarterly operating income USD 24.745 billion and operating margin 41%; diluted EPS USD 8.88.",
+    "Family daily active people averaged 3.58 billion in December 2025, up 7% year over year.",
+    "Quarterly capital expenditure including finance leases USD 22.14 billion; operating cash flow USD 36.21 billion; free cash flow USD 14.08 billion.",
+    "Company Q1 2026 revenue outlook USD 53.5–56.5 billion; this is a forecast."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "manual_verified",
+  "note": "Selected facts checked against the linked company release; generated prose still requires editorial review."
 }

@@ -22,6 +22,7 @@ def run(script: str) -> None:
 
 
 def main() -> None:
+    run("add_verified_2026_sources.py")
     run("prepare_previews.py")
     run("prune_out_of_scope_baselines.py")
     run("seed_markdown_baselines.py")

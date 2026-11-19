@@ -1,0 +1,21 @@
+{
+  "ticker": "META",
+  "calendar_quarter": "2026Q1",
+  "target_event_date": "2026-04-29",
+  "prior_quarter": "2025Q4",
+  "prior_release_date": "2026-01-28",
+  "cutoff": "2026-01-28T23:59:59",
+  "sources": [
+    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
+  ],
+  "facts": [
+    "Quarter ended December 31, 2025; quarterly revenue USD 59.893 billion, up 24% year over year.",
+    "Quarterly operating income USD 24.745 billion and operating margin 41%; diluted EPS USD 8.88.",
+    "Family daily active people averaged 3.58 billion in December 2025, up 7% year over year.",
+    "Quarterly capital expenditure including finance leases USD 22.14 billion; operating cash flow USD 36.21 billion; free cash flow USD 14.08 billion.",
+    "Company Q1 2026 revenue outlook USD 53.5–56.5 billion; this is a forecast."
+  ],
+  "verification_status": "manual_verified",
+  "historical_reconstruction": true,
+  "note": "Retrospective reconstruction using only the previous official release. It was not actually written before target-quarter earnings. Do not describe it as a contemporaneous forecast."
+}

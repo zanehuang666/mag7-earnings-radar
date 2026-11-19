@@ -1,0 +1,20 @@
+{
+  "ticker": "ORCL",
+  "calendar_quarter": "2026Q2",
+  "target_event_date": "2026-06-10",
+  "prior_quarter": "2026Q1",
+  "prior_release_date": "2026-03-10",
+  "cutoff": "2026-03-10T23:59:59",
+  "sources": [
+    "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Fiscal-Year-2026-Third-Quarter-Financial-Results/default.aspx"
+  ],
+  "facts": [
+    "Oracle fiscal Q3 2026 released March 10, 2026; total revenue USD 17.2 billion, up 22% year over year in USD.",
+    "Cloud revenue (IaaS plus SaaS) USD 8.9 billion, up 44%; cloud infrastructure revenue USD 4.9 billion, up 84%; cloud applications USD 4.0 billion, up 13%.",
+    "Remaining performance obligations USD 553 billion, up 325% year over year; this is contracted backlog, not recognized revenue.",
+    "GAAP EPS USD 1.27 and non-GAAP EPS USD 1.79; do not conflate the two measures."
+  ],
+  "verification_status": "manual_verified",
+  "historical_reconstruction": true,
+  "note": "Retrospective reconstruction using only the previous official release. It was not actually written before target-quarter earnings. Do not describe it as a contemporaneous forecast."
+}

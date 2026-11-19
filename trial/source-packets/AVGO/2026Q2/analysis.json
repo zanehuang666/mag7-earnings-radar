@@ -2,12 +2,18 @@
   "ticker": "AVGO",
   "calendar_quarter": "2026Q2",
   "release_date": "2026-06-03",
-  "discovery_links": [
-    "https://api.nasdaq.com/api/calendar/earnings?date=2026-06-03"
+  "cutoff": "2026-06-03T23:59:59",
+  "sources": [
+    "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial"
   ],
-  "sources": [],
-  "facts": [],
-  "official_release_confirmed": false,
-  "verification_status": "official_source_missing",
-  "note": "Calendar date is known. An official earnings release or filing text is still needed."
+  "facts": [
+    "Fiscal Q2 2026 ended May 3, 2026; revenue USD 22.187 billion, up 48% year over year.",
+    "AI semiconductor revenue USD 10.8 billion, up 143% year over year; this is the CEO's stated AI measure.",
+    "Adjusted EBITDA USD 15.244 billion, 69% of revenue; GAAP diluted EPS USD 1.91 and non-GAAP diluted EPS USD 2.44.",
+    "Operating cash flow USD 10.493 billion, capex USD 0.231 billion, free cash flow USD 10.262 billion.",
+    "Next-quarter company guidance: total revenue approximately USD 29.4 billion; this is a forecast."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "manual_verified",
+  "note": "Selected facts checked against the linked company release; generated prose still requires editorial review."
 }

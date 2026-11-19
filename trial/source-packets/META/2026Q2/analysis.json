@@ -2,13 +2,18 @@
   "ticker": "META",
   "calendar_quarter": "2026Q2",
   "release_date": "2026-07-29",
-  "discovery_links": [
-    "https://investor.atmeta.com/",
-    "https://api.nasdaq.com/api/company/META/earnings-surprise"
+  "cutoff": "2026-07-29T23:59:59",
+  "sources": [
+    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx"
   ],
-  "sources": [],
-  "facts": [],
-  "official_release_confirmed": false,
-  "verification_status": "official_source_missing",
-  "note": "Calendar date is known. An official earnings release or filing text is still needed."
+  "facts": [
+    "Quarter ended June 30, 2026; revenue USD 60.801 billion, up 28% year over year.",
+    "Operating income USD 18.775 billion, down 8% year over year; operating margin 31%, versus 43% a year earlier; diluted EPS USD 6.18.",
+    "Costs and expenses USD 42.026 billion include USD 2.40 billion of legal charges and USD 1.18 billion of severance from May 2026 headcount reduction.",
+    "Family daily active people averaged 3.60 billion in June 2026; ad impressions grew 14% and average ad price grew 12% year over year.",
+    "Capital expenditure including finance leases USD 31.08 billion; company Q3 revenue outlook USD 61–64 billion is a forecast."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "manual_verified",
+  "note": "Selected facts checked against the linked company release; generated prose still requires editorial review."
 }

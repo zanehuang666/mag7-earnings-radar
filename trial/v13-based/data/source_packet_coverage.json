@@ -88,8 +88,8 @@
     "source_count": 1
   },
   "META/2026Q3/preview": {
-    "status": "missing",
-    "source_count": 0
+    "status": "manual_verified",
+    "source_count": 1
   },
   "META/2026Q3/analysis": {
     "status": "manual_verified",
@@ -104,16 +104,16 @@
     "source_count": 1
   },
   "ORCL/2026Q3/preview": {
-    "status": "missing",
-    "source_count": 0
+    "status": "manual_verified",
+    "source_count": 1
   },
   "ORCL/2026Q3/analysis": {
     "status": "manual_verified",
     "source_count": 1
   },
   "AVGO/2026Q3/preview": {
-    "status": "missing",
-    "source_count": 0
+    "status": "manual_verified",
+    "source_count": 1
   },
   "AVGO/2026Q3/analysis": {
     "status": "manual_verified",
@@ -152,12 +152,12 @@
     "source_count": 1
   },
   "META/2026Q2/preview": {
-    "status": "missing",
-    "source_count": 0
+    "status": "manual_verified",
+    "source_count": 1
   },
   "META/2026Q2/analysis": {
-    "status": "official_source_missing",
-    "source_count": 0
+    "status": "manual_verified",
+    "source_count": 1
   },
   "MSFT/2026Q2/preview": {
     "status": "missing",
@@ -200,20 +200,20 @@
     "source_count": 2
   },
   "ORCL/2026Q2/preview": {
-    "status": "missing",
-    "source_count": 0
+    "status": "manual_verified",
+    "source_count": 1
   },
   "ORCL/2026Q2/analysis": {
-    "status": "official_source_missing",
-    "source_count": 0
+    "status": "manual_verified",
+    "source_count": 1
   },
   "AVGO/2026Q2/preview": {
-    "status": "missing",
-    "source_count": 0
+    "status": "manual_verified",
+    "source_count": 1
   },
   "AVGO/2026Q2/analysis": {
-    "status": "official_source_missing",
-    "source_count": 0
+    "status": "manual_verified",
+    "source_count": 1
   },
   "NVDA/2026Q2/preview": {
     "status": "missing",
@@ -256,12 +256,12 @@
     "source_count": 1
   },
   "META/2026Q1/preview": {
-    "status": "missing",
-    "source_count": 0
+    "status": "manual_verified",
+    "source_count": 1
   },
   "META/2026Q1/analysis": {
-    "status": "official_source_missing",
-    "source_count": 0
+    "status": "manual_verified",
+    "source_count": 1
   },
   "MSFT/2026Q1/preview": {
     "status": "missing",
@@ -300,16 +300,16 @@
     "source_count": 0
   },
   "ORCL/2026Q1/analysis": {
-    "status": "official_source_missing",
-    "source_count": 0
+    "status": "manual_verified",
+    "source_count": 1
   },
   "AVGO/2026Q1/preview": {
     "status": "missing",
     "source_count": 0
   },
   "AVGO/2026Q1/analysis": {
-    "status": "official_source_missing",
-    "source_count": 0
+    "status": "manual_verified",
+    "source_count": 1
   },
   "NVDA/2026Q1/preview": {
     "status": "missing",
@@ -356,8 +356,8 @@
     "source_count": 0
   },
   "META/2025Q4/analysis": {
-    "status": "official_source_missing",
-    "source_count": 0
+    "status": "manual_verified",
+    "source_count": 1
   },
   "MSFT/2025Q4/preview": {
     "status": "missing",

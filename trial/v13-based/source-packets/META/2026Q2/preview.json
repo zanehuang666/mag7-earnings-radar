@@ -1,0 +1,20 @@
+{
+  "ticker": "META",
+  "calendar_quarter": "2026Q2",
+  "target_event_date": "2026-07-29",
+  "prior_quarter": "2026Q1",
+  "prior_release_date": "2026-04-29",
+  "cutoff": "2026-04-29T23:59:59",
+  "sources": [
+    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/default.aspx"
+  ],
+  "facts": [
+    "Quarter ended March 31, 2026; revenue USD 56.311 billion, up 33% year over year.",
+    "Operating income USD 22.872 billion; operating margin 41%; diluted EPS USD 10.44.",
+    "Reported net income includes an USD 8.03 billion income tax benefit; excluding it would reduce diluted EPS by USD 3.13, per company release.",
+    "Family daily active people averaged 3.56 billion in March 2026, up 4% year over year; ad impressions increased 19% year over year."
+  ],
+  "verification_status": "manual_verified",
+  "historical_reconstruction": true,
+  "note": "Retrospective reconstruction using only the previous official release. It was not actually written before target-quarter earnings. Do not describe it as a contemporaneous forecast."
+}

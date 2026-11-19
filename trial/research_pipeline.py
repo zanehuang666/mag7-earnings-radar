@@ -10,7 +10,10 @@ import json
 import os
 import re
 import shutil
+import socket
 import sys
+import time
+import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from collections import defaultdict
@@ -92,8 +95,19 @@ def call_model(prompt: str, packet: dict) -> dict:
                          {"role": "user", "content": json.dumps(packet, ensure_ascii=False)}]}
     req = urllib.request.Request(endpoint, data=json.dumps(body, ensure_ascii=False).encode("utf-8"),
                                  headers={"Authorization": "Bearer " + key, "Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=120) as response:
-        result = json.load(response)
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=240) as response:
+                result = json.load(response)
+            break
+        except urllib.error.HTTPError as exc:
+            if exc.code not in (429, 503) or attempt == 2:
+                raise
+            time.sleep(5 * (attempt + 1))
+        except (TimeoutError, socket.timeout):
+            if attempt == 2:
+                raise
+            time.sleep(5 * (attempt + 1))
     message = result["choices"][0]["message"]
     content = message.get("content") or message.get("reasoning_content")
     if not isinstance(content, str) or not content.strip():
@@ -173,14 +187,19 @@ def main() -> None:
                                                             stage=stage, cutoff=cutoff)
                             if packet.get("historical_reconstruction"):
                                 prompt += "\n这是事后重建的历史前瞻，不是当时真实发表的预测。正文标题和开头必须明确写‘历史资料重建’，且只能使用资料截止日前已公开的来源；不得暗示本稿写于财报公布前。"
-                            result = call_model(prompt, packet)
-                            md = result["markdown"].strip()
-                            if not md.startswith("# ") or len(result.get("reader_questions", [])) != 3 or not result.get("english_draft") or not result.get("fact_checks"):
-                                raise ValueError("invalid draft or reader check")
-                            if packet.get("historical_reconstruction") and "历史资料重建" not in md[:250]:
-                                raise ValueError("historical preview lacks reconstruction label")
-                            if not any(url in md for url in packet["sources"]):
-                                raise ValueError("no source citation in Markdown")
+                            for draft_attempt in range(2):
+                                result = call_model(prompt, packet)
+                                md = result.get("markdown", "").strip()
+                                valid = (md.startswith("# ") and len(result.get("reader_questions", [])) == 3
+                                         and bool(result.get("english_draft")) and bool(result.get("fact_checks"))
+                                         and (not packet.get("historical_reconstruction") or "历史资料重建" in md[:250])
+                                         and any(url in md for url in packet["sources"]))
+                                if valid:
+                                    break
+                                if draft_attempt == 0:
+                                    prompt += "\n上次格式或来源核验未通过。请严格输出完整 JSON、恰好三条读者问题，并在 Markdown 中直接链接所附官方来源。"
+                            if not valid:
+                                raise ValueError("invalid draft, reader check, reconstruction label, or citation after retry")
                             folder.mkdir(parents=True, exist_ok=True)
                             if existing:
                                 history = folder / "history"

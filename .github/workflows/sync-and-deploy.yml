@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name "mag7-trial-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add trial/research trial/research-index.json trial/research-coverage.md trial/v13-based/data/research_index.json trial/v13-based/data/research-coverage.md trial/v13-based/data/source_packet_coverage.json trial/v13-based/research trial/v13-based/calendar.html trial/v13-based/trial-offline.html
+          git add trial/research trial/source-packets trial/research-index.json trial/research-coverage.md trial/v13-based/data/research_index.json trial/v13-based/data/research-coverage.md trial/v13-based/data/source_packet_coverage.json trial/v13-based/research trial/v13-based/source-packets trial/v13-based/calendar.html trial/v13-based/trial-offline.html
           git diff --cached --quiet || git commit -m "trial: refresh first-tier Markdown"
           git push origin HEAD:${{ github.ref_name }}
       - name: Report generation errors after saving drafts
