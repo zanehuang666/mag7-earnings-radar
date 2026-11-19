@@ -16,7 +16,14 @@ def main() -> None:
     events = json.loads(INDEX.read_text(encoding="utf-8"))["events"]
     from_date = os.getenv("RESEARCH_FROM_DATE", "2026-01-01")
     through_date = os.getenv("RESEARCH_THROUGH_DATE", "2026-12-31")
-    source = json.loads(PACKETS.read_text(encoding="utf-8"))["quarters"]
+    if PACKETS.exists():
+        source = json.loads(PACKETS.read_text(encoding="utf-8"))["quarters"]
+    else:
+        source = {}
+        for packet_path in (ROOT / "source-packets").glob("*/*/analysis.json"):
+            packet = json.loads(packet_path.read_text(encoding="utf-8"))
+            key = f"{packet_path.parent.parent.name}/{packet_path.parent.name}"
+            source[key] = {"status": packet.get("verification_status", "official_source_missing")}
     by_ticker = defaultdict(list)
     for event in events.values():
         if from_date <= event["date"] <= through_date:
