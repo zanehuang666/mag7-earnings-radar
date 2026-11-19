@@ -1,0 +1,17 @@
+{
+  "english_draft": "Meta reported Q1 2026 revenue of USD 56.311 billion. Revenue rose 33% year over year. Operating income was USD 22.872 billion. Operating margin was 41%. Diluted EPS was USD 10.44. This EPS included an income tax benefit of USD 8.03 billion. Excluding the benefit would reduce diluted EPS by USD 3.13. Family DAP averaged 3.56 billion in March 2026. Family DAP rose 4% year over year. Ad impressions rose 19% year over year.\n\nFor Q2 2026, the main question is whether revenue growth can remain near 30%. The second question is whether operating margin can remain near 40%. The third question is how EPS will look after the one-time tax benefit.\n\nA positive surprise would be revenue growth above 30%. A positive surprise would also be stable operating margin. A negative surprise would be a sharp slowdown in revenue growth. A negative surprise would be a lower operating margin. EPS may face slower growth if the tax benefit does not repeat.\n\nVerification points for Q2: revenue growth, operating margin, diluted EPS, effective tax rate, ad impressions, and Family DAP.",
+  "reader_questions": [
+    "如果Q1收入增速高于广告曝光量增速主要靠单价一次性上升，而Q2单价回落，收入增长预期是否应下调？",
+    "若Q2税率恢复正常，同比比较基准是否应改用剔除所得税收益后的EPS约7.31美元，而不是10.44美元？",
+    "如果Q1经营利润率41%包含未披露的一次性项目，用该利润率推断Q2经营利润率是否可靠？"
+  ],
+  "fact_checks": [
+    "来源与日期：所附新闻稿为Meta于2026-04-29发布的2026Q1业绩；截至资料截止日2026-04-29T23:59:59，目标季2026Q2财报未公布，本文未使用Q2实际数据。",
+    "币种与单位：收入、经营利润、EPS均为美元；收入563.11亿美元即USD 56.311B；经营利润228.72亿美元即USD 22.872B；摊薄EPS 10.44美元。",
+    "口径：收入、经营利润、经营利润率、摊薄EPS、所得税收益均为新闻稿GAAP/公司披露口径；非GAAP、市场共识、股价及未披露产品利润不在使用范围内。",
+    "事实与推论：收入同比+33%、经营利润率41%、EPS 10.44、所得税收益80.3亿美元、剔除后EPS减少3.13美元、3月Family DAP 35.6亿（+4%）、广告曝光量+19%均为来源事实；‘剔除税收益后EPS约7.31美元’和‘变现效率隐含约+12%’是本稿算术推论。",
+    "指引与共识：本稿未引用公司指引或市场共识；所依据的facts列表中无此类数据。",
+    "第二轮互检：三条reader_questions提出后，正文已将EPS 7.31美元、变现效率约+12%明确标注为‘本稿推论’，并将Q2 EPS表述从‘同比下降’改为‘同比增速可能低于收入增速’。",
+    "核实状态：manual_verified；逐项对照facts列表，未使用未列明来源。"
+  ]
+}

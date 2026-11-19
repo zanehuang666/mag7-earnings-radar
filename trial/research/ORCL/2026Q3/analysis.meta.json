@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "manual_verified",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "82b0a45959f89804264d1a21ed862d79174554d6dec6ce66ed69ad89d6a8c8b0",
+  "cutoff": "2026-11-19T12:00:00+08:00",
+  "generated_at": "2026-11-19T17:07:30.647810+00:00",
+  "sources": [
+    "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/"
+  ]
 }

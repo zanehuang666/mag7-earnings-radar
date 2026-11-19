@@ -1,33 +1,31 @@
-# Broadcom（AVGO）2026Q3｜财报后资料索引
+# AVGO（博通）FY2026Q3 财报分析
 
-> 自动整理的资料索引，尚不是经逐季财报核对的完整研究文章。
+> 资料来源：[Broadcom 官方新闻稿](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial)
+> 撰写截止：2026-11-19
 
-- 财报日：2026-09-02（已发布）
-- 财报期：Jul 2026
+## Preview
 
-## 已核实资料与待复核判断
+**无同期 Preview。** 本次未附有财报发布前撰写的预览，也没有可靠的事前共识或股价作为参照。为避免用结果倒推，我不在此补写“预测”，也不把事后历史资料重建稿当作当时预测。因此本部分无法提供上季基准、核心问题或正负预期差。
 
-- Broadcom official FY2026 Q3 release dated 2026-09-02; quarter ended 2026-08-02.
-- Revenue about USD 29.6 billion, +86% year over year; GAAP operating income USD 16.0 billion; non-GAAP operating income USD 20.1 billion.
-- AI semiconductor revenue USD 16.7 billion, +221% year over year, per company CEO statement.
-- Operating cash flow USD 14.2 billion; capex USD 0.5 billion; free cash flow USD 13.7 billion.
-- FY2026 Q4 revenue guidance about USD 34.8 billion; expected AI semiconductor revenue USD 21.7 billion. These are company forecasts.
+## Analysis
 
-### Nasdaq EPS 线索（尚待核对财报口径）
+FY2026Q3 对应截至 2026-08-02 的季度，公司于 2026-09-02 发布业绩。
 
-Nasdaq 快照记录实际 EPS 3.03、公开一致预期 2.83、差异 7.07%。
-此处不推断 GAAP、非 GAAP或拆股调整口径，也不据此单独判断财报质量。
+- 收入约 296 亿美元，同比增长 86%。
+- GAAP 营业利润 160 亿美元；非 GAAP 营业利润 201 亿美元。
+- 按 CEO 声明，AI 半导体收入 167 亿美元，同比增长 221%。
+- 经营现金流 142 亿美元，资本开支 5 亿美元，自由现金流 137 亿美元。
 
-### 后续核对
+以上数字均来自官方新闻稿。新闻稿没有单独披露 AI 半导体的营业利润或毛利率，因此本文不尝试估算产品利润。
 
-- AI 半导体收入：实际结果、指引与下季变化。
-- 软件业务利润：实际结果、指引与下季变化。
-- 现金流与客户集中：实际结果、指引与下季变化。
+**与之前判断的差异**：无同期 Preview，无法做原判断复核。能核对的是公司对 2026 财年 Q4 的指引：收入约 348 亿美元，其中 AI 半导体收入预计 217 亿美元。该指引是公司 forecast，不是实际业绩。
 
-## 来源与状态
+**观察**：第三季度增长主要由 AI 半导体收入拉动；若按该口径，AI 半导体收入占公司总收入约 56%（167/296），同比增长率远高于公司整体收入增速。Q4 指引对应收入环比增加约 52 亿美元，AI 半导体收入环比增加约 50 亿美元，显示公司预计 AI 相关出货在第四季度继续放量。这是本稿基于已披露数字的推论，不是公司披露的因果关系。
 
-- [原始资料 1](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial)
-- [原始资料 2](https://api.nasdaq.com/api/calendar/earnings?date=2026-09-02)
-- [原始资料 3](https://api.nasdaq.com/api/company/AVGO/earnings-surprise)
+**下一季要点**：
 
-资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
+1. 2026Q4 收入指引 348 亿美元能否实现，以及 AI 半导体收入 217 亿美元的产品组合是否如指引兑现。
+2. 非 AI 半导体和基础设施软件业务是否回稳。
+3. 经营现金流能否保持与收入增长匹配，尤其关注存货、客户预收款和应收变动。
+
+**待核**：本稿未获得分析师一致预期、股价数据或产品毛利率数据；若需更细化的预期差分析，请补充财报电话会议记录或分析师一致预期来源。

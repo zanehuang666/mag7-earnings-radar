@@ -1,0 +1,16 @@
+{
+  "english_draft": "Microsoft's fiscal year ends in June. Calendar quarter Q3 2026 equals Microsoft fiscal Q1 2027. Microsoft published the results on October 28, 2026. No same-period preview existed. A later reconstruction exists. It cannot be treated as the original forecast. No reliable market consensus was provided. Revenue was USD 92.3 billion. This was 19% higher than the same quarter last year. GAAP operating income was USD 45.9 billion. This was 21% higher than the same quarter last year. Operating income grew faster than revenue. This implies the GAAP operating margin improved. The attached release does not provide segment details. Therefore, this analysis does not attribute growth to Azure or any specific product. This analysis does not explain cash drivers for profit. These items need confirmation. The next report covers calendar Q4 2026, Microsoft fiscal Q2 2027. At that report, verify segment revenue, operating margin, capital expenditure, and AI-related investment. This analysis uses no prediction built before the earnings release.",
+  "reader_questions": [
+    "收入92.3亿美元是否包含非GAAP调整？如果官方口径与GAAP收入不同，19%同比增速的可比性会受影响。",
+    "45.9亿美元中文表述为“经营利润”，是否可能被读者误认为净利润？需不需要在正文中反复强调GAAP经营利润？",
+    "在没有任何分部数据和事前预测的情况下，本文是否隐含地把“AI/Azure驱动”当作原因？必须避免这种未经数据支持的归因。"
+  ],
+  "fact_checks": [
+    "日期：官方发布日为2026-10-28，对应截至2026-09-30的季度，早于资料截止日2026-11-19，可使用。",
+    "季度对照：自然年2026Q3=微软FY2027 Q1，与任务标题中的“2026Q3”匹配，已在正文说明。",
+    "币种/单位：均为美元；92.3 billion=923亿，45.9 billion=459亿，换算无误。",
+    "GAAP/非GAAP：经营利润明确为GAAP；收入在官方新闻稿中为合并报表口径，本稿未称非GAAP收入。",
+    "集团/分部：本稿只引用集团合并数，未虚构分部营收、产品利润或云增速。",
+    "事实/公司指引/市场共识/本稿推论：本稿引用两项已发布事实；无公司指引和可靠共识；唯一推论是“经营利润增速高于收入增速隐含利润率改善”，已标注为本稿计算。"
+  ]
+}

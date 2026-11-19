@@ -1,0 +1,58 @@
+{
+  "english_draft": "Scope: This is a historical reconstruction. It was not written before Oracle's earnings release. It uses only information public by 2026-06-10.\n\nPrior quarter baseline:\n- Oracle reported fiscal Q4 2026 results on June 10, 2026.\n- Total quarterly revenue was USD 19.2 billion, up 21% year over year.\n- Cloud revenue was USD 9.9 billion, up 47%.\n- Cloud infrastructure revenue was USD 5.8 billion, up 93%.\n- Cloud applications revenue was USD 4.1 billion, up 10%.\n- Remaining performance obligations rose from USD 553 billion to USD 638 billion during the quarter.\n- GAAP operating income was USD 6.1 billion. Non-GAAP operating income was USD 8.6 billion.\n- GAAP diluted EPS was USD 1.45. Non-GAAP diluted EPS was USD 2.11.\n\nCore questions for the target quarter:\n- Will cloud infrastructure revenue growth remain close to the prior level of 93%?\n- Will cloud applications revenue growth hold at about 10%?\n- Will RPO continue to increase by a large amount in one quarter?\n\nPositive and negative deviations:\n- Positive signs: cloud infrastructure revenue grows faster than the prior quarter; or RPO net addition remains above USD 80 billion.\n- Negative signs: total revenue growth slows below 20%; cloud infrastructure growth falls clearly below 90%; SaaS growth falls below 10%; RPO net addition slows sharply.\n\nVerification points:\n- Compare total revenue growth with 21%.\n- Compare IaaS growth with 93%.\n- Compare SaaS growth with 10%.\n- Compare RPO with 638 billion.\n- Compare non-GAAP EPS with USD 2.11.\n- Compare GAAP EPS with USD 1.45.\n\nAnalysis:\n- There was no contemporaneous preview attached to this reconstruction. Therefore we cannot compare a real preview with the actual result.",
+  "reader_questions": [
+    "目标季度是否指Oracle 2027财年第一季度（截至2026年8月31日），而非自然年2026年第三季度？如果口径不同，上一季度的财务比较基准会改变。",
+    "RPO从553B增至638B是否全部与云业务相关？如果大部分来自非云合同，用RPO衡量云需求会高估。",
+    "上季GAAP经营利润6.1B与non-GAAP经营利润8.6B之间的差异是否包含一次性项目？若包含，下一季利润增速的可持续性判断会不同。"
+  ],
+  "fact_checks": [
+    {
+      "item": "发布日期与财季",
+      "check": "Oracle于2026-06-10发布2026财年Q4及全年业绩；对应自然年2026Q2。",
+      "classification": "事实（公司披露）",
+      "source": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx"
+    },
+    {
+      "item": "总营收",
+      "check": "季度总营收19.2B美元，同比+21%。币种为美元，季度口径。",
+      "classification": "事实（公司披露）",
+      "source": "provided facts"
+    },
+    {
+      "item": "云收入拆分",
+      "check": "云收入合计9.9B美元，+47%；IaaS 5.8B美元，+93%；SaaS 4.1B美元，+10%。均为季度、美元。",
+      "classification": "事实（公司披露，集团/分部已区分）",
+      "source": "provided facts"
+    },
+    {
+      "item": "RPO",
+      "check": "剩余履约义务由553B美元增至638B美元，属已签约未确认收入。",
+      "classification": "事实（公司披露）",
+      "source": "provided facts"
+    },
+    {
+      "item": "利润与EPS",
+      "check": "GAAP经营利润6.1B美元；non-GAAP经营利润8.6B美元；GAAP EPS 1.45美元；non-GAAP EPS 2.11美元。GAAP/non-GAAP已注明，均为集团季度口径。",
+      "classification": "事实（公司披露）",
+      "source": "provided facts"
+    },
+    {
+      "item": "下季指引与市场共识",
+      "check": "所附资料未提供2026年9月季度官方指引或可靠市场共识；本稿不引用，标为待核。",
+      "classification": "资料不足/待核",
+      "source": "无"
+    },
+    {
+      "item": "目标季度口径",
+      "check": "按任务元数据target_event_date=2026-09-10，目标季度为自然年2026Q3/公司2027财年Q1。",
+      "classification": "本稿推论（来自元数据，非来源正文）",
+      "source": "user metadata"
+    },
+    {
+      "item": "计算项",
+      "check": "GAAP经营利润率=6.1/19.2≈31.8%；non-GAAP经营利润率=8.6/19.2≈44.8%；IaaS占总营收≈30%。以上为根据披露数字的本稿计算。",
+      "classification": "本稿推论",
+      "source": "provided facts"
+    }
+  ]
+}

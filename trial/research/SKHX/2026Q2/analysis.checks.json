@@ -1,0 +1,19 @@
+{
+  "english_draft": "No contemporaneous Preview exists in the reviewed source set. The review uses only SK hynix's official Q2 2026 release dated July 29, 2026.\n\nSK hynix reported Q2 2026 K-IFRS consolidated revenue of 79.3187 trillion KRW. Operating profit was 60.5426 trillion KRW. Operating margin was 76%. Net profit was 93.9226 trillion KRW. Net margin was 118%. Revenue rose 51% quarter over quarter. Operating profit rose 61%. Net profit rose 133%. Revenue rose 257% year over year. Operating profit rose 557%. Net profit rose 1,242%. First-half cumulative revenue exceeded 100 trillion KRW for the first time.\n\nThe quarter surpassed SK hynix's prior record set in Q1 2026. HBM, AI-server DRAM, and eSSD led the product mix. DRAM and NAND prices rose significantly quarter over quarter. HBM4 mass shipments began in Q2. HBM4E completed sample shipments in H1. SOCAMM2 sales grew. 1c DRAM shipments started. 321-layer NAND became the largest share of production. The company plans to expand 321-layer to about 50% of domestic production capacity by end of 2026.\n\nCash and cash equivalents reached 88 trillion KRW. Total debt was 18.6 trillion KRW. Net cash was 69.4 trillion KRW.\n\nThe company finalized long-term agreements with about 10 customers. It plans to accelerate M15X, open the Yongin Phase 1 cleanroom in early 2027, and phase P&T7, M17, and a new cluster by customer demand and CapEx discipline.\n\nThe release reports net profit above operating profit but does not disclose the non-operating items. This review does not infer a source for the difference. The release provides no market consensus or analyst estimates. This review does not construct an expectation gap.",
+  "reader_questions": [
+    "净利率118%高于营业利润率76%，新闻稿未解释非营业损益来源；若不澄清，盈利质量是否会被误读为经营活动本身？这会不会改变对利润可持续性的判断？",
+    "新闻稿说HBM、AI服务器DRAM、eSSD是主要动力，但没有披露三类产品的收入占比或平均售价；如果没有结构占比，本季高利润可能主要来自涨价还是结构升级，是否无法区分？",
+    "LTA约10家客户未披露客户名单、合同金额和锁价机制；M15X、龙仁、P&T7、M17等扩产也未给出CapEx总额。若后续资本开支大幅超过净现金改善速度，官方所称财务健康是否需重新评估？"
+  ],
+  "fact_checks": [
+    "来源与日期：官方新闻稿标题为 SK hynix Announces 2Q26 Financial Results，发布于 2026-07-29，链接已核对。",
+    "币种与单位：正文用万亿韩元，表格用十亿韩元（79,318.7B = 79.3187T），本稿统一用万亿韩元。",
+    "会计准则与范围：K-IFRS 合并集团口径，非 US GAAP；新闻稿明确为初步数据、未经独立审计。",
+    "季度比较：2026Q2 环比 2026Q1：收入 +51%、营业利润 +61%、净利润 +133%；同比 2025Q2：收入 +257%、营业利润 +557%、净利润 +1,242%，与新闻稿表格一致。",
+    "利润与利润率：营业利润 60.5426T、营业利润率 76%；净利润 93.9226T、净利率 118%。净利润高于营业利润，来源未解释非营业损益，本稿不推断。",
+    "产品事实：HBM4 Q2 量产出货、HBM4E H1 完成样品出货、SOCAMM2 销售增长、1c 制程产品出货启动、321层 NAND 为最大产量占比，均为新闻稿所述。",
+    "公司指引（非共识或本稿推论）：LTAs 约 10 家、321层年底约 50% 国内产能、M15X 加速、龙仁一期洁净室 2027 年初启用、P&T7/M17/新集群分阶段投资、CapEx 纪律。",
+    "Preview 状态：来源中没有写于财报前的同期 Preview；本稿未事后补写，也不把事后历史重建稿当作当时预测复核。",
+    "市场共识：新闻稿未包含分析师预期或共识，本稿不构造预期差。"
+  ]
+}

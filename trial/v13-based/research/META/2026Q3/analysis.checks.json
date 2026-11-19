@@ -1,0 +1,17 @@
+{
+  "english_draft": "Meta published its third quarter 2026 results on 2026-10-21.\nThe reporting period ended on 2026-09-30.\nThis analysis uses only the linked official press release.\n\nWe found no preview written before the results.\nWe do not create a retrospective preview.\n\nRevenue was USD 64.601 billion.\nThis was 26% higher than the prior year.\nGAAP operating income was USD 12.988 billion.\nThis amount included a litigation charge of USD 9.89 billion.\nThe company said that operating income without this charge would be USD 22.88 billion.\nThis company-provided alternative is not a GAAP measure.\n\nOperating cash flow was USD 32.79 billion.\nCapital expenditure including finance lease principal was USD 34.91 billion.\nFree cash flow was negative USD 2.12 billion.\nThis is operating cash flow minus capital expenditure including finance lease principal.\n\nFor Q4 2026, the company guided revenue to USD 73-76 billion.\nFor 2026, it guided capital expenditure to USD 135-145 billion.\n\nThe verified facts contain no product-segment profit data.\nThis analysis does not infer such data.",
+  "reader_questions": [
+    "GAAP 营业利润 129.88 亿美元已经包含 98.90 亿美元诉讼费用；只看这个数字是否低估当季经常性盈利能力？公司给出的 228.80 亿美元反事实口径是否更接近经营常态？",
+    "自由现金流为 -21.20 亿美元，原因是资本开支（349.10 亿美元）高于经营现金流（327.90 亿美元）；这是投入期特征还是现金流质量恶化？",
+    "Q4 营收指引 730 亿—760 亿美元，隐含较 Q3 营收 646.01 亿美元约 13%—18% 的环比增长；评估该指引时，是否应将环比季节性与同比 26% 分开看？"
+  ],
+  "fact_checks": [
+    "来源核对：官方稿发布日期 2026-10-21，季度截至 2026-09-30；链接标题为 Meta Reports Third Quarter 2026 Results。一致。",
+    "收入核对：营业收入 646.01 亿美元（USD 64.601B），同比 +26%。一致。",
+    "利润核对：GAAP 营业利润 129.88 亿美元（USD 12.988B），含 98.90 亿美元（USD 9.89B）诉讼费用；公司提供的无此项费用对照口径为 228.80 亿美元（USD 22.88B），该口径是反事实，非 GAAP 实际。一致。",
+    "现金流核对：经营现金流 327.90 亿美元（USD 32.79B）；资本开支含融资租赁本金 349.10 亿美元（USD 34.91B）；自由现金流 -21.20 亿美元（USD -2.12B），与 OCF 减 capex 算术结果一致。",
+    "指引核对：Q4 2026 营收指引 730 亿—760 亿美元（USD 73-76B）；2026 全年资本开支指引 1350 亿—1450 亿美元（USD 135-145B）。均为前瞻指引。",
+    "边界核对：已核实信息不包含净利润、EPS、税率、分部收入、用户数、市场共识或股价；本文未使用这些数据。",
+    "Preview 核对：preview_status 为“无同期 Preview；另有事后历史资料重建稿，不可当作当时预测复核”，因此 Analysis 明示无同期 Preview，不进行回溯预测复核。"
+  ]
+}

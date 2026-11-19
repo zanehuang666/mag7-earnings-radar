@@ -1,33 +1,33 @@
-# Meta（META）2026Q3｜财报后资料索引
+# Meta（META）2026Q3 财报分析
 
-> 自动整理的资料索引，尚不是经逐季财报核对的完整研究文章。
+信息截止：2026-11-19 12:00（北京时间）。本稿仅基于 Meta 于 2026-10-21 发布的第三季度官方业绩稿：[Meta Reports Third Quarter 2026 Results](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/)。
 
-- 财报日：2026-10-21（已发布）
-- 财报期：Sep 2026
+## Preview 复核
 
-## 已核实资料与待复核判断
+**无同期 Preview。** 在本次分析所使用的资料中，未发现撰写于财报发布前的 Preview；另有一份事后历史资料重建稿，但不属于财报前预测，不能用于预测复核。本稿不事后补写预测判断。
 
-- Meta official Q3 2026 release dated 2026-10-21; quarter ended 2026-09-30.
-- Revenue USD 64.601 billion, +26% year over year; GAAP operating income USD 12.988 billion.
-- Q3 GAAP expenses include USD 9.89 billion litigation charge; without it operating income would be USD 22.88 billion. This is a company-provided counterfactual, not GAAP actual.
-- Operating cash flow USD 32.79 billion; free cash flow negative USD 2.12 billion; capex including finance lease principal USD 34.91 billion.
-- Q4 2026 revenue guidance USD 73-76 billion; 2026 capex guidance USD 135-145 billion.
+## 实际结果
 
-### 正式版确定性摘要（Nasdaq / 行情口径）
+季度：截至 2026-09-30 的三个月。
 
-Nasdaq 历史日历记录实际 EPS $7.40、公开一致预期 $6.52，对应预期差 +13.50%
+- 营业收入：646.01 亿美元（USD 64.601B），同比 +26%。
+- GAAP 营业利润：129.88 亿美元（USD 12.988B）。该数字已包含 98.90 亿美元（USD 9.89B）诉讼相关费用；若不包含该项费用，公司给出的金额为 228.80 亿美元（USD 22.88B）。该金额是公司提供的反事实，不是 GAAP 实际。
+- 经营现金流：327.90 亿美元（USD 32.79B）。
+- 资本开支（含融资租赁本金）：349.10 亿美元（USD 34.91B）。
+- 自由现金流：-21.20 亿美元（USD -2.12B），与经营现金流减去资本开支（含融资租赁本金）的算术结果一致。
 
-该摘要只提供公开 EPS 或价格反应线索，不能代替公司财报正文。
+## 利润与现金流原因
 
-### 后续核对
+营业收入同比增长 26%，是营业利润的收入端支撑；但 GAAP 营业利润被 98.90 亿美元诉讼相关费用拉低。公司给出的 228.80 亿美元“无该项费用”对照口径显示剔除该项费用后的盈利水平，但该口径不是 GAAP 实际，也未提供完整调整后利润表。
 
-- 广告价格和展示量：实际结果、指引与下季变化。
-- 应用家族利润率：实际结果、指引与下季变化。
-- AI 资本开支：实际结果、指引与下季变化。
+现金流方面，经营现金流（327.90 亿美元）低于资本开支（349.10 亿美元），使自由现金流转负。已核实信息未包含资本开支具体投向或产品分部利润，因此本文不推断相关产品表现。
 
-## 来源与状态
+## 原判断复核
 
-- [原始资料 1](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/)
-- [原始资料 2](https://api.nasdaq.com/api/company/META/earnings-surprise)
+因无同期 Preview，无法进行“预测 vs 实际”的复核。经核验，本稿所有数字与官方来源一致；本文未使用市场共识、股价或其他未经披露的数据。
 
-资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
+## 下一季要点
+
+- 公司指引 Q4 2026 营收为 730 亿—760 亿美元（USD 73-76B），可作为下季收入观察基准。
+- 公司指引 2026 全年资本开支为 1350 亿—1450 亿美元（USD 135-145B），需关注最终披露值是否落入区间。
+- 若 Q4 仍出现大额诉讼费用或特殊项目，应区分 GAAP 营业利润与公司调整口径。

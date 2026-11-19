@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T17:05:26.246269+00:00",
+  "generated_at": "2026-11-19T17:07:30.647810+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -84,11 +84,11 @@
           "historical_reconstruction": false
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/NVDA/2026Q4/analysis.md",
           "source_packet": "source-packets/NVDA/2026Q4/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-11-19T10:11:19.339698+00:00",
+          "source_digest": "617563b838ea6cc3d466eec260d1de69de8c6be01c83b766367bde6e77e12a58",
           "historical_reconstruction": false
         }
       }
@@ -145,11 +145,11 @@
       "date": "2026-10-29",
       "stages": {
         "preview": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/INTC/2026Q3/preview.md",
           "source_packet": "source-packets/INTC/2026Q3/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-07-23T23:59:59",
+          "source_digest": "0c151b4974c1c10d9071b9388ba3f80dddc5c55ad0f3f6a0e42f564b4aa0b407",
           "historical_reconstruction": true
         },
         "analysis": {
@@ -176,11 +176,11 @@
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/SMSN/2026Q3/analysis.md",
           "source_packet": "source-packets/SMSN/2026Q3/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-11-19T05:58:31.328454+00:00",
+          "source_digest": "ce2103558c0a87a0dd765ffbfa94169ad8175d0a33f41ad06039e7fecd8fdf0c",
           "historical_reconstruction": false
         }
       }
@@ -222,11 +222,11 @@
           "historical_reconstruction": false
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/MSFT/2026Q3/analysis.md",
           "source_packet": "source-packets/MSFT/2026Q3/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-11-19T10:11:19.336769+00:00",
+          "source_digest": "e4ed02aba412e6d951dceb928ff044003df0f9eaf09db9169a6662750a2b5170",
           "historical_reconstruction": false
         }
       }
@@ -237,19 +237,19 @@
       "date": "2026-10-28",
       "stages": {
         "preview": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/SKHX/2026Q3/preview.md",
           "source_packet": "source-packets/SKHX/2026Q3/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-07-29T23:59:59",
+          "source_digest": "13416db9dc9b220bd9882e3fe21282a8d1ba86a88e5a36bbdac827ba42a1a142",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/SKHX/2026Q3/analysis.md",
           "source_packet": "source-packets/SKHX/2026Q3/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-11-19T05:59:23.950711+00:00",
+          "source_digest": "5465e7329aaace5f65d519899413ed7e9ad97eb8965ebf732bd92f15c3635eae",
           "historical_reconstruction": false
         }
       }
@@ -260,19 +260,19 @@
       "date": "2026-10-21",
       "stages": {
         "preview": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/META/2026Q3/preview.md",
           "source_packet": "source-packets/META/2026Q3/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-07-29T23:59:59",
+          "source_digest": "bcfc41dfa293f11cee77dbcfe89504fc39b65b675b18c9192dc2b27b772b6c87",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/META/2026Q3/analysis.md",
           "source_packet": "source-packets/META/2026Q3/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-11-19T12:00:00+08:00",
+          "source_digest": "98761553e86949c6daa73bdbbf9fdf0b80159ca63bbb2aacdca0775bfca6358c",
           "historical_reconstruction": false
         }
       }
@@ -291,7 +291,7 @@
           "historical_reconstruction": false
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "generation_failed",
           "path": "research/MU/2026Q3/analysis.md",
           "source_packet": "source-packets/MU/2026Q3/analysis.json",
           "cutoff": null,
@@ -306,19 +306,19 @@
       "date": "2026-09-10",
       "stages": {
         "preview": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/ORCL/2026Q3/preview.md",
           "source_packet": "source-packets/ORCL/2026Q3/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-06-10T23:59:59",
+          "source_digest": "dc6e32e718d910a3357398d46ddce575bae3e30ceccd5bc337354e429a20ab68",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/ORCL/2026Q3/analysis.md",
           "source_packet": "source-packets/ORCL/2026Q3/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-11-19T12:00:00+08:00",
+          "source_digest": "82b0a45959f89804264d1a21ed862d79174554d6dec6ce66ed69ad89d6a8c8b0",
           "historical_reconstruction": false
         }
       }
@@ -329,19 +329,19 @@
       "date": "2026-09-02",
       "stages": {
         "preview": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/AVGO/2026Q3/preview.md",
           "source_packet": "source-packets/AVGO/2026Q3/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-06-03T23:59:59",
+          "source_digest": "3bff5725400cf3c6a3ace5c24e3e820567cbe1a93e25e7a34e00f1e6012b5dd6",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/AVGO/2026Q3/analysis.md",
           "source_packet": "source-packets/AVGO/2026Q3/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-11-19T12:00:00+08:00",
+          "source_digest": "c64e39bb2670d54b9f813b985c3c998fb6537b33848752ec777ae3da16423ae6",
           "historical_reconstruction": false
         }
       }
@@ -421,19 +421,19 @@
       "date": "2026-07-30",
       "stages": {
         "preview": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/SMSN/2026Q2/preview.md",
           "source_packet": "source-packets/SMSN/2026Q2/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-04-30T23:59:59",
+          "source_digest": "e50941c53622e6bfd48c67bb52cd6e3e4a05785323b1f36e044986867513d34e",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/SMSN/2026Q2/analysis.md",
           "source_packet": "source-packets/SMSN/2026Q2/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-11-19T05:58:29.318383+00:00",
+          "source_digest": "e301f3db99201d4a4b0e71418aeec758ecfd5ca27798b26e60ce7f3aa9800abb",
           "historical_reconstruction": false
         }
       }
@@ -444,19 +444,19 @@
       "date": "2026-07-29",
       "stages": {
         "preview": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/META/2026Q2/preview.md",
           "source_packet": "source-packets/META/2026Q2/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-04-29T23:59:59",
+          "source_digest": "859085ea3f523072449ad9e6a8433d9aa452e53cea95d2a81db8c3277dd7ac19",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/META/2026Q2/analysis.md",
           "source_packet": "source-packets/META/2026Q2/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-07-29T23:59:59",
+          "source_digest": "1af90ecadac0bf41de4eeb792eb9a97b9bfb6d2f13cee6d623041142d8fa6b88",
           "historical_reconstruction": false
         }
       }
@@ -490,19 +490,19 @@
       "date": "2026-07-29",
       "stages": {
         "preview": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/SKHX/2026Q2/preview.md",
           "source_packet": "source-packets/SKHX/2026Q2/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-04-23T23:59:59",
+          "source_digest": "d8dae815877f77363b3fca7d4e64272f6050941a5c7f3760ce064241d17768da",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/SKHX/2026Q2/analysis.md",
           "source_packet": "source-packets/SKHX/2026Q2/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-11-19T05:59:14.885795+00:00",
+          "source_digest": "dd9b5b7c4d02f7ab096cc64bfb8d9ce780fbf9bee3783ce4e99c1f32d15ff5e6",
           "historical_reconstruction": false
         }
       }
@@ -513,15 +513,15 @@
       "date": "2026-07-23",
       "stages": {
         "preview": {
-          "status": "baseline_source_limited",
+          "status": "generated_review_pending",
           "path": "research/INTC/2026Q2/preview.md",
           "source_packet": "source-packets/INTC/2026Q2/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-04-23T23:59:59",
+          "source_digest": "7e0a996339e16868533464c0a0a66c597c04425f3b411e7ce758aad196083af2",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/INTC/2026Q2/analysis.md",
           "source_packet": "source-packets/INTC/2026Q2/analysis.json",
           "cutoff": null,
@@ -582,7 +582,7 @@
       "date": "2026-06-10",
       "stages": {
         "preview": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/ORCL/2026Q2/preview.md",
           "source_packet": "source-packets/ORCL/2026Q2/preview.json",
           "cutoff": null,
@@ -590,7 +590,7 @@
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/ORCL/2026Q2/analysis.md",
           "source_packet": "source-packets/ORCL/2026Q2/analysis.json",
           "cutoff": null,
@@ -605,7 +605,7 @@
       "date": "2026-06-03",
       "stages": {
         "preview": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/AVGO/2026Q2/preview.md",
           "source_packet": "source-packets/AVGO/2026Q2/preview.json",
           "cutoff": null,
@@ -613,7 +613,7 @@
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/AVGO/2026Q2/analysis.md",
           "source_packet": "source-packets/AVGO/2026Q2/analysis.json",
           "cutoff": null,
@@ -674,7 +674,7 @@
       "date": "2026-04-30",
       "stages": {
         "preview": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/SMSN/2026Q1/preview.md",
           "source_packet": "source-packets/SMSN/2026Q1/preview.json",
           "cutoff": null,
@@ -682,7 +682,7 @@
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/SMSN/2026Q1/analysis.md",
           "source_packet": "source-packets/SMSN/2026Q1/analysis.json",
           "cutoff": null,
@@ -743,7 +743,7 @@
       "date": "2026-04-29",
       "stages": {
         "preview": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/META/2026Q1/preview.md",
           "source_packet": "source-packets/META/2026Q1/preview.json",
           "cutoff": null,
@@ -751,7 +751,7 @@
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/META/2026Q1/analysis.md",
           "source_packet": "source-packets/META/2026Q1/analysis.json",
           "cutoff": null,
@@ -789,7 +789,7 @@
       "date": "2026-04-23",
       "stages": {
         "preview": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/INTC/2026Q1/preview.md",
           "source_packet": "source-packets/INTC/2026Q1/preview.json",
           "cutoff": null,
@@ -797,7 +797,7 @@
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/INTC/2026Q1/analysis.md",
           "source_packet": "source-packets/INTC/2026Q1/analysis.json",
           "cutoff": null,
@@ -812,7 +812,7 @@
       "date": "2026-04-23",
       "stages": {
         "preview": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/SKHX/2026Q1/preview.md",
           "source_packet": "source-packets/SKHX/2026Q1/preview.json",
           "cutoff": null,
@@ -820,7 +820,7 @@
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/SKHX/2026Q1/analysis.md",
           "source_packet": "source-packets/SKHX/2026Q1/analysis.json",
           "cutoff": null,
@@ -866,7 +866,7 @@
           "historical_reconstruction": false
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/ORCL/2026Q1/analysis.md",
           "source_packet": "source-packets/ORCL/2026Q1/analysis.json",
           "cutoff": null,
@@ -889,7 +889,7 @@
           "historical_reconstruction": false
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/AVGO/2026Q1/analysis.md",
           "source_packet": "source-packets/AVGO/2026Q1/analysis.json",
           "cutoff": null,
@@ -996,7 +996,7 @@
       "date": "2026-01-29",
       "stages": {
         "preview": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/SMSN/2025Q4/preview.md",
           "source_packet": "source-packets/SMSN/2025Q4/preview.json",
           "cutoff": null,
@@ -1004,7 +1004,7 @@
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/SMSN/2025Q4/analysis.md",
           "source_packet": "source-packets/SMSN/2025Q4/analysis.json",
           "cutoff": null,
@@ -1027,7 +1027,7 @@
           "historical_reconstruction": false
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/META/2025Q4/analysis.md",
           "source_packet": "source-packets/META/2025Q4/analysis.json",
           "cutoff": null,
@@ -1065,7 +1065,7 @@
       "date": "2026-01-28",
       "stages": {
         "preview": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/SKHX/2025Q4/preview.md",
           "source_packet": "source-packets/SKHX/2025Q4/preview.json",
           "cutoff": null,
@@ -1073,7 +1073,7 @@
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/SKHX/2025Q4/analysis.md",
           "source_packet": "source-packets/SKHX/2025Q4/analysis.json",
           "cutoff": null,
@@ -1088,7 +1088,7 @@
       "date": "2026-01-22",
       "stages": {
         "preview": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/INTC/2025Q4/preview.md",
           "source_packet": "source-packets/INTC/2025Q4/preview.json",
           "cutoff": null,
@@ -1096,7 +1096,7 @@
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "baseline_source_limited",
+          "status": "queued_call_limit",
           "path": "research/INTC/2025Q4/analysis.md",
           "source_packet": "source-packets/INTC/2025Q4/analysis.json",
           "cutoff": null,
@@ -1106,8 +1106,10 @@
       }
     }
   },
-  "errors": {},
-  "model_calls": 0,
-  "call_limit": 0,
+  "errors": {
+    "MU/2026Q3/analysis": "invalid draft, reader check, reconstruction label, or citation after retry"
+  },
+  "model_calls": 20,
+  "call_limit": 20,
   "note": "Drafts need source and editorial review; old structured summaries are not used for first-tier reading."
 }

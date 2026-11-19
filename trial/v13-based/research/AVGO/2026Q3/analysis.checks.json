@@ -1,0 +1,14 @@
+{
+  "english_draft": "English draft (process record):\nThe source is Broadcom's official FY2026 Q3 release, dated 2026-09-02. The quarter ended on 2026-08-02.\nRevenue was about USD 29.6 billion. This is 86% higher than one year earlier.\nGAAP operating income was USD 16.0 billion. Non-GAAP operating income was USD 20.1 billion.\nThe CEO said AI semiconductor revenue was USD 16.7 billion. This is 221% higher than one year earlier.\nOperating cash flow was USD 14.2 billion. Capex was USD 0.5 billion. Free cash flow was USD 13.7 billion.\nThe company forecast Q4 FY2026 revenue of about USD 34.8 billion. It expects AI semiconductor revenue of USD 21.7 billion.\nNo preview was written before the release. Therefore, no expectation gap can be verified.",
+  "reader_questions": [
+    "AI半导体收入167亿美元的确切范围是什么？是否包含定制ASIC、网络交换和光学等全部AI相关产品？如果只包含加速器，同比增长221%对整体增长的含义会改变。",
+    "GAAP与非GAAP营业利润相差41亿美元，本稿没有调节项目明细；若主要为收购相关无形资产摊销，那么用非GAAP衡量经营趋势时会高估现金利润贡献吗？",
+    "Q4收入指引环比增加52亿美元，而AI半导体指引环比增加50亿美元；若AI收入不能完全解释环比增量，另外2亿美元来自哪里？如果指引包含某些大客户的提前拉货，下一季的可预测性就会不同。"
+  ],
+  "fact_checks": [
+    "第一轮：新闻稿日期为2026-09-02；财季截至2026-08-02；作者写的FY2026Q3与此一致。",
+    "口径：收入、利润、现金流均为美元；AI半导体收入来自CEO声明，未披露为GAAP/非GAAP细分；营业利润明确区分GAAP与非GAAP。",
+    "公司指引：FY2026Q4收入约348亿美元和AI半导体收入217亿美元是forecast，不是历史实际；Q4环比增量为本稿计算。",
+    "未包含/待核：无财报前Preview，无分析师一致预期，无股价数据；因此不计算预期差，也不推断产品毛利率。"
+  ]
+}

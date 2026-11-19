@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_source_missing",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "1af90ecadac0bf41de4eeb792eb9a97b9bfb6d2f13cee6d623041142d8fa6b88",
+  "cutoff": "2026-07-29T23:59:59",
+  "generated_at": "2026-11-19T17:07:30.647810+00:00",
+  "sources": [
+    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx"
+  ]
 }

@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "5465e7329aaace5f65d519899413ed7e9ad97eb8965ebf732bd92f15c3635eae",
+  "cutoff": "2026-11-19T05:59:23.950711+00:00",
+  "generated_at": "2026-11-19T17:07:30.647810+00:00",
+  "sources": [
+    "https://news.skhynix.com/en/q3-2026-business-results/"
+  ]
 }

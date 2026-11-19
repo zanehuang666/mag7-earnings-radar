@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "manual_verified",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "e4ed02aba412e6d951dceb928ff044003df0f9eaf09db9169a6662750a2b5170",
+  "cutoff": "2026-11-19T10:11:19.336769+00:00",
+  "generated_at": "2026-11-19T17:07:30.647810+00:00",
+  "sources": [
+    "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast"
+  ]
 }

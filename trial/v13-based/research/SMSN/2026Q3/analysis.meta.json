@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "ce2103558c0a87a0dd765ffbfa94169ad8175d0a33f41ad06039e7fecd8fdf0c",
+  "cutoff": "2026-11-19T05:58:31.328454+00:00",
+  "generated_at": "2026-11-19T17:07:30.647810+00:00",
+  "sources": [
+    "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results"
+  ]
 }

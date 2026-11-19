@@ -7,7 +7,11 @@
 
 ## 已核实资料与待复核判断
 
-尚无逐项核实的公司官方财报资料，因此不推断收入、利润或指引的表现。
+- Fiscal Q1 2026 ended February 1, 2026; revenue USD 19.311 billion, up 29% year over year.
+- AI semiconductor revenue USD 8.4 billion, up 106% year over year; this is the CEO's stated AI measure.
+- Adjusted EBITDA USD 13.128 billion, 68% of revenue; GAAP diluted EPS USD 1.50 and non-GAAP diluted EPS USD 2.05.
+- Operating cash flow USD 8.260 billion, capex USD 0.250 billion, free cash flow USD 8.010 billion.
+- Next-quarter company guidance: total revenue approximately USD 22.0 billion and AI semiconductor revenue USD 10.7 billion; these are forecasts.
 
 ### Nasdaq EPS 线索（尚待核对财报口径）
 
@@ -22,7 +26,8 @@ Nasdaq 快照记录实际 EPS 1.76、公开一致预期 1.67、差异 5.39%。
 
 ## 来源与状态
 
-- [原始资料 1](https://api.nasdaq.com/api/calendar/earnings?date=2026-03-04)
-- [原始资料 2](https://api.nasdaq.com/api/company/AVGO/earnings-surprise)
+- [原始资料 1](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2026-financial)
+- [原始资料 2](https://api.nasdaq.com/api/calendar/earnings?date=2026-03-04)
+- [原始资料 3](https://api.nasdaq.com/api/company/AVGO/earnings-surprise)
 
 资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。

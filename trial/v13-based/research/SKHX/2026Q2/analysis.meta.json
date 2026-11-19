@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "dd9b5b7c4d02f7ab096cc64bfb8d9ce780fbf9bee3783ce4e99c1f32d15ff5e6",
+  "cutoff": "2026-11-19T05:59:14.885795+00:00",
+  "generated_at": "2026-11-19T17:07:30.647810+00:00",
+  "sources": [
+    "https://news.skhynix.com/en/q2-2026-business-results/"
+  ]
 }

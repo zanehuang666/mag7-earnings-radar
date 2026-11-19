@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": true
+  "status": "generated_review_pending",
+  "source_digest": "7e0a996339e16868533464c0a0a66c597c04425f3b411e7ce758aad196083af2",
+  "cutoff": "2026-04-23T23:59:59",
+  "generated_at": "2026-11-19T17:07:30.647810+00:00",
+  "sources": [
+    "https://www.intc.com/news-events/press-releases/detail/1767/intel-reports-first-quarter-2026-financial-results"
+  ]
 }

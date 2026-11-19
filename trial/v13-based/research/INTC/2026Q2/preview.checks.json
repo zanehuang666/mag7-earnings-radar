@@ -1,0 +1,23 @@
+{
+  "english_draft": "Historical-reconstruction preview for Intel 2026Q2 (target event date 2026-07-23). This draft uses only Intel's Q1 2026 press release published on 2026-04-23. It is not a contemporaneous forecast.\n\nConclusion: Intel guides Q2 2026 revenue of $13.8 to $14.8 billion. Intel guides GAAP diluted EPS of $0.08. Intel guides non-GAAP diluted EPS of $0.20. Intel guides GAAP gross margin of 37.5%. Intel guides non-GAAP gross margin of 39.0%. The midpoint of revenue guidance implies about 5% sequential growth from Q1. Management says revenue exceeded expectations for six consecutive quarters. This is a company statement, not an external consensus.\n\nQ1 baseline: Revenue was $13.6 billion, up 7% year over year. GAAP diluted EPS was $(0.73). Non-GAAP diluted EPS was $0.29. Cash from operations was $1.1 billion. CCG revenue was $7.7 billion, up 1%. DCAI revenue was $5.1 billion, up 22%. Intel Foundry revenue was $5.4 billion, including intersegment transactions. Intel Foundry operating loss was $2.437 billion.\n\nCore questions: Can DCAI sustain its 22% growth? Why does guided gross margin fall from Q1 actual? Will Intel Foundry's operating loss narrow?\n\nUpside factors: AI inference and agentic demand increase the need for CPUs. Xeon 6 design wins include Google and NVIDIA DGX Rubin. Supply and advanced packaging expansion may improve availability. Downside factors: Q2 gross margin guidance is lower than Q1. Foundry losses and capital intensity remain high. Tariff and export-control risks are listed as uncertainties.\n\nVerification points: Compare actual revenue with $13.8 billion to $14.8 billion guidance. Check DCAI growth. Check CCG trend. Check Foundry operating loss. Check GAAP and non-GAAP gross margin and EPS. Read management comments on supply and AI demand.\n\nAnalysis: No contemporaneous preview is available. Q2 actual results were not published as of the cutoff. Therefore, actual results cannot be compared with guidance or with a prior preview.",
+  "reader_questions": [
+    "公司说“连续第六季营收高于预期”，这里指的是高于公司自己的指引还是外部共识？来源没有给出共识数字，是否应把这句话仅当作管理层表述？",
+    "Q1 GAAP EPS 为 -0.73 美元，而 Q2 指引 GAAP EPS 为 0.08 美元；两者差距是否主要因为 Q1 有 40.7 亿美元重组费用，而不是经营改善？如果不说明，读者可能误读利润趋势。",
+    "Intel Foundry 的 54 亿美元收入包含内部交易，外部代工收入未单独披露；用 Foundry 收入总额评估其外部客户进展是否会造成误判？"
+  ],
+  "fact_checks": {
+    "first_round": [
+      "Q1 2026 revenue is $13.6 billion, up 7% YoY; source shows $13,577M vs $12,667M. Verified.",
+      "Q1 GAAP diluted EPS is $(0.73); non-GAAP diluted EPS is $0.29. Verified.",
+      "Q2 2026 guidance: revenue $13.8-14.8B; GAAP EPS $0.08; non-GAAP EPS $0.20; GAAP gross margin 37.5%; non-GAAP gross margin 39.0%. Verified.",
+      "CCG revenue $7.7B, up 1%; DCAI revenue $5.1B, up 22%; Intel Foundry revenue $5.4B, up 16%; source notes business unit revenue includes intersegment transactions. Verified.",
+      "Intel Foundry operating loss is $2.437B in Q1 2026. Verified.",
+      "The 'six consecutive quarters above expectations' statement is management's claim, not an external consensus. No consensus data is in the source."
+    ],
+    "second_round": [
+      "Q2 GAAP EPS guidance of $0.08 and non-GAAP EPS of $0.20 are close because Q1 included $4.07B restructuring charges; do not imply Q2 will repeat large one-time charges.",
+      "Revenue and operating segment data must be read with intersegment eliminations; Foundry external revenue is not separately disclosed.",
+      "No reliable consensus figures are available in the source; this preview avoids claiming a beat or miss versus market consensus."
+    ]
+  }
+}

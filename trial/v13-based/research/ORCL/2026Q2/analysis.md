@@ -7,7 +7,10 @@
 
 ## 已核实资料与待复核判断
 
-尚无逐项核实的公司官方财报资料，因此不推断收入、利润或指引的表现。
+- Oracle fiscal Q4 2026 released June 10, 2026; total quarterly revenue USD 19.2 billion, up 21% year over year.
+- Quarterly cloud revenue (IaaS plus SaaS) USD 9.9 billion, up 47%; cloud infrastructure USD 5.8 billion, up 93%; cloud applications USD 4.1 billion, up 10%.
+- Remaining performance obligations increased from USD 553 billion to USD 638 billion during the quarter; this is contracted backlog, not recognized revenue.
+- Quarterly GAAP operating income USD 6.1 billion and non-GAAP operating income USD 8.6 billion; GAAP EPS USD 1.45 and non-GAAP EPS USD 2.11.
 
 ### Nasdaq EPS 线索（尚待核对财报口径）
 
@@ -22,7 +25,8 @@ Nasdaq 快照记录实际 EPS 1.79、公开一致预期 1.58、差异 13.29%。
 
 ## 来源与状态
 
-- [原始资料 1](https://api.nasdaq.com/api/calendar/earnings?date=2026-06-10)
-- [原始资料 2](https://api.nasdaq.com/api/company/ORCL/earnings-surprise)
+- [原始资料 1](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx)
+- [原始资料 2](https://api.nasdaq.com/api/calendar/earnings?date=2026-06-10)
+- [原始资料 3](https://api.nasdaq.com/api/company/ORCL/earnings-surprise)
 
 资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。

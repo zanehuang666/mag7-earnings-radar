@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "e301f3db99201d4a4b0e71418aeec758ecfd5ca27798b26e60ce7f3aa9800abb",
+  "cutoff": "2026-11-19T05:58:29.318383+00:00",
+  "generated_at": "2026-11-19T17:07:30.647810+00:00",
+  "sources": [
+    "https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results"
+  ]
 }

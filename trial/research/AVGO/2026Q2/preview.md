@@ -7,7 +7,7 @@
 
 ## 已知信息与研究问题
 
-目前没有可证明在本次财报前已公开的完整资料包；因此不填写当时的数字预期。
+本节只引用上一季 2026Q1 在 2026-03-04 已公开的资料；目标季度结果未用于构造前瞻。
 
 - 本次需核对：AI 半导体收入。
 - 本次需核对：软件业务利润。
@@ -15,6 +15,7 @@
 
 ## 来源与状态
 
-- [原始资料 1](https://api.nasdaq.com/api/calendar/earnings?date=2026-06-03)
+- [原始资料 1](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2026-financial)
+- [原始资料 2](https://api.nasdaq.com/api/calendar/earnings?date=2026-06-03)
 
 资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。

@@ -1,26 +1,38 @@
-# NVIDIA（NVDA）2026Q4｜财报后资料索引
+# NVIDIA（NVDA）2026Q4 财报分析
 
-> 自动整理的资料索引，尚不是经逐季财报核对的完整研究文章。
+> 季度对应：本报告对应 NVIDIA 会计年度 2027 财年第三季度（FY2027 Q3）。该季度截至 2026 年 10 月 25 日，归入日历 2026Q4。
 
-- 财报日：2026-11-17（已发布）
-- 财报期：Oct 2026
+## Preview（财报前预览）
 
-## 已核实资料与待复核判断
+**无同期 Preview。**
 
-- Fiscal 2027 Q3 ended October 25, 2026; this maps to calendar 2026Q4.
-- Revenue was USD 115.8 billion, up 103% year over year.
-- GAAP gross margin was 74.8%; GAAP diluted EPS was USD 2.70.
-- Data Center revenue was USD 107.6 billion.
+本次编辑所附来源中只有财报后的官方新闻稿，没有一篇写于本季度财报公布之前的预测稿。事后重建的历史资料稿不能充当当时的预测；本文不补写 Preview，也不把任何事后信息当作事前预期。
 
-### 后续核对
+## Analysis（财报分析）
 
-- 数据中心收入：实际结果、指引与下季变化。
-- 新品交付与供给：实际结果、指引与下季变化。
-- 毛利率和客户集中：实际结果、指引与下季变化。
+### 实际结果
 
-## 来源与状态
+根据 [NVIDIA 官方新闻稿](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx)：
 
-- [原始资料 1](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx)
-- [原始资料 2](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx)
+- 集团收入：1158 亿美元，同比增长 103%。
+- GAAP 毛利率：74.8%。
+- GAAP 摊薄每股收益：2.70 美元。
+- 数据中心分部收入：1076 亿美元。
 
-资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
+以上均为公司已披露的实际结果，货币单位为美元。非 GAAP 毛利率与非 GAAP 每股收益未列入所附事实，待核。
+
+### 与 Preview／指引／共识的差异
+
+无同期 Preview，因此无法做“实际结果 vs 事前预期”的复核。所附来源正文中没有公司指引或可靠市场共识数字，本文不编造任何预期值。所附事实亦未提供上季（FY2027 Q2）数字，无法做环比基准比较，待核。
+
+### 产品与利润成因
+
+数据中心收入 1076 亿美元，按本稿推算占集团收入的约 92.9%（1076 ÷ 1158）；其余业务合计约 82 亿美元，仅占约 7.1%。这一集中度说明 AI 基础设施需求仍是本季度收入与利润增长的核心来源。GAAP 毛利率 74.8% 为公司披露值；其环比变化和非 GAAP 口径需完整发布稿正文确认。
+
+### 原判断复核
+
+不适用。没有同期 Preview，本稿没有可复核的事前判断。
+
+### 下一季要点
+
+下一季度为 FY2027 Q4（截至约 2027 年 1 月末）。建议关注：数据中心收入增速能否延续、GAAP 毛利率走向、公司对下一财年的正式指引，以及非 GAAP 盈利能力指标（待核）。

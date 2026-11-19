@@ -1,0 +1,17 @@
+{
+  "english_draft": "SK hynix published Q3 2026 results on October 28, 2026. The source is the official newsroom release. Revenue reached 104,615.5 billion KRW. Operating profit reached 83,333.8 billion KRW. Net profit reached 39,775.6 billion KRW. Revenue rose 32% quarter over quarter. Operating profit rose 38% quarter over quarter. Net profit fell 58% quarter over quarter. The release does not explain the net profit decline. Q2 net profit was 93,922.6 billion KRW. The results are K-IFRS consolidated figures. They are preliminary and subject to audit. The table uses billion KRW. The text uses trillion KRW. Revenue exceeded 100 trillion won for the first time in a quarter.\n\nBy product, server DDR5 sales increased. HBM4 shipments began. 321-layer TLC eSSD sales expanded. The company expects HBM4 to pass HBM3E in shipments and revenue in Q4. This is guidance, not actual Q4 results. The company signed long-term agreements with 14 customers. The agreements cover more than 50% of 2027 and 2028 production capacity. The company expects memory supply shortage to continue through 2030.\n\nFor fiscal 2026, the company plans about 100 trillion won in shareholder returns. The plan includes at least 30 trillion won in cash dividends and at least 60 trillion won in buybacks and cancellations. Q3 board actions include a 14 trillion won dividend and a 20 trillion won buyback. The dividend is 20,000 won per share, including a 10,000 won special dividend. The buyback includes about 10 trillion won for employee compensation, which is not counted in shareholder returns. The 40 trillion won buyback announced in August was completed. The Solidigm IPO review was discontinued.\n\nThere is no contemporaneous Preview. I did not write a backward-looking review. I did not invent consensus numbers.",
+  "reader_questions": [
+    "Q3 净利润 39.8 万亿韩元环比 -58%，而营业利润环比 +38%、营业利润率 80%；这是否说明净利润口径受到一次性损益或税费的显著干扰？若只看经营性利润，Q3 的盈利趋势是否仍为历史新高？",
+    "新闻稿把 20 万亿回购中的约 10 万亿用于员工薪酬并排除在股东回报之外，那么 2026 财年“约 100 万亿股东回报”的实际现金支出是否只有约 90 万亿，且特别股息是否依赖 Kioxia 一次性收益？",
+    "HBM4 将在 Q4 超过 HBM3E 是公司预测而非已实现数据；若 Q4 未兑现，公司“主流产品”的判断是否会被推翻？LTA 覆盖 2027—2028 年产能 50% 以上是否已包含价格下限承诺，而未披露订单价格区间？"
+  ],
+  "fact_checks": [
+    "核实发布日期为 2026-10-28，来源为 SK hynix 官方新闻室，正文与表格一致。",
+    "核实财报口径：K-IFRS 合并，初步数据，未经独立审计；表格单位为十亿韩元，正文用万亿韩元；营收 104,615.5、营业利润 83,333.8、净利润 39,775.6。",
+    "核实上季基准：2026Q2 营收 79,318.7、营业利润 60,542.6、净利润 93,922.6；营收环比 +32%、营业利润环比 +38%、净利润环比 -58%，同比增幅 328%/632%/216% 与表格一致。",
+    "核实无同期 Preview：所附资料中没有财报前写成的 SKHX 2026Q3 Preview，只有事后历史资料重建稿，不可当作当时预测复核，故不进行预测复盘。",
+    "核实 HBM4 超过 HBM3E、321 层占本土产能过半、LTA 覆盖 2027—2028 年产能 50% 以上均为公司指引或协议披露，非已实现业绩。",
+    "核实股东回报口径：约 100 万亿为 2026 财年计划；20 万亿回购中约 10 万亿用于员工薪酬、不计入股东回报；Q3 每股 2 万韩元含 1 万韩元特别股息。",
+    "核实未经来源说明的项目：净利润环比下降原因、市场共识数据、Solidigm IPO 中止的财务影响；正文未作推断。"
+  ]
+}

@@ -1,33 +1,27 @@
-# Oracle（ORCL）2026Q3｜财报后资料索引
+# Oracle（ORCL）2026Q3（FY2027Q1）财报分析
 
-> 自动整理的资料索引，尚不是经逐季财报核对的完整研究文章。
+**数据截至**：2026-11-19T12:00:00+08:00  
+**官方发布**：[Oracle Announces Q1 Results Driven by Triple-Digit Growth in Cloud Infrastructure Revenues](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/)，发布日期2026-09-10，季度结束于2026-08-31。  
+**同期 Preview**：无同期 Preview；另有事后历史资料重建稿，不可当作当时预测复核。
 
-- 财报日：2026-09-10（已发布）
-- 财报期：Aug 2026
+## 结论
 
-## 已核实资料与待复核判断
+Oracle FY2027Q1（日历2026Q3）总营收193.45亿美元，同比+30%；云收入116.07亿美元，同比+62%，占总营收约60%。增长核心是云基础设施（IaaS）收入约74亿美元，同比+121%；云应用（SaaS）收入约42亿美元，同比+10%。IaaS与SaaS相加约116亿美元，与云总收入116.07亿美元吻合。云基础设施是主要引擎，SaaS增速明显落后。
 
-- Oracle official FY2027 Q1 release dated 2026-09-10; quarter ended 2026-08-31.
-- Total revenue USD 19.345 billion, +30% year over year; Cloud revenue USD 11.607 billion, +62% year over year.
-- Cloud Infrastructure IaaS revenue about USD 7.4 billion, +121% year over year; Cloud Applications SaaS about USD 4.2 billion, +10% year over year.
-- GAAP operating income about USD 6.7 billion; non-GAAP operating income about USD 8.2 billion. Distinguish these bases.
-- Remaining performance obligations USD 664 billion. Company says Q1 free cash flow was negative USD 5 billion.
+## 实际结果与口径
 
-### Nasdaq EPS 线索（尚待核对财报口径）
+无同期Preview，因此不进行前瞻差异复核。官方发布未提供未来季度指引或可靠市场共识，本稿不判断“超预期/低于预期”。
 
-Nasdaq 快照记录实际 EPS 1.63、公开一致预期 1.39、差异 17.27%。
-此处不推断 GAAP、非 GAAP或拆股调整口径，也不据此单独判断财报质量。
+- GAAP经营利润约67亿美元；non-GAAP经营利润约82亿美元。二者口径不同，不能混用；来源未逐项披露差异构成。
+- 剩余履约义务（RPO）约6640亿美元，显示在手合约规模。
+- 自由现金流为负50亿美元（公司披露口径）。来源未给出资本开支或营运资本明细，本稿不补充未披露原因。
 
-### 后续核对
+## 原判断复核
 
-- 云基础设施收入：实际结果、指引与下季变化。
-- 剩余履约义务与转化：实际结果、指引与下季变化。
-- 资本开支与现金流：实际结果、指引与下季变化。
+无同期Preview，不做“此前判断”复核；基于事后资料重建的历史稿不具备预测复核效力。
 
-## 来源与状态
+## 下一季要点
 
-- [原始资料 1](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/)
-- [原始资料 2](https://api.nasdaq.com/api/calendar/earnings?date=2026-09-10)
-- [原始资料 3](https://api.nasdaq.com/api/company/ORCL/earnings-surprise)
+下一季为FY2027Q2（2026年10—12月）。需观察：IaaS能否延续三位数增长；RPO转化为收入的节奏；SaaS增速是否回升；自由现金流能否转正或收敛。以上均为验证点，不是预测。
 
-资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
+来源：Oracle官方新闻稿（见上链接）

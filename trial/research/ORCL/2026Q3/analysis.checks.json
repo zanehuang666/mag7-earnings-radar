@@ -1,0 +1,15 @@
+{
+  "english_draft": "Oracle published its FY2027 Q1 results on 2026-09-10. The quarter ended on 2026-08-31. Total revenue was USD 19.345 billion. Revenue increased 30 percent year over year. Cloud revenue was USD 11.607 billion. Cloud revenue increased 62 percent year over year. IaaS revenue was about USD 7.4 billion. IaaS revenue increased 121 percent year over year. SaaS revenue was about USD 4.2 billion. SaaS revenue increased 10 percent year over year. GAAP operating income was about USD 6.7 billion. Non-GAAP operating income was about USD 8.2 billion. Remaining performance obligations were USD 664 billion. Free cash flow was negative USD 5 billion. No contemporaneous Preview exists. A later reconstruction is not a valid forecast review. The source provides no forward guidance or consensus. Therefore, this note does not judge beat or miss. The next quarter focus includes IaaS growth, RPO conversion, SaaS growth, and free cash flow improvement.",
+  "reader_questions": [
+    "负自由现金流是否由数据中心资本开支造成，还是由应收账款或合约资产堆积造成？来源未给出营运资本拆分，这决定利润为何没有转化为现金。",
+    "RPO的6640亿美元中，未来12个月可确认收入占比是多少？如果大部分是多年期合约，当前收入增速能否延续。",
+    "SaaS仅同比+10%，远低于IaaS的+121%；这是价格/续费问题，还是应用云新业务放量慢？如果把IaaS和SaaS合并看云增长，是否会高估可持续性。"
+  ],
+  "fact_checks": [
+    "第一轮：核对官方发布日期为2026-09-10，季度区间截至2026-08-31，与FY2027Q1/日历2026Q3对应。",
+    "第一轮：总营收193.45亿美元、云收入116.07亿美元、IaaS约74亿美元、SaaS约42亿美元，均为美元；注意SaaS为42亿美元而非4.2亿美元。",
+    "第一轮：GAAP经营利润约67亿美元，non-GAAP经营利润约82亿美元，二者基础不同；本稿分列。",
+    "第一轮：RPO为6640亿美元，自由现金流为-50亿美元；均为公司披露口径，不混入推测。",
+    "第二轮：互检时提出三个会改变理解的问题；因来源无指引/共识，未做beat/miss判断；无同期Preview，事后重建稿不用于复核。"
+  ]
+}

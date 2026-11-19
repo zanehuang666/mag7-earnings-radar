@@ -7,7 +7,7 @@
 
 ## 已知信息与研究问题
 
-目前没有可证明在本次财报前已公开的完整资料包；因此不填写当时的数字预期。
+本节只引用上一季 2026Q1 在 2026-03-10 已公开的资料；目标季度结果未用于构造前瞻。
 
 - 本次需核对：云基础设施收入。
 - 本次需核对：剩余履约义务与转化。
@@ -15,6 +15,7 @@
 
 ## 来源与状态
 
-- [原始资料 1](https://api.nasdaq.com/api/calendar/earnings?date=2026-06-10)
+- [原始资料 1](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Fiscal-Year-2026-Third-Quarter-Financial-Results/default.aspx)
+- [原始资料 2](https://api.nasdaq.com/api/calendar/earnings?date=2026-06-10)
 
 资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。

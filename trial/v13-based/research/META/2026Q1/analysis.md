@@ -7,7 +7,10 @@
 
 ## 已核实资料与待复核判断
 
-尚无逐项核实的公司官方财报资料，因此不推断收入、利润或指引的表现。
+- Quarter ended March 31, 2026; revenue USD 56.311 billion, up 33% year over year.
+- Operating income USD 22.872 billion; operating margin 41%; diluted EPS USD 10.44.
+- Reported net income includes an USD 8.03 billion income tax benefit; excluding it would reduce diluted EPS by USD 3.13, per company release.
+- Family daily active people averaged 3.56 billion in March 2026, up 4% year over year; ad impressions increased 19% year over year.
 
 ### 正式版确定性摘要（Nasdaq / 行情口径）
 
@@ -23,6 +26,7 @@ Nasdaq 历史日历记录实际 EPS $7.31、公开一致预期 $6.71，对应预
 
 ## 来源与状态
 
-- [原始资料 1](https://api.nasdaq.com/api/company/META/earnings-surprise)
+- [原始资料 1](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/default.aspx)
+- [原始资料 2](https://api.nasdaq.com/api/company/META/earnings-surprise)
 
 资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。

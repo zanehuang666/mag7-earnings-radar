@@ -1,0 +1,16 @@
+{
+  "english_draft": "SK hynix 2026Q3 Preview — English intermediate draft (clear-language)\n\n- Base: This is a historical reconstruction. It uses only information published before 30 July 2026. It was not written before the Q3 2026 earnings release.\n- Prior quarter (Q2 2026, K-IFRS consolidated): Revenue was KRW 79,318.7 billion (79.3187 trillion won), up 51% QoQ and 257% YoY. Operating profit was KRW 60,542.6 billion, up 61% QoQ and 557% YoY. Operating margin was 76%. Net profit was KRW 93,922.6 billion, up 133% QoQ and 1,242% YoY; net margin was 118%. Cash and cash equivalents were KRW 88 trillion at quarter-end. Total debt was KRW 18.6 trillion. Net cash was KRW 69.4 trillion.\n- Company statements for the second half: HBM4 mass shipments began in Q2 and will ramp in H2. HBM4E completed sample shipments in H1. SOCAMM2 sales grew. 321-layer NAND has the largest production share; the company plans to expand it to about 50% of domestic capacity by year-end. SK hynix finalised LTAs with around 10 customers and continues talks. M15X is accelerated; Yongin Phase 1 opens in early 2027.\n- Core questions: 1) How fast will HBM4 ramp and how much revenue will it add? 2) Will DRAM and NAND prices continue to rise after the large QoQ increases in Q2? 3) Do LTAs provide real revenue visibility for Q3?\n- Positive gap: AI demand is strong; HBM4, eSSD, SOCAMM2 and high-value DRAM should support prices and margin. Supply still lags customer demand.\n- Negative gap: Q2 is a very high basis; QoQ growth may slow. HBM4 initial costs, NAND node transition, and capacity investments may pressure margin or cash flow. The company gave no numeric Q3 guidance.\n- Verification: Check revenue, operating profit, net profit and margins; HBM4 shipment and mix; DRAM/NAND price comments; LTA progress; cash, debt and capex.\n- Analysis: There is no contemporaneous Preview attached. Do not add post-hoc Q3 results.",
+  "reader_questions": [
+    "2Q26 净利润 93.9 万亿高于营业利润 60.5 万亿，差额是否主要来自非营业收益或税项；若该一次性项目在 Q3 消退，净利润会否明显低于营业利润，进而改变盈利质量判断？",
+    "公告所称与约 10 家客户签署的 LTA 是否包含价格承诺和最低采购量？若没有量/价细节，能否把 LTA 视为 Q3 收入能见度的有效证据？",
+    "321 层 NAND 将扩至国内产能约 50%，这里的“产能”是晶圆投入还是有效位元产出？口径不同，对 NAND 成本曲线和 Q3 毛利的判断影响不同。"
+  ],
+  "fact_checks": [
+    "2Q26 业绩公告由 SK hynix 于 2026-07-29 发布，财季为截至 2026-06-30；口径为合并 K-IFRS，单位含十亿韩元与万亿韩元两种表述。",
+    "公告确认 2Q26 营收 79,318.7 十亿韩元（79.3187 万亿韩元），环比 +51%、同比 +257%；营业利润 60,542.6 十亿韩元（60.5426 万亿韩元），环比 +61%、同比 +557%，营业利润率 76%。",
+    "2Q26 净利润 93,922.6 十亿韩元（93.9226 万亿韩元），净利率 118%；期末现金及现金等价物 88 万亿韩元，总债务 18.6 万亿韩元，净现金 69.4 万亿韩元。",
+    "公告称 HBM4 已在 2Q26 开始量产出货并计划下半年爬坡；HBM4E 已完成上半年样品出货；SOCAMM2 销售大幅增长；321 层 NAND 已占总产量最大份额，公司计划年底提升至国内产能约 50%。",
+    "公告称已与约 10 家客户（含关键战略伙伴）完成长期协议（LTA），并继续与主要客户讨论；未披露 LTA 金额或锁价锁量细节。",
+    "本稿未使用 2026-10-28 之后信息，也未引用任何市场共识或股价预测；所附来源中无 2026Q3 财务指引。"
+  ]
+}

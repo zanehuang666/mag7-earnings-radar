@@ -1,0 +1,17 @@
+{
+  "english_draft": "Broadcom reported fiscal Q2 2026 results on June 3, 2026. Revenue was USD 22.187 billion, up 48% year over year. AI semiconductor revenue was USD 10.8 billion, up 143% year over year. Adjusted EBITDA was USD 15.244 billion, or 69% of revenue. GAAP diluted EPS was USD 1.91. Non-GAAP diluted EPS was USD 2.44. Operating cash flow was USD 10.493 billion. Capital expenditure was USD 0.231 billion. Free cash flow was USD 10.262 billion. The company guided next-quarter revenue to approximately USD 29.4 billion. This is a preview reconstructed from historical data. The first topic is the implied revenue step-up. The guided USD 29.4 billion compares with USD 22.187 billion in Q2. The implied sequential growth is about 32.5%. The second topic is the AI revenue composition. AI semiconductor revenue of USD 10.8 billion is the CEO's stated measure. The third topic is the sustainability of the adjusted EBITDA margin at 69%. Positive surprise would come from AI revenue exceeding the CEO's measure. Negative surprise would come from total revenue below the guided level. The earnings call will verify the AI backlog and semiconductor segment trends.",
+  "reader_questions": [
+    "If non-AI semiconductor revenue declined sequentially, would the Q3 guidance of USD 29.4 billion still be credible?",
+    "Does the adjusted EBITDA margin of 69% include AI-related custom chip revenue, and how would a higher mix of custom chips affect margins?",
+    "Is the USD 10.8 billion AI semiconductor revenue consistent with the reported segment revenue in the financial statements, or is it a company-adjusted metric?"
+  ],
+  "fact_checks": [
+    "Fiscal Q2 2026 ended May 3, 2026; revenue USD 22.187 billion, up 48% year over year — verified against source.",
+    "AI semiconductor revenue USD 10.8 billion, up 143% year over year — cited as CEO's stated AI measure, verified against source.",
+    "Adjusted EBITDA USD 15.244 billion, 69% of revenue — verified against source.",
+    "GAAP diluted EPS USD 1.91; non-GAAP diluted EPS USD 2.44 — verified against source.",
+    "Operating cash flow USD 10.493 billion; capex USD 0.231 billion; free cash flow USD 10.262 billion — verified against source.",
+    "Q3 guidance approximately USD 29.4 billion — verified as company forecast from source.",
+    "This preview is a historical reconstruction written after the Q2 release and before the Q3 earnings date, using only information available before the cutoff."
+  ]
+}

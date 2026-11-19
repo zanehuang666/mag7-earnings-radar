@@ -7,7 +7,11 @@
 
 ## 已核实资料与待复核判断
 
-尚无逐项核实的公司官方财报资料，因此不推断收入、利润或指引的表现。
+- Quarter ended December 31, 2025; quarterly revenue USD 59.893 billion, up 24% year over year.
+- Quarterly operating income USD 24.745 billion and operating margin 41%; diluted EPS USD 8.88.
+- Family daily active people averaged 3.58 billion in December 2025, up 7% year over year.
+- Quarterly capital expenditure including finance leases USD 22.14 billion; operating cash flow USD 36.21 billion; free cash flow USD 14.08 billion.
+- Company Q1 2026 revenue outlook USD 53.5–56.5 billion; this is a forecast.
 
 ### 正式版确定性摘要（Nasdaq / 行情口径）
 
@@ -23,6 +27,7 @@ Nasdaq 历史日历记录实际 EPS $8.88、公开一致预期 $8.21，对应预
 
 ## 来源与状态
 
-- [原始资料 1](https://api.nasdaq.com/api/company/META/earnings-surprise)
+- [原始资料 1](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx)
+- [原始资料 2](https://api.nasdaq.com/api/company/META/earnings-surprise)
 
 资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
