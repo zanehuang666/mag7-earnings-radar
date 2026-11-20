@@ -1,0 +1,18 @@
+{
+  "ticker": "AVGO",
+  "calendar_quarter": "2026Q1",
+  "target_event_date": "2026-03-04",
+  "prior_release_date": "2025-12-11",
+  "cutoff": "2025-12-11T23:59:59",
+  "sources": ["https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-fourth-quarter-and-fiscal-year-2025"],
+  "facts": [
+    "Broadcom reported fiscal Q4 2025 on December 11, 2025; the quarter ended November 2, 2025.",
+    "Fiscal Q4 revenue was USD 18.015 billion, up 28% year over year; adjusted EBITDA was USD 12.218 billion, 68% of revenue.",
+    "Operating cash flow was USD 7.703 billion, capital expenditure USD 0.237 billion, and free cash flow USD 7.466 billion.",
+    "Company guidance for fiscal Q1 2026 was revenue approximately USD 19.1 billion and adjusted EBITDA 67% of projected revenue; these were forecasts, not actual Q1 results.",
+    "The CEO expected fiscal Q1 2026 AI semiconductor revenue around USD 8.2 billion, driven by custom AI accelerators and Ethernet AI switches."
+  ],
+  "verification_status": "manual_verified",
+  "historical_reconstruction": true,
+  "note": "Retrospective reconstruction from the previous official release only; not a contemporaneous forecast."
+}
