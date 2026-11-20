@@ -1,0 +1,60 @@
+{
+  "english_draft": "Samsung Electronics is expected to publish fourth-quarter 2025 results around late January 2026. This preview is a historical reconstruction. It was not written before the earnings release. It uses only the official third-quarter 2025 release published on October 30, 2025.\n\nBase quarter (Q3 2025)\nConsolidated revenue was KRW 86.1 trillion. Consolidated operating profit was KRW 12.2 trillion. The Device Solutions (DS) Division posted revenue of KRW 33.1 trillion and operating profit of KRW 7.0 trillion. The Memory Business achieved record quarterly revenue. HBM3E was in mass production. HBM4 samples were shipped to key clients. Foundry earnings improved significantly. The MX and Networks Businesses posted revenue of KRW 34.1 trillion and operating profit of KRW 3.6 trillion. Samsung Display Corporation posted revenue of KRW 8.1 trillion and operating profit of KRW 1.2 trillion. The Visual Display and Digital Appliances Businesses posted revenue of KRW 13.9 trillion and an operating loss of KRW 0.1 trillion.\n\nCore questions for Q4 2025\nFirst, can AI memory demand sustain the Memory Business record? The company plans to sell more HBM3E, high-density eSSDs, DDR5 and GDDR7 products in Q4.\nSecond, can Foundry continue its earnings improvement? Q3 improvement came from lower one-off costs and better fab utilization. Q4 performance depends on 2nm Gate-All-Around mass-production ramp-up and cost optimization.\nThird, can MX offset the Visual Display loss? MX plans seasonal promotions for Galaxy S25 and foldables to achieve year-on-year growth. VD plans premium and large-screen TV promotions to restore revenue.\n\nExpectation gaps\nThese gaps are relative to the company's own guidance, not to third-party consensus. Positive gaps: faster HBM4 ramp, foundry order conversion, QD-OLED monitor expansion, TV seasonal demand. Negative gaps: System LSI customer inventory adjustments, VD price competition, rising material costs.\n\nVerification points\nCheck consolidated revenue and operating profit against the KRW 86.1 trillion and KRW 12.2 trillion baseline. Check DS operating profit expansion. Check Memory sales record. Check Foundry improvement. Check MX year-on-year growth. Check VD revenue recovery and loss reduction.\n\nAnalysis\nNo contemporaneous preview existed, because this document is a retrospective reconstruction. Actual Q4 2025 results are outside the cutoff. The source contains no third-party consensus. Therefore, this analysis does not compare actuals with the preview. The only reference is the company's Q4 guidance in the Q3 release. Follow-up should compare the official Q4 report with that guidance when published.",
+  "reader_questions": [
+    "本稿引用KRW 86.1万亿合并营收与DS/MX/SDC/VD分部数字，但分部合计（约89.2万亿）高于合并数，是否意味着数据有误或口径不一致？",
+    "正文称MX四季度计划实现“同比正增长”，这里是指相对2024Q4还是相对2025Q3环比？",
+    "文中的“正负预期差”若全部来自公司自身指引，而没有第三方共识，读者应如何理解这些差距的性质和可信度？"
+  ],
+  "fact_checks": [
+    {
+      "category": "日期",
+      "claim": "来源发布于2025年10月30日",
+      "verification": "与cutoff 2025-10-30一致，为上一季度财报"
+    },
+    {
+      "category": "季度",
+      "claim": "来源报告2025年第三季度（截至2025年9月30日）",
+      "verification": "用于重建2025Q4的基准季度"
+    },
+    {
+      "category": "币种/单位",
+      "claim": "所有财务数据单位为KRW万亿",
+      "verification": "原文为trillion KRW"
+    },
+    {
+      "category": "会计口径",
+      "claim": "合并口径数据未标注非GAAP",
+      "verification": "按韩国IFRS合并惯例理解，本稿不调整"
+    },
+    {
+      "category": "集团/分部",
+      "claim": "合并：营收86.1、利润12.2；DS：33.1/7.0；SDC：8.1/1.2；MX+Networks：34.1/3.6；VD+DA：13.9/-0.1",
+      "verification": "分部合计89.2万亿高于合并86.1万亿，差异归因于分部间内部抵销，来源未进一步披露"
+    },
+    {
+      "category": "环比增速",
+      "claim": "营收环比+15.4%",
+      "verification": "该增速仅适用于合并营收，营业利润未给环比增速"
+    },
+    {
+      "category": "事实/指引",
+      "claim": "HBM3E量产销售、HBM4样品出货、Foundry订单创纪录、VD营业亏损为Q3已实现事实",
+      "verification": "原文明确为Q3结果"
+    },
+    {
+      "category": "事实/指引",
+      "claim": "Q4扩大AI内存销售、2nm量产爬坡、MX同比正增长、VD收入恢复为管理层指引",
+      "verification": "原文采用will/aims等前瞻措辞"
+    },
+    {
+      "category": "市场共识",
+      "claim": "来源不含第三方共识",
+      "verification": "本稿无共识数字"
+    },
+    {
+      "category": "本稿推论",
+      "claim": "“AI内存动能延续”“Foundry改善斜率”“MX对冲VD”为推论",
+      "verification": "已在正文标识为预期，非事实"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "english_draft": "Source: NVIDIA official press release, dated May 20, 2026. The official quarter is Q1 FY2027. The quarter ended April 26, 2026. The task label \"2026Q2\" differs from the official label. This analysis uses the official label.\n\nNo same-period Preview was available. This analysis does not compare actual results with a prior forecast. It checks facts against the press release and company guidance.\n\nRevenue was $81.6 billion. Revenue increased 20% sequentially and 85% year over year. GAAP gross margin was 74.9%. Non-GAAP gross margin was 75.0%. Both margins decreased by 0.1 percentage point sequentially.\n\nData Center revenue was $75.2 billion. Data Center revenue increased 21% sequentially and 92% year over year. Under the previous sub-markets, compute revenue was $60.4 billion. Compute revenue increased 77% year over year. Networking revenue was $14.8 billion. Networking revenue increased 199% year over year. Compute plus networking equals Data Center revenue.\n\nEdge Computing revenue was $6.4 billion. Edge Computing revenue increased 10% sequentially and 29% year over year.\n\nGAAP net income was $58.3 billion. GAAP diluted EPS was $2.39. Non-GAAP net income was $45.5 billion. Non-GAAP diluted EPS was $1.87. GAAP included about $15.9 billion of gains from equity securities. Non-GAAP excludes these gains. Starting in Q1 FY2027, non-GAAP no longer excludes stock-based compensation expense. Historical non-GAAP figures were updated to include this expense.\n\nCash flow from operations was $50.3 billion. NVIDIA returned about $20.0 billion to shareholders through repurchases and dividends. The board approved an additional $80.0 billion share repurchase authorization. The quarterly dividend increased from $0.01 to $0.25 per share.\n\nFor Q2 FY2027, revenue guidance is $91.0 billion, plus or minus 2%. The guidance does not assume any Data Center compute revenue from China. GAAP gross margin guidance is 74.9%. Non-GAAP gross margin guidance is 75.0%. Both have a range of plus or minus 50 basis points. GAAP operating expense guidance is about $8.5 billion. Non-GAAP operating expense guidance is about $8.3 billion. Full-year tax rate guidance is 16.0% to 18.0%.\n\nThe next quarterly report should show whether non-China growth can support the revenue guidance. It should also show the first split of Data Center into Hyperscale and ACIE.",
+  "reader_questions": [
+    "GAAP 净利高于 non-GAAP 净利主要靠 159 亿美元权益证券收益；若剔除该一次性收益，经常性盈利能力是否仍足以支撑 75% 毛利和 200 亿美元股东回报？",
+    "新报告框架把数据中心拆成 Hyperscale 与 ACIE，但官方稿未给出两者收入；没有这一拆分，如何判断下一季不含中国数据中心计算收入后，增长主要来自超大云厂商还是企业/工业 AI？",
+    "Q2 收入指引 910 亿美元隐含环比约 +11.5%，且同时假设中国数据中心计算收入为零；官方未披露中国收入基数，若 Q1 中国收入占比较高，该指引是否过于激进？"
+  ],
+  "fact_checks": [
+    "第一轮：来源标题与发布日期匹配：NVIDIA Announces Financial Results for First Quarter Fiscal 2027，2026-05-20 发布。",
+    "第一轮：任务字段 calendar_quarter=2026Q2 与来源官方季度（FY2027 Q1，截至 2026-04-26）存在口径差异；正文以官方口径为准。",
+    "第一轮：收入、毛利率、净利、EPS 均来自官方表格，金额单位为百万美元，EPS 为美元。",
+    "第一轮：GAAP 净利 58,321 与 non-GAAP 净利 45,548 的差异已核对；其他收益净额 15,929 主要为权益证券收益，且 non-GAAP 自 FY2027 Q1 起不再剔除股权激励费用。",
+    "第一轮：数据中心 75.2B 与旧子市场 compute 60.4B + networking 14.8B 一致。",
+    "第一轮：下一季收入指引 91.0B ±2%，计算中值隐含环比约 +11.5%；来源未披露中国数据中心计算收入基数。",
+    "第二轮（怀疑读者）：重算 60.4+14.8=75.2，91/81.615≈1.115；确认 GAAP 与 non-GAAP 的净利差异由权益证券收益推高，而非产品利润率变化。",
+    "第二轮：所附来源未提供同期 Preview 或市场共识，无法核对预期差；正文已明确写明“无同期 Preview”。"
+  ]
+}

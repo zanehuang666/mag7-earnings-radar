@@ -1,0 +1,16 @@
+{
+  "english_draft": "This is a historical reconstruction. It is not an original forecast written before earnings. It uses only the AMD Q3 2025 press release published on November 4, 2025. It does not use information disclosed after November 4, 2025.\nAMD reported Q3 2025 revenue of $9.246 billion. This was a record. GAAP gross margin was 52%. Non-GAAP gross margin was 54%. GAAP diluted EPS was $0.75. Non-GAAP diluted EPS was $1.20.\nAMD issued Q4 2025 guidance. Revenue is approximately $9.6 billion, plus or minus $300 million. At the midpoint, revenue increases approximately 25% year-over-year and 4% sequentially. Non-GAAP gross margin is approximately 54.5%. The guidance excludes revenue from MI308 shipments to China.\nQ3 segment revenue: Data Center was $4.3 billion. Client was $2.8 billion. Gaming was $1.3 billion. Embedded was $857 million. Q3 revenue excludes MI308 shipments to China.\nThe OpenAI deployment starts in the second half of 2026. The Oracle deployment starts in Q3 2026. These are not Q4 revenue drivers.\nThis preview does not include analyst consensus. This preview cannot include actual Q4 results.",
+  "reader_questions": [
+    "Q4指引的收入中值$9.6B在不含MI308中国收入的前提下，增长主要应来自数据中心AI，还是客户端/游戏？如果数据中心环比仅靠MI350，是否足够支撑中值？",
+    "Q3游戏收入同比+181%中包含多少半定制（semi-custom）一次性拉货？这部分在Q4的可持续性如何？",
+    "OpenAI和Oracle的大额AI订单开始于2026下半年/2026Q3，那么Q4的AI增长是否会明显低于这些公告带来的市场预期？"
+  ],
+  "fact_checks": [
+    "来源核实：新闻稿日期为2025-11-04，标题为AMD Reports Third Quarter 2025 Financial Results，与Q3 2025业绩一致；该来源不含2025Q4实际业绩。",
+    "数字核对：Q3收入$9,246M、GAAP毛利率52%/non-GAAP毛利率54%、GAAP EPS $0.75/non-GAAP EPS $1.20在财务表中核对一致。",
+    "指引核对：Q4指引收入约$9.6B±$300M、non-GAAP毛利率约54.5%、中值同比+25%/环比+4%，来自官方“Current Outlook”，且明确不含MI308中国出货收入。",
+    "分部核对：数据中心$4.3B（+22% y/y）、客户端$2.8B（+46% y/y）、游戏$1.3B（+181% y/y）、嵌入式$857M（-8% y/y），与官方披露一致。",
+    "时间点核对：OpenAI首批1GW MI450于2026H2开始、Oracle 5万GPU于2026Q3开始；本稿将其视为非Q4收入驱动，属于分析。",
+    "缺失项核对：来源未提供分析师一致预期、Q4经营利润/EPS指引或Q4实际结果，也未附任何财报前Preview；正文未编造这些数字。"
+  ]
+}

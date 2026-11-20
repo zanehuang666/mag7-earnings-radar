@@ -1,0 +1,15 @@
+{
+  "english_draft": "Microsoft published FY2026 Q3 results on April 29, 2026. The quarter ended March 31, 2026. Revenue was $82.9 billion. Revenue increased 18 percent. Operating income was $38.4 billion. Operating income increased 20 percent. Diluted EPS was $4.27. EPS increased 23 percent. Microsoft Cloud revenue was $54.5 billion. It increased 29 percent. Azure and other cloud services revenue increased 40 percent. Commercial RPO increased 99 percent to $627 billion. The company said its AI business surpassed an annual revenue run rate of $37 billion. That was an increase of 123 percent year over year. The press release did not include numeric guidance for the next quarter. It said management would provide guidance on the earnings call. Therefore, this preview does not predict a specific revenue or EPS number. The target quarter is calendar Q2 2026. In Microsoft's fiscal calendar, this is FY2026 Q4. The prior quarter is FY2026 Q3. Core questions: Will Azure growth remain near 40 percent? Will AI infrastructure investment pressure operating margin? Will More Personal Computing remain a drag on growth? Positive factors: Azure growth, Microsoft Cloud growth, CRO growth, AI run rate growth, and small OpenAI losses. Negative factors: Xbox content decline, Windows OEM decline, foreign exchange drag, and OpenAI investment losses. Verification points: In the next earnings release, check Azure growth, Microsoft Cloud revenue, CRO, segment growth, operating margin, EPS, and guidance. Analysis: This is a historical reconstruction. It was not written before the target-quarter earnings report. No post-report information is available in the allowed sources. Therefore, actual results cannot be verified. There is no contemporaneous preview.",
+  "reader_questions": [
+    "文中的 2026Q2 是指日历季度还是微软财季？如果不澄清，读者可能把上季 FY2026Q3 当作本季。",
+    "上季 Azure 40%、AI run rate 370 亿美元是已披露事实，还是本稿预测？文中“大概率双位数增长”会不会被误读为微软指引？",
+    "新闻稿没有下季数字指引，结论中的判断依据是什么？"
+  ],
+  "fact_checks": [
+    "已核对：来源为微软 FY2026Q3 新闻稿，季度为截至 2026-03-31（即日历 2026Q1 / 微软 FY2026Q3）；目标季为日历 2026Q2 = 微软 FY2026Q4。",
+    "已核对币种和单位：均为百万美元（每股数据除外），GAAP/非 GAAP 已分别标注。",
+    "已核对事实：总收入 $82,886M、经营利润 $38,398M、GAAP EPS $4.27、Azure 增 40%、微软云收入 $54.5B、CRO $627B、AI run rate >$37B、OpenAI 净损失 $14M。",
+    "已核对来源不含下季指引：新闻稿仅表示将在电话会议上提供前瞻指引，因此本稿未给出具体预测。",
+    "已核对推断标签：所有前瞻判断均标注为本稿推断，未与公司指引或市场共识混淆。"
+  ]
+}

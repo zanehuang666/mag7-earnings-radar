@@ -1,0 +1,18 @@
+{
+  "english_draft": "Purpose: This preview is a historical reconstruction. It uses only Oracle's official earnings release from December 10, 2025. It does not use any information published after that date. The next earnings release is expected on March 10, 2026. That release will cover fiscal Q3 2026, which ends on February 28, 2026. Oracle's fiscal year ends on May 31. The most recent reported quarter, fiscal Q2 2026, ended on November 30, 2025.\nKey base: total revenue was $16.1 billion, up 14% in US dollars. Cloud revenue was $8.0 billion, up 34%. IaaS revenue was $4.1 billion, up 68%. SaaS revenue was $3.9 billion, up 11%. RPO reached $523 billion, up 438% year over year and up $68 billion sequentially. GAAP EPS was $2.10. Non-GAAP EPS was $2.26. Non-GAAP operating margin was 42%. The Ampere sale produced a $2.7 billion pre-tax gain.\nThree core questions for the next quarter: First, can IaaS growth continue at about 68%? Second, can RPO continue to increase sequentially and convert into revenue? Third, can margins improve without the one-time Ampere gain?\nPositive indicators include strong RPO growth, high IaaS growth, and operating cash flow of $22.3 billion. Negative indicators include software revenue down 3%, SaaS growth of only 11%, and cloud plus software costs up 45%.\nVerification points: check total revenue growth, cloud revenue growth, IaaS growth, RPO sequential change, non-GAAP operating margin, operating cash flow, and EPS after removing one-time items.",
+  "reader_questions": [
+    "目标发布日期2026-03-10对应Oracle 2026财年Q3（截至2026-02-28），但任务字段写的日历年是2026Q1，读者会不会把财季与日历年季度混淆？",
+    "Ampere出售带来27亿美元税前收益，且新闻稿调节表未见非GAAP剔除该项目，那么non-GAAP EPS 2.26美元的同比增速是否能代表经常性利润？",
+    "RPO同比+438%主要受哪些大客户合同驱动？若金额集中在少数超大合同，环比+15%能否作为下一季的领先指标？"
+  ],
+  "fact_checks": [
+    "已核对：来源为Oracle 2025-12-10发布的FY2026 Q2业绩新闻稿，报告期为三个月，截至2025-11-30。",
+    "季度映射：FY2026 Q2=2025年9-11月；下一份目标2026-03-10财报对应FY2026 Q3（截至2026-02-28），属于日历年2026 Q1。",
+    "收入核对：总营收$16,058M，+14% USD/+13% CC；云收入$7,977M，+34%/+33%；IaaS约$4.1B，+68%/+66%；SaaS约$3.9B，+11%。",
+    "RPO核对：总额$523B，同比+438% USD，环比+$68B（+15%）；新闻稿提及Meta、NVIDIA等新承诺。",
+    "盈利核对：GAAP EPS $2.10（+91%），non-GAAP EPS $2.26（+54%）；non-GAAP营业利润$6,721M，margin 42%；TTM经营现金流$22.3B（+10%）。",
+    "Ampere核对：新闻稿称Ampere出售带来$2.7B税前收益，计入非经营收入；非GAAP调节表未对该收益做调整，因此non-GAAP EPS也受其正面影响。",
+    "费用核对：云和软件费用$3,990M，+45%；SBC $1,156M；重组费用$406M；短期递延收入$9.9B；季度分红$0.50/股。",
+    "无同期Preview：资料中未发现更早的正式Preview；本稿为事后历史重建，不使用2025-12-10之后的公开信息。"
+  ]
+}

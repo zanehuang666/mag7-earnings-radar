@@ -1,0 +1,17 @@
+{
+  "english_draft": "This is a historical reconstruction, not a contemporaneous forecast. The cutoff is November 19, 2025. Only NVIDIA's Q3 FY2026 press release is used. The target event is the calendar Q1 2026 earnings report, which is NVIDIA's fiscal Q4 2026. NVIDIA guided Q4 FY2026 revenue to $65.0 billion, plus or minus 2%. GAAP gross margin guidance is 74.8%, plus or minus 50 basis points. Non-GAAP gross margin guidance is 75.0%, plus or minus 50 basis points. The midpoint implies sequential revenue growth of about 14%. Q3 FY2026 revenue was $57.006 billion. Q3 revenue grew 22% sequentially. Data Center revenue was $51.2 billion. Data Center grew 25% sequentially. GAAP and non-GAAP diluted EPS were both $1.30. The main questions are revenue point within the guided range, gross margin direction, and Blackwell demand visibility. Upside would come from revenue near the upper end and gross margin above the midpoint. Downside would come from revenue near the low end and gross margin below the midpoint. There is no external consensus in the source set. There is no contemporaneous preview to check. The final markdown will state '无同期 Preview' in the Analysis section.",
+  "reader_questions": [
+    "文中的“2026Q1”到底是自然年第一季度还是财年第一季度？如果不说明，读者会误以为讨论的是 FY2026 Q1（2025年4月已公布），而非 FY2026 Q4（2026年2月公布）。",
+    "“预期差”仅用公司指引和上季实际计算，没有外部一致预期；若没有明确说明，读者是否会把这些数字当作市场共识或真实预测？",
+    "Q4指引隐含+14%是“中点除以Q3实际”得到的区间估计；如果直接用 ±2% 区间下限，增速约+12%，上限约+16%——本稿是否应避免把这种区间简化成单点而误导理解？"
+  ],
+  "fact_checks": [
+    "第一轮核对：Q3 FY2026 收入 $57,006M，环比+22%、同比+62%；数据中心收入 $51,200M，环比+25%、同比+66%（来源：新闻稿标题及正文）。",
+    "第一轮核对：Q3 GAAP毛利率 73.4%，非GAAP毛利率 73.6%；GAAP与非GAAP摊薄EPS均为 $1.30。",
+    "第一轮核对：游戏收入 $4.3B（环比-1%），专业可视化 $0.76B（环比+26%），汽车 $0.592B（环比+1%）；期末现金及有价证券 $60.6B，库存 $19.8B，应收账款 $33.4B。",
+    "第一轮核对：FY2026 Q4指引为收入 $65B ±2%；GAAP/非GAAP毛利率 74.8%/75.0% ±50bps；GAAP/非GAAP经营费用约 $6.7B/$5.0B；其他收支约 $500M 收入（剔除权益证券损益）；税率17% ±1%。",
+    "第二轮互检：明确“2026Q1”是自然年2026Q1、对应FY2026 Q4，避免与已过去的FY2026 Q1混淆。",
+    "第二轮互检：推导确认 $65B/$57.006B≈1.14，隐含环比约+14%；区间下/上限约 $63.7B/$66.3B，对应环比约+12%/+16%。",
+    "第二轮互检：确认本稿未引用外部共识、没有同期Preview；文中已声明“预期差”仅相对公司指引定义。"
+  ]
+}

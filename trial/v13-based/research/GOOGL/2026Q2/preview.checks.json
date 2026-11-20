@@ -1,0 +1,94 @@
+{
+  "english_draft": "Historical Reconstruction: Alphabet 2026Q2 Preview\n\nThis document is a historical reconstruction. It was not written before the 2026Q2 earnings release. It uses only information from Alphabet's April 29, 2026, first quarter earnings release and related attachments. It does not use any information published after that date. Source: https://s206.q4cdn.com/479360582/files/doc_news/2026/Apr/29/attachments/2026q1-alphabet-earnings-release.pdf\n\nConclusion:\nAlphabet's 2026Q1 results set a high base for 2026Q2. Total revenue grew 22%. Search grew 19%. Google Cloud grew 63%. The key questions are growth persistence and the effect of AI spending on operating margin.\n\nBase quarter: 2026Q1\n- Total revenue was USD 109.9 billion. This was an increase of 22% year over year, or 19% in constant currency.\n- Google Services revenue was USD 89.6 billion, up 16%. Search and other grew 19%. YouTube ads grew 11%. Subscriptions, platforms, and devices grew 19%. Google Network declined about 4%, as calculated from reported figures.\n- Google Cloud revenue was USD 20.0 billion, up 63%. Cloud operating income was USD 6.6 billion. This implies a segment margin of about 33%.\n- Consolidated operating margin was 36.1%, up 2 percentage points. Net income was USD 62.6 billion. Diluted EPS was USD 5.11, up 82%.\n- Other income included a net gain of USD 37.7 billion, mainly from unrealized gains on non-marketable equity securities.\n- Other Bets revenue was USD 0.4 billion. Its operating loss was USD 2.1 billion. Alphabet-level activities, including shared AI research, recorded an operating loss of USD 5.4 billion.\n\nKey questions for 2026Q2:\n1. Can AI experiences keep Search growth near 19%?\n2. Can Google Cloud sustain growth near 63%?\n3. Will operating margin continue to expand, given rising AI costs and Other Bets losses?\n\nPositive surprise potential:\n- Search may remain strong if AI experiences continue to increase queries.\n- Cloud may maintain high growth because backlog supports future revenue recognition.\n- Subscriptions and devices may benefit from 350 million paid subscriptions.\n\nNegative surprise potential:\n- Google Network may continue to decline.\n- Cloud growth may decelerate sharply due to a high comparison base.\n- Operating margin may fall if AI spending and Other Bets losses grow faster than revenue.\n\nValidation points in the 2026Q2 report:\n- Total revenue growth and constant currency revenue growth.\n- Google Services components: Search, YouTube ads, Network, and subscriptions/platforms/devices.\n- Google Cloud revenue and operating margin.\n- Other Bets operating loss.\n- Consolidated operating margin.\n- TAC, employee count, dividend, and management comments on AI investment and backlog.\n\nAnalysis:\nThere is no contemporaneous Preview in the supplied source set. This reconstruction is not an actual forecast from before the 2026Q2 report. Therefore, no comparison with a contemporaneous Preview is possible. The sources contain no 2026Q2 actual results and no reliable consensus figures. Future verification should check whether Search growth held near 19%, whether Cloud growth decelerated, how operating margin moved, and whether Other Bets losses widened.",
+  "reader_questions": [
+    "“Cloud 高增长或因基数回落”是分析推断，但公司没有给出 2026Q2 指引；本稿如何保证不会让读者把推断误认为公司指引？",
+    "Alphabet 级活动亏损被归因于共享 AI 研发，但财报原文仅称“主要反映”共享 AI 研发支出；本稿是否过度简化了其他可能费用？",
+    "本稿完全没有纳入市场股价与分析师的公开预期；读者若要据此决策，应如何理解这些局限？"
+  ],
+  "fact_checks": [
+    {
+      "fact": "Alphabet 于 2026-04-29 发布 2026Q1（截至 2026-03-31）业绩。",
+      "type": "公司公告事实",
+      "source": "新闻稿标题与日期",
+      "result": "一致"
+    },
+    {
+      "fact": "2026Q1 总收入 109,896 百万美元，同比 +22%，固定汇率 +19%。",
+      "type": "公司披露",
+      "source": "财报财务摘要",
+      "result": "一致"
+    },
+    {
+      "fact": "Google Services 收入 89,637 百万美元，+16%；Search & other 60,399 百万美元，+19%；YouTube ads 9,883 百万美元，+11%；订阅平台设备 12,384 百万美元，+19%。",
+      "type": "公司披露",
+      "source": "补充信息表",
+      "result": "一致"
+    },
+    {
+      "fact": "Google Network 收入从 7,256 百万美元降至 6,971 百万美元，约 -4%。",
+      "type": "本稿计算",
+      "source": "补充信息表",
+      "result": "计算一致（-3.9%）"
+    },
+    {
+      "fact": "Google Cloud 收入 20,028 百万美元，+63%。",
+      "type": "公司披露",
+      "source": "新闻稿/补充信息",
+      "result": "一致"
+    },
+    {
+      "fact": "Google Cloud 分部经营利润 6,598 百万美元，对应利润率约 33%。",
+      "type": "公司披露+本稿计算",
+      "source": "分部经营结果表",
+      "result": "一致"
+    },
+    {
+      "fact": "合并经营利润 39,696 百万美元，经营利润率 36.1%。",
+      "type": "公司披露",
+      "source": "财务摘要",
+      "result": "一致"
+    },
+    {
+      "fact": "净收入 62,578 百万美元，EPS 5.11 美元，同比 +82%。",
+      "type": "公司披露",
+      "source": "财务摘要",
+      "result": "一致"
+    },
+    {
+      "fact": "其他收入净额 37,716 百万美元，主要来自非上市股权证券未实现收益。",
+      "type": "公司披露",
+      "source": "新闻稿",
+      "result": "一致"
+    },
+    {
+      "fact": "Alphabet 级活动经营亏损 -5,391 百万美元（2025Q1 为 -3,027 百万美元），主要与共享 AI 研发有关。",
+      "type": "公司披露",
+      "source": "分部经营结果表及附注",
+      "result": "一致"
+    },
+    {
+      "fact": "Other Bets 经营亏损 -2,100 百万美元（2025Q1 为 -1,226 百万美元）。",
+      "type": "公司披露",
+      "source": "分部经营结果表",
+      "result": "一致"
+    },
+    {
+      "fact": "CEO 称 Cloud backlog 超过 4600 亿美元，环比近翻倍；付费订阅 350M；Waymo 周自动驾驶超 50 万次。",
+      "type": "管理层陈述",
+      "source": "CEO 引述",
+      "result": "文本一致；待后续披露验证"
+    },
+    {
+      "fact": "股息提高 5% 至每股 0.22 美元，2026-04-27 宣布，2026-06-15 支付。",
+      "type": "公司披露",
+      "source": "股息计划段落",
+      "result": "一致"
+    },
+    {
+      "fact": "本稿未使用任何分析师共识或股价，因为所附来源未包含这些数据。",
+      "type": "本稿方法论",
+      "source": "来源清单",
+      "result": "未使用"
+    }
+  ]
+}

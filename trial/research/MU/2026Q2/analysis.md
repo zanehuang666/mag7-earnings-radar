@@ -7,7 +7,7 @@
 
 ## 已核实资料与待复核判断
 
-尚无逐项核实的公司官方财报资料，因此不推断收入、利润或指引的表现。
+已采集公司官方正文；具体业务、利润和现金流数字仍需逐项核对后写成研究判断。
 
 ### Nasdaq EPS 线索（尚待核对财报口径）
 
@@ -22,9 +22,8 @@ Nasdaq 快照记录实际 EPS 24.89、公开一致预期 20.98、差异 18.64%�
 
 ## 来源与状态
 
-- [原始资料 1](https://www.sec.gov/Archives/edgar/data/723125/000072312526000006/mu-20260226.htm)
-- [原始资料 2](https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/mu-20260528.htm)
-- [原始资料 3](https://api.nasdaq.com/api/calendar/earnings?date=2026-06-24)
-- [原始资料 4](https://api.nasdaq.com/api/company/MU/earnings-surprise)
+- [原始资料 1](https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx)
+- [原始资料 2](https://api.nasdaq.com/api/calendar/earnings?date=2026-06-24)
+- [原始资料 3](https://api.nasdaq.com/api/company/MU/earnings-surprise)
 
 资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。

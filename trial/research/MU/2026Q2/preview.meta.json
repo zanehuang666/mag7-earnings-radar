@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": null,
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "a885de03eeb24ad5557e3d5ccd452b2f5b81b04913ed81ac6dd84be1bf0c632d",
+  "cutoff": "2026-03-18T23:59:59",
+  "generated_at": "2026-11-20T00:57:21.762595+00:00",
+  "sources": [
+    "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Results-for-the-Second-Quarter-of-Fiscal-2026-03-18-2026/default.aspx"
+  ]
 }

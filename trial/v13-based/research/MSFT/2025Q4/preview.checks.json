@@ -1,0 +1,18 @@
+{
+  "english_draft": "Historical reconstruction: This draft uses only the official Microsoft FY2026 Q1 press release dated October 29, 2025. The target event is the FY2026 Q2 earnings release on January 28, 2026, which covers calendar quarter 2025Q4. This is not a contemporaneous forecast.\n\nBaseline (FY2026 Q1): Revenue was $77.7B, up 18% (17% in constant currency). Operating income was $38.0B, up 24%. GAAP EPS was $3.72; non-GAAP EPS was $4.13. Microsoft Cloud revenue was $49.1B, up 26%. Azure and other cloud services revenue grew 40%. Commercial RPO reached $392B, up 51%.\n\nCore questions for FY2026 Q2:\n1. Can Azure maintain near-40% growth on a large base?\n2. Will OpenAI-related investment losses widen the GAAP/non-GAAP gap again?\n3. Will consumer and PC businesses improve in the holiday quarter?\n\nPositive signals: Strong cloud backlogs; RPO up 51%; Microsoft Cloud up 26%; operating income grew faster than revenue.\n\nNegative signals: OpenAI losses were $3.1B versus $0.5B last year; constant currency reduced growth by about 1 point; More Personal Computing grew only 4%.\n\nVerification points for the next release: Azure growth, Microsoft Cloud growth, commercial RPO, OpenAI non-GAAP adjustment, segment trends, and shareholder returns.\n\nAnalysis note: The attached source contains no contemporaneous preview. Therefore, the Analysis section states \"no contemporaneous preview\" and does not add post-release results.",
+  "reader_questions": [
+    "这里的2025Q4是指自然年季度还是微软财季？我原本以为是微软财季第四季（4—6月），但微软2026财年第二季对应2025年10—12月；如果搞混，基准数据会全错。",
+    "为什么GAAP净利增速只有12%，non-GAAP却有22%？本稿是否把剔除OpenAI损失后的EPS与GAAP EPS混用了？",
+    "Azure +40%是“Azure and other cloud services”一个产品线的增速，Microsoft Cloud +26%是另一个口径；本稿是否清楚区分了这两者以及对应的分部数据？"
+  ],
+  "fact_checks": [
+    "原始来源为微软官方FY2026 Q1新闻稿，发布日期2025年10月29日，对应季度截至2025年9月30日，早于目标事件日期2026年1月28日。",
+    "核对：总收入777亿美元，同比+18%（固定汇率+17%）；营业利润380亿美元，同比+24%。",
+    "核对：GAAP净利277亿美元，同比+12%，GAAP EPS $3.72；non-GAAP净利308亿美元，同比+22%，non-GAAP EPS $4.13。",
+    "核对：Microsoft Cloud收入491亿美元，同比+26%；Azure和其他云服务收入同比+40%；商业剩余履约义务（RPO）3920亿美元，同比+51%。",
+    "核对：分部收入为PBP 330亿美元+17%、IC 309亿美元+28%、MPC 138亿美元+4%。",
+    "核对：OpenAI投资损失在non-GAAP调节中为30.86亿美元/$0.41，去年同期为5.23亿美元/$0.07。",
+    "来源未包含FY2026 Q2公司指引数字，仅称将在电话会议提供前瞻指引；电话会议内容不在所附资料内，因此本稿未编造指引。",
+    "本稿为历史资料重建；Analysis部分没有同期Preview可复核，故写明“无同期 Preview”，不补写财报后实际结果。"
+  ]
+}

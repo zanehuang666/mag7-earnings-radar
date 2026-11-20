@@ -1,0 +1,19 @@
+{
+  "english_draft": "Title: AMZN 2026Q2 Preview (Historical Reconstruction)\nData cutoff: April 29, 2026. This preview is reconstructed from public information available before the second-quarter 2026 earnings event. It was not written before the report.\n\nBaseline from Q1 2026 (reported April 29, 2026): Net sales were $181.5 billion, up 17% year over year. Excluding foreign exchange effects, net sales rose 15%. North America sales were $104.1 billion, up 12%. International sales were $39.8 billion, up 19% (up 11% excluding FX). AWS sales were $37.6 billion, up 28%. Operating income was $23.9 billion. Segment operating income was $8.3 billion (North America), $1.4 billion (International), and $14.2 billion (AWS). Net income was $30.3 billion, or $2.78 per diluted share. This result included $16.8 billion in pre-tax gains from investments in Anthropic. Trailing twelve-month operating cash flow was $148.5 billion, up 30%. Trailing twelve-month free cash flow was $1.2 billion, down from $25.9 billion. The decrease was driven by a $59.3 billion year-over-year increase in capital expenditures, mainly for AI.\n\nCore questions for Q2 2026:\n1. Can AWS sustain growth near 28%? AWS is the largest segment profit pool. AI chip agreements and Bedrock usage are demand signals. Quarterly contract conversion is not disclosed.\n2. Will capital expenditure pressure continue? TTM FCF fell to $1.2 billion because of AI investment. Q2 capital expenditure and FCF are key checks.\n3. Are Stores unit growth and advertising momentum durable? The CEO cited 15% unit growth and over $70 billion in TTM advertising revenue. Q2 commentary will show whether consumer momentum held.\n\nPositive differences: AWS growth remains at or above 28%; AI commitments convert into observable demand; Stores and advertising momentum continues.\nNegative differences: AWS growth decelerates; capital expenditure rises further and FCF pressure increases; retail unit growth slows.\n\nVerification points in the Q2 report: AWS sales and operating income; total net sales and segment growth; operating income; net income with non-operating gains; operating cash flow, free cash flow, and capital expenditure; CEO commentary on unit growth, advertising, and AI.\n\nAnalysis note: No contemporaneous preview exists in the supplied source. Therefore this reconstruction does not add an after-the-fact analysis.",
+  "reader_questions": [
+    "2026Q1净利润包含来自Anthropic投资的168亿美元税前收益；若2026Q2再出现类似非经营损益，是否应将其从AWS及主业经营趋势中剥离后再判断利润质量？",
+    "过去12个月自由现金流从259亿美元降至12亿美元，主要由于资本开支净额同比增加593亿美元；2026Q2是否延续该资本开支节奏，还是AI基建支出会阶段性回落？",
+    "AWS在2026Q1收入376亿美元、同比+28%；在当前多项AI合作协议披露后，2026Q2的AWS增速是否会在高基数上因算力收入确认时点而出现明显波动？"
+  ],
+  "fact_checks": [
+    "来源日期为2026-04-29，财报季度为截至2026-03-31的2026Q1；与任务中的prior_release_date、calendar_quarter一致。",
+    "金额均为美元；净销售额1815亿美元、同比+17%，剔除汇率影响+15%；原文口径为公司公布口径，非本稿预测。",
+    "北美1041亿美元/+12%，国际398亿美元/+19%（剔除汇率+11%），AWS 376亿美元/+28%；与原文一致。",
+    "营业利润239亿美元，其中北美83亿、国际14亿、AWS 142亿；与原文一致。",
+    "净利润303亿美元、稀释EPS 2.78美元；原文明确包含来自Anthropic投资的168亿美元税前非经营收益。",
+    "TTM经营现金流1485亿美元/+30%；TTM自由现金流为12亿美元（原文截断为‘$1.2 bill’，依上下文为billion），对比上年259亿美元；原文归因于资本开支净额同比增加593亿美元、主要投向AI。",
+    "CEO表述中的AWS同比+28%、芯片业务年化收入超200亿美元且三位数增长、广告TTM超700亿美元、Stores单位数+15%、Prime Day安排在6月等，均属公司口径，不是本稿预测。",
+    "所附来源未提供2026Q2市场共识或公司指引；本稿未构造任何共识、股价或未来季度数字。",
+    "未发现所附来源存在2026Q2财报前的同期Preview；最终Markdown已按规则写明‘无同期Preview’，未做事后补写分析。"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "english_draft": "Micron reported results for its second quarter of fiscal 2026 on March 18, 2026. The quarter ended on February 26, 2026. This quarter is the first calendar quarter of 2026. No preview from before the release is available. Therefore this analysis does not compare the results with prior expectations. Revenue was $23.86 billion. Revenue increased about 75% from the prior quarter. Revenue increased about 196% from the same quarter last year. GAAP net income was $13.79 billion. GAAP diluted EPS was $12.07. Non-GAAP net income was $14.02 billion. Non-GAAP diluted EPS was $12.20. GAAP gross margin was 74.4%. Non-GAAP gross margin was 74.9%. Operating cash flow was $11.90 billion. Adjusted free cash flow was $6.9 billion. Net capital expenditures were $5.0 billion. The company reported results for four business units. Cloud Memory revenue was $7.749 billion. Core Data Center revenue was $5.687 billion. Mobile and Client revenue was $7.711 billion. Automotive and Embedded revenue was $2.708 billion. All business units improved gross margin and operating margin from the prior quarter. Management said revenue, gross margin, EPS, and free cash flow set records. Management attributed the results to strong demand, tight supply, and strong execution. The board approved a 30% increase in the quarterly dividend to $0.15 per share. For fiscal Q3 2026, the company guides revenue of $33.5 billion plus or minus $750 million. The company guides gross margin of about 81%. The company guides GAAP diluted EPS of $18.90 plus or minus $0.40. The company guides non-GAAP diluted EPS of $19.15 plus or minus $0.40.",
+  "reader_questions": [
+    "营收环比增长约75%中，多少来自涨价、多少来自比特出货量增长？新闻稿没有给出DRAM/NAND的bit与价格拆分，若忽略这一点，会把周期涨价误读为持续增长。",
+    "Non-GAAP净利润仅比GAAP高2.36亿美元，其中股权激励、债务清偿损失和税收调整等项目的季度波动，是否改变了盈利质量判断？不看调节表可能高估或低估一次性项目影响。",
+    "FQ3指引隐含毛利率约81%，比本季再扩大约6个百分点；如果AI存储需求或供应紧张出现变化，价格回落对EPS的敏感性有多大？新闻稿未提供压力测试。"
+  ],
+  "fact_checks": [
+    "日期与季度：确认新闻稿发布于2026-03-18，报告期为2026财年第二季度（截至2026-02-26），对应输入中的2026自然年第一季度。",
+    "金额与口径：确认表格单位百万美元；集团/分部、GAAP/Non-GAAP、公司指引均在正文中按原始口径区分。",
+    "逐项核对：营收238.60亿、GAAP EPS 12.07、Non-GAAP EPS 12.20、经营现金流119.03亿、调整后自由现金流68.99亿、分部收入与利润率均与来源一致。",
+    "指引核对：FQ3-26收入33.5B±0.75B、毛利率约81%、GAAP EPS 18.90±0.40、Non-GAAP EPS 19.15±0.40，与来源一致。",
+    "互检：提出三条读者问题后，修改正文，明确无Preview、无预期差判断；最终结论仅基于公司新闻稿。"
+  ]
+}

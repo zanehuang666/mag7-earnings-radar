@@ -1,0 +1,15 @@
+{
+  "english_draft": "This preview is a historical reconstruction. It uses only the official Micron press release published on 2025-12-17. The target event is the fiscal Q2 2026 earnings release on 2026-03-18. Micron guided fiscal Q2 2026 revenue to $18.70 billion plus or minus $400 million. Micron guided non-GAAP gross margin to 68.0% plus or minus one percentage point. Micron guided non-GAAP EPS to $8.42 plus or minus $0.20. These levels are far above fiscal Q1 revenue of $13.64 billion, non-GAAP gross margin of 56.8%, and non-GAAP EPS of $4.78. The source includes no analyst consensus, so this preview uses company guidance as the baseline. Fiscal Q1 2026 revenue was $13.643 billion. GAAP net income was $5.240 billion. Non-GAAP net income was $5.482 billion. Adjusted free cash flow was $3.906 billion. Cloud Memory revenue was $5.284 billion. Core Data Center revenue was $2.379 billion. Mobile and Client revenue was $4.255 billion. Automotive and Embedded revenue was $1.720 billion. Key questions for fiscal Q2 2026 are whether AI and data center mix can lift gross margin further, whether a roughly 37% sequential revenue increase is credible, and whether free cash flow stays positive while net capex remains high. Positive variance would be revenue near the high end and non-GAAP EPS near the high end. Negative variance would be revenue near the low end or gross margin near the low end. Verification points are actual revenue, margins, EPS, operating cash flow, adjusted free cash flow, and segment performance.",
+  "reader_questions": [
+    "如果把指引毛利率 68% 当作基准，公司是否必须靠 HBM/AI 混合改善而非普涨价格来实现？来源没有给 DRAM/NAND 分产品利润，这会影响我对正负预期差的判断。",
+    "37% 的环比收入增幅中，有多少来自 Cloud Memory 和 Core Data Center？如果主要增长来自 Mobile/Client，毛利率结构会更低，改变我评估指引可信度的方式。",
+    "在没有第三方共识的情况下，官方指引应被理解为中性预期还是偏乐观的管理层目标？这决定我该把贴近下限视为 miss 还是正常波动。"
+  ],
+  "fact_checks": [
+    "FQ1-26 截止日与数值：新闻稿显示截至 2025-11-27，营收 13,643 百万美元；毛利率、净利、调整后自由现金流均与正文一致。",
+    "FQ2-26 指引：新闻稿表格列明营收 18,700±400 百万美元、non-GAAP 毛利率 68.0%±1.0pct、GAAP EPS 8.19±0.20、non-GAAP EPS 8.42±0.20 美元。",
+    "分部数据：Cloud Memory 5,284、Core Data Center 2,379、Mobile & Client 4,255、Automotive & Embedded 1,720 百万美元，毛利率分别为 66%/51%/54%/45%，均来自新闻稿。",
+    "共识与股价：所附来源无分析师共识、无股价信息，因此正文未引入。",
+    "日期映射：目标事件 2026-03-18 由任务元数据提供；Micron FY26Q2 实际业绩在截止日来源中未出现，Analysis 中明确待核。"
+  ]
+}

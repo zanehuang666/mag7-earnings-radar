@@ -1,33 +1,34 @@
-# Broadcom（AVGO）2026Q2｜财报后资料索引
+# AVGO 2026Q2 财报分析
 
-> 自动整理的资料索引，尚不是经逐季财报核对的完整研究文章。
+数据来源：[Broadcom 公告](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial)。除非另行说明，金额为美元，按公司披露口径。
 
-- 财报日：2026-06-03（已发布）
-- 财报期：Apr 2026
+## 无同期 Preview
 
-## 已核实资料与待复核判断
+未发现写于 2026-06-03 财报发布前、可作预测复核的同期 Preview。另有事后历史资料重建稿，不能当作当时预测，因此本稿不做预测对照。
 
-- Fiscal Q2 2026 ended May 3, 2026; revenue USD 22.187 billion, up 48% year over year.
-- AI semiconductor revenue USD 10.8 billion, up 143% year over year; this is the CEO's stated AI measure.
-- Adjusted EBITDA USD 15.244 billion, 69% of revenue; GAAP diluted EPS USD 1.91 and non-GAAP diluted EPS USD 2.44.
-- Operating cash flow USD 10.493 billion, capex USD 0.231 billion, free cash flow USD 10.262 billion.
-- Next-quarter company guidance: total revenue approximately USD 29.4 billion; this is a forecast.
+## 实际结果
 
-### Nasdaq EPS 线索（尚待核对财报口径）
+- 财季：2026 财年第二季度，截至 2026-05-03。
+- 总收入：222.187 亿美元，同比 +48%。
+- AI 半导体收入：108 亿美元，同比 +143%。这是公司 CEO 在公告中采用的 AI 收入口径。
+- 调整后 EBITDA：152.44 亿美元，相当于总收入的 69%。
+- GAAP 摊薄 EPS：1.91 美元；非 GAAP 摊薄 EPS：2.44 美元。
+- 经营现金流：104.93 亿美元；资本开支：2.31 亿美元；自由现金流：102.62 亿美元。
 
-Nasdaq 快照记录实际 EPS 2.17、公开一致预期 2.02、差异 7.43%。
-此处不推断 GAAP、非 GAAP或拆股调整口径，也不据此单独判断财报质量。
+## 产品、利润与现金
 
-### 后续核对
+- AI 半导体收入同比 +143%，是收入增长的主要亮点；公告未披露该口径与全部半导体收入、软件收入之间的拆分，本稿不额外推算。
+- 调整后 EBITDA 为总收入的 69%，显示较高利润水平。
+- 资本开支为 2.31 亿美元，明显小于经营现金流，自由现金流 102.62 亿美元。
 
-- AI 半导体收入：实际结果、指引与下季变化。
-- 软件业务利润：实际结果、指引与下季变化。
-- 现金流与客户集中：实际结果、指引与下季变化。
+## 与指引或共识的差异
 
-## 来源与状态
+来源未给出市场共识，也未给出上一季度公司指引，因此无法计算预期差。上述实际数字均与所附公告逐项一致。
 
-- [原始资料 1](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial)
-- [原始资料 2](https://api.nasdaq.com/api/calendar/earnings?date=2026-06-03)
-- [原始资料 3](https://api.nasdaq.com/api/company/AVGO/earnings-surprise)
+## 原判断复核
 
-资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
+无同期 Preview，无原判断可复核。事实核验状态为 manual_verified，关键数字与公告一致。
+
+## 下一季要点
+
+公司预测下一季度（2026 财年第三季度）总收入约 294 亿美元。这是公司指引，不是实际结果。下季关注：收入指引实现情况、AI 半导体收入增速、自由现金流能否延续。

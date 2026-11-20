@@ -1,0 +1,16 @@
+{
+  "english_draft": "Cutoff: July 29, 2026. This text is a historical reconstruction. It is not a real preview published before the target earnings date.\n\nBase quarter (Microsoft FY26 Q4, quarter ended June 30, 2026):\n- Revenue was $90.0 billion, up 18% year over year, or up 17% in constant currency.\n- Operating income was $40.6 billion, up 18% year over year.\n- GAAP diluted EPS was $4.81, up 32%. Non-GAAP diluted EPS was $4.74, up 23%.\n- Microsoft Cloud revenue was $59.3 billion, up 27%.\n- Azure and other cloud services revenue was up 43%.\n- Commercial remaining performance obligation increased 84% to $678 billion.\n- Segment revenue: Productivity and Business Processes up 14%; Intelligent Cloud up 32%; More Personal Computing down 4%.\n- Diluted EPS benefited by $0.27 versus Microsoft's April 2026 guidance. The benefit included a $3.2 billion gain from Anthropic and lower Voluntary Retirement Program expenses. Offsets included severance expense and Xbox impairment.\n\nThe source does not contain quantitative guidance for FY27 Q1. No reliable consensus is available in this source. Therefore, this preview gives no point forecast.\n\nCore questions for calendar Q3 2026:\n- Can Azure growth stay near 43%?\n- Will AI/cloud demand convert to revenue without a large margin decline?\n- Will More Personal Computing continue to drag results?\n\nPositive signs:\n- Commercial RPO growth and Copilot paid seats show demand.\n- Cloud and Azure momentum is strong.\n\nNegative signs and risks:\n- One-time EPS benefits are unlikely to repeat.\n- Non-GAAP excludes only OpenAI, not all one-time items. The Anthropic gain remains in non-GAAP.\n- More Personal Computing is weak.\n\nVerification points:\n- Azure growth, Microsoft Cloud revenue, commercial RPO, and Copilot seats.\n- Segment trends, operating margin, and EPS quality.\n\nAnalysis:\n- No contemporaneous preview exists. Do not create an after-the-fact comparison.",
+  "reader_questions": [
+    "Anthropic的32亿美元收益在GAAP和non-GAAP中是否都被计入了？由于non-GAAP只剔除OpenAI影响，本稿在比较经常性盈利时是否需要再剔除Anthropic收益？",
+    "商业RPO同比增84%至6780亿美元主要来自多年期云/AI合同，但RPO不能直接等同于下一季度收入；本稿是否把RPO高估为短期可见度？",
+    "Azure收入同比增43%在GAAP和固定汇率下均为43%，但这是否只是FY26Q4因合同确认时点而异常强劲，不宜作为FY27Q1的外推基线？"
+  ],
+  "fact_checks": [
+    "第一轮核实：所附URL为微软FY26Q4官方新闻稿，发布日期为2026-07-29；正文所有营收、营业利润、EPS、分部、Azure、Microsoft Cloud和RPO数字均来自该新闻稿。",
+    "第一轮核实：该新闻稿的Business Outlook部分只说将在电话会议提供前瞻指引，未披露FY27Q1量化数字；因此正文不给出营收或EPS点预测，也不引用任何共识。",
+    "第一轮核实：non-GAAP定义显示只剔除OpenAI投资影响；Anthropic收益未列入该剔除项，正文已提示non-GAAP仍含一次性收益。",
+    "第二轮互检：针对Anthropic收益是否影响non-GAAP可比性，已在负向风险中修改表述，明确“non-GAAP仅剔除OpenAI，不剔除Anthropic收益”。",
+    "第二轮互检：针对RPO是否等于短期收入，正文仅表述为“未来收入能见度上升”，未将RPO直接外推为FY27Q1收入。",
+    "第二轮互检：确认所有增长率为同比；Azure同比在GAAP和固定汇率下均为43%，正文未作跨季外推。"
+  ]
+}

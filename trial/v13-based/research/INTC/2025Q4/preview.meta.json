@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": true
+  "status": "generated_review_pending",
+  "source_digest": "ac381a3db43501639e3b8759445221191c4134b3c2f3724462726e7fd077cc16",
+  "cutoff": "2025-10-23T23:59:59",
+  "generated_at": "2026-11-20T00:57:21.762595+00:00",
+  "sources": [
+    "https://www.intc.com/news-events/press-releases/detail/1753/intel-reports-third-quarter-2025-financial-results"
+  ]
 }

@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": null,
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "d8fae36f6e81faabe3362efedd4fbfa54edd6bbe235256788e4aa6666f35b235",
+  "cutoff": "2026-04-29T23:59:59",
+  "generated_at": "2026-11-20T00:57:21.762595+00:00",
+  "sources": [
+    "https://s206.q4cdn.com/479360582/files/doc_news/2026/Apr/29/attachments/2026q1-alphabet-earnings-release.pdf"
+  ]
 }

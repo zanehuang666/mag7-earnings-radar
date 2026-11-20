@@ -1,0 +1,16 @@
+{
+  "english_draft": "Source: NVIDIA Q2 FY2027 press release, published August 26, 2026. This is a historical reconstruction. It uses only information available by the cutoff. It is not a contemporaneous preview.\n\nQuarter under preview: Q3 FY2027. Company guidance: revenue $108.0 billion +/-2%; no Data Center compute revenue from China in the outlook; GAAP and non-GAAP gross margin 74.0% +/-50bps; GAAP opex about $9.2B, non-GAAP about $9.0B.\n\nBaseline: Q2 FY2027 revenue was $96.2B, up 18% Q/Q and 106% Y/Y. Data Center revenue was $89.0B, up 18% Q/Q and 117% Y/Y. Edge Computing revenue was $7.2B, up 13% Q/Q and 27% Y/Y. Gross margin was 75.0% on both GAAP and non-GAAP. EPS was $2.46 GAAP and $2.22 non-GAAP.\n\nKey questions: 1) Can Data Center revenue keep 18% Q/Q growth as Vera Rubin ramps and Spectrum-6 ships? 2) What happens if China Data Center compute revenue is zero as assumed? 3) Does the gross margin guide of 74.0% reflect mix, pricing, or ramp costs?\n\nVariance: positive if revenue exceeds the upper guide of $110.16B or Data Center Q/Q accelerates; negative if revenue is near $105.84B or gross margin is below 73.5%. Market consensus is not used because no reliable consensus was provided.\n\nVerification points: revenue, gross margin, opex, tax rate, Data Center revenue, China comment, Vera Rubin production, and compute financing platforms.",
+  "reader_questions": [
+    "若上季（FY2027 Q2）实际已包含中国数据中心计算收入，而 Q3 指引假设为零，那么非中国地区隐含的环比增速会显著高于 12%，这个推断是否成立？",
+    "毛利率从 75.0% 降至 74.0% 指引，是否能归因于 Vera Rubin/Spectrum-6 新品爬坡？新闻稿没有拆分，若直接归因新品会不会过度推断？",
+    "由于非GAAP口径在 FY2027 Q1 起已不再剔除股权激励，用 $2.22 与更早季度比较是否可比？"
+  ],
+  "fact_checks": [
+    "日期/季度核对：新闻稿标题为 Q2 FY2027，季度截至 2026-07-26，发布于 2026-08-26；与 prior_release_date 一致。",
+    "单位/币种核对：合并收入 $96,221M、数据中心 $89.0B、边缘 $7.2B；均为美元。毛利率为百分比；EPS 为美元。",
+    "口径核对：GAAP/非GAAP毛利率均 75.0%；GAAP EPS $2.46、非GAAP EPS $2.22；未混用。",
+    "指引核对：Q3 FY27 revenue $108.0B±2%、GM 74.0%±50bps、opex $9.2B GAAP/$9.0B non-GAAP、全年税率16%-18%；这些都是公司指引，不是共识。",
+    "中国假设核对：原文为 'not assuming any Data Center compute revenue from China in its outlook'；本文将其表述为“指引不包含中国数据中心计算收入”。",
+    "历史重建边界：目标季度（FY2027 Q3）财报在截止日前未公布；Analysis 写明“无同期 Preview”，未事后补充实际结果。"
+  ]
+}

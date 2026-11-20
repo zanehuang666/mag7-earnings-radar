@@ -1,0 +1,23 @@
+{
+  "english_draft": "Target event: Micron fiscal Q3 2026 earnings, expected on 2026-06-24. This document is a historical reconstruction. It was not published before the earnings release.\n\nBaseline: In fiscal Q2 2026, Micron reported revenue of $23.86B. Non-GAAP gross margin was 74.9%. Non-GAAP EPS was $12.20. Operating cash flow was $11.90B. Adjusted free cash flow was $6.9B.\n\nOutlook: Micron guided fiscal Q3 2026 revenue to $33.5B, plus or minus $750M. Gross margin was guided to approximately 81%. GAAP EPS was guided to $18.90, plus or minus $0.40. Non-GAAP EPS was guided to $19.15, plus or minus $0.40.\n\nCore questions: 1) Can revenue rise about 40% sequentially? 2) Can gross margin rise to about 81%? 3) Does growth convert into cash flow?\n\nChecks: Compare actual revenue, gross margin, EPS, segment results, and cash flow with the guidance. No consensus data is available in the source.",
+  "reader_questions": [
+    "为什么FQ2-26收入环比+75%而毛利率从56.8%跳到74.9%？如果主要靠价格上涨，FQ3-26收入指引是否隐含同样的量价假设？",
+    "FQ3-26毛利率约81%在GAAP与non-GAAP中一致，但EPS指引GAAP 18.90与non-GAAP 19.15的差距主要来自哪些调整项？若股票薪酬或债务清偿调整变化，non-GAAP可比性是否受影响？",
+    "经营现金流11.90B创纪录，但应收账款从10.2B升至17.3B；高增长下自由现金流6.9B能否持续？若客户回款周期延长，指引对应的净营运资本占用是否被低估？"
+  ],
+  "fact_checks": {
+    "first_round": [
+      "日期/季度：来源为2026-03-18发布的FQ2-26（截至2026-02-26）新闻稿；目标事件为FQ3-26（预计2026-06-24发布），未混用FQ3实际数据。",
+      "口径：收入、净收入、EPS均区分GAAP与非GAAP；FQ2-26 GAAP毛利率74.4%、non-GAAP毛利率74.9%；FQ3-26指引中GAAP与non-GAAP毛利率均约81%。",
+      "币种/单位：金额均为百万美元，EPS为美元；来源中经营现金流、资本开支、自由现金流均以百万美元列示。",
+      "集团/分部：云内存、核心数据中心、移动与客户端、汽车与嵌入四个分部收入合计23.855B，与总收入23.860B差0.005B，系取整；分部毛利率为来源披露值。",
+      "事实/指引/共识：FQ2-26数据为公司实际报告；FQ3-26收入、毛利率、EPS为官方指引；来源未提供可靠市场共识或股价，故本稿不引用。",
+      "本稿推论：收入环比与同比增速、FQ3中值隐含增速均由已披露数字计算，并已标注‘约/按中值’；无额外假设。"
+    ],
+    "second_round": [
+      "怀疑性初读问题已记录：日历季度与财季口径、GAAP/non-GAAP差异、自由现金流可持续性。正文已补充口径说明与‘待核’表述。",
+      "结论与证据复核：FQ3指引、FQ2实际数、分部数据、现金流数据均可在来源中直接找到；不存在来源外数字。",
+      "无同期Preview：最终Analysis已写明‘无同期 Preview’，未补写任何FQ3-26实际结果。"
+    ]
+  }
+}

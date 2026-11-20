@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": null,
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "d8150aa6f9eeec4b8c356e2b91058ef406dc242142cee2e8df76e20d0d96c1c4",
+  "cutoff": "2026-02-25T23:59:59",
+  "generated_at": "2026-11-20T00:57:21.762595+00:00",
+  "sources": [
+    "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026/"
+  ]
 }

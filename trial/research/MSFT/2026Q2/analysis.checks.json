@@ -1,0 +1,20 @@
+{
+  "english_draft": "Preview: No prior preview was available. Analysis: For the quarter ended June 30, 2026 (calendar Q2 2026, Microsoft FY2026 Q4), Microsoft reported revenue of $90.0 billion, up 18% (17% constant currency). Operating income was $40.6 billion, up 18%. GAAP net income was $35.8 billion, up 31%; non-GAAP net income was $35.3 billion, up 22%. Diluted EPS was $4.81 GAAP and $4.74 non-GAAP, up 32% and 23%, respectively. Microsoft Cloud revenue was $59.3 billion, up 27%. Commercial remaining performance obligation rose 84% to $678 billion. Several discrete items produced a net benefit of $0.27 per diluted share versus the forward-looking guidance of April 29, 2026. These included a $3.2 billion gain from the Anthropic investment and lower-than-expected Voluntary Retirement Program expenses, partly offset by Xbox severance expenses and impairment charges. Management said revenue, operating income, and diluted EPS exceeded expectations after adjusting for these items. Segment results: Productivity and Business Processes revenue was $37.8 billion, up 14%; Intelligent Cloud revenue was $39.3 billion, up 32% (31% constant currency), with Azure and other cloud services up 43%; More Personal Computing revenue was $12.9 billion, down 4% (5% constant currency). Within MPC, Windows OEM and Devices revenue fell 7%, Xbox content and services revenue fell 10%, and search advertising excluding traffic acquisition costs rose 10% (9% constant currency). Microsoft returned $10.2 billion to shareholders. The release did not provide quantitative guidance for the next quarter. There was no prior preview to review.",
+  "reader_questions": [
+    "非GAAP口径只剔除OpenAI投资影响，但保留Anthropic的32亿美元收益；这会使非GAAP盈利仍包含一次性项目，同比增速是否因此被夸大？",
+    "商业剩余履约义务同比增长84%至6780亿美元，而微软云收入仅增长27%，两者增速巨大差异是否暗示未来收入确认将显著加速？",
+    "Xbox内容和服务收入下降10%，且本季度Xbox相关离职费用与减值损失被单独列出，是否表明该业务正经历战略收缩，下一季度MPC分部会否继续承压？"
+  ],
+  "fact_checks": [
+    "已核对：新闻稿发布日期为2026-07-29，季度为截至2026-06-30，即日历2026Q2/微软财年2026Q4。",
+    "已核对：季度收入900亿美元，同比+18%（固定汇率+17%）；营业利润406亿美元，同比+18%。",
+    "已核对：GAAP净利358亿美元（+31%），非GAAP净利353亿美元（+22%）；GAAP摊薄EPS 4.81美元（+32%），非GAAP 4.74美元（+23%）。",
+    "已核对：微软云收入593亿美元，同比+27%；商业剩余履约义务（cRPO）同比+84%至6780亿美元。",
+    "已核对：PBP收入378亿美元（+14%）；IC收入393亿美元（+32%，固定汇率+31%），Azure和其他云服务收入+43%；MPC收入129亿美元（-4%，固定汇率-5%）。",
+    "已核对：MPC内部，Windows OEM和设备-7%，Xbox内容和服务-10%，搜索广告（剔除流量获取成本）+10%（固定汇率+9%）。",
+    "已核对：离散项目：Anthropic投资相关收益32亿美元，自愿退休计划费用低于预期，部分被Xbox离职费用和减值抵消，合计对摊薄EPS净正面影响0.27美元。",
+    "已核对：OpenAI投资影响：本季GAAP净利包含4.80亿美元收益、EPS 0.07美元；非GAAP剔除该影响。",
+    "已核对：全年FY2026收入3318亿美元（+18%），GAAP净利1337亿美元（+31%）等数据与新闻稿一致。",
+    "已核对：无同期Preview；新闻稿未提供下一季度量化指引。"
+  ]
+}

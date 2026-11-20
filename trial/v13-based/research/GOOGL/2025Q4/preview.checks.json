@@ -1,0 +1,19 @@
+{
+  "english_draft": "Alphabet (GOOGL) 2025 Q4 Preview (historical reconstruction). This document is a retrospective reconstruction. It uses only information published on or before October 29, 2025. It is not a contemporaneous forecast. Basis: In Q3 2025, Alphabet reported revenue of $102.3 billion, up 16% year over year. Google Cloud grew 34% to $15.2 billion. Google Services grew 14% to $87.1 billion. Operating income was $31.2 billion. Operating margin was 31%. Excluding the $3.5 billion EC fine, operating income rose 22% and operating margin was 33.9%. Outlook for Q4 2025: Revenue growth should remain solid. Search, YouTube ads, subscriptions, and Cloud are the main drivers. Capital expenditure for 2025 is expected to be $91 billion to $93 billion. This signals continued heavy investment in AI infrastructure. Core questions: Will Google Cloud maintain growth above 30%? Cloud backlog reached $155 billion at the end of Q3. Will operating margin recover without the EC fine? The fine occurred in Q3 only. Will Search and AI monetization offset higher TAC and costs? TAC increased from $13.7 billion to $14.9 billion. Positive differences: Cloud backlog gives revenue visibility. Subscriptions exceed 300 million. Gemini App has over 650 million monthly active users. Management says demand from Cloud customers is strong. Negative differences: Alphabet-level costs increased. Other Bets loss widened. Currency and hedging effects created a $207 million revenue reduction in Q3. Regulatory costs remain a risk. Verification points: Check Q4 revenue growth by segment. Check operating margin. Check capex against $91 billion to $93 billion. Check Cloud backlog and subscription numbers.",
+  "reader_questions": [
+    "如果 Q4 营业利润率因 EC 罚款消除而大幅回升，是否应视为一次性因素而非经营改善？",
+    "Cloud backlog 的 $155B 是否包含尚未签订或可取消的合同？来源未定义，是否高估了 Q4 收入确定性？",
+    "资本开支指引 $91-93B 是否包含融资租赁或数据中心土地等非现金项目？如果不含，自由现金流是否会低于账面净利润？"
+  ],
+  "fact_checks": [
+    "Q3 2025 收入 $102.346B，同比 +16%，恒定汇率 +15%，与来源表格及新闻稿一致。",
+    "Google Services 收入 $87.052B，同比 +14%；Google Cloud 收入 $15.157B，同比 +34%，与来源一致。",
+    "营业利润 $31.228B，营业利润率 31%；剔除 EC 罚款 $3.5B 后营业利润同比 +22%、利润率 33.9%，与来源一致。",
+    "TAC 从 Q3 2024 的 $13.719B 升至 Q3 2025 的 $14.876B，与来源一致。",
+    "Cloud backlog $155B、付费订阅超 3 亿、Gemini App 月活 6.5 亿、每分钟处理 7B tokens，均来自 CEO 引述，属实。",
+    "2025 年资本开支指引为 $91B-$93B，与来源一致。",
+    "EC 罚款 $3.5B 在 Q3 2025 计入 Google Services 的 G&A 费用，与来源一致。",
+    "股息 $0.21/股，2025-12-15 支付，与来源一致。",
+    "来源未提供 Q4 2024 实际数据，因此本重建稿不给出 Q4 同比数字，避免编造。"
+  ]
+}

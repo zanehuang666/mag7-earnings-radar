@@ -1,0 +1,18 @@
+{
+  "english_draft": "Microsoft published its earnings release on April 29, 2026. The quarter ended March 31, 2026 is Microsoft's fiscal third quarter of fiscal year 2026. All amounts are in U.S. dollars. Revenue was $82.9 billion, up 18 percent year over year, and 15 percent in constant currency. Operating income was $38.4 billion, up 20 percent. GAAP net income was $31.8 billion, up 23 percent. GAAP diluted EPS was $4.27, up 23 percent. Non-GAAP net income increased 20 percent. Non-GAAP diluted EPS increased 21 percent. Non-GAAP results exclude the impact from investments in OpenAI. The OpenAI investment impact was a net loss of $14 million in the current quarter. The prior-year OpenAI impact was a net loss of $583 million. Microsoft Cloud revenue was $54.5 billion, up 29 percent. Commercial remaining performance obligation was $627 billion, up 99 percent. Productivity and Business Processes revenue was $35.0 billion, up 17 percent. Intelligent Cloud revenue was $34.7 billion, up 30 percent. Azure and other cloud services revenue increased 40 percent. More Personal Computing revenue was $13.2 billion, down 1 percent. Xbox content and services revenue decreased 5 percent. The CEO said the AI business surpassed an annual revenue run rate of $37 billion, up 123 percent. Microsoft returned $10.2 billion to shareholders. The release says forward-looking guidance will be provided on the earnings call. We do not have a same-period Preview for this quarter. We do not use a later reconstruction as a prediction.",
+  "reader_questions": [
+    "新闻稿称“营收、经营利润和EPS超出预期”，但未给出所对比的预期数值；没有独立一致预期时，应把“超预期”视为管理层的定性表述还是可验证事实？",
+    "CEO提到的“AI业务年化收入运行率超过370亿美元，同比增长123%”与Azure 40%增速、Microsoft Cloud 29%增速之间是什么口径关系？这是否是一个非GAAP且未经分部调节的发言口径？",
+    "新闻稿只披露三大分部收入，未披露分部经营利润；经营利润增速高于营收增速的原因究竟来自云业务的结构改善，还是整体费用控制？"
+  ],
+  "fact_checks": [
+    "发布日期与季度：2026-04-29发布，季度截至2026-03-31，为微软2026财年第三季度（自然年2026年第一季度）；标题和正文一致。",
+    "总营收：82,886百万美元，同比+18%（固定汇率+15%）；经营利润38,398百万美元，同比+20%；GAAP净利31,778百万美元，同比+23%；GAAP摊薄EPS 4.27美元，同比+23%。非GAAP净利同比+20%（固定汇率+18%），非GAAP EPS同比+21%（固定汇率+18%）。",
+    "分部收入：PBP 35,013百万美元（+17%），IC 34,681百万美元（+30%），MPC 13,192百万美元（-1%）；新闻稿未披露分部经营利润。",
+    "Microsoft Cloud收入54.5十亿美元（+29%）；商业RPO 627十亿美元，同比+99%。Azure及其他云服务收入同比+40%（固定汇率+39%）。",
+    "非GAAP剔除OpenAI投资影响：本季OpenAI投资净亏损14百万美元，去年同期净亏损583百万美元。",
+    "CEO发言称AI业务年化收入运行率超过37十亿美元、同比+123%；此为发言人陈述口径，新闻稿未将其列为GAAP指标。",
+    "公司未在新闻稿中给出下一季具体指引，仅称将在电话会议和网络直播中提供前瞻信息。",
+    "截至cutoff无同期Preview；事后历史资料重建稿不可作为当时预测复核依据。"
+  ]
+}

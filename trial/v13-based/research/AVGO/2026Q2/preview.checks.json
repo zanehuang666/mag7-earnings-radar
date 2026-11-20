@@ -1,0 +1,15 @@
+{
+  "english_draft": "Broadcom published fiscal Q1 2026 results on March 4, 2026.\nThe quarter ended on February 1, 2026.\nTotal revenue was USD 19.311 billion.\nTotal revenue increased 29% year over year.\nAI semiconductor revenue was USD 8.4 billion.\nAI semiconductor revenue increased 106% year over year.\nAdjusted EBITDA was USD 13.128 billion.\nAdjusted EBITDA margin was 68% of revenue.\nGAAP diluted EPS was USD 1.50.\nNon-GAAP diluted EPS was USD 2.05.\nOperating cash flow was USD 8.260 billion.\nCapital expenditure was USD 0.250 billion.\nFree cash flow was USD 8.010 billion.\nFor the next quarter, management guided total revenue to approximately USD 22.0 billion.\nManagement guided AI semiconductor revenue to USD 10.7 billion.\nThis guidance is a company forecast. It is not a historical fact.\n\nThis document is a retrospective reconstruction.\nIt was not written before the fiscal Q2 2026 earnings release.\nIt uses only the fiscal Q1 2026 press release.\n\nPreview conclusion:\nThe fiscal Q1 2026 report supports a strong fiscal Q2 outlook.\nThe main questions are AI semiconductor growth, EBITDA margin, and free cash flow.\nPositive difference: total revenue above USD 22.0 billion, or AI semiconductor revenue above USD 10.7 billion, could support the AI demand outlook.\nNegative difference: AI semiconductor revenue below USD 10.7 billion, or adjusted EBITDA margin clearly below 68%, could weaken the margin and cash flow view.\nVerification points: check actual total revenue, actual AI semiconductor revenue, adjusted EBITDA margin, and free cash flow.\n\nAnalysis:\nThere is no contemporaneous preview.\nActual fiscal Q2 2026 results were not available at the March 4, 2026 cutoff.\nDifferences versus the preview or company guidance cannot be calculated.\nProduct-level margin and segment cash flow reasons cannot be verified.\nThe original judgment cannot be confirmed.\nThe next release should be checked against company guidance.",
+  "reader_questions": [
+    "问题1：公司指引中的约220亿美元总收入是否来自同一份Q1新闻稿？回答：是；该指引与AI半导体收入107亿美元都出自同一份Q1 FY2026新闻稿。",
+    "问题2：AI半导体收入是GAAP分部收入还是管理层口径？回答：本稿按管理层口径引用，未将其等同于GAAP分部收入。",
+    "问题3：文中的43.5%和48.6%是什么占比？回答：分别是8.4/19.311和10.7/22.0的简单比值，表示AI半导体收入占当季或下季指引总收入的百分比，不是利润率。"
+  ],
+  "fact_checks": [
+    "manual_verified：已核对发布日期与季度。新闻稿日期为2026年3月4日，公布的是截至2026年2月1日的Q1 FY2026业绩；本稿未把Q1业绩当作Q2实际结果。",
+    "manual_verified：已核对币种与单位。所有金额均为美元；总收入193.11亿美元、AI半导体收入84亿美元、调整后EBITDA 131.28亿美元、非GAAP摊薄EPS 2.05美元。",
+    "manual_verified：已核对口径。GAAP摊薄EPS 1.50美元与非GAAP摊薄EPS 2.05美元分开列示；调整后EBITDA和AI半导体收入按管理层披露口径使用。",
+    "manual_verified：已核对指引与事实。总收入约220亿美元、AI半导体收入107亿美元是管理层指引，不是历史事实；Markdown中已标明。",
+    "manual_verified：已核对来源边界。可用来源只有官方Q1 FY2026新闻稿，没有可靠共识或后续Q2数据；Analysis中“实际结果待核”是唯一合规表述。"
+  ]
+}

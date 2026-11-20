@@ -1,0 +1,18 @@
+{
+  "english_draft": "SK hynix published its FY2025 and Q4 2025 results on 28 January 2026. No Preview was attached. Therefore, this Analysis cannot compare actuals with a previous forecast. All figures are preliminary and based on K-IFRS. Units are billion KRW. FY2025 revenue was 97,146.7, up 47% year-on-year. FY2025 operating profit was 47,206.3, up 101% year-on-year. FY2025 net profit was 42,947.9, up 117% year-on-year. Q4 revenue was 32,826.7, up 34% quarter-on-quarter and 66% year-on-year. Q4 operating profit was 19,169.6, up 68% quarter-on-quarter and 137% year-on-year. Q4 net profit was 15,246.0, up 21% quarter-on-quarter and 90% year-on-year. Q4 operating margin was 58%. The company attributes the result to AI memory competitiveness and high-value products. HBM revenue in DRAM more than doubled year-on-year. Server demand for conventional memory increased in Q4. NAND demand improved in the second half on eSSD orders. HBM4 mass production is underway. The company announced an additional dividend of 1 trillion won and cancellation of 15.3 million treasury shares. The news release does not disclose HBM absolute revenue, product gross margin, quantity-price split, operating cash flow, or capital expenditure. The next review should focus on HBM4 ramp, server DRAM and eSSD demand, capacity expansion, and shareholder return execution.",
+  "reader_questions": [
+    "新闻稿把Q4高增长归于AI内存竞争力和传统服务器内存需求，但没有披露量价拆分。如果实际主要是价格上涨而非出货量扩大，是否会改变对下一季度盈利可持续性的判断？",
+    "新闻稿只说DRAM部门HBM收入同比翻倍以上，未给出HBM绝对值或占比。若HBM对总收入和利润的拉动被高估，是否仍能解释Q4营业利润率从47%升至58%？",
+    "公司宣布额外派息1万亿韩元并注销约12.2万亿韩元库存股，但未披露资金来源及未来资本开支计划。若股东回报挤占扩产投资，是否应重新评估产能扩张和长期增长？"
+  ],
+  "fact_checks": [
+    "日期与口径：新闻稿发布于2026-01-28，对应FY2025及4Q25（截至2025年12月）；财务数据按K-IFRS、单位十亿韩元，公司称为初步结果。",
+    "年度表：FY25营收97,146.7，同比+47%；营业利润47,206.3，同比+101%；营业利润率49%；净利润42,947.9，同比+117%。与来源表格一致。",
+    "单季表：4Q25营收32,826.7，环比+34%、同比+66%；营业利润19,169.6，环比+68%、同比+137%；营业利润率58%（Q3’25为47%、Q4’24为41%）；净利润15,246.0，环比+21%、同比+90%。",
+    "产品：HBM收入在DRAM部门同比翻倍以上；1cnm DRAM全面量产；256GB DDR5 RDIMM基于32Gb 1b；NAND完成321层QLC产品开发；下半年以eSSD需求为主。来源未提供对应收入或利润拆分。",
+    "HBM4：公司称于2025年9月完成行业首次量产准备，之后HBM4大规模量产已在进行，并推进Custom HBM。‘完成量产准备’不等于已确认大额收入。",
+    "股东回报：额外股息1万亿韩元（每股1,500韩元），年终每股1,875韩元，FY25合计每股3,000韩元、共2.1万亿韩元；注销15,300,000股，约占总股本2.1%（按2026-01-27收盘价约12.2万亿韩元）。",
+    "未见同期Preview；不得用2026-01-28之后的季度业绩链接（1Q26/2Q26/3Q26）回填为事前预测。",
+    "来源未披露经营现金流、资本开支、HBM毛利率、市场一致预期或2026年财务指引；本稿未补充任何此类数字。"
+  ]
+}

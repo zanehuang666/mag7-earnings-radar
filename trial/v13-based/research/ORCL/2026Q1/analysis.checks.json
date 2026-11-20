@@ -1,0 +1,16 @@
+{
+  "english_draft": "English intermediate draft (ASD-STE100 style):\n\nThe only source is Oracle's official news release dated 2026-03-10. There is no same-period preview. This analysis does not use consensus estimates or post-release information.\n\nOracle reported FY2026 Q3 total revenue of USD 17.2 billion, up 22% year over year in USD. Cloud revenue was USD 8.9 billion, up 44%. Cloud infrastructure revenue was USD 4.9 billion, up 84%. Cloud application revenue was USD 4.0 billion, up 13%. GAAP EPS was USD 1.27. Non-GAAP EPS was USD 1.79. Do not mix the two measures.\n\nRemaining performance obligations were USD 553 billion, up 325% year over year. RPO is contracted backlog, not recognized revenue. The provided source does not include operating margin, cash flow, or GAAP reconciliation. Therefore this analysis does not explain profit or cash-flow reasons.\n\nThe next-quarter checks are: cloud infrastructure growth, cloud application growth, RPO conversion, and margin or cash-flow disclosure.",
+  "reader_questions": [
+    "如果不把 RPO 5530 亿美元按未来 12 个月/24 个月的预计确认时间拆分，能否仅凭同比 +325% 判断收入增长动能？",
+    "若云应用收入同比仅 +13%、云基础设施同比 +84%，是否应把本轮“云收入增长”重新归因于 IaaS 而非 SaaS 的全面加速？",
+    "在缺少营业利润、现金流和 GAAP/non-GAAP 调节项的情况下，仅凭 EPS 数字能否判断利润质量？"
+  ],
+  "fact_checks": [
+    "确认发布日期为 2026-03-10，不晚于资料截止时间；标题为 Fiscal Year 2026 Third Quarter Financial Results，对应 Oracle FY2026 Q3。",
+    "确认总营收 172 亿美元、同比 +22% 与官方新闻稿一致，且为美元口径。",
+    "确认云收入（IaaS+SaaS）89 亿美元、同比 +44%；云基础设施 49 亿美元、同比 +84%；云应用 40 亿美元、同比 +13%。",
+    "确认 RPO 5530 亿美元、同比 +325%，官方定义为已签约待履约合约（contracted backlog），不是已确认收入。",
+    "确认 GAAP EPS 1.27 美元、non-GAAP EPS 1.79 美元；正文明确区分口径，未混用，也未将差额归因于未披露项目。",
+    "确认所附来源中没有同期 Preview；未使用财报发布后的信息；未编造公司指引或市场共识。"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "english_draft": "AMD reported Q1 2026 results on May 5, 2026. Revenue was $10.3 billion, up 38% year over year and flat sequentially. GAAP gross margin was 53%. Non-GAAP gross margin was 55%. GAAP operating income was $1.5 billion. Non-GAAP operating income was $2.5 billion. GAAP diluted EPS was $0.84. Non-GAAP diluted EPS was $1.37. Data Center segment revenue was $5.8 billion, up 57% year over year. Client and Gaming segment revenue was $3.6 billion, up 23% year over year. Embedded segment revenue was $873 million, up 6% year over year. The company attributed Data Center growth to EPYC demand and Instinct GPU ramp. Management said AI infrastructure demand accelerated. Management said server growth should accelerate as supply scales. Management said MI450 Series and Helios customer engagement strengthened. For Q2 2026, AMD guided revenue to approximately $11.2 billion, plus or minus $300 million. The midpoint is about 46% year-over-year growth and about 9% sequential growth. AMD guided non-GAAP gross margin to approximately 56%. There was no preview written before the release. Therefore, this analysis cannot be compared with a prior preview. The comparison is made against company guidance and the reported prior quarter. The key question was whether Data Center revenue continued to grow. It did, up 57% year over year. The second key question was whether AI GPU momentum continued. Company statements and the Meta deployment agreement indicated that it did. The third key question was whether margins held. Non-GAAP gross margin was 55%, down 2 points sequentially from 57%. The midpoint of Q2 revenue guidance implies faster growth than Q1. The Q2 non-GAAP gross margin outlook of 56% implies a one-point sequential improvement. For the next quarter, watch Data Center growth, MI450 Series customer commitments, Helios pipeline, and gross margin trend. The cause of the gross margin decline was not fully explained in the release. The sequential decline in operating income and net income came from higher operating expenses and lower gross profit. Non-GAAP operating expenses rose 5% sequentially. Revenue was flat sequentially. This combination explains the sequential drop in operating margin from 28% to 25%. The data center demand narrative remained intact. The next quarter guidance was above the reported Q1 revenue level. No consensus figures are available in the supplied source. Therefore, the analysis does not claim any consensus comparison.",
+  "reader_questions": [
+    "If Q1 revenue was flat sequentially, why did non-GAAP operating margin fall from 28% to 25%? The answer lies in non-GAAP operating expenses rising 5% while revenue was flat, and the release does not fully explain the expense driver.",
+    "What caused the non-GAAP gross margin to decline from 57% in Q4 2025 to 55% in Q1 2026? The press release does not provide a segment margin breakdown, so the mix effect from data center versus client and gaming is not derivable from the supplied facts.",
+    "Is the $11.2 billion Q2 guidance a company forecast or an external consensus? It is AMD's own outlook, not a consensus, because no analyst consensus is included in the supplied source."
+  ],
+  "fact_checks": [
+    "Revenue $10.3 billion: confirmed in the press release as $10,253 million for Q1'26, up 38% year over year, flat sequentially.",
+    "GAAP gross margin 53% and non-GAAP gross margin 55%: confirmed in the release and reconciliation tables.",
+    "GAAP operating income $1.5 billion and non-GAAP operating income $2.5 billion: confirmed as $1,476 million and $2,540 million.",
+    "GAAP diluted EPS $0.84 and non-GAAP diluted EPS $1.37: confirmed in the release.",
+    "Data Center revenue $5.8 billion up 57% year over year: confirmed in segment summary.",
+    "Client and Gaming revenue $3.6 billion up 23% year over year: confirmed in segment summary.",
+    "Embedded revenue $873 million up 6% year over year: confirmed in segment summary.",
+    "Q2 2026 revenue guidance approximately $11.2 billion plus or minus $300 million: confirmed in outlook section.",
+    "Q2 non-GAAP gross margin approximately 56%: confirmed in outlook section.",
+    "Sequential non-GAAP gross margin decline from 57% in Q4'25 to 55% in Q1'26: confirmed in non-GAAP quarterly results table.",
+    "Sequential non-GAAP operating expense increase from $3,001 million to $3,145 million: confirmed in reconciliation table.",
+    "No preview existed before the release: preview_status confirms no same-period preview, so no prior preview comparison is made.",
+    "No consensus figures are present in the supplied source; the note in the prompt says to treat consensus cautiously. Therefore, the analysis does not benchmark against consensus.",
+    "The release does not provide a segment-level margin breakdown or a detailed explanation for the sequential gross margin decline; analysis flags this as a data limitation."
+  ]
+}

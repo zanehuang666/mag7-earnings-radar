@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "95c27468e9acefd84fb0bffe5fd47494eee28edef765cdb9427c99c2ee3baa3b",
+  "cutoff": "2026-11-19T05:58:27.371688+00:00",
+  "generated_at": "2026-11-20T00:57:21.762595+00:00",
+  "sources": [
+    "https://news.samsung.com/global/samsung-electronics-announces-first-quarter-2026-results"
+  ]
 }

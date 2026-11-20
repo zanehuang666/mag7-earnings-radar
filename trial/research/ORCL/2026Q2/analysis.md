@@ -1,32 +1,26 @@
-# Oracle（ORCL）2026Q2｜财报后资料索引
+# Oracle（ORCL）2026财年Q4财报分析
 
-> 自动整理的资料索引，尚不是经逐季财报核对的完整研究文章。
+**数据来源**：[Oracle官方发布稿](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx)
 
-- 财报日：2026-06-10（已发布）
-- 财报期：May 2026
+**无同期 Preview**：未附有财报前撰写并在本季发布前可得的同期 Preview；本文不事后补写预测，也不判断预期差。历史资料中如存在事后重建稿，不作为当时预测复核依据。
 
-## 已核实资料与待复核判断
+## 季度口径
+- 发布日：2026-06-10。
+- 报告期：甲骨文2026财年第四季度（截至2026年5月底；处于自然年2026年第二季度，但不是自然季度完整季报）。
 
-- Oracle fiscal Q4 2026 released June 10, 2026; total quarterly revenue USD 19.2 billion, up 21% year over year.
-- Quarterly cloud revenue (IaaS plus SaaS) USD 9.9 billion, up 47%; cloud infrastructure USD 5.8 billion, up 93%; cloud applications USD 4.1 billion, up 10%.
-- Remaining performance obligations increased from USD 553 billion to USD 638 billion during the quarter; this is contracted backlog, not recognized revenue.
-- Quarterly GAAP operating income USD 6.1 billion and non-GAAP operating income USD 8.6 billion; GAAP EPS USD 1.45 and non-GAAP EPS USD 2.11.
+## 实际结果
+- 总收入：192亿美元，同比+21%。
+- 云收入（IaaS+SaaS）：99亿美元，同比+47%。
+- 其中云基础设施（IaaS）：58亿美元，同比+93%；云应用（SaaS）：41亿美元，同比+10%。
+- 剩余履约义务（RPO）：季内从5530亿美元增至6380亿美元；这是已签约、尚未确认收入的合同金额，不等于当期收入。
+- 经营利润：GAAP为61亿美元，non-GAAP为86亿美元。
+- 每股收益：GAAP EPS为1.45美元；non-GAAP EPS为2.11美元。
 
-### Nasdaq EPS 线索（尚待核对财报口径）
+## 产品与利润原因
+- 增长主要由云基础设施驱动：IaaS同比接近翻倍，增速远高于SaaS。按公开数据计算，云收入占总收入约52%。
+- SaaS增速（10%）低于整体收入增速，显示云应用不是本季加速主项。
+- 经营利润同时以GAAP和non-GAAP披露；本稿未获得调节明细，不推断两口径差异的具体构成。
+- RPO增加约850亿美元（按公开数据计算），是未来收入可见度上升的信号，但不是当期现金流或已实现收入。
 
-Nasdaq 快照记录实际 EPS 1.79、公开一致预期 1.58、差异 13.29%。
-此处不推断 GAAP、非 GAAP或拆股调整口径，也不据此单独判断财报质量。
-
-### 后续核对
-
-- 云基础设施收入：实际结果、指引与下季变化。
-- 剩余履约义务与转化：实际结果、指引与下季变化。
-- 资本开支与现金流：实际结果、指引与下季变化。
-
-## 来源与状态
-
-- [原始资料 1](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx)
-- [原始资料 2](https://api.nasdaq.com/api/calendar/earnings?date=2026-06-10)
-- [原始资料 3](https://api.nasdaq.com/api/company/ORCL/earnings-surprise)
-
-资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
+## 下一季关注
+- 下一份财报（2027财年第一季度）应关注：IaaS增速能否维持高位、RPO向收入转化节奏、SaaS增速是否回升，以及GAAP/non-GAAP利润率与EPS变化。若公司给出新指引，再以指引为对照。

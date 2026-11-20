@@ -1,0 +1,18 @@
+{
+  "english_draft": "Historical Reconstruction: AMD 2026Q3 Preview (data cutoff 2026-08-04)\n\nPurpose:\nThis document is a historical reconstruction. It uses only AMD's Q2 2026 press release published on 2026-08-04. It does not claim to have been written before the Q3 2026 earnings date.\n\nConclusion:\nAMD guided Q3 2026 revenue to approximately $13.0 billion, plus or minus $300 million. The midpoint implies approximately 41% year-over-year growth and approximately 13% sequential growth. AMD guided non-GAAP gross margin to approximately 56%, flat with Q2 2026.\nManagement expects Data Center sales to accelerate in the second half of 2026. The company did not give a segment-level Q3 forecast. The preview infers that Data Center will drive most of the Q3 increase.\n\nQ2 2026 baseline (actual):\nRevenue was $11,536 million. Data Center revenue was $6,700 million, up 107% year-over-year. Data Center was 58% of company revenue. Client revenue was $3,100 million, up 23%. Gaming revenue was $779 million, down 31%. Embedded revenue was $977 million, up 19%. Non-GAAP gross margin was 56%. Non-GAAP operating income was $3,094 million. Non-GAAP net income was $2,760 million. Diluted EPS was $1.66.\n\nCore questions:\n1. Can Data Center accelerate? The Q3 revenue midpoint implies a sequential increase of about $1,464 million. If other segments stay flat, Data Center would need to rise from about $6.7 billion to about $8.2 billion. This is arithmetic, not guidance.\n2. Can non-GAAP gross margin stay near 56%? The mix includes MI400/Helios ramp, lower semi-custom gaming revenue, and Embedded recovery. AMD does not disclose segment margins.\n3. Can non-Data-Center segments avoid a large drag? Gaming declined 31% in Q2. Client depends on Ryzen demand. Embedded is recovering.\n\nExpected deviations:\nPositive factors include faster Data Center growth, Helios deployments, EPYC demand, and the Anthropic partnership (up to 2 GW of MI450 GPUs in Helios racks). These are future deployments, not guaranteed Q3 revenue.\nNegative factors include weak Data Center contribution, gross margin below 56%, or a larger Gaming decline. These conditional risks are the preview's inference, not consensus.\n\nVerification points:\nRevenue within $12.7 billion to $13.3 billion. Segment revenue. Non-GAAP gross margin near 56%. Q4 guidance and comments on Helios, MI400, and Anthropic ramp.\n\nAnalysis:\nNo contemporaneous preview is attached. This is a historical reconstruction, so no actual-results review is provided.",
+  "reader_questions": [
+    "Q2'25 同比增速受 8 亿美元 MI308 出口管制相关存货费用影响，但非GAAP调整表未单列该笔费用；本稿使用 107% 和 50% 时是否夸大了可比增长？",
+    "Q3 整体收入中点环比增加约 14.6 亿美元；若数据中心贡献大部分增量，需从 67 亿美元增至约 82 亿美元。这是否把“加速”变成必然？如果其他板块也环比增长，验证门槛应如何调整？",
+    "Anthropic 最高 2GW MI450 部署是未来合作承诺，而非 Q3 已实现收入；本稿把它列为正面预期差，是否会被误读为短期订单？"
+  ],
+  "fact_checks": [
+    "来源为 AMD 官方新闻稿，发布日期 2026-08-04 4:15 pm EDT；覆盖季度为 2026Q2（截至 2026-06-27）。",
+    "2026Q2 收入 $11,536M；GAAP 毛利率 54%、营业利润 $1,990M、净利润 $2,297M、稀释 EPS $1.38。",
+    "非GAAP 毛利率 56%、营业利润 $3,094M、净利润 $2,760M、稀释 EPS $1.66；币种为美元，单位为百万美元。",
+    "分部：数据中心 $6.7B、同比 +107%，CFO 表述占公司收入 58%；客户端 $3.1B、同比 +23%；游戏 $779M、同比 -31%；嵌入式 $977M、同比 +19%。",
+    "2026Q3 指引：收入约 $13.0B ± $300M；中点同比约 +41%、环比约 +13%；非GAAP毛利率约 56%。来源未提供 GAAP 毛利率指引或分部门指引。",
+    "来源未提供市场共识、股价、分部利润率；正文中“数据中心需增至约 82 亿美元”为本稿基于整体指引的算术推算，非公司指引。",
+    "Anthropic 最高 2GW MI450 部署为合作公告，属于前瞻性声明，不等于 Q3 已确认收入。",
+    "未附有确实写于 2026Q3 财报前的同期 Preview；最终 Markdown 的 Analysis 部分明确写“无同期 Preview”，未事后补写实际结果复核。"
+  ]
+}

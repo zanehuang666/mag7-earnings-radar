@@ -1,32 +1,17 @@
-# Meta（META）2026Q1｜财报后资料索引
+# META 2026Q1 财报分析
 
-> 自动整理的资料索引，尚不是经逐季财报核对的完整研究文章。
+> 信息截止：2026-04-29 23:59:59；仅依据 Meta 官方新闻稿，关键事实见[原文](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/default.aspx)。
 
-- 财报日：2026-04-29（已发布）
-- 财报期：Mar 2026
+## Preview
 
-## 已核实资料与待复核判断
+无同期 Preview；另有事后历史资料重建稿，不可当作当时预测复核。
 
-- Quarter ended March 31, 2026; revenue USD 56.311 billion, up 33% year over year.
-- Operating income USD 22.872 billion; operating margin 41%; diluted EPS USD 10.44.
-- Reported net income includes an USD 8.03 billion income tax benefit; excluding it would reduce diluted EPS by USD 3.13, per company release.
-- Family daily active people averaged 3.56 billion in March 2026, up 4% year over year; ad impressions increased 19% year over year.
+## Analysis
 
-### 正式版确定性摘要（Nasdaq / 行情口径）
+Meta 于 2026 年 4 月 29 日公布第一季度业绩。截至 2026 年 3 月 31 日，收入为 561.11 亿美元，同比增长 33%；经营利润为 228.72 亿美元，经营利润率为 41%；摊薄每股收益（EPS）为 10.44 美元，以上均见[官方新闻稿](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/default.aspx)。
 
-Nasdaq 历史日历记录实际 EPS $7.31、公开一致预期 $6.71，对应预期差 +8.94%
+需要特别注意，报告净利润中包含 80.3 亿美元的所得税收益。公司口径为：若剔除该税项收益，摊薄 EPS 将减少 3.13 美元。按此推算，剔税后 EPS 约 7.31 美元（10.44 减 3.13），但这是本稿推算，不是公司披露数。因此，10.44 美元的同比可读性有限，更应关注经营利润与经营利润率。来源未披露分产品收入、广告 ARPU 或经营现金流细节，本稿不对 Reality Labs 等分部利润或现金归因作推断。
 
-该摘要只提供公开 EPS 或价格反应线索，不能代替公司财报正文。
+用户与广告方面：2026 年 3 月 Family 日活人数（Family daily active people）为 35.6 亿，同比增长 4%；广告曝光次数同比增长 19%。广告曝光增速显著高于日活增速，意味着平均到每位日活用户的曝光量继续上升，但未披露广告价格与收入结构，不能据此推断广告单价变化。
 
-### 后续核对
-
-- 广告价格和展示量：实际结果、指引与下季变化。
-- 应用家族利润率：实际结果、指引与下季变化。
-- AI 资本开支：实际结果、指引与下季变化。
-
-## 来源与状态
-
-- [原始资料 1](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/default.aspx)
-- [原始资料 2](https://api.nasdaq.com/api/company/META/earnings-surprise)
-
-资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
+与原 Preview/指引/可靠共识的差异：由于本稿没有同期 Preview，且来源未包含公司先前指引，也未取得可靠市场共识，因此不构建预期差。原判断复核不适用。下一季需重点验证：剔税后 EPS 基线、经营利润率能否维持、广告曝光增长能否继续转化为收入增长。

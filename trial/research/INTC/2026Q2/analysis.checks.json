@@ -1,0 +1,21 @@
+{
+  "english_draft": "Purpose: Intel Q2 2026 analysis based only on the official earnings release dated July 23, 2026.\n\nNo same-period Preview exists. A later historical reconstruction cannot be used as a Preview.\n\nIntel reported Q2 2026 revenue of $16.1 billion. Revenue increased 25% year-over-year.\nGAAP diluted EPS attributable to Intel was $(2.16). Non-GAAP diluted EPS was $0.42.\nQ2 cash from operations was $7.0 billion.\nGAAP gross margin was 40.4%. Non-GAAP gross margin was 41.8%. In Q2 2025, these ratios were 27.5% and 29.7%.\nGAAP operating income was $1.8 billion. In Q2 2025, GAAP operating loss was $(3.2) billion.\n\nSegment revenue includes intersegment transactions.\nCCPG revenue was $8.9 billion, up 13%. DCAI revenue was $6.3 billion, up 59%. Intel Foundry revenue was $5.8 billion, up 31%. All other revenue was $0.7 billion, down 33%.\nSegment operating income was $2.343 billion for CCPG and $2.474 billion for DCAI. Intel Foundry had an operating loss of $(2.089) billion. Corporate Unallocated had an operating loss of $(1.416) billion.\n\nAltera was deconsolidated on September 12, 2025. This affects year-over-year comparability.\n\nThe CFO said Q2 results exceeded financial guidance. The release does not contain the previous guidance figures.\n\nThe GAAP net loss attributable to Intel was $11.0 billion. The non-GAAP net income attributable to Intel was $2.2 billion. In the six-month cash flow statement, the largest non-cash adjustment was a $13.6 billion mark-to-market loss on Escrowed Shares.\n\nIntel guided Q3 2026 revenue to $15.8-16.8 billion. GAAP EPS guidance was $0.31. Non-GAAP EPS guidance was $0.38. GAAP gross margin guidance was 41.0%. Non-GAAP gross margin guidance was 42.0%. The gross margin and EPS outlooks use the revenue midpoint.\n\nProduct highlights include Xeon 6+, the first Intel 18A server-class CPU. Panther Lake entered high-volume manufacturing for a subset of products. Intel 18A-P entered risk production. Intel announced Fortinet Security Processor 6 collaboration and a €5 billion investment to expand manufacturing capacity.\n\nThe provided source contains no independent consensus estimates. This analysis does not compare Intel results with consensus.",
+  "reader_questions": [
+    "DCAI 同比增长59%中，有多少来自出货量、平均售价、产品组合，或Altera出表与低基数等口径变化？新闻稿未给出量价拆分，不能直接归因于AI需求。",
+    "Intel Foundry 的58亿美元收入中，外部客户占多少？若外部占比很低，高增长可能主要是内部订单转移，经营亏损也无法说明外部竞争力。",
+    "公司称Q2超过财务指引，但新闻稿未提供上一季度给出的指引数字；若缺少当时指引，无法量化超预期幅度和超预期来源。"
+  ],
+  "fact_checks": [
+    "发布日期与季度：2026-07-23发布的官方新闻稿报告Intel 2026年第二季度（截至2026-06-27），与请求的calendar_quarter 2026Q2一致。",
+    "营收：16,128百万美元；2025年第二季度为12,859百万美元；同比+25%。",
+    "EPS：GAAP摊薄EPS为-2.16美元；non-GAAP摊薄EPS为0.42美元，均为归属于Intel。",
+    "毛利率：GAAP 40.4%，去年同期27.5%；non-GAAP 41.8%，去年同期29.7%。",
+    "GAAP经营利润：1,796百万美元，去年同期为-3,176百万美元；non-GAAP经营利润率17.2%。",
+    "分部收入（含内部交易）：CCPG 8,877百万美元（+13%），DCAI 6,262百万美元（+59%），Intel Foundry 5,765百万美元（+31%），All other 701百万美元（-33%），内部抵消-5,477百万美元。",
+    "分部经营利润：CCPG 2,343百万美元；DCAI 2,474百万美元；Intel Foundry -2,089百万美元；Corporate Unallocated -1,416百万美元。",
+    "现金流：新闻稿称第二季度经营现金流70亿美元；六个月现金流量表显示经营现金流8,102百万美元，其中最大非现金调节项为托管股份市值损失13,619百万美元。",
+    "Altera：2025年9月12日起不再并表，影响同比可比性。",
+    "Q3指引：收入15.8-16.8B；GAAP EPS 0.31美元、non-GAAP EPS 0.38美元；GAAP毛利率41.0%、non-GAAP毛利率42.0%；毛利率和EPS基于收入区间中点。",
+    "Preview与共识：无同期Preview；所附资料不含独立市场共识数据。"
+  ]
+}

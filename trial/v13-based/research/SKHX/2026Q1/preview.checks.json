@@ -1,0 +1,18 @@
+{
+  "english_draft": "Historical reconstruction: This preview of SK hynix's 2026Q1 results is a retrospective reconstruction. It uses only information published before 2026-01-28T23:59:59, mainly SK hynix's FY2025 results press release dated 2026-01-28. It was not actually written before the target-quarter earnings release.\n\nBase quarter: In Q4 2025, SK hynix reported revenue of KRW 32.8267 trillion, operating profit of KRW 19.1696 trillion, operating margin of 58%, and net income of KRW 15.2460 trillion. FY2025 revenue was KRW 97.1467 trillion, operating profit KRW 47.2063 trillion, net income KRW 42.9479 trillion. HBM revenue more than doubled for the full year. HBM4 mass-production preparation was completed in September 2025, and large-scale production is underway.\n\nCore questions for 2026Q1:\n1. HBM4 ramp pace and DRAM mix.\n2. Sustainability of conventional server DRAM and NAND/eSSD demand.\n3. Operating margin capacity near 58% under seasonal weakness and new product costs.\n\nUpside and downside factors (inference, not company guidance):\n- Upside: better HBM4 ramp, tight server DRAM, strong QLC eSSD.\n- Downside: seasonal decline, NAND softness, DRAM price pressure, HBM4 ramp costs.\n\nVerification points for the 2026Q1 report (expected 2026-04-23): revenue QoQ change, operating margin, HBM/HBM4 share, conventional DRAM and NAND trends, capex and capacity execution, full-year guidance, dividend/share cancellation updates.\n\nSource: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/",
+  "reader_questions": [
+    "本稿把一季度淡季视为负面因素，但这一判断是公司指引还是本稿推论？如果读者误以为这是公司预测，会高估回落风险。",
+    "HBM 收入同比翻倍以上是 2025 全年口径，还是 2025Q4 单季口径？若不明确，会高估 2025Q4 的 HBM 贡献。",
+    "公司新闻稿没有给出 2026 年一季度任何量化指引，本稿中的“有支撑”和“可能回落”是否有具体数字依据？若无，是否已明确标注为推论？"
+  ],
+  "fact_checks": [
+    "来源日期核对：新闻稿发布于 2026-01-28，与 prior_release_date 一致。",
+    "季度核对：新闻稿覆盖 2025Q4（自然季度 2025 年 10-12 月）和 FY2025；目标季度 2026Q1 尚无数据。",
+    "币种与单位核对：全部财务数据为韩元，表格以十亿韩元列示，正文换算为万亿韩元。",
+    "口径核对：采用 K-IFRS，合并口径；来源未提供分部损益，本稿未做分部推断。",
+    "事实/指引/共识核对：财务结果为已公布事实；公司展望为定性陈述（HBM4 量产、定制 HBM、产能扩张等）；来源无市场共识和量化指引。",
+    "第一轮核实修正：已将 HBM 收入翻倍明确限定为 2025 全年口径。",
+    "第二轮互检修正：已将淡季影响和正负预期差明确标注为本稿推论，非公司指引。",
+    "目标事件日 2026-04-23 来自任务参数，不在来源中；仅用于定义验证窗口，不作为公司披露信息。"
+  ]
+}

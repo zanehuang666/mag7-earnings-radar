@@ -1,0 +1,19 @@
+{
+  "english_draft": "Intermediate English draft (STE-aligned):\nSK hynix enters Q4 2025 with record Q3 performance. Revenue was 24.4489 trillion won. Operating profit was 11.3834 trillion won. Net profit was 12.5975 trillion won. The company moved to net cash. Cash and equivalents were 27.9 trillion won. Interest-bearing debt was 24.1 trillion won. Net cash was 3.8 trillion won.\nThe company expects HBM4 shipments to begin in Q4 2025. HBM4 development was completed in September. HBM4 entered mass production. Full-scale HBM4 sales are planned for next year. The company has secured customer demand for all DRAM and NAND production for next year. Investment next year is expected to increase. The company plans to accelerate migration to 1cnm DRAM. The company plans to increase 321-layer TLC and QLC NAND output.\nFor Q4 2025, the key question is HBM4 revenue recognition. The second question is DRAM and NAND pricing and mix. The third question is cash flow and capital expenditure.\nPositive surprise: HBM4 contribution is material in Q4. Negative surprise: HBM4 ramp costs or flat sequential revenue.\nEarnings checkpoints: revenue, operating profit, margin, net profit, cash, debt, HBM4 commentary, 2026 demand visibility, capex updates.",
+  "reader_questions": [
+    "如果 HBM4 在 Q4 开始出货，其收入在 2025Q4 能转化为可观贡献，还是主要计入 2026 年？",
+    "2025Q4 的营业利润率能否维持或超过 47%，还是因 HBM4 初期爬坡、1cnm 迁移和 M15X 费用而回落？",
+    "公司表示明年全部 DRAM 和 NAND 产能需求已确保，这能否支持 Q4 营收环比继续增长，还是只影响 2026 年订单能见度？"
+  ],
+  "fact_checks": [
+    "3Q25 营收 24,448.9 十亿韩元（24.4489 万亿韩元），环比 +10%，同比 +39%：已核对官方发布表。",
+    "3Q25 营业利润 11,383.4 十亿韩元，营业利润率 47%，环比 +24%，同比 +62%：已核对官方发布表。",
+    "3Q25 净利润 12,597.5 十亿韩元，净利率 52%，环比 +80%，同比 +119%：已核对官方发布表。",
+    "期末现金及现金等价物 27.9 万亿韩元，有息负债 24.1 万亿韩元，净现金 3.8 万亿韩元：已核对新闻稿正文。",
+    "HBM4 于 9 月完成开发并进入量产，Q4 开始出货，2026 年全面扩大销售：为公司指引，已核对新闻稿。",
+    "公司称已完成与主要客户关于明年 HBM 供应的讨论，并已确保明年全部 DRAM 和 NAND 产能需求：为公司指引，已核对新闻稿。",
+    "公司称明年投资将比今年增加，并计划加速 1cnm 迁移和扩大 321 层 TLC/QLC NAND 产出：为公司指引，已核对新闻稿。",
+    "财务数据基于 K-IFRS，单位为十亿韩元；所有数据仅截至 2025-10-29：已核对新闻稿脚注。",
+    "本稿未使用外部市场共识或 2025Q4 实际业绩；季度环比判断属本稿推论，不是公司预测。"
+  ]
+}

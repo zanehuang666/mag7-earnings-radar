@@ -1,0 +1,45 @@
+{
+  "english_draft": "The preview is a historical reconstruction. It uses only the official press release published before the cutoff. It does not use information from after the earnings date.\n\nBroadcom published Q4 FY2025 results on December 11, 2025. The fiscal fourth quarter ended November 2, 2025. Revenue was USD 18.015 billion, up 28% year over year. Adjusted EBITDA was USD 12.218 billion, or 68% of revenue. Operating cash flow was USD 7.703 billion. Capital expenditure was USD 0.237 billion. Free cash flow was USD 7.466 billion.\n\nFor fiscal Q1 2026, the company guided revenue to approximately USD 19.1 billion. It guided adjusted EBITDA to 67% of projected revenue. The CEO expected AI semiconductor revenue of approximately USD 8.2 billion. The expected drivers are custom AI accelerators and Ethernet AI switches.\n\nThe main questions are whether AI semiconductor revenue reaches about USD 8.2 billion; whether total revenue reaches about USD 19.1 billion; and whether the adjusted EBITDA margin remains near 67%. Company guidance is the anchor. Market consensus is not available in the source. The earnings release on March 4, 2026 should verify these points.",
+  "reader_questions": [
+    "公司指引中的约191亿美元收入是GAAP总收入，还是某种调整后或持续经营收入口径？",
+    "CEO所说的AI半导体收入约82亿美元是客户对外收入，还是包含内部转移或与“半导体解决方案”分部收入存在重叠？",
+    "调整后EBITDA率67%是否排除全部股权激励和收购相关摊销？若这些项目变化，67%与GAAP利润率之间可能有多大差异？"
+  ],
+  "fact_checks": [
+    {
+      "item": "Broadcom于2025-12-11发布2025财年Q4业绩；季度截至2025-11-02。",
+      "status": "manual_verified",
+      "evidence": "来源标题及facts：Broadcom reported fiscal Q4 2025 on December 11, 2025; quarter ended November 2, 2025."
+    },
+    {
+      "item": "2025财年Q4收入180.15亿美元，同比+28%。",
+      "status": "manual_verified",
+      "evidence": "facts：Fiscal Q4 revenue was USD 18.015 billion, up 28% year over year."
+    },
+    {
+      "item": "2025财年Q4调整后EBITDA为122.18亿美元，相当于收入68%。",
+      "status": "manual_verified",
+      "evidence": "facts：adjusted EBITDA was USD 12.218 billion, 68% of revenue."
+    },
+    {
+      "item": "2025财年Q4经营现金流77.03亿美元，资本开支2.37亿美元，自由现金流74.66亿美元。",
+      "status": "manual_verified",
+      "evidence": "facts：OCF 7.703, capex 0.237, FCF 7.466 billion."
+    },
+    {
+      "item": "2026财年Q1指引：收入约191亿美元，调整后EBITDA约为预计收入67%；这是预测，不是实际结果。",
+      "status": "manual_verified",
+      "evidence": "facts：Company guidance for fiscal Q1 2026 was revenue approximately USD 19.1 billion and adjusted EBITDA 67% of projected revenue; forecasts, not actual."
+    },
+    {
+      "item": "CEO预期2026财年Q1 AI半导体收入约82亿美元，由定制AI加速器和以太网AI交换机驱动。",
+      "status": "manual_verified",
+      "evidence": "facts：CEO expected fiscal Q1 2026 AI semiconductor revenue around USD 8.2 billion, driven by custom AI accelerators and Ethernet AI switches."
+    },
+    {
+      "item": "本稿未引用市场共识、股价、客户集中度、产品毛利率、税率或非AI业务拆分。",
+      "status": "not_in_source",
+      "evidence": "已附来源仅为公司官方新闻稿；上述项目不在来源中。"
+    }
+  ]
+}

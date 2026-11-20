@@ -1,0 +1,16 @@
+{
+  "english_draft": "Historical reconstruction. This preview uses only the official Intel Q4 2025 release. It was not written before the Q1 2026 earnings report.\n\nConclusion:\nIntel guided Q1 2026 revenue to $11.7 billion to $12.7 billion. The midpoint is $12.2 billion. Intel guided GAAP diluted EPS to $(0.21). Intel guided non-GAAP diluted EPS to $0.00. Intel guided GAAP gross margin to 32.3%. Intel guided non-GAAP gross margin to 34.5%. The CFO said available supply will be lowest in Q1. Supply should improve in Q2 and beyond.\n\nPrior quarter baseline:\nQ4 2025 revenue was $13.7 billion. Revenue declined 4% year over year. Q4 GAAP diluted EPS was $(0.12). Q4 non-GAAP diluted EPS was $0.15. Operating cash flow was $4.3 billion. CCG revenue was $8.2 billion, down 7%. DCAI revenue was $4.7 billion, up 9%. Intel Foundry revenue was $4.5 billion, up 4%. Year-over-year growth does not adjust for Altera deconsolidation.\n\nCore questions:\n1) How much of the sequential revenue decline comes from supply constraints? The midpoint implies a sequential decline of about 11%. Demand fundamentals are described as healthy.\n2) Can non-GAAP gross margin hold at 34.5%? This is below the Q4 non-GAAP gross margin of 37.9%. Mix, 18A initial costs, and pricing will be important.\n3) What explains the gap between GAAP EPS of $(0.21) and non-GAAP EPS of $0.00? Tax, restructuring, and non-controlling interests are likely parts.\n\nPotential variances:\nPositive: revenue above $12.7 billion. Non-GAAP EPS above $0.00. Non-GAAP gross margin above 34.5%. Supply improves earlier than stated.\nNegative: revenue below $11.7 billion. Non-GAAP EPS below zero. Non-GAAP gross margin below 34.5%. GAAP loss is deeper than $(0.21).\n\nVerification points:\nCheck actual revenue. Check GAAP and non-GAAP gross margin. Check GAAP and non-GAAP diluted EPS. Check CCG, DCAI, and Intel Foundry revenue. Check operating cash flow. Check statements about supply and 18A ramp.",
+  "reader_questions": [
+    "公司称需求基本面健康，但2026Q1收入指引中值较Q4环比约-11%；这个降幅若主要由供应约束解释，是否意味着Q2收入会因补货而明显反弹？",
+    "non-GAAP EPS指引为$0.00，而GAAP EPS指引为$(0.21)，两者差距是否主要来自税项、重组费用和非控制权益？若没有细分，能否仅凭指引判断盈利质量？",
+    "Altera已在2025年9月出表，且同比未调整；2026Q1的CCG/DCAI/Foundry同比增长率与2025年各季是否不可直接比较？"
+  ],
+  "fact_checks": [
+    "日期与季度：来源为2026-01-22发布的Q4 2025财报；目标季度为2026Q1，资料截止2026-01-22T23:59:59，未使用该日期之后的信息。",
+    "币种与单位：来源金额为美元；收入以$B（十亿美元）计，EPS为美元/股；GAAP和非GAAP口径在来源中分别列示，本稿亦分别标注。",
+    "集团/分部：Q4 2025总净收入$13.7B；CCG $8.2B（同比-7%），DCAI $4.7B（+9%），Intel Foundry $4.5B（+4%），All other $0.6B（-48%）；分部收入含内部交易，来源已注明。",
+    "公司指引：2026Q1收入$11.7–12.7B；GAAP毛利率32.3%、non-GAAP毛利率34.5%；GAAP摊薄EPS $(0.21)、non-GAAP摊薄EPS $0.00；指引原文表述与本文一致。",
+    "推论与事实区分：供应最低点在Q1、Q2起改善为CFO直接表述；18A高量产和Core Ultra Series 3超过200款设计、NVIDIA完成$5.0B入股均为来源事实；市场共识未在来源中出现，本文未引用共识。",
+    "第二轮互检：环比-11%由指引中值$12.2B与Q4收入$13.674B计算，约为-10.8%；Altera出表导致相关同比不可直接比；GAAP与non-GAAP EPS差异未归因于单一项目，仅列出可能构成项。"
+  ]
+}

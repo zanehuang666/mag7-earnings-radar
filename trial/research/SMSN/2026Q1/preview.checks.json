@@ -1,0 +1,16 @@
+{
+  "english_draft": "Samsung Electronics 2026 Q1 Preview (Historical Reconstruction)\n\nThis document is a historical reconstruction. It was not written before the Q1 2026 earnings release. It uses only the official Q4/FY2025 release published on January 29, 2026.\n\nConclusion:\nQ4 2025 set records for the group. In Q1 2026, the main test is not a new record. The main test is the sustainability of Memory earnings, the execution of HBM4 shipments, and the margin recovery of the consumer device businesses in a seasonally weak quarter. Samsung did not provide a Q1 group quantitative target.\n\nBaseline:\nQ4 group revenue was KRW 93.8 trillion. Q4 operating profit was KRW 20.1 trillion. Q4 revenue rose 9% quarter on quarter. FY 2025 revenue was KRW 333.6 trillion. FY operating profit was KRW 43.6 trillion.\nDS Q4 revenue was KRW 44.0 trillion. DS Q4 operating profit was KRW 16.4 trillion. DS revenue rose 33% quarter on quarter. Memory set a quarterly record.\nDX Q4 revenue fell 8% quarter on quarter. MX/Networks revenue was KRW 29.3 trillion. MX/Networks operating profit was KRW 1.9 trillion. SDC revenue was KRW 9.5 trillion. SDC operating profit was KRW 2.0 trillion. VD/DA revenue was KRW 14.8 trillion. VD/DA operating loss was KRW 0.6 trillion. Harman revenue was KRW 4.6 trillion. Harman operating profit was KRW 0.3 trillion.\n\nQ1 company indications:\nAI and server demand will continue to grow. Memory will start HBM4 deliveries this quarter, including 11.7Gbps products. Foundry revenue will decline sequentially because of seasonality. Foundry orders will expand, led by HPC and mobile customers. System LSI earnings will recover. SDC expects soft smartphone demand. MX will launch Galaxy S26 with Agentic AI. DA expects earnings improvement from AI products and air conditioner seasonality. Harman will expand automotive sales.\n\nCore questions:\n1. Can Memory profit stay close to the Q4 record in Q1?\n2. Can Foundry profit improve while revenue declines?\n3. Can consumer device margins stabilize during seasonal weakness?\n\nVerification points:\nDS revenue and operating profit; Memory HBM4 mix; Foundry revenue, orders, and advanced-node progress; MX/Networks and SDC results; VD/DA operating profit or loss; Harman performance; group Q1 sequential direction; R&D spending.",
+  "reader_questions": [
+    "Q4 的 Memory 创纪录包含价格飙升因素；如果 Q1 价格涨幅收窄，HBM4 初期交付的增量收入能否维持 DS 营业利润？",
+    "Foundry 出现“收入环比下降但订单扩张”的组合时，应该更看重当期收入/利润，还是未来订单和先进节点量产进度？",
+    "Galaxy S26 是拉动 MX 收入的新产品，但公司同时提示 SDC 智能手机需求疲软；需求与备货信号不一致时，怎样判断 MX 的利润率？"
+  ],
+  "fact_checks": [
+    "来源日期与主体：2026-01-29 Samsung 发布 Q4/FY2025 业绩，季度截至 2025-12-31；币种为 KRW。",
+    "集团数据：Q4 营收 93.8T、营业利润 20.1T，环比 +9%；FY2025 营收 333.6T、营业利润 43.6T；Q4 R&D 10.9T，FY 37.7T。",
+    "DS 数据：Q4 营收 44.0T、营业利润 16.4T，环比 +33%；Memory 单季营收和营业利润创纪录；Q4 新机效应减退使 DX 营收环比 -8%。",
+    "分部数据：MX/Networks 29.3T/1.9T；SDC 9.5T/2.0T；VD/DA 14.8T/-0.6T；Harman 4.6T/0.3T。",
+    "Q1 指引均为方向性：Memory 将开始交付 HBM4；Foundry 收入预期环比下降但订单扩张；System LSI 预期恢复；SDC 预期智能手机需求疲软；MX 将发布 Galaxy S26；DA 预期盈利改善。",
+    "全文未引用市场共识、股价或非官方预测；所有 Q1“预期”来自新闻稿中的公司指引或本稿推论。"
+  ]
+}

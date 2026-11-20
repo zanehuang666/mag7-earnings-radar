@@ -1,0 +1,19 @@
+{
+  "english_draft": "The official release date is February 4, 2026. The quarter ended December 31, 2025. Alphabet reported consolidated revenue of $113.8 billion. Revenue increased 18% year over year. Constant-currency revenue growth was 17%. Comparable Q4 2024 baseline: revenue was $96.5 billion. Operating income was $31.0 billion. Diluted EPS was $2.15. Net income for Q4 2025 was $34.5 billion. Net income increased 30% year over year. Diluted EPS was $2.82. EPS increased 31%. Google Cloud was the fastest-growing segment. Google Cloud revenue increased 48% to $17.7 billion. Google Services revenue increased 14% to $95.9 billion. Search & other revenue increased 17% to $63.1 billion. YouTube ads revenue increased 9% to $11.4 billion. Google Network revenue decreased to $7.8 billion. Subscriptions, platforms, and devices revenue increased 17% to $13.6 billion. Consolidated operating income was $35.9 billion. Operating margin was 31.6%. The margin included a $2.1 billion Waymo employee compensation charge. Other Bets operating loss was $3.6 billion. Alphabet-level activities loss was $5.9 billion. Other income, net, was $3.2 billion. For fiscal 2025, revenue was $402.8 billion. Revenue increased 15%. Google Cloud exited 2025 at an annual run rate above $70 billion. YouTube full-year revenue, ads plus subscriptions, surpassed $60 billion. Management guided 2026 capital expenditures at $175 billion to $185 billion. The Board declared a quarterly dividend of $0.21 per share. The release did not provide Q3 2025 details. No contemporaneous preview was available in the provided sources. Therefore, this analysis does not compare actual results with prior expectations. It verifies reported numbers against the official release.",
+  "reader_questions": [
+    "净利润同比 +30% 中，其他收支净收益从 12.71 亿美元增至 31.83 亿美元贡献了多少？剔除该一次性或非经营性项目后，经常性税前利润增速是否仍高于收入增速？",
+    "Google Network 收入同比下降约 2%，是否意味着 AI 搜索结果正在减少传统网络广告库存？该分部何时可能因规模缩小而被重新归类或不再单列？",
+    "Other Bets 营业亏损从 11.74 亿美元扩大到 36.17 亿美元，其中 Waymo 员工薪酬费用占 21 亿；若 Waymo 完成 160 亿美元外部融资，Alphabet 是否会继续将 Waymo 全部费用计入 Other Bets？"
+  ],
+  "fact_checks": [
+    "核验：2025Q4 总营收 1138.28 亿美元、同比 +18%、固定汇率 +17% —— 与官方新闻稿一致。",
+    "核验：Google Services 958.62 亿美元（+14%），其中 Search & other 630.73 亿（+17%）、YouTube ads 113.83 亿（+9%）、Google Network 78.28 亿（-1.6%）、订阅/平台/设备 135.78 亿（+17%）—— 与分部数据表一致。",
+    "核验：Google Cloud 176.64 亿美元（+48%）、分部营业利润 53.13 亿美元（上年同期 20.93 亿）—— 与分部数据表一致。",
+    "核验：合并营业利润 359.34 亿美元、营业利润率 31.6%（表内显示 32% 为四舍五入）—— 与新闻稿正文及表格一致。",
+    "核验：净利润 344.55 亿美元、同比 +30%、摊薄 EPS 2.82 美元、+31% —— 与新闻稿表格一致。",
+    "核验：Waymo 员工薪酬费用 21 亿美元计入研发费用；Other Bets 营业亏损 36.17 亿美元 —— 与附加信息及分部表一致。",
+    "核验：2025 全年营收 4028.36 亿美元、同比 +15%，全年 EPS 10.81 美元 —— 与新闻稿表格一致。",
+    "核验：2026 年资本开支指引 1750–1850 亿美元、季度股息 0.21 美元、2025 年 11 月票据净筹资 24.8 亿美元 —— 与 CEO 引言及附加信息一致；CapEx 指引属前瞻性陈述。",
+    "核验：所附来源无同期 Preview；不存在可对照的事前预测。"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "english_draft": "No preview was attached to the source package. This note is based only on Samsung Electronics' first-quarter 2026 results release published on April 30, 2026.\n\nSamsung reported consolidated first-quarter revenue of KRW 133.9 trillion. This was up 43% quarter over quarter. Operating profit was KRW 57.2 trillion. Both figures were all-time highs.\n\nThe DS Division recorded KRW 81.7 trillion in revenue and KRW 53.7 trillion in operating profit. Memory achieved record quarterly revenue and operating profit. Management attributes this to high-value AI memory demand, industry-wide memory price increases, and the first mass product sales of HBM4 and SOCAMM2 for NVIDIA's Vera Rubin platform. System LSI improved earnings on expanded SoC sales. Foundry earnings declined because of off-peak seasonality.\n\nSDC recorded KRW 6.7 trillion in revenue and KRW 0.4 trillion in operating profit. Small and medium display earnings declined because of seasonality and higher memory prices. Large display sales remained stable, supported by OLED gaming monitors.\n\nMX and Networks recorded KRW 38.1 trillion in revenue and KRW 2.8 trillion in operating profit. MX improved sales and profit from a premium product mix and achieved single-digit profitability through cost optimization. Networks declined quarter over quarter and year over year because of telecom investment headwinds.\n\nVD, DA, and Harman together recorded KRW 14.3 trillion in revenue and KRW 0.2 trillion in operating profit. VD improved profitability from premium and large TVs. DA improved only marginally because of cost pressure and tariffs. Harman earnings declined because of higher expenses from memory constraints and audio seasonality.\n\nThe sum of the four reported segment revenue lines exceeds the consolidated figure. The company did not reconcile the difference; users should not add the segment lines.\n\nFor Q2 2026, company guidance points to strong memory demand, first HBM4E samples, full utilization of advanced foundry nodes, lower MX revenue quarter over quarter, resilient high-end SDC sales, and higher Harman earnings from increased auto supply.",
+  "reader_questions": [
+    "合并营收为133.9万亿韩元，但四个分部营收合计为140.8万亿韩元；公司未披露分部间抵销，利润贡献是否会被重复计算？",
+    "HBM4/SOCAMM2的“首次量产销售”是否等于大规模收入？新闻稿未披露AI内存收入占比，能否把Memory创纪录完全归因于HBM？",
+    "MX在Q2指引中收入环比将下滑，但盈利是否同步下滑？公司未给营业利润指引，成本优化能否抵消发布效应消退及关税、内存成本上升？"
+  ],
+  "fact_checks": [
+    {
+      "item": "Q1 2026合并营收133.9万亿韩元，环比+43%，创单季新高",
+      "source": "Samsung官方新闻稿，2026-04-30",
+      "status": "confirmed"
+    },
+    {
+      "item": "Q1 2026营业利润57.2万亿韩元，历史新高",
+      "source": "同上",
+      "status": "confirmed"
+    },
+    {
+      "item": "DS营收81.7万亿韩元、营业利润53.7万亿韩元；Memory季度营收和营业利润创纪录",
+      "source": "同上",
+      "status": "confirmed"
+    },
+    {
+      "item": "HBM4和SOCAMM2为NVIDIA Vera Rubin平台首次量产销售；PCIe Gen6 SSD及时开发",
+      "source": "同上",
+      "status": "confirmed"
+    },
+    {
+      "item": "SDC营收6.7万亿韩元、营业利润0.4万亿韩元；中小尺寸盈利下降，大尺寸稳定",
+      "source": "同上",
+      "status": "confirmed"
+    },
+    {
+      "item": "MX/Networks营收38.1万亿韩元、营业利润2.8万亿韩元；MX实现个位数利润率；Networks环比及同比均下降",
+      "source": "同上",
+      "status": "confirmed"
+    },
+    {
+      "item": "VD/DA/Harman营收14.3万亿韩元、营业利润0.2万亿韩元；VD改善，DA仅有限改善，Harman下降",
+      "source": "同上",
+      "status": "confirmed"
+    },
+    {
+      "item": "四个分部营收合计超过合并营收，公司未披露抵销项",
+      "source": "本稿根据官方数字计算",
+      "status": "arithmetic check; source未解释差异"
+    },
+    {
+      "item": "所附来源中不存在财报前Preview，也未提供外部一致预期",
+      "source": "资料清单",
+      "status": "confirmed absent"
+    }
+  ]
+}

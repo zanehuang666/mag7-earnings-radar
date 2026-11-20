@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": true
+  "status": "generated_review_pending",
+  "source_digest": "956467d36516ce463e50c55cc28bc74320cf6765face095f1cc2455aceebc875",
+  "cutoff": "2025-10-30T23:59:59",
+  "generated_at": "2026-11-20T00:57:21.762595+00:00",
+  "sources": [
+    "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2025-results"
+  ]
 }

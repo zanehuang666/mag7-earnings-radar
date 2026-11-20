@@ -1,0 +1,25 @@
+{
+  "english_draft": "Subject: Microsoft FY2026 Q2 (calendar 2025Q4) earnings analysis. Release date: January 28, 2026. Source: official Microsoft earnings press release.\n\nPreview status: No contemporaneous preview exists. A later reconstructed historical document cannot serve as a prior prediction. This analysis therefore does not compare against any preview.\n\nQuarter ended December 31, 2025. All comparisons versus the prior year quarter unless noted.\n\nActual results:\n1. Revenue was 81.3 billion dollars. It increased 17% (15% in constant currency).\n2. Operating income was 38.3 billion dollars. It increased 21% (19% in constant currency).\n3. GAAP net income was 38.5 billion dollars. It increased 60%. GAAP diluted EPS was 5.16 dollars. It increased 60%.\n4. Non-GAAP net income was 30.9 billion dollars. It increased 23% (21% in constant currency). Non-GAAP diluted EPS was 4.14 dollars. It increased 24% (21% in constant currency).\n5. GAAP results included a 7.6 billion dollar net gain from investments in OpenAI. Non-GAAP results exclude this gain. The prior year quarter included a 939 million dollar net loss from the same investments.\n\nSegment results:\n1. Microsoft Cloud revenue was 51.5 billion dollars. It increased 26% (24% in constant currency).\n2. Productivity and Business Processes revenue was 34.1 billion dollars. It increased 16% (14% in constant currency). Microsoft 365 Commercial cloud increased 17%. Dynamics 365 increased 19%. LinkedIn increased 11%.\n3. Intelligent Cloud revenue was 32.9 billion dollars. It increased 29% (28% in constant currency). Azure and other cloud services revenue increased 39% (38% in constant currency).\n4. More Personal Computing revenue was 14.3 billion dollars. It decreased 3%. Xbox content and services revenue decreased 5%. Windows OEM and Devices revenue increased 1%. Search and news advertising revenue, excluding traffic acquisition costs, increased 10%.\n\nOther disclosed items:\n1. Commercial remaining performance obligation was 625 billion dollars. It increased 110%.\n2. Shareholder returns were 12.7 billion dollars in dividends and share repurchases. They increased 32%.\n\nJudgments:\n1. Azure growth of 39% is the main growth engine. RPO growth of 110% supports durable cloud demand.\n2. GAAP profit growth of 60% overstates operating performance. Non-GAAP growth of 23% is closer to operations.\n3. More Personal Computing is the only declining segment. It reduces total company growth.\n4. The release does not split Azure into AI and non-AI revenue. The available text does not disclose operating cash flow, capital expenditure, or next-quarter guidance. These items require the conference call or the 10-Q.\n\nNext quarter focus:\n1. Watch Azure growth sustainability.\n2. Watch OpenAI investment fair value changes.\n3. Watch Xbox content and services recovery.\n4. Watch the segment mix and margin.",
+  "reader_questions": [
+    "GAAP 净利润同比 +60% 是否代表真实经营增速？若剔除 OpenAI 投资净收益，经营增速还剩多少？",
+    "Azure 及其他云服务收入 +39% 中，AI 与非 AI 各贡献多少？新闻稿未拆分，该增速是否受大额合同确认时间点影响？",
+    "更多个人计算分部为何是唯一负增长？Xbox 内容与服务 -5% 是消费需求走弱，还是内容发布节奏问题？"
+  ],
+  "fact_checks": [
+    "日期与季度：财报发布于 2026-01-28；季度为截至 2025-12-31 的 FY2026 Q2（日历 2025Q4），与新闻稿标题及正文一致。",
+    "币种与单位：营收、利润、EPS 均为美元；除 EPS 外以百万美元为单位，新闻稿调节表一致。",
+    "营收：81,273 百万美元，同比 +17%（固定汇率 +15%），与新闻稿一致。",
+    "营业利润：38,275 百万美元，同比 +21%（固定汇率 +19%），与新闻稿一致。",
+    "GAAP 净利润：38,458 百万美元，同比 +60%；GAAP 摊薄 EPS 5.16 美元，同比 +60%，与新闻稿一致。",
+    "非 GAAP 净利润：30,875 百万美元，同比 +23%（固定汇率 +21%）；非 GAAP EPS 4.14 美元，同比 +24%（固定汇率 +21%），与新闻稿一致。",
+    "OpenAI 投资影响：FY2026 Q2 为净收益 7,583 百万美元（每股 1.02 美元）；FY2025 Q2 为净损失 939 百万美元（每股 0.12 美元），与调节表一致。",
+    "Microsoft Cloud：51,500 百万美元，同比 +26%（固定汇率 +24%），与新闻稿一致。",
+    "分部收入：生产力与业务流程 34,116 百万美元（+16%）;智能云 32,907 百万美元（+29%）;更多个人计算 14,250 百万美元（-3%），与调节表一致。",
+    "产品线：Microsoft 365 商业云 +17%、Dynamics 365 +19%、LinkedIn +11%、Azure 及其他云服务 +39%（固定汇率 +38%）、Xbox 内容与服务 -5%、Windows OEM 与设备 +1%、搜索广告（剔除 TAC）+10%，均与新闻稿一致。",
+    "商业剩余履约义务（RPO）：6250 亿美元，同比 +110%，与新闻稿一致。",
+    "股东回报：季度股息与回购合计 127 亿美元，同比 +32%，与新闻稿一致。",
+    "上年同期基准：FY2025 Q2 营收 69,632 百万美元、营业利润 31,653 百万美元、GAAP 净利润 24,108 百万美元、EPS 3.23 美元，均与调节表一致。",
+    "未验证项：新闻稿所称“超预期”为管理层表述，来源未附独立市场共识数据，本稿无法独立验证；新闻稿文本未披露经营现金流、资本支出明细及下一季度指引，本稿未编造。",
+    "Preview 核验：所附来源中无财报发布前的同期 Preview，仅存在事后重建稿，故正文写明“无同期 Preview”，不做预测差异复核。"
+  ]
+}

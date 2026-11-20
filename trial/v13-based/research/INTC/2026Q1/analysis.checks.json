@@ -1,0 +1,20 @@
+{
+  "english_draft": "Intel published Q1 2026 results on April 23, 2026. The official press release is the only verified source. No Preview written before the release exists. Therefore, this analysis does not compare results to a Preview. Q1 2026 revenue was $13.6 billion. Revenue grew 7% year over year. GAAP EPS attributable to Intel was -$0.73. Non-GAAP EPS attributable to Intel was $0.29. GAAP net loss attributable to Intel was -$3.7 billion. Non-GAAP net income attributable to Intel was $1.5 billion. The GAAP loss included restructuring and other charges of $4.1 billion. These charges caused most of the GAAP operating loss. GAAP operating margin was -23.1%. Non-GAAP operating margin was 12.3%. GAAP gross margin was 39.4%. Non-GAAP gross margin was 41.0%. Segment revenue: CCG was $7.7 billion, up 1%. DCAI was $5.1 billion, up 22%. Intel Products total was $12.8 billion, up 9%. Intel Foundry was $5.4 billion, up 16%. All other was $0.6 billion, down 33%. DCAI was the main growth driver. CCG growth was slow. Segment operating income: CCG was $2.5 billion. DCAI was $1.5 billion. Intel Foundry was -$2.4 billion. All other was $0.1 billion. Corporate unallocated was -$5.1 billion. Unallocated costs were the largest drag. Cash from operations was $1.1 billion. Capital expenditures were $3.6 billion. Intel guided Q2 2026 revenue to $13.8-$14.8 billion. It guided non-GAAP EPS to $0.20. It guided GAAP EPS to $0.08. Intel Xeon 6 was selected as host CPU for NVIDIA DGX Rubin NVL8. Intel and Google announced a multiyear Xeon collaboration. Intel Foundry expanded assembly and test capacity in Penang. Intel repurchased the 49% minority interest in the Fab 34 joint entity. The all-other segment comparison is affected by Altera deconsolidation. Next quarter focus: DCAI momentum, Foundry losses, restructuring charges, and AI infrastructure demand.",
+  "reader_questions": [
+    "GAAP 归母净亏损同比大幅扩大，但非 GAAP 归母净利润同比增长 156%；若不看 40.7 亿美元重组费用，日常经营是否仍显著改善？",
+    "Altera 已于 2025 年 9 月出表，2025Q1 的“其他”分部含 Altera，2026Q1 不含；营收同比和分部利润的可比性因此受到多大影响？",
+    "公司未分配费用（Corporate Unallocated）单季 -50.8 亿美元是什么构成？若该费用含一次性项目，后续季度盈利能否明显改善？"
+  ],
+  "fact_checks": [
+    "来源为 Intel 官方 2026Q1 财报新闻稿，发布日期 2026-04-23，财报季度对应截至 2026-03-28 的三个月。",
+    "营收：13,577 百万美元（约 136 亿美元），同比 +7%（2025Q1 为 12,667 百万美元）。归属于 Intel 的 GAAP 摊薄 EPS -0.73 美元；非 GAAP 摊薄 EPS 0.29 美元，同比 +123%。",
+    "GAAP 归母净亏损 -3,728 百万美元；非 GAAP 归母净利润 15 亿美元（来源表述 1.5B，同比 +156%）。GAAP 营业亏损 -3,136 百万美元，其中重组和其他费用 4,070 百万美元。",
+    "毛利率：GAAP 39.4%（同比 +2.5pts），非 GAAP 41.0%（+1.8pts）；非 GAAP 营业利润率 12.3%（+6.9pts）。",
+    "分部收入（含内部交易）：CCG 7,727 百万美元（+1%）、DCAI 5,052 百万美元（+22%）、Intel Products 合计 12,779 百万美元（+9%）、Foundry 5,421 百万美元（+16%）、All other 628 百万美元（-33%）、内部抵消 -5,251 百万美元。",
+    "分部营业利润：CCG 2,516、DCAI 1,542、Foundry -2,437、All other 102、Corporate Unallocated -5,080、内部抵消 221，合并 -3,136 百万美元。",
+    "经营现金流 1,096 百万美元；投资活动资本开支（Additions to PP&E）3,636 百万美元。",
+    "2026Q2 指引：营收 13.8–14.8 十亿美元，GAAP 摊薄 EPS 0.08 美元，非 GAAP EPS 0.20 美元，非 GAAP 毛利率 39.0%，GAAP 税率 4%，非 GAAP 税率 11%。",
+    "Altera 自 2025-09-12 起出表，2025Q1 的 all other 包含 Altera，2026Q1 不包含；all other 收入 -33% 不可直接年同比。",
+    "未发现写于财报前的同期 Preview，故不做事后预测复核。"
+  ]
+}

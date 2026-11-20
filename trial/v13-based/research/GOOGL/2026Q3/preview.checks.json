@@ -1,0 +1,18 @@
+{
+  "english_draft": "Title: Alphabet (GOOGL) 2026Q3 Preview - Historical Reconstruction\n\nPurpose: This document is a historical reconstruction. It uses only information public before 2026-07-22 23:59:59, mainly the Q2 2026 earnings release. It is not a contemporaneous forecast.\n\nBaseline from Q2 2026:\n- Total revenue was $119.8 billion, up 24% year over year, or 23% in constant currency.\n- Google Services revenue was $94.5 billion, up 15%. Search & other grew 17%. YouTube ads grew 13%. Subscriptions, platforms, and devices grew 15%. Google Network declined about 1%.\n- Google Cloud revenue was $24.8 billion, up 82%. Cloud operating income was $8.8 billion. Cloud operating margin was about 36%.\n- Consolidated operating income was $40.8 billion. Operating margin was 34%, up 2 percentage points.\n- Net other income was $98.0 billion, mostly unrealized gains on equity securities. Net income available to common stockholders was $112.1 billion. Diluted EPS was $9.11.\n- Alphabet-level activities, mainly shared AI R&D, reported an operating loss of $5.8 billion.\n- In June 2026, Alphabet issued equity and mandatory convertible preferred stock for net proceeds of $49.6 billion and senior notes for $20.3 billion. A $40.0 billion ATM program had not been used. The common dividend was $0.22 per share.\n\nCore questions for Q3:\n1. Can Google Cloud keep near-80% growth and hold its margin expansion?\n2. Can AI features keep converting into Search and advertising revenue without raising TAC or hurting margins?\n3. Will non-operating investment gains repeat? Will preferred dividends and potential dilution change EPS comparability?\n\nPositive variance to watch: Cloud margin expanded sharply; consolidated margin expanded; TAC as a share of advertising revenue declined.\n\nNegative variance to watch: Q2 EPS included a large unrealized gain; Q3 EPS may be much lower. Shared AI R&D losses expanded. The company gave no Q3 guidance, and no consensus data is in the source.\n\nVerification points: segment revenue and operating income; Cloud operating margin; other income, net income and diluted EPS; TAC and TAC ratio; capital expenditures and free cash flow if disclosed; preferred dividends and potential dilution.",
+  "reader_questions": [
+    "Q2的$9.11摊薄EPS在多大程度上依赖$98.0B其他收益净额？如果剔除未实现收益，经常性盈利能力是否仍然改善？",
+    "Cloud收入增长82%中，AI基础设施、企业AI解决方案和核心GCP各占多少？来源未披露分部内拆分，Q3增速判断应以哪个口径为主？",
+    "6月新募集的$49.6B权益和$20.3B债务，以及强制可转换优先股的季度股息和潜在摊薄，会在Q3对EPS产生多大影响？来源未给出量化指引，是否应暂时不猜算？"
+  ],
+  "fact_checks": [
+    "已核对：2026Q2总营收$119.796B，同比+24%，固定汇率+23%（非GAAP）。",
+    "已核对：Google Services营收$94.540B，同比+15%；其中Search & other $63.271B（+17%）、YouTube ads $11.055B（+13%）、订阅平台与设备 $12.911B（+15%）、Google Network $7.303B（约-1%）。",
+    "已核对：Google Cloud营收$24.768B，同比+82%；分部经营利润$8.814B，经营利润率按$8.814B/$24.768B约35.6%。",
+    "已核对：合并经营利润$40.770B，经营利润率34%，同比+2pp；Alphabet-level activities经营亏损$5.789B，同比扩大。",
+    "已核对：其他收益净额$97.983B，来源说明主要为股权证券未实现收益；净利$112.107B，摊薄EPS$9.11。",
+    "已核对：2026年6月发行普通股及强制可转换优先股净募资$49.6B，发行高级无担保票据净募资$20.3B，ATM计划$40.0B截至6/30未使用；普通股季度股息$0.22/股，强制可转换优先股季度股息每股$12.15。",
+    "已核对/计算：TAC占Google广告收入比例由约20.6%降至约19.8%（$16.179B/$81.629B vs $14.705B/$71.340B）。",
+    "已核对：财报未提供2026Q3收入、利润、资本开支指引，也未提供市场共识数字。"
+  ]
+}

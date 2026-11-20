@@ -1,0 +1,94 @@
+{
+  "english_draft": "Broadcom announced its fiscal first quarter 2026 results on March 4, 2026. The fiscal quarter ended on February 1, 2026. Total revenue was USD 19.311 billion. Revenue increased 29 percent year over year. AI semiconductor revenue was USD 8.4 billion. AI semiconductor revenue increased 106 percent year over year. This AI figure is the CEO's stated AI measure. This figure is not a GAAP segment disclosure. Adjusted EBITDA was USD 13.128 billion. The adjusted EBITDA margin was 68 percent. GAAP diluted EPS was USD 1.50. Non-GAAP diluted EPS was USD 2.05. Operating cash flow was USD 8.260 billion. Capital expenditure was USD 0.250 billion. Free cash flow was USD 8.010 billion. For fiscal Q2 2026, the company guides total revenue at about USD 22.0 billion. The company guides AI semiconductor revenue at USD 10.7 billion. These guidance figures are forecasts. No preview article existed before this release. Therefore, this analysis cannot verify an earlier forecast. Derived calculations: AI revenue was about 44 percent of total revenue. One year earlier, AI revenue was about 27 percent of total revenue. The guidance implies a sequential revenue increase of USD 2.689 billion. AI provides about USD 2.3 billion of that increase, about 85 percent. The implied non-AI increase is about USD 0.389 billion, about 3.6 percent sequentially. Free cash flow was about 61 percent of adjusted EBITDA. Operating cash flow was USD 4.868 billion below adjusted EBITDA. Free cash flow was USD 5.118 billion below adjusted EBITDA. The release does not disclose the reconciliation.",
+  "reader_questions": [
+    "AI半导体收入84亿美元是CEO口径而非GAAP分部收入。若改用市场通用的AI口径（如仅定制ASIC或剔除网络设备），106%的增速与约44%的营收占比是否仍然成立？",
+    "下季指引隐含总营收环比增加26.89亿美元，其中AI指引环比增加23亿美元（约85.5%）。若非AI业务实际环比增速低于隐含的3.6%，220亿美元的总营收指引是否存在下修风险？",
+    "自由现金流80.10亿美元低于调整后EBITDA 131.28亿美元约51.18亿美元。若该缺口主要来自并购相关现金税项与摊销，68%的EBITDA利润率是否高估了实际现金盈利能力？"
+  ],
+  "fact_checks": [
+    {
+      "round": 1,
+      "item": "发布日与财季",
+      "source": "官方新闻稿",
+      "classification": "事实",
+      "result": "2026-03-04发布；FY2026 Q1截至2026-02-01，一致"
+    },
+    {
+      "round": 1,
+      "item": "币种与单位",
+      "source": "官方新闻稿",
+      "classification": "事实",
+      "result": "所有金额为美元；本稿统一以亿美元呈现，与新闻稿十亿美元单位换算一致"
+    },
+    {
+      "round": 1,
+      "item": "总营收",
+      "source": "官方新闻稿",
+      "classification": "事实",
+      "result": "19.311B美元，同比+29%，一致"
+    },
+    {
+      "round": 1,
+      "item": "AI半导体收入",
+      "source": "官方新闻稿+事实标注",
+      "classification": "事实（公司特定口径）",
+      "result": "8.4B美元，同比+106%；CEO口径，非GAAP分部，已在正文标注"
+    },
+    {
+      "round": 1,
+      "item": "调整后EBITDA",
+      "source": "官方新闻稿",
+      "classification": "事实",
+      "result": "13.128B美元；利润率68%（13.128/19.311验算一致）"
+    },
+    {
+      "round": 1,
+      "item": "EPS",
+      "source": "官方新闻稿",
+      "classification": "事实",
+      "result": "GAAP摊薄1.50美元；非GAAP摊薄2.05美元，一致"
+    },
+    {
+      "round": 1,
+      "item": "现金流",
+      "source": "官方新闻稿",
+      "classification": "事实+验算",
+      "result": "OCF 8.260B−capex 0.250B=FCF 8.010B，验算一致"
+    },
+    {
+      "round": 1,
+      "item": "下季指引",
+      "source": "官方新闻稿",
+      "classification": "公司指引（预测）",
+      "result": "总营收约22.0B美元；AI半导体10.7B美元；已在正文标注为预测"
+    },
+    {
+      "round": 1,
+      "item": "同期Preview",
+      "source": "preview_status",
+      "classification": "元信息",
+      "result": "无同期Preview；事后重建稿不可作为发布前预测复核"
+    },
+    {
+      "round": 2,
+      "item": "倒算上年基数与AI占比",
+      "source": "基于官方增速推算",
+      "classification": "本稿推算",
+      "result": "上年营收≈149.7亿美元；上年AI≈40.8亿美元；上年AI占比≈27%，本季≈44%；已在正文标注"
+    },
+    {
+      "round": 2,
+      "item": "指引隐含环比结构",
+      "source": "基于官方指引推算",
+      "classification": "本稿推算",
+      "result": "总增量26.89亿美元；AI增量23亿美元，占比≈85%；非AI环比约+3.6%；已在正文标注"
+    },
+    {
+      "round": 2,
+      "item": "利润与现金转化",
+      "source": "基于官方数字推算",
+      "classification": "本稿推算",
+      "result": "FCF/EBITDA≈61%；OCF低于EBITDA 48.68亿美元；FCF低于EBITDA 51.18亿美元；调节明细未披露，不作推断"
+    }
+  ]
+}

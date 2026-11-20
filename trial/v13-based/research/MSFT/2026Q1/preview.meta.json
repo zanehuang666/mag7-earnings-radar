@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": null,
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "c8f19b9babcf128b288dff3cb4264f68b8df40068d74d7accc558073046b4179",
+  "cutoff": "2026-01-28T23:59:59",
+  "generated_at": "2026-11-20T00:57:21.762595+00:00",
+  "sources": [
+    "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q2/press-release-webcast"
+  ]
 }

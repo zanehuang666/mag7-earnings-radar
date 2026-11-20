@@ -1,6 +1,6 @@
 {
   "status": "baseline_source_limited",
   "kind": "deterministic_index",
-  "source_packet_status": "source_review_pending",
+  "source_packet_status": "official_release_text_collected",
   "historical_reconstruction": false
 }

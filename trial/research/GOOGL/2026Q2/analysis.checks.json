@@ -1,0 +1,19 @@
+{
+  "english_draft": "Alphabet released Q2 2026 results on July 22, 2026.\nThe quarter ended June 30, 2026.\nThis analysis uses only the official press release.\nThere was no contemporaneous Preview before earnings.\nTherefore, this analysis does not verify a prior forecast.\nMarket consensus is not used.\n\nConsolidated revenue was $119.8 billion.\nRevenue increased 24% year-over-year.\nIn constant currency, revenue increased 23%.\nOperating income was $40.8 billion.\nOperating income increased 30%.\nOperating margin was 34%.\nOperating margin expanded by two percentage points.\n\nNet income available to common stockholders was $112.1 billion.\nDiluted EPS was $9.11.\nNet income increased 298%.\nEPS increased 294%.\nOther income included a net gain of $98.0 billion.\nThe gain primarily came from net unrealized gains on equity securities.\nThis gain is not operating performance.\nReaders should use segment operating income when evaluating operations.\n\nGoogle Services revenue was $94.5 billion.\nServices revenue increased 15%.\nSearch & other revenue was $63.3 billion.\nSearch & other revenue increased 17%.\nYouTube ads revenue was $11.1 billion.\nYouTube ads revenue increased 13%.\nSubscriptions, platforms, and devices revenue was $12.9 billion.\nThat revenue increased 15%.\nServices operating income was $39.5 billion.\n\nGoogle Cloud revenue was $24.8 billion.\nCloud revenue increased 82%.\nThe company attributes the increase to enterprise AI solutions, enterprise AI infrastructure, and core GCP services.\nCloud operating income was $8.8 billion.\nOther Bets revenue was $0.4 billion.\nOther Bets operating loss was $1.8 billion.\nAlphabet-level activities operating loss was $5.8 billion.\nThis loss mainly relates to shared AI research and development.\n\nIn Q2 2026, Alphabet raised $49.6 billion in net equity proceeds.\nAlphabet issued senior notes with net proceeds of $20.3 billion.\nAlphabet arranged an ATM program of up to $40.0 billion.\nNo shares were sold under the ATM by June 30.\nThe board declared a common dividend of $0.22 per share.\nThe board declared a preferred dividend of $12.15 per share.\n\nThe CEO provided product adoption metrics.\nThese are company statements, not audited financial data.\nKey observation: Cloud operating results are strong.\nThe reported EPS increase came mostly from an unrealized equity gain.\nNext quarter, verify the cash flow statement, segment trends, and financing use.",
+  "reader_questions": [
+    "若剔除980亿美元股权投资未实现收益，经常性EPS是多少？直接看9.11美元会高估经营盈利能力。",
+    "Google Cloud收入82%增长中，企业AI基础设施的一次性合同占多少？没有拆分前，不能把该增速简单外推。",
+    "496亿美元募资在6月30日已实际投入多少？若尚未投入，资本开支对折旧和AI收入的贡献会滞后，不能视为当期利润来源。"
+  ],
+  "fact_checks": [
+    "第一轮：核对发布日期2026-07-22、季度截至2026-06-30；来源为官方IR新闻稿，标题与年份匹配。",
+    "第一轮：币种为美元；金额单位为百万美元（每股及百分比除外）；constant currency为非GAAP，已在正文标注。",
+    "第一轮：集团收入119,796（+24%，cc +23%）；营业利润40,770（+30%）；营业利润率34%；净利润112,107；EPS 9.11；其他收入97,983，新闻稿称主要为股权投资未实现收益。",
+    "第一轮：分部收入/利润与补充表一致：Services 94,540/Search 63,271/YouTube ads 11,055/订阅平台设备12,911/Cloud 24,768/Other Bets 382；分部营业利润 Services 39,544/Cloud 8,814/Other Bets -1,799/Alphabet-level -5,789。",
+    "第一轮：资本事项：股权募资净额49.6B、票据20.3B、ATM上限40B且期末未售出；普通股股息0.22，优先股股息12.15。",
+    "第二轮：读者问题一要求剔除98B未实现收益后的经常性EPS；新闻稿未提供，故本稿不计算调整EPS，改用营业利润/分部利润作为经营口径。",
+    "第二轮：读者问题二要求拆分Cloud增长中的一次性AI基础设施合同；新闻稿无拆分，正文只引述公司归因。",
+    "第二轮：读者问题三要求说明49.6B募资截至6月30日的使用进度；新闻稿无现金流表，下一季以10-Q验证。",
+    "第二轮：修改正文，在利润段明确未实现收益；在Cloud段注明公司归因；在下一季要点加入现金验证。"
+  ]
+}

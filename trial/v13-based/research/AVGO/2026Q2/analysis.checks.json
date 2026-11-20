@@ -1,0 +1,17 @@
+{
+  "english_draft": "Broadcom reported fiscal Q2 2026 results. The quarter ended May 3, 2026. Revenue was USD 22.187 billion, up 48% year over year. AI semiconductor revenue was USD 10.8 billion, up 143% year over year. This is the CEO's stated AI measure. Adjusted EBITDA was USD 15.244 billion, or 69% of revenue. GAAP diluted EPS was USD 1.91. Non-GAAP diluted EPS was USD 2.44. Operating cash flow was USD 10.493 billion. Capital expenditure was USD 0.231 billion. Free cash flow was USD 10.262 billion. The company guided next-quarter total revenue to approximately USD 29.4 billion. This is a forecast. We found no same-period preview. The source release did not include consensus estimates or prior-quarter guidance. We did not calculate an expectation gap. All key facts match the linked company release.",
+  "reader_questions": [
+    "AI 半导体收入 108 亿美元是全部半导体收入，还是 CEO 单独披露的 AI 口径？如果把两者混同，对收入结构的判断会改变。",
+    "调整后 EBITDA 占收入 69% 是非 GAAP 口径，若读者按 GAAP 净利润去理解，会误判利润率。",
+    "下一季约 294 亿美元指引对应的是 2026 财年第三季度还是某个日历季度？若把财季与日历季度错配，会误读指引。"
+  ],
+  "fact_checks": [
+    "期间与收入：公告称 fiscal Q2 2026 ended May 3, 2026；revenue USD 22.187B，同比 +48%。已核对。",
+    "AI 半导体收入：USD 10.8B，同比 +143%；来源标注为 CEO 采用的 AI 口径。已核对，不等于全部半导体收入。",
+    "盈利：Adjusted EBITDA USD 15.244B，为收入的 69%；GAAP diluted EPS USD 1.91；non-GAAP diluted EPS USD 2.44。已核对。",
+    "现金流：OCF USD 10.493B，capex USD 0.231B，FCF USD 10.262B。已核对。",
+    "指引：next-quarter total revenue approximately USD 29.4B，属于公司预测。已核对。",
+    "Preview：无同期 Preview；事后历史资料重建稿不可当作当时预测复核。已核对。",
+    "第二轮互检：根据三个读者问题，在正文中明确 CEO 口径、非 GAAP 利润口径、财季与日历季度区别。已核对。"
+  ]
+}

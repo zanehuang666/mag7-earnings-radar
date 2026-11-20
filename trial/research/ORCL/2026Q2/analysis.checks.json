@@ -1,0 +1,16 @@
+{
+  "english_draft": "Oracle published fiscal Q4 2026 results on June 10, 2026.\nTotal revenue was USD 19.2 billion. This was 21% higher than one year ago.\nCloud revenue was USD 9.9 billion. This was 47% higher than one year ago.\nCloud infrastructure revenue was USD 5.8 billion. This was 93% higher than one year ago.\nCloud applications revenue was USD 4.1 billion. This was 10% higher than one year ago.\nRemaining performance obligations increased from USD 553 billion to USD 638 billion.\nThis amount is contracted backlog. It is not recognized revenue.\nGAAP operating income was USD 6.1 billion.\nNon-GAAP operating income was USD 8.6 billion.\nGAAP EPS was USD 1.45. Non-GAAP EPS was USD 2.11.\nThere is no same-period Preview.\nThis analysis does not compare to consensus estimates.\nFocus for the next report: IaaS growth sustainability and RPO conversion.",
+  "reader_questions": [
+    "季度口径是否清楚区分了自然年2026Q2与甲骨文2026财年Q4？",
+    "RPO是否会被误读为当期收入或现金流？",
+    "GAAP与非GAAP利润及EPS是否已在正文中分开标注？"
+  ],
+  "fact_checks": [
+    "已核对发布日为2026-06-10，报告期为甲骨文2026财年第四季度，非自然季度完整季报。",
+    "已核对总收入192亿美元、同比+21%。",
+    "已核对云收入99亿美元/+47%、IaaS 58亿美元/+93%、SaaS 41亿美元/+10%。",
+    "已核对RPO由5530亿美元升至6380亿美元，并明确为已签约未确认收入，不是当期收入。",
+    "已核对GAAP经营利润61亿美元、non-GAAP经营利润86亿美元；GAAP EPS 1.45美元、non-GAAP EPS 2.11美元。",
+    "已核对无同期Preview；本文未使用财报后信息或市场共识数字。"
+  ]
+}

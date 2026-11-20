@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": true
+  "status": "generated_review_pending",
+  "source_digest": "a03c0ed248e002179fa698538916f6607759cb30324046cd9acf4d3e3b28550c",
+  "cutoff": "2026-01-29T23:59:59",
+  "generated_at": "2026-11-20T00:57:21.762595+00:00",
+  "sources": [
+    "https://news.samsung.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2025-results"
+  ]
 }

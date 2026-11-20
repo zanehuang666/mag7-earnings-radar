@@ -1,0 +1,23 @@
+{
+  "english_draft": "Title: Historical reconstruction: Meta Q4 2025 earnings preview\n\nNote: This document is a retrospective reconstruction. It is not an original preview written before the earnings release. It uses only information published in Meta's Q3 2025 results release on October 29, 2025. The target event date is January 28, 2026. No contemporaneous preview is attached for review.\n\nConclusion:\nMeta guided fourth-quarter total revenue to $56-59 billion. Management expects continued strong advertising revenue growth. Management expects Reality Labs revenue to decline year-over-year. The decline comes from lapping the Quest 3S launch and from retailer purchases in Q3. The main question is whether advertising can offset the Reality Labs drag.\n\nQ3 baseline:\nRevenue was $51.242 billion, up 26% year-over-year. Constant-currency revenue growth was 25%. Operating income was $20.535 billion. Operating margin was 40%, down from 43%. GAAP net income was $2.709 billion; diluted EPS was $1.05. A one-time, non-cash tax charge of $15.93 billion drove the low profit. Without that charge, net income would have been $18.64 billion and EPS $7.25. Family DAP was 3.54 billion, up 8%. Ad impressions rose 14%; average price per ad rose 10%. Capital expenditure, including finance lease principal payments, was $19.37 billion. Free cash flow was $10.62 billion.\n\nCore questions:\n1. Can Q4 revenue stay in the $56-59 billion range? FX adds about 1% to growth. Advertising is the main driver. Reality Labs is the main drag.\n2. Will operating margin fall further? Q3 costs grew 32%, faster than revenue at 26%. Q4 tax rate is guided at 12-15%. This helps net income but does not fix operating margin pressure.\n3. How will 2026 capex and expense guidance affect the story? Management raised 2025 capex to $70-72 billion. Management raised 2025 expenses to $116-118 billion. Management expects 2026 capex dollar growth to be notably larger. Management expects 2026 expenses to grow much faster. Q4 may provide more precision.\n\nUpside/downside:\nUpside: Advertising revenue beats the high end. Tax rate comes in at the low end. EU regulatory impact is smaller than feared.\nDownside: Reality Labs revenue falls more than expected. The EU imposes further changes to Less Personalized Ads as early as Q4. Infrastructure costs push operating margin down. U.S. youth trials create a material loss risk in 2026.\n\nVerification points:\nCheck Q4 revenue vs $56-59 billion. Check ad impressions and price growth. Check DAP. Check operating margin. Check effective tax rate. Check capex and free cash flow. Check Reality Labs revenue. Check 2026 capex and expense guidance.",
+  "reader_questions": [
+    "Q4 收入指引是否已经把 Reality Labs 同比下滑完全纳入？如果 RL 降幅超过指引隐含假设，广告增长能否对冲？",
+    "Q3 剔除一次性税项后的 EPS 是公司说明性数字，不是正式非 GAAP 指标；Q4 是否应采用同样口径，才能与市场预期比较？",
+    "2026 年资本开支“美元增幅明显更大”没有具体数字；Q4 财报或电话会是否给出 2026 年量化区间？这会改变对利润率的判断。"
+  ],
+  "fact_checks": {
+    "round_1": [
+      "日期/季度：Meta Q3 2025 发布于 2025-10-29，季度截至 2025-09-30；本稿对应 2025Q4，目标发布日 2026-01-28 来自任务参数，非新闻稿正文。",
+      "币种/单位：所有财务数字均为美元；新闻稿表格以百万美元列示，文字指引以 billion 为单位；本稿统一使用 billion/亿美元口径，不混用百万。",
+      "GAAP/非GAAP：营收、成本、经营利润、净利润/EPS 为 GAAP 报告数；剔除一次性税项后的净利润/EPS 为公司说明性数字，不是正式 non-GAAP 表项；自由现金流为正式 non-GAAP 指标。",
+      "集团/分部：总收入为合并口径；Q4 Reality Labs 收入同比下降是公司指引，新闻稿未披露 Reality Labs 利润或亏损额；本稿没有编造分部利润。",
+      "事实/指引/推论：DAP、广告展示量/均价、Q3 财务数据是已实现事实；$56–59B 收入、Q4 税率 12–15%、2025 全年费用/资本开支是指引；2026 年资本开支和费用增速是前瞻性方向表述，未给区间；本稿未使用市场共识或股价。"
+    ],
+    "round_2": [
+      "怀疑点1：是否把 Q3 一次性税费当作 Q4 经常性项目？已核实：Q3 报告净利润和 EPS 受 $15.93B 一次性非现金税项影响；Q4 税率指引 12–15% 单独列示，二者未混淆。",
+      "怀疑点2：是否用非 GAAP 口径替代 GAAP？已核实：文中明确标注 GAAP 净利润/EPS，并单独说明剔除税项后的公司口径；自由现金流明确为 non-GAAP。",
+      "怀疑点3：是否把“2026 费用增速显著加快”写成具体百分比？已核实：公司只给方向，本稿未给出任何具体数字或区间。",
+      "结论复核：本稿结论仅依据 2025-10-29 的 Q3 新闻稿和公司指引，不包含财报后信息；缺失数字标为待核或回避，未编造。"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "english_draft": "Amazon published Q4 2025 results on Feb 5, 2026 for the quarter ended Dec 31, 2025. Net sales were $213.4B, up 14% year over year. Excluding a $2.8B favorable foreign-exchange impact, net sales rose 12%. North America sales were $127.1B, up 10%. International sales were $50.7B, up 17% (11% ex-FX). AWS sales were $35.6B, up 24%. Operating income was $25.0B, up from $21.2B in Q4 2024. Reported operating income included $1.1B for resolving Italian tax disputes and settling a lawsuit, $730M of estimated severance, and $610M of asset impairments. Without these charges, operating income would have been $27.4B. Net income was $21.2B, or $1.95 diluted EPS, compared with $20.0B and $1.86 in Q4 2024. AWS segment operating income was $12.5B, North America was $11.5B, and International was $1.0B. Full-year 2025 net sales were $716.9B, operating income was $80.0B, and net income was $77.7B. TTM operating cash flow was $139.5B, up 20%. TTM free cash flow fell to $11.2B from $38.2B, mainly because net purchases of property and equipment rose $50.7B, mostly for AI. Management plans about $200B of capital expenditures in 2026. The company said AWS Trainium and Graviton have a combined annualized revenue run rate above $10B, growing at triple-digit percentage. Trainium3 supply is nearly committed by mid-2026. Trainium4 is expected in 2027. The company did not disclose separate profit for Trainium, Rufus, or Alexa+. The extracted source did not include complete Q1 2026 guidance figures. There was no contemporaneous Preview.",
+  "reader_questions": [
+    "Q1 2026 指引中的净销售额和经营利润区间是多少？完整指引会改变对 2026 年增速与利润率路径的判断。",
+    "AWS 的 24% 增速中，AI 芯片、Trainium 和推断工作负载贡献多少？这些业务的毛利率是否高于或低于传统 AWS 服务？",
+    "公司预计 2026 年资本开支约 2000 亿美元；管理层是否给出自由现金流恢复增长的时间点？"
+  ],
+  "fact_checks": [
+    "财报发布日期 2026-02-05，季度为截至 2025-12-31；口径为 GAAP、美元。",
+    "Q4 净销售额 2134 亿美元，同比 +14%；剔除汇率 28 亿美元有利影响后 +12%。",
+    "北美 1271 亿美元（+10%）；国际 507 亿美元（+17%，剔除汇率 +11%）；AWS 356 亿美元（+24%）。",
+    "Q4 经营利润 250 亿美元，2024Q4 为 212 亿美元；含 11 亿税务/诉讼、7.3 亿预计遣散费、6.1 亿减值；剔除后 274 亿。",
+    "分部经营利润：北美 115 亿（2024Q4 93 亿）、国际 10 亿（2024Q4 13 亿）、AWS 125 亿（2024Q4 106 亿）。",
+    "Q4 净利润 212 亿美元，摊薄 EPS 1.95 美元；2024Q4 为 200 亿/1.86 美元。",
+    "2025 全年净销售额 7169 亿美元（+12%），经营利润 800 亿美元，净利润 777 亿美元，EPS 7.17 美元。",
+    "TTM 经营现金流 1395 亿美元（+20%）；TTM 自由现金流 112 亿美元，上年同期 382 亿美元，主因物业与设备购买净额同比增 507 亿美元，投向 AI。",
+    "管理层预计 2026 年资本开支约 2000 亿美元；公司称 Trainium/Graviton 年化收入运行率超 100 亿美元、三位数增长，Trainium3 供应到 2026 年中几乎售罄。",
+    "Rufus 使用客户 3 亿+，贡献约 120 亿美元增量年化销售额；Alexa+ 美国定价 19.99 美元/月、Prime 免费；未见单独利润披露。",
+    "Q1 2026 指引在来源正文中不完整，具体数字待核；本稿未编造指引。"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "english_draft": "Amazon issued its first-quarter results for the quarter ended March 31, 2026 on April 29, 2026.\nNet sales were $181.5 billion in the first quarter.\nNet sales increased 17% year over year.\nExcluding a $2.9 billion favorable impact from year-over-year changes in foreign exchange rates, net sales increased 15%.\nNorth America segment sales increased 12% to $104.1 billion.\nInternational segment sales increased 19% to $39.8 billion.\nExcluding foreign exchange changes, International segment sales increased 11%.\nAWS segment sales increased 28% to $37.6 billion.\nOperating income was $23.9 billion in the first quarter, compared with $18.4 billion in the first quarter of 2025.\nNorth America segment operating income was $8.3 billion.\nInternational segment operating income was $1.4 billion.\nAWS segment operating income was $14.2 billion.\nNet income was $30.3 billion, or $2.78 per diluted share.\nNet income was $17.1 billion, or $1.59 per diluted share, in the first quarter of 2025.\nNet income included $16.8 billion of pre-tax gains in non-operating income from Amazon's investments in Anthropic.\nOperating income did not include these gains.\nOperating cash flow for the trailing twelve months was $148.5 billion, up 30% year over year.\nFree cash flow for the trailing twelve months was $1.2 billion, down from $25.9 billion in the prior year period.\nThe decrease primarily reflected a $59.3 billion increase in purchases of property and equipment, net of proceeds from sales and incentives.\nManagement said this increase mainly reflected investments in artificial intelligence.\nManagement also said AWS grew 28%, its fastest growth in 15 quarters.\nThe chips business exceeded a $20 billion annual revenue run rate and grew triple digits year over year.\nAdvertising exceeded $70 billion in trailing twelve-month revenue.\nStore unit growth reached 15%.\nNo same-period Preview existed before this report.\nThis analysis does not create a retrospective forecast.",
+  "reader_questions": [
+    "营业利润239亿美元是否完全不含Anthropic投资收益，而净利润中的168亿美元是否全部计入非营业收入？",
+    "AWS 28%的增速中有多少来自OpenAI、Anthropic等多年期算力承诺，这些承诺何时开始计入收入和现金流？",
+    "自由现金流由259亿美元降至12亿美元，是否意味着2026年后续季度可能因AI资本开支继续承压甚至转负？"
+  ],
+  "fact_checks": [
+    "来源与日期：官方新闻稿标题《Amazon.com Announces First Quarter Results》，发布日期2026-04-29，对应截至2026-03-31的季度。",
+    "营收：净销售额1815亿美元、同比+17%；剔除汇率后+15%；北美1041亿美元(+12%)；国际398亿美元(+19%，剔除汇率+11%)；AWS376亿美元(+28%)。",
+    "利润：营业利润239亿美元（上年同期184亿）；北美83亿、国际14亿、AWS142亿；净利润303亿美元、摊薄EPS 2.78美元；上年同期净利润171亿美元、EPS 1.59美元。",
+    "非营业项目：净利润含Anthropic投资税前收益168亿美元，计入非营业收入；营业利润不含该收益。",
+    "现金流：TTM经营现金流1485亿美元(+30%)；TTM自由现金流12亿美元，上年同期259亿美元；自由现金流下降主要因物业及设备采购净额同比增加593亿美元，管理层称主要投向AI。",
+    "管理层声明：AWS增速28%为15个季度最快；芯片年化收入运行率超200亿美元且同比三位数增长；广告TTM收入超700亿美元；零售单位销量增速达15%。",
+    "Preview：来源未附财报前同期Preview，也未附公司指引或可靠卖方共识；本文不事后补写预测，不推断业绩符合或超出预期。"
+  ]
+}

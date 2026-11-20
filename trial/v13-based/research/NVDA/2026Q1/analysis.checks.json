@@ -1,0 +1,26 @@
+{
+  "english_draft": "Scope. This report covers NVIDIA fiscal quarter Q4 FY2026. The quarter ended on January 25, 2026. NVIDIA published the results on February 25, 2026.\n\nPreview. No preview exists for this quarter. The archive does not contain an NVIDIA forecast written before this earnings release. A rebuilt historical document exists. It was written after the event. It cannot serve as a real-time prediction. This report does not write a preview after the event.\n\nActual results. Revenue was 68.1 billion dollars. Revenue increased 20 percent from the prior quarter. Revenue increased 73 percent from the prior year. Full-year revenue was 215.9 billion dollars. Full-year revenue increased 65 percent. Data Center revenue was 62.3 billion dollars. Data Center revenue increased 22 percent from the prior quarter and 75 percent from the prior year. Full-year Data Center revenue was 193.7 billion dollars. Gaming revenue was 3.7 billion dollars. Gaming revenue decreased 13 percent from the prior quarter and increased 47 percent from the prior year. NVIDIA stated that channel inventory returned to normal after the holiday season. Professional Visualization revenue was 1.3 billion dollars. It increased 74 percent from the prior quarter and 159 percent from the prior year. Automotive and Robotics revenue was 604 million dollars. It increased 2 percent from the prior quarter and 6 percent from the prior year. The disclosed segments total 67.9 billion dollars. The difference from total revenue is about 0.2 billion dollars. The source does not identify this difference.\n\nMargins and earnings. GAAP gross margin was 75.0 percent. Non-GAAP gross margin was 75.2 percent. GAAP diluted earnings per share were 1.76 dollars. Non-GAAP diluted earnings per share were 1.62 dollars. GAAP net income was higher than non-GAAP net income. GAAP net income was 42.96 billion dollars. Non-GAAP net income was 39.55 billion dollars. Other income, net was 6.1 billion dollars in the quarter. Other income, net included 5.6 billion dollars of other income. NVIDIA excludes gains and losses from equity securities in non-GAAP measures. This exclusion explains the direction of the difference.\n\nGuidance and consensus. The source does not include the prior-quarter guidance or analyst consensus. This report does not state whether results beat expectations. NVIDIA provided guidance for the next quarter. Revenue is expected to be 78.0 billion dollars, plus or minus 2 percent. The midpoint is about 14.5 percent higher than the current quarter. GAAP gross margin is expected to be 74.9 percent, plus or minus 50 basis points. Non-GAAP gross margin is expected to be 75.0 percent, plus or minus 50 basis points. The outlook assumes no Data Center compute revenue from China. The source does not disclose the prior-quarter China revenue share. This report does not quantify it. Starting in the next quarter, NVIDIA will include stock-based compensation in non-GAAP measures. Historical non-GAAP comparisons will change.\n\nCash returns. In fiscal 2026, NVIDIA returned 41.1 billion dollars to shareholders. The share repurchase authorization remaining was 58.5 billion dollars at the end of the quarter. The next quarterly dividend is 0.01 dollar per share. The payment date is April 1, 2026.\n\nOriginal judgment review. No preview exists. The review of an original judgment is not applicable.\n\nNext quarter focus. Verify the revenue guidance of 78.0 billion dollars with China Data Center compute revenue assumed at zero. Recalibrate non-GAAP comparisons after the stock-based compensation change. Watch the Rubin ramp and its effect on fiscal 2027 gross margin and tax rate.",
+  "reader_questions": [
+    "GAAP 净利为何高于非 GAAP 净利（$42.96B vs $39.55B）？这是否意味着“创纪录利润”中含有应被剔除的一次性收益，评估经营质量应看哪个口径？",
+    "Q1 FY2027 指引假设中国数据中心计算收入为零，但来源未披露上季或本季中国收入占比；在缺失该数字的情况下，如何评估 $78B 指引的可靠性与下季增长质量？",
+    "非 GAAP 口径从 Q1 FY2027 起纳入股权激励，历史非 GAAP 数字与未来数字不可直接比较；同比增速应如何调整基准，市场需要什么额外披露？"
+  ],
+  "fact_checks": [
+    "季度口径：财报标题为“Fourth Quarter and Fiscal 2026”，覆盖截至 2026-01-25 的财季；发布日 2026-02-25 与来源一致。",
+    "收入：$68,127M、+20% Q/Q、+73% Y/Y，与新闻稿正文及表格一致。",
+    "全年收入：$215.9B、+65%，与正文一致。",
+    "数据中心：Q4 $62.3B、+22% Q/Q、+75% Y/Y；全年 $193.7B、+68%，与分部亮点一致。",
+    "游戏：Q4 $3.7B、-13% Q/Q、+47% Y/Y；全年 $16.0B、+41%，与亮点一致；环比下降归因于渠道库存回落，属公司口径。",
+    "专业可视化：Q4 $1.3B、+74% Q/Q、+159% Y/Y；全年 $3.2B、+70%，与亮点一致。",
+    "汽车与机器人：Q4 $604M、+2% Q/Q、+6% Y/Y；全年 $2.3B、+39%，与亮点一致。",
+    "分部合计：62.3+3.7+1.3+0.604=67.904，与总收入的差额约 $0.223B；来源未披露该差额的名称，本稿未编造。",
+    "利润率：GAAP/非 GAAP 毛利率 75.0%/75.2%（Q4）与 71.1%/71.3%（全年），与表格一致。",
+    "EPS：GAAP/非 GAAP 稀释 EPS $1.76/$1.62（Q4）、$4.90/$4.77（全年），与表格一致。",
+    "GAAP 净利 $42.96B > 非 GAAP $39.55B：收入表显示 Q4 其他收入净额 $6,098M，其中其他收益 $5,604M；非 GAAP 说明明确剔除股权证券损益，因果成立，属编辑推断而非公司原文。",
+    "Q1 FY2027 指引：$78.0B ±2%（中点约 +14.5% Q/Q，为本稿计算）；毛利率 74.9%/75.0% ±50bps；营业费用 $7.7B/$7.5B，含 $1.9B SBC；税率 17%–19%；均与 outlook 段一致。",
+    "非 GAAP 变更：Q1 FY2027 起将 SBC 纳入非 GAAP，与 outlook 及 non-GAAP measures 段一致。",
+    "中国：指引原文为“not assuming any Data Center compute revenue from China”；来源无上季中国收入占比数字，本稿不披露。",
+    "股东回报：FY2026 返还 $41.1B；回购授权余额 $58.5B；股息 $0.01，登记日 2026-03-11，支付日 2026-04-01，与来源一致。",
+    "无同期 Preview：资料清单中无财报前预测稿；preview_status 亦标注事后重建稿不可用作预测复核，故 Analysis 标注“无同期 Preview”，不事后补写。"
+  ]
+}

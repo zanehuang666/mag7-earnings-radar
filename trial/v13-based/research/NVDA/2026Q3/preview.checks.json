@@ -1,0 +1,20 @@
+{
+  "english_draft": "This preview is a historical reconstruction. It uses only information published before 2026-05-20. It was not actually written before earnings. NVIDIA reported Q1 FY2027 revenue of $81.6 billion, up 20% sequentially and 85% year over year. Data Center revenue was $75.2 billion, up 21% sequentially. Edge Computing revenue was $6.4 billion, up 10% sequentially. Non-GAAP gross margin was 75.0%. Non-GAAP diluted EPS was $1.87. Note: NVIDIA changed non-GAAP definitions; stock-based compensation is no longer excluded. The company guides Q2 FY2027 revenue to $91.0 billion, plus or minus 2%. It assumes no Data Center compute revenue from China. It guides gross margin to 75.0% non-GAAP, plus or minus 50 basis points. It guides operating expenses to about $8.3 billion non-GAAP. The main questions are: Can revenue rise about 11.5% sequentially while China revenue is zero? Can gross margin stay at 75%? How will Data Center and Edge segments perform under the new reporting framework? Positive expectation: company guidance implies strong sequential growth. Negative: China is excluded and gross margin is flat. At the earnings date, check revenue, segment revenue, gross margin, EPS, and shareholder returns. Since this is a reconstruction, no contemporaneous Preview exists. The actual report is not available as of the cutoff. Therefore the Analysis cannot compare actual results.",
+  "reader_questions": [
+    "公司指引中的“不含中国数据中心计算收入”是否意味着中国整体收入为零？还是仅指Data Center compute这一子项，网络或边缘收入仍可能计入？",
+    "非GAAP摊薄EPS为1.87美元、GAAP为2.39美元，且非GAAP自本季起不再剔除股权激励；这种口径变化是否会让历史同比和环比比较失真？",
+    "新报告框架将Data Center分为Hyperscale和ACIE，但本次新闻稿只给了旧口径下计算/网络收入及Edge总量；如何确认新旧口径可加总、并由此推断增长来源？"
+  ],
+  "fact_checks": [
+    "日期与季度：来源为2026-05-20发布的“2027财年第一季度财报”，季度截至2026-04-26；任务所称prior_quarter 2026Q2与此对应。",
+    "收入：Q1 FY27收入81,615百万美元，环比+20%、同比+85%；GAAP与非GAAP收入一致。",
+    "毛利率：GAAP 74.9%、非GAAP 75.0%。",
+    "EPS与净利润：GAAP稀释EPS $2.39；非GAAP稀释EPS $1.87；GAAP净利润58,321百万美元，非GAAP净利润45,548百万美元。GAAP包含大额“其他收益”15,929百万美元。",
+    "分部：Data Center收入75.2B，环比+21%、同比+92%；Edge Computing收入6.4B，环比+10%、同比+29%。旧口径下DC compute 60.4B（环比+18%、同比+77%），DC networking 14.8B（环比+35%、同比+199%）。",
+    "非GAAP口径变化：自Q1 FY27起，非GAAP不再剔除股权激励支出；历史非GAAP数据已相应更新。",
+    "公司指引（Q2 FY27）：收入91.0B±2%；假设不含中国Data Center compute收入；GAAP/非GAAP毛利率74.9%/75.0%±50bps；经营费用约8.5B/8.3B；全年税率16%-18%。",
+    "现金回报：Q1 FY27向股东返还约20B；期末回购授权余额38.5B；2026-05-18董事会新增80B授权；季度股息从0.01美元/股升至0.25美元/股。",
+    "推论：91.0B/81.615B-1≈+11.5%，为根据公司指引中点推算，非原文直接给出。",
+    "来源中无外部一致预期、无股价数据；目标事件日2026-08-26为任务元数据，非来源正文内容。"
+  ]
+}

@@ -1,33 +1,34 @@
-# Meta（META）2025Q4｜财报后资料索引
+# Meta 2025Q4 业绩分析
 
-> 自动整理的资料索引，尚不是经逐季财报核对的完整研究文章。
+> 来源：[Meta Reports Fourth Quarter and Full-Year 2025 Results](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx)（2026-01-28）
+>
+> 无同期 Preview；事后历史资料重建稿不可当作当时预测使用，本稿不进行“预测复核”。
 
-- 财报日：2026-01-28（已发布）
-- 财报期：Dec 2025
+## 实际结果
 
-## 已核实资料与待复核判断
+- 季度收入：59.893B 美元，同比 +24%。
+- 季度经营利润：24.745B 美元；经营利润率：41%。
+- 摊薄每股收益：8.88 美元。
+- 2025年12月 Family daily active people（DAP）平均 3.58B，同比 +7%。
+- 当季资本开支（含融资租赁）：22.14B 美元。
+- 经营现金流：36.21B 美元；自由现金流：14.08B 美元。
 
-- Quarter ended December 31, 2025; quarterly revenue USD 59.893 billion, up 24% year over year.
-- Quarterly operating income USD 24.745 billion and operating margin 41%; diluted EPS USD 8.88.
-- Family daily active people averaged 3.58 billion in December 2025, up 7% year over year.
-- Quarterly capital expenditure including finance leases USD 22.14 billion; operating cash flow USD 36.21 billion; free cash flow USD 14.08 billion.
-- Company Q1 2026 revenue outlook USD 53.5–56.5 billion; this is a forecast.
+以上数字均为公司发布稿口径；来源未在本次资料中标注 GAAP 或非 GAAP。
 
-### 正式版确定性摘要（Nasdaq / 行情口径）
+## 与指引/共识差异
 
-Nasdaq 历史日历记录实际 EPS $8.88、公开一致预期 $8.21，对应预期差 +8.16%
+本次来源未提供 2025Q4 的公司指引或可靠市场共识，因此无法计算“实际 vs 指引”的预期差。公司给出 2026Q1 收入展望 53.5–56.5B 美元，该数字属预测，不是已实现数。
 
-该摘要只提供公开 EPS 或价格反应线索，不能代替公司财报正文。
+## 利润及现金
 
-### 后续核对
+发布稿仅给出集团层面经营利润与利润率，未在本次资料中披露分部利润或广告价格等驱动，因此无法进一步拆解利润变化原因。现金流方面，经营现金流 36.21B 美元减去资本开支 22.14B 美元，得到自由现金流 14.08B 美元；资本开支整体仍处较高量级。
 
-- 广告价格和展示量：实际结果、指引与下季变化。
-- 应用家族利润率：实际结果、指引与下季变化。
-- AI 资本开支：实际结果、指引与下季变化。
+## 原判断复核
 
-## 来源与状态
+没有同期 Preview，因此不进行复核。若存在事后重建稿，只能视为历史资料，不能作为财报前的预测判断。
 
-- [原始资料 1](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx)
-- [原始资料 2](https://api.nasdaq.com/api/company/META/earnings-surprise)
+## 下一季要点
 
-资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
+- 2026Q1 收入能否落入 53.5–56.5B 美元展望区间。
+- 经营利润率与自由现金流能否维持最新水平。
+- 资本开支是否继续保持在约 22B 美元/季的量级。

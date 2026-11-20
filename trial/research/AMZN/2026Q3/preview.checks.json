@@ -1,0 +1,55 @@
+{
+  "english_draft": "Preview for Amazon Q3 2026 (historical reconstruction). Source: Q2 2026 earnings release, published July 30, 2026. No Q3 guidance and no consensus numbers are used.\n\nConclusion: Q2 showed AWS acceleration. AWS revenue grew 37% year over year, the fastest in 18 quarters. AWS operating income was $16.6 billion. AI and chips each exceeded $25 billion annualized run rates. Total net sales grew 20%. Operating income rose 43%. Free cash flow turned negative because AI-related capex increased sharply. For Q3, watch AWS growth, AWS margin, capex, and profit quality.\n\nBaseline: Net sales were $200.6 billion, up 20%. North America was $116.2 billion, up 16%. International was $42.2 billion, up 15%. AWS was $42.2 billion, up 37%. Operating income was $27.5 billion. Segment operating income: North America $9.1 billion, International $1.7 billion, AWS $16.6 billion. Net income was $62.6 billion and included $53.4 billion of non-operating pre-tax other income, mainly from Anthropic investments. TTM operating cash flow was $161.4 billion. TTM free cash flow was negative $7.6 billion, driven by a $66.1 billion increase in net capex.\n\nCore questions: Can AWS growth stay near 37% without margin compression? Can retail and advertising profits keep improving? How should readers judge profit when non-operating investment gains dominate EPS?\n\nPositive surprises: AWS accelerates, AI/chips run rates rise, retail margins hold. Negative surprises: AWS decelerates, AWS margin falls, free cash flow outflow widens, FX turns unfavorable.\n\nVerification points: AWS revenue and operating margin; segment sales on a constant-currency basis; capex and free cash flow; operating income versus net income; management comments on AI/chips run rates and Trainium/Bedrock adoption.\n\nAnalysis: No contemporaneous preview was attached. Therefore no retrospective comparison is made. The next-quarter focus is the capex trend, AWS margin, advertising growth, and retail profit.",
+  "reader_questions": [
+    "如果剔除Q2的53.4亿美元Anthropic投资重估收益，净利润和EPS会大幅下降；本前瞻改用经营利润作为核心利润指标，是否应把Q3的利润验证点也明确设为经营利润而非净利润？",
+    "AWS收入增长37%中，AI、芯片与传统计算分别贡献多少？如果AI运行率超250亿美元主要靠Trainium换取长期承诺，AWS约39%的经营利润率能否维持？",
+    "自由现金流由正转负是因为资本开支净额同比增加66.1亿美元；若Q3继续类似强度，亚马逊能否同时支撑AWS产能和零售配送投入？判断‘过度投资’的可见信号是什么？"
+  ],
+  "fact_checks": [
+    {
+      "check": "发布日期与季度",
+      "detail": "来源标题与正文显示2026年7月30日发布截至2026年6月30日的Q2业绩；与任务设定一致。",
+      "status": "通过"
+    },
+    {
+      "check": "净销售额口径",
+      "detail": "报告净销售额200.6B美元，同比+20%；剔除汇率影响亦为+20%，汇率为0.1B美元有利影响；来源明确。",
+      "status": "通过"
+    },
+    {
+      "check": "分部数据",
+      "detail": "北美116.2B美元/+16%，国际42.2B美元/+15%，AWS 42.2B美元/+37%；与来源原文一致。",
+      "status": "通过"
+    },
+    {
+      "check": "经营利润",
+      "detail": "合计27.5B美元/+43%；北美9.1B美元，国际1.7B美元，AWS 16.6B美元；与来源一致。",
+      "status": "通过"
+    },
+    {
+      "check": "净利润与EPS",
+      "detail": "净利润62.6B美元，摊薄EPS 5.75美元，含非经营税前其他收入53.4B美元（主要来自Anthropic投资）；来源一致。",
+      "status": "通过"
+    },
+    {
+      "check": "现金流",
+      "detail": "TTM经营现金流161.4B美元/+33%；TTM自由现金流-7.6B美元，对比上年同期+18.2B美元；资本开支净额同比增加66.1B美元；来源一致。",
+      "status": "通过"
+    },
+    {
+      "check": "AI与芯片运行率",
+      "detail": "AWS AI业务与芯片业务年化运行率均超25B美元，均为三位数同比增长；来自CEO陈述与公告要点。",
+      "status": "通过"
+    },
+    {
+      "check": "AWS经营利润率",
+      "detail": "AWS经营利润16.6B美元 / AWS净销售42.2B美元约39%；为本稿推算，来源未直接披露该比率。",
+      "status": "推论"
+    },
+    {
+      "check": "指引与共识",
+      "detail": "来源未包含Q3指引或市场共识数字；文中相关表述均为本稿推论或验证点。",
+      "status": "通过"
+    }
+  ]
+}

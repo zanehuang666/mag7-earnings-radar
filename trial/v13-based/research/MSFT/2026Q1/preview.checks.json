@@ -1,0 +1,15 @@
+{
+  "english_draft": "MSFT FY2026 Q3 preview. This is a historical reconstruction, not a real pre-earnings note. The cutoff is Jan 28, 2026. This note uses only the prior official release. It was not published before the target-quarter earnings.\n\nPrior-quarter base (FY2026 Q2, calendar Q4 2025): revenue was $81.3B, up 17%; operating income was $38.3B, up 21%; GAAP net income was $38.5B, up 60%; non-GAAP net income was $30.9B, up 23%; GAAP EPS was $5.16, up 60%; non-GAAP EPS was $4.14, up 24% (constant currency +21%).\n\nMicrosoft Cloud revenue was $51.5B, up 26% (constant currency +24%). Azure and other cloud services revenue increased 39% (constant currency +38%). Commercial RPO increased 110% to $625B. Productivity and Business Processes revenue was $34.1B, up 16%. Intelligent Cloud revenue was $32.9B, up 29%. More Personal Computing revenue was $14.3B, down 3%. Xbox content and services revenue decreased 5%.\n\nThe release provides no quantitative guidance for FY2026 Q3. The source includes no consensus. Therefore, this note uses prior-quarter actuals as the baseline and does not set numeric expectations.\n\nKey questions: Can Azure maintain high growth? How will OpenAI investment gains or losses affect GAAP EPS? Will the large commercial RPO increase translate into revenue without margin pressure?\n\nPositive baseline: Microsoft Cloud scale and RPO growth. Negative baseline: More Personal Computing and Xbox weakness.\n\nVerification points for the next release: Azure growth, Microsoft Cloud growth, commercial RPO, segment trends, GAAP vs non-GAAP EPS, OpenAI adjustment, and operating margin.\n\nAnalysis note: There is no contemporaneous preview in the attached source. Do not reconstruct actual results after the target date.",
+  "reader_questions": [
+    "如果本稿没有公司下季指引和独立共识，那么所谓“正负预期差”的参照物是什么？应明确是以上季实际值为基准，而非市场预期。",
+    "GAAP净利受OpenAI投资损益影响很大，若下季OpenAI收益转为损失，GAAP EPS还能否作为经营趋势指标？应优先看非GAAP口径。",
+    "商业RPO增长110%至$625B，可能被长期合同、期限结构或大额一次性合同抬高；它真的预示下季收入，还是只改善远期可见度？不能直接外推为下季收入。"
+  ],
+  "fact_checks": [
+    "时间与季度核对：资料截止日为2026-01-28T23:59:59；本稿对应自然年2026Q1/微软FY2026 Q3。可用的上一季财报为微软FY2026 Q2（截至2025-12-31），发布于2026-01-28，早于截止日。未使用2026-01-28之后的任何信息。",
+    "集团数字核对：发布稿列示营收$81,273M/+17%（固定汇率+15%）；经营利润$38,275M/+21%（+19%）；GAAP净利$38,458M/+60%；非GAAP净利$30,875M/+23%（+21%）；GAAP EPS $5.16/+60%；非GAAP EPS $4.14/+24%（+21%）。",
+    "分部/产品核对：PBP $34,116M/+16%；IC $32,907M/+29%；MPC $14,250M/-3%；Azure及其他云服务+39%/+38%固定汇率；Microsoft Cloud $51.5B/+26%/+24%；商业RPO $625B/+110%；Xbox内容与服务-5%/-6%。",
+    "OpenAI调整核对：FY2026 Q2 GAAP包含OpenAI投资净收益$7,583M，EPS贡献$1.02；上年同期为净损失$939M，EPS减少$0.12。非GAAP剔除后为$30,875M/$4.14。",
+    "前瞻信息核对：发布稿正文没有给出FY2026 Q3量化指引，仅称将在电话会议提供前瞻信息；所附来源未包含市场共识。因此正文不设共识预期，并在缺失处标注待核。"
+  ]
+}

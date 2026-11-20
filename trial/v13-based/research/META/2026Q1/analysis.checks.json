@@ -1,0 +1,9 @@
+{
+  "english_draft": "Meta reported results for the first quarter of 2026. The quarter ended on March 31, 2026. Revenue was USD 56.311 billion, up 33% year over year. Operating income was USD 22.872 billion. The operating margin was 41%. Diluted EPS was USD 10.44. This EPS includes an income tax benefit of USD 8.03 billion. The company said that excluding this benefit would reduce diluted EPS by USD 3.13. Family daily active people were 3.56 billion in March 2026, up 4% year over year. Ad impressions increased 19% year over year. There was no Preview written before the release. Therefore, we do not compare results with a Preview. The source did not provide segment profit, ad pricing details, or cash flow. We do not discuss those items. Sustainable EPS depends on operating results, not on tax items. Next quarter we need to check the EPS baseline, operating margin, and ad impression growth.",
+  "reader_questions": [
+    "收入包含 80.3 亿美元所得税收益；若剔除该税项后 EPS 约降至 7.31 美元（按公司表述推算），那么衡量核心盈利应使用哪个基线？",
+    "广告曝光量增长 19% 而 Family DAP 仅增长 4%，这是否应解读为单位用户广告密度上升，还是广告格式/库存结构变化的证据？在没有广告收入单价披露时，是否应避免直接推断广告定价？",
+    "经营利润率 41% 是否可能因一次性税项收益而被高估？下一季度收入和经营利润是否才是判断盈利可持续性的可靠依据？"
+  ],
+  "fact_checks": "第一轮：逐项对照官方新闻稿。核对发布日期为 2026-04-29，季度为截至 2026-03-31；货币均为美元；收入、经营利润、经营利润率、摊薄 EPS、税项收益、Family DAP、广告曝光量均为集团口径而非分部。确认与来源一致；未发现公司指引或可靠市场共识，故不引用。第二轮：以初次读者视角提出三条问题（见 reader_questions），据此修改正文：不把 EPS 10.44 的税项收益部分当作经常性盈利；不将广告曝光增长等同于广告收入增长；不把无来源的税后 EPS 7.31 当作公司披露数，而标注为推算；不比较无同期 Preview 的预期差。最终结论与证据一致。"
+}

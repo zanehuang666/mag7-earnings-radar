@@ -1,0 +1,16 @@
+{
+  "english_draft": "Meta published fourth quarter and full year 2025 results on January 28, 2026. This draft uses only the linked company release. No preview existed before the release. Therefore this draft does not compare actual results with a pre-release forecast.\n\nKey actuals:\n- Quarterly revenue was 59.893 billion USD, up 24% year over year.\n- Quarterly operating income was 24.745 billion USD. Operating margin was 41%.\n- Diluted EPS was 8.88 USD.\n- Family daily active people averaged 3.58 billion in December 2025, up 7% year over year.\n- Quarterly capital expenditure including finance leases was 22.14 billion USD.\n- Operating cash flow was 36.21 billion USD. Free cash flow was 14.08 billion USD.\n\nGuidance and consensus:\n- The source does not include Q4 2025 company guidance or a reliable consensus. Therefore no expectation gap can be calculated.\n- The company forecasts Q1 2026 revenue of 53.5 to 56.5 billion USD. This figure is a forecast.\n\nProduct, profit and cash reasons:\n- The source provides only the family-level user metric. No segment profit breakdown is included.\n- Free cash flow equals operating cash flow minus capital expenditure. This arithmetic uses reported figures.\n\nReview of the preview:\n- No same-period preview exists. A later reconstructed historical note cannot be treated as a forecast made before the release.\n\nNext quarter points:\n- Watch whether Q1 2026 revenue falls inside the 53.5 to 56.5 billion USD outlook range.\n- Watch whether operating margin and free cash flow remain near reported levels.\n- Watch whether capital expenditure stays near 22 billion USD per quarter.",
+  "reader_questions": [
+    "2025Q4收入同比+24%是集团整体收入还是仅Family of Apps收入？",
+    "经营利润24.745B美元和EPS 8.88美元是否均为GAAP口径？来源未明确标注，若不同口径会否改变解释？",
+    "公司2026Q1收入展望为53.5–56.5B美元，是否已按汇率或汇率中性口径表述？来源未说明，这会影响与下季实际的比较。"
+  ],
+  "fact_checks": [
+    "来源发布日期2026-01-28，报告期为截至2025年12月31日季度；收入59.893B美元、同比+24%与来源一致。",
+    "季度经营利润24.745B美元、经营利润率41%、摊薄EPS 8.88美元在来源中确认；来源未在给定摘录中标注GAAP/非GAAP，正文按“公司发布稿口径”表述。",
+    "2025年12月Family DAP平均3.58B、同比+7%在来源中确认。",
+    "季度资本开支（含融资租赁）22.14B美元、经营现金流36.21B美元、自由现金流14.08B美元在来源中确认；FCF为OCF减资本开支的算术结果。",
+    "2026Q1收入展望53.5–56.5B美元在来源中确认；来源未提供2025Q4公司指引或市场共识，因此未计算预期差。",
+    "截至2026-01-28无同期Preview；事后历史重建稿不作为财报前预测复核。"
+  ]
+}

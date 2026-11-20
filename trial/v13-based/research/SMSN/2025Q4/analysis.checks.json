@@ -1,0 +1,17 @@
+{
+  "english_draft": "Samsung Electronics published Q4 2025 results on January 29, 2026. The quarter ended December 31, 2025. Consolidated revenue was KRW 93.8 trillion. This was up 9% quarter over quarter and was the highest quarterly revenue in company history. Operating profit was KRW 20.1 trillion. This was also an all-time high. Full-year 2025 revenue was KRW 333.6 trillion. Full-year operating profit was KRW 43.6 trillion.\n\nThe Device Solutions Division reported KRW 44.0 trillion revenue and KRW 16.4 trillion operating profit. Memory revenue and operating profit reached quarterly records. HBM, server DDR5, and enterprise SSD sales contributed. Overall memory prices rose. System LSI earnings declined. The cause was seasonal weakness and customer schedule changes. Foundry revenue rose. Earnings improved only slightly because of provisional costs. Foundry began mass production of first-generation 2nm products. Foundry also began shipping 4nm HBM base-die products.\n\nThe Device eXperience Division reported a quarterly revenue decline of 8%. Reduced smartphone launch effects and competition caused the decline. MX and Networks revenue was KRW 29.3 trillion. Their operating profit was KRW 1.9 trillion. VD and DA revenue was KRW 14.8 trillion. Their operating result was a loss of KRW 0.6 trillion. Harman revenue was KRW 4.6 trillion. Harman operating profit was KRW 0.3 trillion. SDC revenue was KRW 9.5 trillion. SDC operating profit was KRW 2.0 trillion.\n\nThe company expects to ship HBM4 in Q1 2026. Foundry expects seasonal revenue decline in Q1 2026. Foundry targets double-digit revenue growth for 2026. MX plans to launch Galaxy S26 in Q1 2026. No contemporaneous preview was available. A later historical reconstruction is not treated as a before-results forecast.",
+  "reader_questions": [
+    "分部都写“合并营收”，但集团93.8万亿韩元是否为各分部加总再抵消内部交易后的数字？若直接加总，会不会高估集团规模？",
+    "营业利润是否按IFRS计量？“暂定成本”等未披露项目是否会导致下季度修正？",
+    "VD与DA合计的0.6万亿韩元营业亏损没有拆分，若其中包含一次性减记或收购相关成本，是否应排除后再判断VD/DA常态盈利能力？"
+  ],
+  "fact_checks": [
+    "official_release_confirmed: true；日期2026-01-29，季度截至2025-12-31。",
+    "集团Q4营收93.8万亿韩元、环比+9%、营业利润20.1万亿韩元，官方称为季度新高；2025全年营收333.6万亿韩元、营业利润43.6万亿韩元。",
+    "DS Q4营收44.0万亿韩元、营业利润16.4万亿韩元、收入环比+33%；Memory创季度新高；System LSI盈利环比下降；Foundry收入增长但盈利改善有限，已量产第一代2nm并出货4nm HBM基片。",
+    "DX Q4收入环比-8%；MX+Networks营收29.3/营业利润1.9；SDC 9.5/2.0；VD+DA 14.8/-0.6；Harman 4.6/0.3。",
+    "前瞻：HBM4 Q1 2026交付（11.7Gbps）；Foundry Q1收入预计环比下降，2026目标双位数增长；MX计划Q1发布Galaxy S26；SDC预计Q1手机需求偏弱。",
+    "限制：原文未注明GAAP/非GAAP，未披露分部对账，未提供市场共识；本稿不补充外部数字。",
+    "第二轮互检后修改：不简单加总分部数据、不使用事后重建稿作预测、不把“double-digit annual profit”改写为营业利润率。"
+  ]
+}

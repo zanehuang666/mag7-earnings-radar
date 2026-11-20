@@ -1,0 +1,16 @@
+{
+  "english_draft": "Intel published Q3 2025 results on Oct 23, 2025. Q3 revenue was $13.7 billion. Q3 GAAP EPS was $0.90. Q3 non-GAAP EPS was $0.23. For Q4 2025, Intel guides revenue from $12.8 billion to $13.8 billion. The midpoint is $13.3 billion. Intel guides Q4 GAAP EPS to $(0.14). Intel guides Q4 non-GAAP EPS to $0.08. Q4 gross margin guidance is 34.5% GAAP and 36.5% non-GAAP. Q4 guidance excludes Altera. Intel sold 51% of Altera during Q3 2025. Three core questions exist. First, can demand exceed supply? Management said demand exceeds supply. This trend may continue into 2026. Q4 revenue midpoint is still below Q3 revenue. Second, how does Altera exclusion distort comparisons? Q3 figures include Altera until September 11, 2025. Q4 guidance excludes Altera. Users should analyze segment revenue. Third, can users trust the Q3 baseline? Q3 results are preliminary. Intel consulted the SEC. The U.S. government shutdown delayed the consultation. Q3 results may be revised. Watch items: revenue range, non-GAAP EPS, gross margin, segment revenue, Altera separation, and any Q3 restatement. There is no contemporaneous preview. This document is a historical reconstruction.",
+  "reader_questions": [
+    "若SEC咨询导致Q3财务结果被重大重述，这份预览基于的Q3基线和Q4指引是否还有参考价值？",
+    "Altera在Q4指引中被剔除，而Q3仍包含Altera至9月11日，直接对比同比或环比是否会被严重扭曲？",
+    "Q4 GAAP EPS指引为亏损而non-GAAP EPS为正，两者之间的差异主要来自哪些一次性或非经营项目？"
+  ],
+  "fact_checks": [
+    "第一轮核实-日期与季度：来源标题为“Intel Reports Third-Quarter 2025 Financial Results”，发布于2025-10-23；本稿面向2025Q4财报（目标日2026-01-22为任务给定日期）。",
+    "第一轮核实-币种与单位：财报金额为美元，营收以十亿美元、利润表以百万美元、EPS以美元/股列示。",
+    "第一轮核实-GAAP/非GAAP：Q4营收指引为$12.8–13.8B，未分GAAP/非GAAP；Q4毛利率34.5%（GAAP）/36.5%（non-GAAP）、税率476%（GAAP）/12%（non-GAAP）、EPS $(0.14)（GAAP）/$0.08（non-GAAP）。",
+    "第一轮核实-集团/分部：Q3分部营收为CCG $8.5B、DCAI $4.1B、Total Intel Products $12.7B、Foundry $4.2B、All other $1.0B、分部间抵销$(4.2)B；Q4指引仅公司整体，未给分部指引。",
+    "第一轮核实-事实/公司指引/本稿推论：本稿结论均基于公司Q3实际数据和Q4指引；所附来源未提供市场共识，因此未引用市场共识。",
+    "第二轮互检-可改变理解的问题已处理：①SEC重述风险已作为核心问题3写入正文；②Altera剔除导致的同比口径问题已作为核心问题2写入正文；③GAAP与非GAAP差异的一次性项目已写入负向预期差。"
+  ]
+}

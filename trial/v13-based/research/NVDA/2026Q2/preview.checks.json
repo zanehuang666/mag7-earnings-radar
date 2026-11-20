@@ -1,0 +1,17 @@
+{
+  "english_draft": "NVIDIA published FY2026 Q4 results on 25 February 2026. This preview is a historical reconstruction. It uses only public information available before the cutoff.\n\nThe baseline is the prior quarter. Revenue was $68.1 billion. Data Center revenue was $62.3 billion. Gaming revenue was $3.7 billion. GAAP gross margin was 75.0%. Non-GAAP gross margin was 75.2%.\n\nFor Q1 FY2027, NVIDIA guided revenue to $78.0 billion, plus or minus 2%. GAAP gross margin is expected to be 74.9%, plus or minus 50 basis points. Non-GAAP gross margin is expected to be 75.0%, plus or minus 50 basis points. The guidance assumes no Data Center compute revenue from China. Starting in Q1 FY2027, non-GAAP results will include stock-based compensation.\n\nThree questions are key. First, the guided midpoint implies about 14.5% sequential revenue growth. This is lower than the 20% growth in Q4. The zero-China assumption may be the main cause. Second, the non-GAAP measure change makes the reported profit not comparable with prior quarters. The scope of change is about $1.9 billion of stock-based compensation in operating expenses. Third, the zero-China assumption reduces the data-center outlook. The company did not disclose its China revenue amount, so the effect is unknown.\n\nUpside risks are stronger demand for Blackwell and early interest in Rubin. Downside risks are a weaker Gaming segment, higher costs from new products, and the zero-China assumption. The report should be checked against the revenue midpoint and the gross-margin range.",
+  "reader_questions": [
+    "为什么 Q1 指引隐含的环比增速较 Q4 下降？这是需求减弱，还是中国收入零假设导致的？",
+    "非 GAAP 口径开始纳入股权激励后，EPS 与上季的 $1.62 不可直接比较，应如何调整上季基数？",
+    "游戏收入在 Q4 已环比下降 13%，Q1 是否会继续走弱，并拖累整体毛利率？"
+  ],
+  "fact_checks": [
+    "日期与季度：核对 NVIDIA 新闻稿，发布于 2026-02-25，财季为 FY2026 Q4（截至 2026-01-25），目标前瞻季度为 FY2027 Q1，与用户提供的 target_event_date 2026-05-20 对应。",
+    "上季收入与分部：新闻稿明确写下季度收入 $68,127M，环比 +20%、同比 +73%；数据中心 $62.3B，环比 +22%、同比 +75%；游戏 $3.7B，环比 -13%、同比 +47%。均与本文引用一致。",
+    "毛利率与 EPS：Q4 GAAP 毛利率 75.0%、非 GAAP 75.2%，GAAP EPS $1.76、非 GAAP EPS $1.62，来源一致。",
+    "FY2027 Q1 指引：来源明确收入 $78.0B ±2%；GAAP/非GAAP 毛利率 74.9%/75.0% ±50bp，含 0.1% 股权激励影响；GAAP/非GAAP 经营费用约 $7.7B/$7.5B，含 $1.9B 股权激励；税率 17%-19%。",
+    "非 GAAP 口径变化：来源明确自 FY2027 Q1 起非 GAAP 不再排除股权激励。本文据此说明 EPS 不可直接比较，且未编造数字。",
+    "中国假设：来源明确表示指引不假设任何来自中国的数据中心计算收入。本文指出该假设压低收入中枢，但未量化，因为公司未披露中国数据中心收入金额。",
+    "未使用财报后信息：本文仅使用所附 2026-02-25 官方新闻稿，未包含此后任何信息；未引用市场共识或股价预测。"
+  ]
+}

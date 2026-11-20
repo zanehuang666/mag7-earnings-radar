@@ -1,0 +1,18 @@
+{
+  "english_draft": "AMD published Q2 2026 results on August 4, 2026. Revenue was $11.536 billion, up 50% year over year and up 13% sequentially. GAAP gross margin was 54%. Non-GAAP gross margin was 56%. GAAP diluted EPS was $1.38. Non-GAAP diluted EPS was $1.66. Data Center revenue was $6.7 billion, up 107% year over year, and represented 58% of total revenue. Client revenue was $3.1 billion, up 23%. Gaming revenue was $779 million, down 31%. Embedded revenue was $977 million, up 19%. For Q3 2026, AMD guides revenue of approximately $13.0 billion, plus or minus $300 million. The midpoint implies about 41% year-over-year growth and about 13% sequential growth. Non-GAAP gross margin guidance is approximately 56%. The press release does not provide segment gross margin, operating income, or cash flow. No pre-release Preview is available.",
+  "reader_questions": [
+    "Q2'25 的 $800M 存货及相关费用是去年同期项目，若误读为本季，会高估今年同比毛利率改善的内生成分。",
+    "Data Center 收入 $6.7B 是否包含 Instinct 与 EPYC 的拆分？新闻稿未披露分部内部结构，不能据此推断 MI400 单独收入。",
+    "Q3 指引约 $13.0B 隐含环比 +13%，但公司未给分部指引；将全部增量归因于 Data Center 加速缺乏证据。"
+  ],
+  "fact_checks": [
+    "确认发布日期为 2026-08-04，季度为 2026Q2（截至 2026-06-27），标题、金额与官方新闻稿一致。",
+    "营收 $11,536M，同比 +50%、环比 +13%；GAAP 稀释 EPS $1.38，非 GAAP 稀释 EPS $1.66。",
+    "上季 Q1'26 营收 $10,253M，非 GAAP EPS $1.37；去年同期 Q2'25 营收 $7,685M，非 GAAP EPS $0.48。",
+    "Q2'25 的 $800M 存货及相关费用属于去年同期，注释标注为美国出口管制对 Instinct MI308 的影响，不计入本季。",
+    "Data Center 收入 $6.7B，同比 +107%，占公司收入 58%；Client 收入 $3.1B，同比 +23%；Gaming 收入 $779M，同比 -31%；Embedded 收入 $977M，同比 +19%。",
+    "Q3 指引为营收约 $13.0B ± $300M，中点同比约 +41%、环比约 +13%；非 GAAP 毛利率约 56%。",
+    "新闻稿未披露分部毛利率、分部营业利润或现金流；Anthropic 2GW/MI450 是部署目标与战略合作，不应作为已确认收入。",
+    "无同期 Preview；本稿仅基于财报原文，未使用财报后信息。"
+  ]
+}

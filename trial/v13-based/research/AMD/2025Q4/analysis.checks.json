@@ -1,0 +1,21 @@
+{
+  "english_draft": "AMD published its Q4 2025 financial report on February 3, 2026. The report covers the quarter ended December 27, 2025. Q4 revenue was a record $10.3 billion. GAAP gross margin was 54%. GAAP operating income was $1.8 billion. GAAP net income was $1.5 billion. GAAP diluted EPS was $0.92. Non-GAAP gross margin was 57%. Non-GAAP operating income was a record $2.9 billion. Non-GAAP net income was a record $2.5 billion. Non-GAAP diluted EPS was a record $1.53. Full-year 2025 revenue was a record $34.6 billion. Full-year GAAP operating income was $3.7 billion. Full-year GAAP net income was $4.3 billion. Full-year GAAP diluted EPS was $2.65. Full-year non-GAAP operating income was $7.8 billion. Full-year non-GAAP net income was $6.8 billion. Full-year non-GAAP diluted EPS was $4.17. Year-over-year Q4 revenue growth was 34%. Sequential revenue growth was 11%. The Data Center segment reached a record $5.4 billion, up 39% year over year. Client and Gaming segment revenue was $3.9 billion, up 37% year over year. Client revenue was a record $3.1 billion, up 34% year over year. Gaming revenue was $843 million, up 50% year over year. Embedded segment revenue was $950 million, up 3% year over year. The quarter included an approximately $360 million release of previously reserved AMD Instinct MI308 inventory and related charges. Q4 AMD Instinct MI308 revenue to China was approximately $390 million. Excluding the inventory reserve reversal and MI308 sales to China, Q4 non-GAAP gross margin would have been approximately 55%. For Q1 2026, AMD expects revenue of approximately $9.8 billion, plus or minus $300 million, including approximately $100 million of MI308 sales to China. The Q1 midpoint implies year-over-year growth of approximately 32% and a sequential decline of approximately 5%. AMD expects Q1 non-GAAP gross margin of approximately 55%. No contemporaneous Preview was available before this report. Full-year 2025 non-GAAP operating income of $7.8 billion and record Q4 non-GAAP results were broadly aligned with the company's growth narrative. The main watch items for Q4 were Data Center growth, AI GPU contribution, and margin quality. Actual results confirmed strong Data Center growth and record quarterly profitability. The main qualification is the MI308 China sales and the $360 million inventory reserve reversal; excluding those items, non-GAAP gross margin would have been about 55%. For the next quarter, the key items are the $9.8 billion midpoint, the sequential decline, the $100 million China MI308 expectation, and the 55% non-GAAP gross margin outlook.",
+  "reader_questions": [
+    "Q4 非 GAAP 毛利率 57% 在一次性项目上有多依赖？把 3.6 亿美元存货转回和 3.9 亿美元中国 MI308 收入剔除后，非 GAAP 毛利率降到约 55%，读数是否应相应调整？",
+    "数据中心 54 亿美元是集团创纪录季度收入的主要引擎，但 AMD 没有在新闻稿中单列 MI308 的全球收入；能否用 MI308 中国收入和存货转回来判断 AI GPU 对分部利润的贡献？",
+    "2025 全年非 GAAP 毛利率从 53% 降到 52%，同时数据中心和客户业务收入均创纪录；利润率下滑与年末中国出口管制计提 4.4 亿美元存货费用的关系该如何解读？"
+  ],
+  "fact_checks": [
+    "核对日期与季度：新闻稿日期为 2026-02-03，季度为 2025 年第四季度，季度截止日为 2025-12-27，币种为百万美元。",
+    "核对集团口径：Q4 GAAP 收入 102.70 亿、毛利率 54%、经营利润 17.52 亿、净利润 15.11 亿、摊薄 EPS 0.92；非 GAAP 毛利率 57%、经营利润 28.54 亿、净利润 25.19 亿、摊薄 EPS 1.53。全年 GAAP 收入 346.39 亿、经营利润 36.94 亿、净利润 43.35 亿；非 GAAP 经营利润 77.68 亿、净利润 68.31 亿、摊薄 EPS 4.17。",
+    "核对分部口径：数据中心季度收入 54 亿美元，同比增 39%；客户与游戏季度收入 39 亿美元，同比增 37%，其中客户 31 亿美元、游戏 8.43 亿美元；嵌入式季度收入 9.50 亿美元，同比增 3%。",
+    "核对一次性项目：Q4 有约 3.60 亿美元此前计提的 MI308 存货及相关费用转回；Q4 中国 MI308 收入约 3.90 亿美元；剔除转回和中国收入后，Q4 非 GAAP 毛利率约 55%。",
+    "核对全年计提：2025 全年结果包含约 4.40 亿美元美国出口管制相关的 MI308 净存货及相关费用。",
+    "核对指引：2026 年一季度收入约 98 亿美元上下 3 亿美元，含约 1 亿美元中国 MI308 收入；中点同比增约 32%、环比降约 5%；非 GAAP 毛利率约 55%。",
+    "核对 Preview：所附资料中没有财报前写成的同期 Preview，因此 Analysis 中注明“无同期 Preview”。",
+    "核对推断与来源关系：将数据中心 54 亿美元、客户 31 亿美元、游戏 8.43 亿美元、嵌入式 9.50 亿美元加总约 53.83 亿美元，与新闻稿披露的集团 102.70 亿美元之间的差异来自未公开的分部抵减或其他项目；正文仅复述新闻稿数字，不推断缺失的分部合计。",
+    "核对 Q1 环比降幅：102.70 亿美元对 98 亿美元中点的降幅约 4.6%，新闻稿口径为约 5%，正文沿用公司口径。",
+    "核对同比增幅：98 亿美元中点对应 2025 年一季度约 74.3 亿美元，增幅约 32%，与公司表述一致。",
+    "核对毛利率口径：55% 的调整后非 GAAP 毛利率来自公司另行给出的 GAAP 到调整后非 GAAP 调节表，原文表述为“Adjusted Non-GAAP gross margin 55%”。"
+  ]
+}

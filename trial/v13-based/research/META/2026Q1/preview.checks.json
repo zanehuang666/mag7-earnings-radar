@@ -1,0 +1,16 @@
+{
+  "english_draft": "Meta reported Q4 2025 results on January 28, 2026. This historical preview uses only that release.\nQ4 revenue was USD 59.893 billion. Revenue rose 24 percent year over year.\nOperating income was USD 24.745 billion. Operating margin was 41 percent. Diluted EPS was USD 8.88.\nFamily daily active people averaged 3.58 billion in December 2025. That was up 7 percent year over year.\nCapital expenditure including finance leases was USD 22.14 billion. Operating cash flow was USD 36.21 billion. Free cash flow was USD 14.08 billion.\nFor Q1 2026, Meta expects revenue of USD 53.5 billion to USD 56.5 billion. The midpoint is USD 55.0 billion. This midpoint is about 8.2 percent below Q4 revenue.\nThe source does not give Q1 2025 revenue. Therefore, this preview does not calculate a year-over-year expectation.\nThe main questions are: (1) Can revenue stay at or above the midpoint? (2) Can operating margin remain near 41 percent? (3) Can free cash flow absorb continued high capex?\nPositive difference: revenue near or above the upper end, or margin above 41 percent. Negative difference: revenue below the lower end, or margin materially below 41 percent.\nAt the report, verify revenue, operating margin, capex, free cash flow, DAP, and EPS.\nAs of the cutoff, Q1 2026 actual results were not available. There is no contemporaneous preview to review.",
+  "reader_questions": [
+    "如果收入落在指引下限53.5B，经营利润率会否显著低于Q4的41%？",
+    "如果公司最终给出2025Q1可比收入，能否验证本稿不做同比的保守处理是否必要？",
+    "当Q4自由现金流已受高capex压制时，2026Q1是否应把自由现金流而非收入作为主要预警指标？"
+  ],
+  "fact_checks": [
+    "日期/季度核对：来源为2025Q4及全年业绩新闻稿，发布于2026-01-28；本稿目标为2026Q1，截止时间2026-01-28T23:59:59，符合。",
+    "币种/单位核对：收入、利润、现金流单位为十亿美元；EPS为美元/股；DAP为十亿人。",
+    "GAAP核对：来源中的经营利润和EPS为GAAP口径；本稿未混入非GAAP。",
+    "集团/分部核对：所有指标均为Meta集团整体，未拆分广告或Reality Labs。",
+    "事实/指引/推论核对：Q4业绩为已公布事实；Q1收入指引53.5–56.5B为公司预测；环比约-8.2%及Q4 capex占收入约37%均为本稿按指引中点与Q4实际数据计算的推论。",
+    "范围限制核对：未使用市场共识、股价或未披露产品利润；未使用2026Q1财报后信息；不存在财报前同期Preview，因此不事后补写分析。"
+  ]
+}

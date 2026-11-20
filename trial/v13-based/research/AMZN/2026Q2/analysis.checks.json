@@ -1,0 +1,18 @@
+{
+  "english_draft": "Amazon published its second quarter 2026 results on July 30, 2026.\nThere is no Preview written before the report. This analysis does not create a Preview.\nNet sales were $200.6 billion. This was 20% higher than $167.7 billion in the same quarter of 2025.\nForeign exchange had a favorable impact of $0.1 billion. Excluding this impact, net sales still increased 20%.\nNorth America segment sales were $116.2 billion. This was an increase of 16%.\nInternational segment sales were $42.2 billion. This was an increase of 15%.\nAWS segment sales were $42.2 billion. This was an increase of 37%.\nOperating income was $27.5 billion. This was an increase of 43%.\nAWS operating income was $16.6 billion, compared with $10.2 billion. AWS was the main source of operating income growth.\nNorth America operating income was $9.1 billion, compared with $7.5 billion.\nInternational operating income was $1.7 billion, compared with $1.5 billion.\nNet income was $62.6 billion, or $5.75 per diluted share. Net income included $53.4 billion of non-operating pre-tax other income. The company said this income came primarily from investments in Anthropic.\nTrailing twelve-month operating cash flow was $161.4 billion. This was an increase of 33%.\nTrailing twelve-month free cash flow was an outflow of $7.6 billion. The prior year was an inflow of $18.2 billion.\nThe company increased purchases of property and equipment, net of sales and incentives, by $66.1 billion year over year. The company attributed this mainly to AI investment.\nThe CEO said AWS growth was the fastest in 18 quarters. He said the AWS AI business and the chips business each exceeded a $25 billion annual revenue run rate and grew by triple-digit percentages.\nThe company gave no guidance for the next quarter.\nNext quarter, the report should focus on AWS growth and margin, AI capital spending, non-operating investment income, advertising growth, and Prime delivery metrics.",
+  "reader_questions": [
+    "剔除534亿美元非经营投资相关收入后，本季净利润比上年同期还有多少增长？新闻稿未提供税后剔除数，因此正文将净利高增与主营营业利润分开表述。",
+    "AWS的37%增速中，AI业务和芯片业务各贡献多少，是否与AWS既有收入口径重叠？新闻稿只给年化运行率和三位数增速，未给GAAP拆分，读者不应将两个250亿美元直接相加视为新增收入。",
+    "购买物业及设备净额同比增加661亿美元，是季度性还是持续趋势？新闻稿只确认TTM自由现金流转负，未提供未来资本开支指引，需等下一季披露。"
+  ],
+  "fact_checks": [
+    "日期/季度：新闻稿日期为2026-07-30，对应截至2026-06-30的季度，与任务一致。",
+    "净销售额：2006亿美元 vs 上年1677亿美元，同比+20%；汇率影响1亿美元有利；北美1162亿+国际422亿+AWS422亿=2006亿，与总额一致。",
+    "营业利润：275亿美元 vs 上年192亿美元，+43%；北美91亿 vs 75亿，国际17亿 vs 15亿，AWS166亿 vs 102亿。",
+    "净利润：626亿美元、摊薄EPS 5.75美元，上年为182亿美元/1.68美元；包含非经营税前其他收入534亿美元，来源归因于对Anthropic的投资。",
+    "现金流：TTM经营现金流1614亿美元，同比+33%；TTM自由现金流为-76亿美元，上年为+182亿美元；购买物业及设备净额同比增加661亿美元，归因于AI投资。",
+    "CEO表述：标题写AWS增长37%，CEO引述为36.7%；AI与芯片业务年化收入运行率均超250亿美元，增速为三位数百分比；广告同比+26%。",
+    "无同期Preview；新闻稿未提供下一季度财务指引；未使用外部市场共识数据。",
+    "本稿推论：AWS营业利润率约39%（上年同期约33%），由本稿根据新闻稿分部数据计算，非公司直接披露。"
+  ]
+}
