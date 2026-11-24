@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-24T11:33:44+00:00",
+  "generated_at": "2026-11-24T23:14:35+00:00",
   "companies": [
     {
       "ticker": "MSFT",
@@ -9049,9 +9049,7 @@
     "estimated_count": 0,
     "confirmed_count": 0,
     "source": "Nasdaq public earnings endpoints",
-    "errors": [
-      "AEHR verification: RuntimeError: Nasdaq earnings-surprise data unavailable: No record found."
-    ],
+    "errors": [],
     "forward_days": 120,
     "automatic": true,
     "schedule_timezone": "Asia/Shanghai",
@@ -9062,19 +9060,19 @@
     ],
     "run": {
       "trigger": "schedule",
-      "run_id": "45385273231",
-      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/45385273231"
+      "run_id": "45508224822",
+      "url": "https://github.com/zanehuang666/mag7-earnings-radar/actions/runs/45508224822"
     },
     "source_check": {
-      "checked_at": "2026-11-24T11:33:44+00:00",
+      "checked_at": "2026-11-24T23:14:35+00:00",
       "provider": "Nasdaq public earnings endpoints",
       "successful": true,
       "reported_observed": 28,
       "future_observed": 0
     },
     "audit": {
-      "previous_generated_at": "2026-11-24T01:10:42+00:00",
-      "current_generated_at": "2026-11-24T11:33:44+00:00",
+      "previous_generated_at": "2026-11-24T11:33:44+00:00",
+      "current_generated_at": "2026-11-24T23:14:35+00:00",
       "event_ids_added": 0,
       "event_ids_removed": 0,
       "content_change_count": 0,
